@@ -1,10 +1,8 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
+#gem 'github-pages'
 
-
-gem "jekyll", "3.3.1"
-
+gem 'jekyll', '~> 2.5.3'
 
 group :jekyll_plugins do
-   gem "jekyll-feed", "~> 0.6"
-   gem 'github-pages', '~> 106'
+  gem 'algoliasearch-jekyll', '~> 0.5.3'
 end
