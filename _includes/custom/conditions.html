@@ -10,7 +10,7 @@ ______               _
 {% endcomment %}
 
 {% if site.project == "thirtybees_developers" %}
-{% assign audience = "designers" %}
+{% assign audience = site.audience %}
 {% assign sidebar = site.data.thirtybees.thirtybees_sidebar.entries %}
 {% assign topnav = site.data.thirtybees.thirtybees_topnav.topnav %}
 {% assign topnav_dropdowns = site.data.thirtybees.thirtybees_topnav.topnav_dropdowns %}
@@ -18,5 +18,5 @@ ______               _
 {% assign product = "all" %}
 {% assign platform = "all" %}
 {% assign projectTags = site.data.thirtybees.thirtybees_tags.allowed-tags %}
-{% assign projectFolder = "thirtybees" %}
+{% assign projectFolder = site.project_folder %}
 {% endif %}
