@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="You can embed files with a Video JS wrapper by adding 'video: true' in the frontmatter. Alternatively, you can just fall back on the default video wrapper in...">
+<meta name="keywords" content="formatting,  videos, youtube, vimeo, video js, video wrapper, mp4, stream">
+<title>Video embeds  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -115,7 +115,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the Video embeds page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +142,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="Video embeds">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +295,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">Video embeds</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">You can embed files with a Video JS wrapper by adding 'video: true' in the frontmatter. Alternatively, you can just fall back on the default video wrapper in the browser.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +329,67 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_video_embeds.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
+  <h2 id="about-video-js">About Video JS</h2>
 
+<p>The theme has the <a href="http://www.videojs.com/">video.js</a> player integrated. But the scripts only appear on a page or post if you have certain frontmatter in that page or post. If you want to embed a video in a page and use the Video JS player, add <code>video: true</code> in your frontmatter of a page or post, and then add code like this where you want the video to appear:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;&lt;video</span> <span class="na">id=</span><span class="s">&quot;scenario-1&quot;</span> <span class="na">class=</span><span class="s">&quot;video-js vjs-default-skin vjs-big-play-centered&quot;</span> <span class="na">controls</span>
+ <span class="na">preload=</span><span class="s">&quot;auto&quot;</span> <span class="na">width=</span><span class="s">&quot;640&quot;</span> <span class="na">height=</span><span class="s">&quot;480&quot;</span> <span class="na">data-setup=</span><span class="s">&#39;{}&#39;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;source</span> <span class="na">src=</span><span class="s">&quot;http://idratherbetellingstories.com/podcasts/ontariochapterpresentation/ontariochapterv4.mp4&quot;</span> <span class="na">type=</span><span class="s">&#39;video/mp4&#39;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/video&gt;&lt;/p&gt;</span>
+</code></pre></div>
+<p>Here&#39;s an example: </p>
 
+<p><video id="scenario-1" class="video-js vjs-default-skin vjs-big-play-centered" controls
+ preload="auto" width="640"  height="480" data-setup='{}'>
+  <source src="http://idratherbetellingstories.com/podcasts/ontariochapterpresentation/ontariochapterv4.mp4" type='video/mp4'>
+</video></p>
 
+<p>If you want the player button in the upper-left corner (which is the default), remove the <code>vjs-big-play-centered</code> from the video class.</p>
 
+<p><video id="scenario-1" class="video-js vjs-default-skin" controls
+ preload="auto" width="640" height="480" data-setup='{}'>
+  <source src="http://idratherbetellingstories.com/podcasts/ontariochapterpresentation/ontariochapterv4.mp4" type='video/mp4'>
+</video></p>
 
+<p>Here are <a href="https://github.com/videojs/video.js/blob/stable/docs/guides/setup.md">more details on this video player from Video JS</a>.</p>
 
+<p>Note that if some of the js doesn&#39;t load correctly, the default fallback player is the regular HTML5 video player available via the browser. Here&#39;s an example of the built-in browser video wrapper:</p>
 
+<p><video width="640" controls>
+  <source src="http://idratherbetellingstories.com/podcasts/ontariochapterpresentation/ontariochapterv4.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video></p>
 
+<p>However, I don&#39;t think the built-in browser video players work very well (you can&#39;t easily scrub around the video without seeing lots of buffering and other issues). But definitely compare the two. You may find that adding the Video JS wrapper is overkill.</p>
 
+<div class="alert alert-danger" role="alert"><i class="fa fa-exclamation-circle"></i> <b>Warning: </b>Github wasn't designed to store video content. If you have an mp3 file, don't store it in your Github directory. Instead, put it on a web host using regular FTP methods, or stream the video from a video streaming service such as Youtube or Vimeo. Also, note that Github's Large File Storage (which does handle large files) isn't compatible with Github Pages.</div>
 
-
-
-
-
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
-</div>
 
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_formatting.html" class="btn btn-default navbar-btn cursorNorm" role="button">formatting</a>
+    
+    
     
 </div>
 
@@ -406,7 +418,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>

@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="The conditions file is included in various parts of the theme. Its purpose is to set attributes as variables that affect how the theme is constructed. The se...">
+<meta name="keywords" content="navigation,  single sourcing, conditions, filtering, attributes, logic">
+<title>5. Customize the conditions file  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -115,7 +115,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the 5. Customize the conditions file page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +142,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="5. Customize the conditions file">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +295,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">5. Customize the conditions file</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">The conditions file is included in various parts of the theme. Its purpose is to set attributes as variables that affect how the theme is constructed. The settings in this file are essential for single sourcing.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +329,480 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_conditions_file_customization.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
+  <div class="seriesContext">
+    <div class="btn-group">
+        <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Getting Started <span class="caret"></span></button>
+        <ol class="dropdown-menu">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li>
+                <a href="../thirtybees/thirtybees_getting_started.html">1. Build the default project</a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li>
+                <a href="../thirtybees/thirtybees_adding_new_projects.html">2. Add a new project</a>
+            </li>
+            
+            
+            
+            
+            
+            <li>
+                <a href="../thirtybees/thirtybees_decide_on_attributes.html">3. Decide on your project's attributes</a>
+            </li>
+            
+            
+            
+            
+            
+            <li>
+                <a href="../thirtybees/thirtybees_configuration_settings.html">4. Set the configuration options</a>
+            </li>
+            
+            
+            
+            
+            
+            <li>
+                <a href="../thirtybees/thirtybees_configure_sidebar.html">6. Configure the sidebar</a>
+            </li>
+            
+            
+            
+            
+            
+            <li class="active"> → 5. Customize the conditions file</li>
+            
+            
+            
+            
+            
+            <li>
+                <a href="../thirtybees/thirtybees_top_navigation.html">7. Configure the top navigation</a>
+            </li>
+            
+            
+            
+            
+            
+            <li>
+                <a href="../thirtybees/thirtybees_url_generator_customization.html">8. Customize the URL generator</a>
+            </li>
+            
+            
+            
+            
+            
+            <li>
+                <a href="../thirtybees/thirtybees_princexml_setup.html">9. Set up Prince XML</a>
+            </li>
+            
+            
+            
+            
+            
+            <li>
+                <a href="../thirtybees/thirtybees_build_scripts.html">10. Configure the build scripts</a>
+            </li>
+            
+            
+            
+        </ol>
+    </div>
 </div>
 
+<h2 id="about-the-conditions-html-file">About the conditions.html file</h2>
+
+<p>The conditions file is a critical file that sets certain variables used in constructing the theme. You already set some of these values in the configuration file, but you need to duplicate some of the settings here. In this file, the settings are variable assignments.</p>
+
+<p>This file is used as include in certain files. When used as an include, it sets variables that are used to configure your theme. Because you&#39;re single sourcing your Jekyll content, you need this file.</p>
+
+<h2 id="customize-the-conditions-file">Customize the conditions file</h2>
+
+<p>In the _includes/custom directory, open the conditions.html file. Duplicate one of the project settings blocks like this:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">{% if site.project == &quot;thirtybees_writers&quot; %}
+{% assign audience = &quot;writers&quot; %}
+{% assign sidebar = site.data.thirtybees.thirtybees_sidebar.entries %}
+{% assign topnav = site.data.thirtybees.thirtybees_topnav.topnav %}
+{% assign topnav_dropdowns = site.data.thirtybees.thirtybees_topnav.topnav_dropdowns %}
+{% assign version = &quot;all&quot; %}
+{% assign product = &quot;all&quot; %}
+{% assign platform = &quot;all&quot; %}
+{% assign projectTags = site.data.thirtybees.thirtybees_tags.allowed-tags %}
+{% assign projectFolder = &quot;thirtybees&quot; %}
+{% endif %}
+</code></pre></div>
+<p>You need to duplicate this block for each output you have.</p>
+
+<p>Once you&#39;ve duplicated the block, make a few customizations:</p>
+
+<ul>
+<li>In each place that &quot;thirtybees&quot; appears, change &quot;thirtybees&quot; to &quot;acme&quot;. </li>
+<li>Use the same attributes for project, audience, version, product, and platform that you used in your configuration file. (If you don&#39;t have a specific attribute value that you need, just put &quot;all&quot;.) The values here have to exactly match those in the configuration file.</li>
+</ul>
+
+<div class="alert alert-success" role="alert"><i class="fa fa-check-square-o"></i> <b>Tip: </b> If you want to create signposts in the code as shown in the conditions.html file, install a utility called [figlets](http://www.figlet.org/) on your Mac. The figlets just make scanning long code blocks easier. If you have 15+ configuration groupings in your conditions file, the figlets make it easy to scan.</div>
+
+<p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <a href="../thirtybees/thirtybees_url_generator_customization.html"><button type="button" class="btn btn-primary">Next: 8. Customize the URL generator</button></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</p>
+
+
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_navigation.html" class="btn btn-default navbar-btn cursorNorm" role="button">navigation</a>
+    
+    
     
 </div>
 
@@ -406,7 +831,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>

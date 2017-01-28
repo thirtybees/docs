@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="When you have a single sourcing project, you use more advanced arguments when you're building or serving your Jekyll sites. These arguments specify a particu...">
+<meta name="keywords" content="publishing,  building, serving, serve, build">
+<title>Build arguments  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -115,7 +115,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the Build arguments page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +142,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="Build arguments">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +295,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">Build arguments</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">When you have a single sourcing project, you use more advanced arguments when you're building or serving your Jekyll sites. These arguments specify a particular configuration file and may build on other configuration files.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +329,69 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_build_arguments.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
+  <h2 id="how-to-build-jekyll-sites">How to build Jekyll sites</h2>
 
+<p>The normal way to build the Jekyll site is through the build command:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">jekyll build
+</code></pre></div>
+<p>To build the site and view it in a live server so that Jekyll rebuilds that site each time you make a change, use the <code>serve</code> command:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">jekyll serve
+</code></pre></div>
+<p>By default, the _config.yml in the root directory will be used, Jekyll will scan the current directory for files, and the folder <code>_site</code> will be used as the output. You can customize these build commands like this:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">jekyll serve --config configs/config_writers.yml --destination /users/tjohnson/projects/documentation-theme-jekyll-builds/writer
+</code></pre></div>
+<p>Here the <code>configs/config_writers.yml</code> file is used instead of <code>_config.yml</code>. The destination directory is <code>../thirtybees_writers</code>.</p>
 
+<h2 id="shortcuts-for-the-build-arguments">Shortcuts for the build arguments</h2>
 
+<p>If you don&#39;t want to enter the long Jekyll argument every time, with all your configuration details, you can create a shell script and then just run the script. This theme shows an example with the thirtybees_multibuild_web.sh file in the root directory.</p>
 
+<p>My preference is to add the scripts to profiles in iTerm. See <a href='../thirtybees/thirtybees_iterm_profiles.html'>iTerm profiles</a> for more details.</p>
 
+<h2 id="stop-a-server">Stop a server</h2>
 
+<p>When you&#39;re done with the preview server, press <strong>Ctrl+C</strong> to exit out of it. If you exit iTerm or Terminal without shutting down the server, the next time you build your site, or if you build multiple sites with the same port, you may get a server-already-in-use message.</p>
 
+<p>You can kill the server process using these commands:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">ps aux | grep jekyll
+</code></pre></div>
+<p>Find the PID (for example, it  looks like &quot;22298&quot;).</p>
 
+<p>Then type <code>kill -9 22298</code> where &quot;22298&quot; is the PID.</p>
 
+<p>To kill all Jekyll instances, use this:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">kill -9 $(ps aux | grep &#39;[j]ekyll&#39; | awk &#39;{print $2}&#39;)
+</code></pre></div>
+<p>I created a profile in iTerm that stores this command. Here&#39;s what the iTerm settings look like:</p>
 
+<p><img src="images/killalljekyll.png" alt="iTerm profile settings to kill all Jekyll"></p>
 
-
-
-
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
-</div>
 
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_publishing.html" class="btn btn-default navbar-btn cursorNorm" role="button">publishing</a>
+    
+    
     
 </div>
 
@@ -406,7 +420,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>

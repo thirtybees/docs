@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="The sidebar navigation uses a jQuery component called Navgoco. The sidebar is a somewhat complex part of the theme that remembers your current page, highligh...">
+<meta name="keywords" content="getting_started,  sidebar, accordion, yaml, iteration, for loop, navigation, attributes, conditional filtering">
+<title>Sidebar Navigation  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -115,7 +115,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the Sidebar Navigation page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +142,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="Sidebar Navigation">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +295,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">Sidebar Navigation</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">The sidebar navigation uses a jQuery component called Navgoco. The sidebar is a somewhat complex part of the theme that remembers your current page, highlights the active item, stays in a fixed position on the page, and more.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +329,105 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_sidebar_navigation.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
+  <div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note: </b> For basic information about configuring the sidebar navigation, see . This section gets into the top sidebar navigation in more depth.</div>
 
+<p>When you set up your project, you configured the sidebar following the instructions in . In this topic, I dive deeper into other aspects of the sidebar.</p>
 
+<h2 id="navgoco-foundation">Navgoco foundation</h2>
 
+<p>The sidebar uses the <a href="https://github.com/tefra/navgoco">Navgoco jQuery plugin</a> as its basis. Why not use Bootstrap? Navgoco provides a few features that I couldn&#39;t find in Bootstrap:</p>
 
+<ul>
+<li>Navgoco sets a cookie to remember the user&#39;s position in the sidebar. If you refresh the page, the cookie allows the plugin to remember the state.</li>
+<li>Navgoco inserts an <code>active</code> class based on the navigation option that&#39;s open. This is essential for keeping the accordion open.</li>
+<li>Navgoco includes the expand and collapse features of a sidebar.</li>
+</ul>
 
+<p>In short, the sidebar has some complex logic here. I&#39;ve integrated Navgoco&#39;s features with the sidebar.html and sidebar_doc.yml to build the sidebar. It&#39;s probably the most impressive part of this theme. (Other themes usually aren&#39;t focused on creating hierarchies of pages, but this kind of hierarchy is important in a documentation site.)</p>
 
+<h2 id="accordion-sidebar-feature">Accordion sidebar feature</h2>
 
+<p>As mentioned in the previous section, the theme uses the <a href="http://www.komposta.net/article/navgoco">Navgoco sidebar</a>. The sidebar.html file (inside the _includes folder) contains the <code>.navgoco</code> method called on the <code>#mysidebar</code> element. </p>
 
+<p>There are some options to set within the <code>.navgoco</code> method. The only noteworthy option is <code>accordion</code>. This option makes it so when you expand a section, the other sections collapse. It&#39;s a way of keeping your navigation controls condensed. </p>
 
+<p>The value for <code>accordion</code> is a Boolean (<code>true</code> or <code>false</code>). By default, the <code>accordion</code> option is set as <code>true</code>. If you don&#39;t want the accordion, set it to <code>false</code>. Note that there&#39;s also a block of code near the bottom of sidebar.html that is commented out. Uncomment out that section to have the Collapse all and Expand All buttons appear. </p>
 
+<p>There&#39;s a danger with setting the accordion to <code>false</code>. If you click Expand All and the sidebar expands beyond the dimensions of the browser, users will be stuck. When that happens, it&#39;s hard to collapse it. As a best practice, leave the sidebar&#39;s accordion option set to <code>true</code>.</p>
 
+<h2 id="fixed-position-sidebar">Fixed position sidebar</h2>
 
+<p>The sidebar has one other feature &mdash; this one from Bootstrap. If the user&#39;s viewport is tall enough, the sidebar remains fixed on the page. This allows the user to scroll down the page and still keep the sidebar in view.</p>
 
+<p>In the customsscripts.js file in the js folder, there&#39;s a function that adds an <code>affix</code> class if the height of the browser window is greater than 800 pixels. If the browser&#39;s height is less than 800 pixels, the <code>nav affix</code> class does not get inserted. As a result, the sidebar can slide up and down as the user scrolls up and down the page.</p>
 
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
-</div>
+<p>Depending on your content, you may need to adjust <code>800</code> pixel number. If your sidebar is so long that having it in a fixed position makes it so the bottom of the sidebar gets cut off, increase the <code>800</code> pixel number here to a higher number.</p>
+
+<h2 id="opening-sidebar-links-into-external-pages">Opening sidebar links into external pages</h2>
+
+<p>In the attributes for each sidebar item, if you use <code>external_url</code> instead of <code>url</code>, the theme will insert the link into an <code>a href</code> element that opens in a blank target. </p>
+
+<p>For example, the sidebar.html file contains the following code:</p>
+<div class="highlight"><pre><code class="language-liquid" data-lang="liquid"><span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">item</span><span class="p">.</span><span class="nv">external_url</span><span class="w"> </span><span class="p">%}</span>
+    &lt;li&gt;&lt;a href=&quot;<span class="p">{{</span><span class="nv">item</span><span class="p">.</span><span class="nv">external_url</span><span class="p">}}</span>&quot; target=&quot;_blank&quot;&gt;<span class="p">{{</span><span class="nv">subcategory</span><span class="p">.</span><span class="nv">title</span><span class="p">}}</span>&lt;/a&gt;&lt;/li&gt;
+    <span class="p">{%</span><span class="w"> </span><span class="kr">elsif</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">item</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div>
+<p>You can see that the <code>external_url</code> is a condition that applies a different formatting. Although this feature is available, I recommend putting any external navigation links in the top navigation bar instead of the side navigation bar. </p>
+
+<h2 id="sidebar-item-highlighting">Sidebar item highlighting</h2>
+
+<p>The sidebar.html file inserts an <code>active</code> class into the sidebar element when the <code>url</code> attribute in the sidebar data file matches the page URL. </p>
+
+<p>For example, the sidebar.html file contains the following code:</p>
+<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">    <span class="p">{%</span><span class="w"> </span><span class="kr">elsif</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">item</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="p">%}</span>
+    &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;<span class="p">{{</span><span class="nv">item</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">prepend</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;..&quot;</span><span class="p">}}</span><span class="nf">&quot;&gt;{{item.title}}&lt;/a&gt;&lt;/li&gt;</span><span class="w"></span>
+<span class="w">    </span>{%<span class="w"> </span>else<span class="w"> </span>%}
+    &lt;li&gt;&lt;a href=&quot;<span class="p">{{</span><span class="nv">item</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">prepend</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;..&quot;</span><span class="p">}}</span><span class="nf">&quot;&gt;{{item.title}}&lt;/a&gt;&lt;/li&gt;</span><span class="w"></span>
+<span class="w">    </span>{%<span class="w"> </span>endif<span class="w"> </span>%}
+</code></pre></div>
+<p>If the <code>page.url</code> matches the <code>item.url</code>, then an <code>active</code> class gets applied. If not, the <code>active</code> class does not get applied. </p>
+
+<p>The <code>page.url</code> in Jekyll is a site-wide variable. If you insert <code>{{page.url}}</code> on a page, it will render as follows: /thirtybees/thirtybees_sidebar_navigation.html. The <code>url</code> attribute in the sidebar item must match the page URL in order to get the <code>active</code> class applied. </p>
+
+<p>This is why the <code>url</code> value in the sidebar data file looks something like this:</p>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml">    <span class="p-Indicator">-</span> <span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Understanding how the sidebar works</span>
+      <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/thirtybees/thirtybees_understand_sidebar.html</span>
+      <span class="l-Scalar-Plain">audience</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">writers, designers</span>
+      <span class="l-Scalar-Plain">platform</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">all</span>
+      <span class="l-Scalar-Plain">product</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">all</span>
+      <span class="l-Scalar-Plain">version</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">all</span>
+      <span class="l-Scalar-Plain">output</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">web, pdf</span>   
+</code></pre></div>
+<p>Note that the url includes the project folder where the file is stored.</p>
+
+<p>Now the page.url and the item.url can match and the <code>active</code> class can get applied. With the <code>active</code> class applied, the sidebar section remains open.</p>
+
 
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_getting_started.html" class="btn btn-default navbar-btn cursorNorm" role="button">getting_started</a>
+    
+    
     
 </div>
 
@@ -406,7 +456,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>

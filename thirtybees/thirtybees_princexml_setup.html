@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="Prince XML is the utility used for creating PDFs. Though not free, this utility gets a list of links and compiles them into a PDF.">
+<meta name="keywords" content="publishing,  pdf generation, prince xml">
+<title>9. Set up Prince XML  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -115,7 +115,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the 9. Set up Prince XML page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +142,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="9. Set up Prince XML">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +295,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">9. Set up Prince XML</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">Prince XML is the utility used for creating PDFs. Though not free, this utility gets a list of links and compiles them into a PDF.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +329,46 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_princexml_setup.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
+  <div class="alert alert-success" role="alert"><i class="fa fa-check-square-o"></i> <b>Tip: </b> More details about generating PDFs are listed in <a href='../thirtybees/thirtybees_generating_pdfs.html'>Generating PDFs</a>. </div>
 
+<h2 id="install-prince-xml">Install Prince XML</h2>
 
+<p>Prince XML is a utility I&#39;ve decided to use to create PDFs. The Prince XML utility requires a list of web pages from which it can construct a PDF. </p>
 
+<p>You need to install Prince. See the <a href="http://www.princexml.com/doc/installing/#macosx">instructions on the Prince website</a> for installing Prince.</p>
 
+<p>Prince will work even without a license, but it will imprint a small Prince image on the first page.</p>
 
+<h2 id="customize-pdf-headers-and-footers">Customize PDF headers and footers</h2>
 
+<p>Open up the css/printstyles.css file and customize the email address (<code>youremail@domain.com</code>) that is listed there. This email address appears in the bottom left footer of the PDF output.</p>
 
-
-
-
-
-
-
-
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
-</div>
 
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_publishing.html" class="btn btn-default navbar-btn cursorNorm" role="button">publishing</a>
+    
+    
     
 </div>
 
@@ -406,7 +397,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>

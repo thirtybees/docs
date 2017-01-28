@@ -6,7 +6,7 @@
     <url>
       <loc>/404.html</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -19,9 +19,9 @@
   
     
     <url>
-      <loc>/mydoc/home.html</loc>
+      <loc>/thirtybees/home.html</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -36,877 +36,7 @@
     <url>
       <loc>/</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_about.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_adding_new_projects.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_adding_tooltips.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_alerts.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_build_arguments.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_build_scripts.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_collections.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_commenting_on_files.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_conditional_logic.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_conditions_file_customization.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_configuration_settings.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_configure_sidebar.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_content_reuse.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_decide_on_attributes.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_excluding_files.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_faq.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_generating_pdfs.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_getting_started.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_glossary.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_help_api.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_hyperlinks.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_icons.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_images.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_iterm_profiles.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_kb_layout.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_labels.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_link_validation.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_myendpoint.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_navtabs.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_no_password_prompts_scp.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_pages.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_princexml_setup.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_push_build_to_server.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_scroll.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_search_configuration.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_series.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_seriesdemo1_0.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_seriesdemo1_1.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_seriesdemo1_2.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_seriesdemo1_3.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_shuffle.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_sidebar_navigation.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_special_layouts.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_support.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_supported_features.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_syntax_highlighting.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_tables.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_tag_archives_overview.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_tags.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_themes.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_title_checker.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_tooltips_source.json</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_top_navigation.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_top_navigation_deep_dive.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_troubleshooting.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_url_generator_customization.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_video_embeds.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/mydoc_webstorm_text_editor.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -921,7 +51,7 @@
     <url>
       <loc>/prince-file-list.txt</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -934,9 +64,9 @@
   
     
     <url>
-      <loc>/mydoc/search.html</loc>
+      <loc>/thirtybees/search.html</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -951,7 +81,7 @@
     <url>
       <loc>/search.json</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -966,7 +96,7 @@
     <url>
       <loc>/sitemap.xml</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -979,24 +109,9 @@
   
     
     <url>
-      <loc>/mydoc/tag_collaboration.html</loc>
+      <loc>/thirtybees/tag_collaboration.html</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/tag_content_types.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1009,24 +124,9 @@
   
     
     <url>
-      <loc>/mydoc/tag_formatting.html</loc>
+      <loc>/thirtybees/tag_content_types.html</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/tag_getting_started.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1039,24 +139,9 @@
   
     
     <url>
-      <loc>/mydoc/tag_mobile.html</loc>
+      <loc>/thirtybees/tag_formatting.html</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/tag_navigation.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1069,24 +154,9 @@
   
     
     <url>
-      <loc>/mydoc/tag_publishing.html</loc>
+      <loc>/thirtybees/tag_getting_started.html</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/mydoc/tag_single_sourcing.html</loc>
-      
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1099,9 +169,939 @@
   
     
     <url>
-      <loc>/mydoc/tag_special_layouts.html</loc>
+      <loc>/thirtybees/tag_mobile.html</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/tag_navigation.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/tag_publishing.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/tag_single_sourcing.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/tag_special_layouts.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_about.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_adding_new_projects.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_adding_tooltips.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_alerts.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_build_arguments.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_build_scripts.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_collections.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_commenting_on_files.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_conditional_logic.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_conditions_file_customization.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_configuration_settings.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_configure_sidebar.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_content_reuse.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_decide_on_attributes.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_excluding_files.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_faq.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_generating_pdfs.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_getting_started.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_glossary.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_help_api.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_hyperlinks.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_icons.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_images.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_iterm_profiles.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_kb_layout.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_labels.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_link_validation.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_myendpoint.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_navtabs.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_no_password_prompts_scp.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_pages.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_princexml_setup.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_push_build_to_server.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_scroll.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_search_configuration.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_series.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_seriesdemo1_0.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_seriesdemo1_1.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_seriesdemo1_2.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_seriesdemo1_3.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_shuffle.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_sidebar_navigation.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_special_layouts.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_support.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_supported_features.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_syntax_highlighting.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_tables.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_tag_archives_overview.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_tags.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_themes.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_title_checker.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_tooltips_source.json</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_top_navigation.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_top_navigation_deep_dive.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_troubleshooting.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_url_generator_customization.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_video_embeds.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/thirtybees/thirtybees_webstorm_text_editor.html</loc>
+      
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1116,7 +1116,7 @@
     <url>
       <loc>/title-checker.html</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1131,7 +1131,7 @@
     <url>
       <loc>/titlepage.html</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1146,7 +1146,7 @@
     <url>
       <loc>/tocpage.html</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1161,7 +1161,7 @@
     <url>
       <loc>/urls_mydoc.txt</loc>
       
-        <last_updated>2017-01-28T21:23:45+00:00</last_updated>
+        <last_updated>2017-01-28T22:58:14+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>

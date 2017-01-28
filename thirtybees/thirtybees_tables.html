@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="You can format tables using either multimarkdown syntax or HTML. You can also use jQuery datatables (a plugin) if you need more robust tables.">
+<meta name="keywords" content="formatting,  datatables, tables, grids, markdown, multimarkdown, jquery plugins">
+<title>Tables  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -42,6 +42,18 @@
   });
 </script>
 
+
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.5/js/jquery.dataTables.js"></script>
+<script>
+  $(document).ready(function() {
+      $('table.datatable').DataTable({
+              paging: false,
+              stateSave: true
+          }
+      );
+  });
+</script>
 
 
   </head>
@@ -115,7 +127,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the Tables page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +154,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="Tables">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +307,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">Tables</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">You can format tables using either multimarkdown syntax or HTML. You can also use jQuery datatables (a plugin) if you need more robust tables.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +341,188 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_tables.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
+  <script>
+$(document).ready(function(){
 
+    $('table.display').DataTable( {
+        paging: true,
+        stateSave: true,
+        searching: true
+    }
+        );
+});
+</script>
 
+<h2 id="multimarkdown-tables">Multimarkdown Tables</h2>
 
+<p>You can use Multimarkdown syntax for tables. The following shows a sample: </p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Column 1 | Column 2
+--------|----------
+cell 1a | cell 1b
+cell 2a | cell 2b
+</code></pre></div>
+<p>This renders to the following:</p>
 
+<table><thead>
+<tr>
+<th>Column 1</th>
+<th>Column 2</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>cell 1a</td>
+<td>cell 1b</td>
+</tr>
+<tr>
+<td>cell 2a</td>
+<td>cell 2b</td>
+</tr>
+</tbody></table>
 
+<h2 id="jquery-datables">jQuery datables</h2>
 
+<p>You also have the option of using a <a href="https://www.datatables.net/">jQuery datatable</a>, which gives you some more options. If you want to use a jQuery datatable, then add <code>datatable: true</code> in a page&#39;s frontmatter. This will load the right jQuery datatable scripts for the table on that page only (rather than loading the scripts on every page of the site.)</p>
 
+<p>Also, you need to add this script to trigger the jQuery table on your page:</p>
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
 
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;table.display&#39;</span><span class="p">).</span><span class="nx">DataTable</span><span class="p">(</span> <span class="p">{</span>
+        <span class="nx">paging</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="nx">stateSave</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="nx">searching</span><span class="o">:</span> <span class="kc">true</span>
+    <span class="p">}</span>
+        <span class="p">);</span>
+<span class="p">});</span>
+<span class="o">&lt;</span><span class="err">/script&gt;</span>
+</code></pre></div>
+<p>The available options for the datable are described in the <a href="https://www.datatables.net/manual/options">datatable documentation</a>, which is excellent.</p>
 
+<p>Additionally, you must add a class of <code>display</code> to your tables. (You can change the class, but then you&#39;ll need to change the trigger above from <code>table.display</code> to whatever class you want to you. You might have different triggers with different options for different tables.)</p>
 
+<p>Since Markdown doesn&#39;t allow you to add classes to tables, you&#39;ll need to use HTML for any datatables. Here&#39;s an example: </p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;table</span> <span class="na">id=</span><span class="s">&quot;sampleTable&quot;</span> <span class="na">class=</span><span class="s">&quot;display&quot;</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;thead&gt;</span>
+      <span class="nt">&lt;tr&gt;</span>
+         <span class="nt">&lt;th&gt;</span>Parameter<span class="nt">&lt;/th&gt;</span>
+         <span class="nt">&lt;th&gt;</span>Description<span class="nt">&lt;/th&gt;</span>
+         <span class="nt">&lt;th&gt;</span>Type<span class="nt">&lt;/th&gt;</span>
+         <span class="nt">&lt;th&gt;</span>Default Value<span class="nt">&lt;/th&gt;</span>
+      <span class="nt">&lt;/tr&gt;</span>
+   <span class="nt">&lt;/thead&gt;</span>
+   <span class="nt">&lt;tbody&gt;</span>
+      <span class="nt">&lt;tr&gt;</span>
+         <span class="nt">&lt;td&gt;</span>Parameter 1<span class="nt">&lt;/td&gt;</span>
+         <span class="nt">&lt;td&gt;</span>Sample description
+         <span class="nt">&lt;/td&gt;</span>
+         <span class="nt">&lt;td&gt;</span>Sample type<span class="nt">&lt;/td&gt;</span>
+         <span class="nt">&lt;td&gt;</span>Sample default value<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;/tr&gt;</span>
+      <span class="nt">&lt;tr&gt;</span>
+         <span class="nt">&lt;td&gt;</span>Parameter 2<span class="nt">&lt;/td&gt;</span>
+         <span class="nt">&lt;td&gt;</span>Sample description
+         <span class="nt">&lt;/td&gt;</span>
+         <span class="nt">&lt;td&gt;</span>Sample type<span class="nt">&lt;/td&gt;</span>
+         <span class="nt">&lt;td&gt;</span>Sample default value<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+       <span class="nt">&lt;td&gt;</span>Parameter 3<span class="nt">&lt;/td&gt;</span>
+       <span class="nt">&lt;td&gt;</span>Sample description
+       <span class="nt">&lt;/td&gt;</span>
+       <span class="nt">&lt;td&gt;</span>Sample type<span class="nt">&lt;/td&gt;</span>
+       <span class="nt">&lt;td&gt;</span>Sample default value<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+      <span class="nt">&lt;tr&gt;</span>
+         <span class="nt">&lt;td&gt;</span>Parameter 4<span class="nt">&lt;/td&gt;</span>
+         <span class="nt">&lt;td&gt;</span>Sample description
+         <span class="nt">&lt;/td&gt;</span>
+         <span class="nt">&lt;td&gt;</span>Sample type<span class="nt">&lt;/td&gt;</span>
+         <span class="nt">&lt;td&gt;</span>Sample default value<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;/tr&gt;</span>
+   <span class="nt">&lt;/tbody&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div>
+<p>This renders to the following:</p>
 
+<table id="sampleTable" class="display">
+   <thead>
+      <tr>
+         <th>Food</th>
+         <th>Description</th>
+         <th>Category</th>
+         <th>Sample type</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Apples</td>
+         <td>A small, somewhat round and often red-colored, crispy fruit grown on trees. 
+         </td>
+         <td>Fruit</td>
+         <td>Fuji</td>
+      </tr>
+      <tr>
+         <td>Bananas</td>
+         <td>A long and curved, often-yellow, sweet and soft fruit that grows in bunches in tropical climates.
+         </td>
+         <td>Fruit</td>
+         <td>Snow</td>
+      </tr>
+      <tr>
+         <td>Kiwis</td>
+         <td>A small, hairy-skinned sweet fruit with green-colored insides and seeds.
+         </td>
+         <td>Fruit</td>
+         <td>Golden</td>
+      </tr>
+        <tr>
+           <td>Oranges</td>
+           <td>A spherical, orange-colored sweet fruit commonly grown in Florida and California.
+           </td>
+           <td>Fruit</td>
+           <td>Navel</td>
+        </tr>
+   </tbody>
+</table>
 
+<p>Notice a few features:</p>
 
+<ul>
+<li>You can keyword search the table. When you type a word, the table filters to match your word.</li>
+<li>You can sort the column order.</li>
+<li>You can page the results so that you show only a certain number of values on the first page and then require users to click next to see more entries.</li>
+</ul>
 
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
-</div>
+<p>Read more of the <a href="https://www.datatables.net/manual/options">datatable documentation</a> to get a sense of the options you can configure. You should probably only use datatables when you have long, massive tables full of information.</p>
+
+<div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note: </b> Try to keep the columns to 3 or 4 columns only. If you add 5+ columns, your table may create horizontal scrolling with the theme.</div>
+
 
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_formatting.html" class="btn btn-default navbar-btn cursorNorm" role="button">formatting</a>
+    
+    
     
 </div>
 
@@ -406,7 +551,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>

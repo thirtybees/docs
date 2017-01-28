@@ -112,7 +112,7 @@ body h1 {
 }
 
 .post-content img {
-	margin: 12px 0px 3px 0px;
+	margin: 12px 0 3px 0;
 	width: auto;
 	height: auto;
 	max-width: 100%;
@@ -120,7 +120,7 @@ body h1 {
 }
 
 .post-content ol li, .post-content ul li {
-	margin: 10px 0px;
+	margin: 10px 0;
 }
 
 .pageSummary {
@@ -226,7 +226,7 @@ table tr td {
 p.external a {
 	text-align: right;
 	font-size: 12px;
-	font-color: #0088cc;
+	color: #0088cc;
 	display: inline;
 }
 
@@ -240,7 +240,6 @@ p.post-meta {
 }
 
 .entry-date {
-	font-size: 14px;
 	font-size: 0.875rem;
 	line-height: 1.71429;
 	margin-bottom: 0;
@@ -296,7 +295,7 @@ ul#results-container a:hover {
 }
 
 div#toc ul li {
-	margin: 8px 0px 8px 22px;
+	margin: 8px 0 8px 22px;
 	font-size: 90%;
 	list-style: square;
 }
@@ -370,13 +369,13 @@ a.accordion-toggle, a.accordion-collapsed {
 .nav ul {
 	padding: 0;
 	/*margin: 0 0 0 18px;*/
-	margin: 0px;
+	margin: 0;
 }
 
 .nav {
 	/* padding: 4px;*/
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 }
 
 .nav > li {
@@ -435,7 +434,7 @@ a.accordion-toggle, a.accordion-collapsed {
 ul#mysidebar {
 	margin-top: 40px;
 
-	border-radius: 0px;
+	border-radius: 0;
 }
 
 .nav ul li ul li a {
@@ -473,7 +472,7 @@ ul#mysidebar {
 }
 
 span.projectTitle {
-	font-family: Helvetica;
+	font-family: Roboto, sans-serif;
 	font-weight: bold;
 }
 
@@ -640,7 +639,7 @@ a[data-toggle] {
 .summary {
 	font-size: 120%;
 	color: #808080;
-	margin: 20px 0px 20px 0px;
+	margin: 20px 0 20px 0;
 	border-left: 5px solid #ED1951;
 	padding-left: 10px;
 
@@ -683,7 +682,7 @@ li img {
 
 div#toc ul li ul li {
 	list-style-type: none;
-	margin: 5px 0px 0px 0px;
+	margin: 5px 0 0 0;
 }
 
 .tab-content {
@@ -701,8 +700,8 @@ li.activeSeries {
 
 .seriesContext .dropdown-menu li.active {
 	font-weight: bold;
-	margin-left: 18px;
-	font-size: 14px;
+	margin-left: 43px;
+	font-size: 18px;
 }
 
 div.tags {
@@ -717,10 +716,8 @@ hr {
 	border: 0;
 	border-bottom: 1px dashed #ccc;
 	background: #999;
-	margin: 30px 0px;
 	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 30px auto;
 }
 
 button.cursorNorm {
@@ -754,32 +751,26 @@ a[data-toggle="tooltip"] {
 ol.series li {
 	list-style-type: decimal;
 	margin-left: 40px;
-	padding-left: 0px;
+	padding-left: 0;
 }
 
 .siteTagline {
 	font-size: 300%;
 	font-weight: bold;
 	color: silver;
-	font-family: monospace;
+	font-family: "Ubuntu Mono", monospace;
 	text-align: center;
-	line-height: 10px;
-	margin: 20px 0px;
+	line-height: 50px;
+	margin: 20px 0;
 	display: block;
 }
 
 .versionTagline {
 	text-align: center;
 	margin-bottom: 20px;
-	font-family: courier;
-	font-color: silver;
+	font-family: "Ubuntu Mono", monospace;
 	color: #444;
 	display: block;
-}
-
-/* not sure if using this ...*/
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border-color: #248ec2 !important;
 }
 
 #mysidebar .nav ul {
@@ -835,20 +826,20 @@ pre, table code {
 }
 
 pre {
-	margin: 25px 0px;
+	margin: 25px 0;
 }
 
 #json-box-container pre {
-	margin: 0px;
+	margin: 0;
 }
 
 .video-js {
-	margin: 30px 0px;
+	margin: 30px 0;
 }
 
 video {
 	display: block;
-	margin: 30px 0px;
+	margin: 30px 0;
 	border: 1px solid #c0c0c0;
 }
 
@@ -864,8 +855,7 @@ dd {
 }
 
 .post-content img.inline {
-	margin: 0px;
-	margin-bottom: 6px;
+	margin: 0 0 6px;
 }
 
 .panel-heading {
@@ -874,7 +864,7 @@ dd {
 
 .note code, .warning code, div#toc code, h2 code, h3 code, h4 code {
 	color: inherit;
-	padding: 0px;
+	padding: 0;
 }
 
 a.accordion-toggle {
@@ -904,21 +894,21 @@ span.soft {
 .endpoint {
 	padding: 15px;
 	background-color: #f0f0f0;
-	font-family: courier;
+	font-family: "Ubuntu Mono", monospace;
 	font-size: 110%;
-	margin: 20px 0px;
+	margin: 20px 0;
 	color: #444;
 }
 
 .parameter {
-	font-family: courier;
+	font-family: "Ubuntu Mono", monospace;
 	color: red !important;
 }
 
 .formBoundary {
 	border: 1px solid gray;
 	padding: 15px;
-	margin: 15px 0px;
+	margin: 15px 0;
 	background-color: whitesmoke;
 }
 
@@ -955,7 +945,7 @@ span.soft {
 
 .videoThumbs img {
 	float: left;
-	margin: 15px 15px 15px 0px;
+	margin: 15px 15px 15px 0;
 	box-shadow: 2px 2px 1px #f0f0f0;
 	border: 1px solid #dedede;
 }
@@ -981,7 +971,7 @@ span.soft {
 /* this part adds an icon after external links, using FontAwesome*/
 a[href^="http://"]:after, a[href^="https://"]:after {
 	content: "\f08e";
-	font-family: FontAwesome;
+	font-family: FontAwesome, sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	display: inline-block;

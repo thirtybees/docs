@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="keywords" content=" ">
-<title>Page Not Found  | thirty bees developer documentation</title>
+<title>Page Not Found  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -39,7 +39,7 @@
 <script>
   $(function () {
       $('[data-toggle="tooltip"]').tooltip()
-  })
+  });
 </script>
 
 
@@ -60,7 +60,7 @@
             </button>
 
             <a class="navbar-brand" href="home.html">
-                <img src="//common_images/thirty-bees-black.png" alt="thirty bees developer documentation">
+                <img src="/common_images/thirty-bees-dark.png" alt="thirty bees developer guide" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/developers</span>
             </a>
 
         </div>
@@ -78,6 +78,17 @@
 
 
 
+
+
+
+
+
+                
+                
+                
+                
+                
+                
                 
 
 
@@ -86,19 +97,28 @@
 
                 <li class="dropdown">
                     
+                    
+                    
+
+                    </ul>
+                </li>
+                
+                
 
 
                 <!-- special insertion -->
 
                
+                
+                
                 <!-- Send feedback function -->
 <script>
 function SendLinkByMail(href) {
-var subject= "thirty bees developer documentation feedback";
+var subject= "thirty bees developer guide feedback";
 var body = "I have some feedback about the Page Not Found page: ";
 body += window.location.href;
 body += "";
-var uri = "mailto:tomjohnson1492@gmail.com?subject=";
+var uri = "mailto:devdocs@thirtybees.com?subject=";
 uri += encodeURIComponent(subject);
 uri += "&body=";
 uri += encodeURIComponent(body);
@@ -106,7 +126,8 @@ window.location.href = uri;
 }
 </script>
 
-<li><a href="javascript:(function()%7BSendLinkByMail()%3B%7D)()%3B" target="_blank"><i class="fa fa-envelope-o"></i> Feedback</a></li>
+<li><a target="_blank"><i class="fa fa-envelope-o"></i> Feedback</a></li>
+
 
 
                 <!--<li>-->
@@ -145,9 +166,7 @@ window.location.href = uri;
 <div class="row">
     <!-- Sidebar Column -->
     <div class="col-md-3">
-
         <script>
-
             $(document).ready(function() {
                 // Initialize navgoco with default options
                 $("#mysidebar").navgoco({
@@ -177,10 +196,7 @@ window.location.href = uri;
                 });
 
             });
-
         </script>
-
-
         
 
 
@@ -191,12 +207,38 @@ window.location.href = uri;
 
 
 
+
+
+
+
         <ul id="mysidebar" class="nav">
-
-            <span class="siteTagline">Developer documentation</span>
+            <span class="siteTagline">Developer<br />Guide</span>
             <span class="versionTagline">Version 1.0.0</span>
-
             
+            
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                
 
 
                 <!-- if you aren't using the accordion, uncomment this block:
@@ -226,7 +268,7 @@ window.location.href = uri;
 <script>
     $(document).ready(function() {
         var client = algoliasearch('NZAMRQCZYF', '');
-        var index = client.initIndex('thirty_bees_devdocs');
+        var index = client.initIndex('documentation_theme_jekyll_designers');
         var $input = $('input');
         $input.keyup(function() {
             index.search($input.val(), {
@@ -285,7 +327,7 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/404.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/404.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
   <p>Sorry, but the page you were trying to view does not exist &mdash; perhaps you can try searching for it.</p>
@@ -321,7 +363,7 @@ $('#toc').on('click', 'a', function() {
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
  Site last generated: Jan 28, 2017 <br />
-<p><img src="../common_images/thirty-bees-black.png/></p>
+<p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>
 </footer>

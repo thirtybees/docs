@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="Set up profiles in iTerm to facilitate the build process with just a few clicks. This can make it a lot easier to quickly build multiple outputs.">
+<meta name="keywords" content="publishing,  iterm, terminal, build shortcuts, mac">
+<title>iTerm profiles  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -115,7 +115,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the iTerm profiles page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +142,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="iTerm profiles">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +295,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">iTerm profiles</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">Set up profiles in iTerm to facilitate the build process with just a few clicks. This can make it a lot easier to quickly build multiple outputs.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +329,64 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_iterm_profiles.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
+  <h2 id="about-iterm-profiles">About iTerm profiles</h2>
 
+<p>When you&#39;re working with tech docs, a lot of times you&#39;re single sourcing multiple outputs. It can be a hassle to fire up each one of these outputs using the build files containing the shell scripts. Instead, it&#39;s easier to configure iTerm with profiles that initiate the scripts.</p>
 
+<h2 id="set-up-profiles">Set up profiles</h2>
 
+<ol>
+<li>Open iTerm and go to <strong>Profiles &gt; Open Profiles.</strong></li>
+<li>Click <strong>Edit Profiles</strong>.</li>
+<li>Click the + button in the lower-left corner to create a new profile.</li>
+<li>In the <strong>Name</strong> field, type a name describing the output, such as <code>Doc theme -- designers</code>.</li>
+<li><p>In the <strong>Send text at start</strong> field, type the command for the build script, such as this:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">jekyll serve --config configs/config_designers.yml
+</code></pre></div>
+<p>Leave the Login shell option selected.</p></li>
+<li><p>In the Working Directory section, select <strong>Directory</strong> and enter the directory for your project, such as <strong>/Users/tjohnson/projects/documentation-theme-jekyll</strong>.</p></li>
+<li><p>Close the profiles panel.</p></li>
+</ol>
 
+<p>Here&#39;s an example:</p>
 
+<p><img src="images/itermexample.png" alt="iTerm profile example"></p>
 
+<h2 id="launching-a-profile">Launching a profile</h2>
 
+<ol>
+<li>In iTerm, make sure the Toolbar is shown. Go to <strong>View &gt; Toggle Toolbar</strong>.</li>
+<li>Click the <strong>New</strong> button and select your profile.</li>
+</ol>
 
+<div class="alert alert-success" role="alert"><i class="fa fa-check-square-o"></i> <b>Tip: </b> When you're done with the session, make sure to click **Ctrl+C**.</div>
 
-
-
-
-
-
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
-</div>
 
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_publishing.html" class="btn btn-default navbar-btn cursorNorm" role="button">publishing</a>
+    
+    
     
 </div>
 
@@ -406,7 +415,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>

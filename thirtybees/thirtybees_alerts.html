@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl in...">
+<meta name="keywords" content="formatting,  notes, tips, cautions, warnings, admonitions">
+<title>Alerts  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -115,7 +115,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the Alerts page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +142,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="Alerts">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +295,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">Alerts</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +329,139 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_alerts.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
+  <h2 id="about-alerts">About alerts</h2>
 
+<p>Alerts are little warnings, info, or other messages that you have called out in special formatting. In order to use these alerts or callouts, just reference the appropriate value stored in the alerts.yml file as described in the following sections.</p>
 
+<h2 id="alerts">Alerts</h2>
 
+<p>You can insert an alert by using any of the following code.</p>
 
+<table><thead>
+<tr>
+<th>alert</th>
+<th>code</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>note</td>
+<td>{{site.data.alerts.note}} your note {{site.data.alerts.end}}</td>
+</tr>
+<tr>
+<td>tip</td>
+<td>{{site.data.alerts.tip}} your tip {{site.data.alerts.end}}</td>
+</tr>
+<tr>
+<td>warning</td>
+<td>{{site.data.alerts.warning}} your warning {{site.data.alerts.end}}</td>
+</tr>
+<tr>
+<td>important</td>
+<td>{{site.data.alerts.important}} your important info {{site.data.alerts.end}}</td>
+</tr>
+</tbody></table>
 
+<p>The following demonstrate the formatting associated with each alert.</p>
 
+<div class="alert alert-success" role="alert"><i class="fa fa-check-square-o"></i> <b>Tip: </b> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
 
+<div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note: </b> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
 
+<div class="alert alert-warning" role="alert"><i class="fa fa-warning"></i> <b>Important: </b> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
 
+<div class="alert alert-danger" role="alert"><i class="fa fa-exclamation-circle"></i> <b>Warning: </b> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
 
+<h2 id="callouts">Callouts</h2>
 
+<p>In contrast to the alerts, the callouts don&#39;t have a pre-coded bold-formatted preface such as note or tip. You just add one (if desired) in the callout text itself.</p>
 
+<table><thead>
+<tr>
+<th>callout</th>
+<th>code</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>callout_default</td>
+<td>{{site.data.alerts.callout_default}} your callout_default content  {{site.data.alerts.end}}</td>
+</tr>
+<tr>
+<td>callout_primary</td>
+<td>{{site.data.alerts.callout_primary}} your callout_primary content {{site.data.alerts.end}}</td>
+</tr>
+<tr>
+<td>callout_success</td>
+<td>{{site.data.alerts.callout_success}} your callout_success content {{site.data.alerts.end}}</td>
+</tr>
+<tr>
+<td>callout_warning</td>
+<td>{{site.data.alerts.callout_warning}} your callout_warning content {{site.data.alerts.end}}</td>
+</tr>
+<tr>
+<td>callout_info</td>
+<td>{{site.data.alerts.callout_info}} your callout_info content {{site.data.alerts.end}}</td>
+</tr>
+</tbody></table>
 
+<p>The following demonstrate the formatting for each callout. </p>
 
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
+<div class="bs-callout bs-callout-danger"><b>callout_danger</b>: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  
 </div>
 
+<div class="bs-callout bs-callout-default">
+<b>callout_default</b>: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  
+</div>
+
+<div class="bs-callout bs-callout-primary">
+<b>calloutprimary</b>: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  
+</div>
+
+<div class="bs-callout bs-callout-success">
+<b>calloutsuccess</b>: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  
+</div>
+
+<div class="bs-callout bs-callout-info">
+<b>calloutinfo</b>: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  
+</div>
+
+<div class="bs-callout bs-callout-warning">
+<b>calloutwarning</b>: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  
+</div>
+
+<h2 id="blast-a-warning-to-users">Blast a warning to users</h2>
+
+<p>If you want to blast a warning to users on every page, add the alert or callout to the layouts/page.html page right below the frontmatter. Every page using the page layout (all, by defaut) will show this message.</p>
+
+<h2 id="using-markdown-inside-of-notes">Using Markdown inside of notes</h2>
+
+<p>You can&#39;t use Markdown formatting inside alerts. This is because the alerts leverage HTML, and you can&#39;t use Markdown inside of HTML tags.</p>
+
+
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_formatting.html" class="btn btn-default navbar-btn cursorNorm" role="button">formatting</a>
+    
+    
     
 </div>
 
@@ -406,7 +490,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>

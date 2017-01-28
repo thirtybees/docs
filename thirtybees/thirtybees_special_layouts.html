@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="This theme has a few special layouts. Special layouts include the JS files they need directly in the page. The JavaScript for each special layout does not lo...">
+<meta name="keywords" content="special_layouts,  layouts, information design, presentation">
+<title>Special layouts overview  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -115,7 +115,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the Special layouts overview page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +142,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="Special layouts overview">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +295,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">Special layouts overview</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">This theme has a few special layouts. Special layouts include the JS files they need directly in the page. The JavaScript for each special layout does not load by default for every page in the site.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +329,50 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_special_layouts.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
+  <div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note: </b> By "layout," I'm not referring to the layouts in \_layouts in the project files. I'm referring to special ways of presenting information on the same "page" layout. </div>
 
+<h2 id="faq-layout">FAQ layout</h2>
 
+<p>See <a href='../thirtybees/thirtybees_faq.html'>FAQ layout</a> for an example of the FAQ format, which follows an accordion, collapse/expand format. This code is from Bootstrap.</p>
 
+<h2 id="knowledgebase-layout">Knowledgebase layout</h2>
 
+<p>See <a href='../thirtybees/thirtybees_kb_layout.html'>Knowledge-base layout</a> for a possible layout for knowledge base articles. This layout looks for pages containing specific tags.</p>
 
+<h2 id="scroll-layout">Scroll layout</h2>
 
+<p>If you have a long JSON message you&#39;re documenting, see the <a href='../thirtybees/thirtybees_scroll.html'>Scroll layout</a>. This layout adds a side pane showing links to pointers in the left pane. </p>
 
+<h2 id="shuffle-layout">Shuffle layout</h2>
 
+<p>If you want a dynamic card layout that allows you to filter the cards, see <a href='../thirtybees/thirtybees_shuffle.html'>Shuffle layout</a>. This uses the Shuffle JS library.</p>
 
-
-
-
-
-
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
-</div>
 
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_special_layouts.html" class="btn btn-default navbar-btn cursorNorm" role="button">special_layouts</a>
+    
+    
     
 </div>
 
@@ -406,7 +401,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>

@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="You can add a button to your pages that allows people to add comments. Prose.io is an overlay on Github that would allow people to make comments in an easier...">
+<meta name="keywords" content="navigation,  annotations, comments, feedback">
+<title>Commenting on files  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -115,7 +115,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the Commenting on files page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +142,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="Commenting on files">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +295,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">Commenting on files</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">You can add a button to your pages that allows people to add comments. Prose.io is an overlay on Github that would allow people to make comments in an easier interface.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +329,62 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_commenting_on_files.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
+  <h2 id="about-the-review-process">About the review process</h2>
 
+<p>If you&#39;re using the doc as code approach, you might also consider using the same techniques for reviewing the doc as people use in reviewing code. This approach will involve using Github to edit the files. </p>
 
+<p>There&#39;s an Edit me button on each page on this theme. This button allows collaborators to edit the content on Github.</p>
 
+<p>Here&#39;s the code for that button on the page.html layout:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">{% if site.github_editme_path %}
+&lt;a href=&quot;https://github.com/{{site.github_editme_path}}{{page.url | replace: &#39;.html&#39;, &#39;.md&#39;}}&quot; class=&quot;btn btn-default &quot; role=&quot;button&quot;&gt;&lt;i class=&quot;fa fa-github fa-lg&quot;&gt;&lt;/i&gt; Edit me&lt;/a&gt;
+{% endif %}
+</code></pre></div>
+<p>You could also make it so the Github button appears only when you&#39;re working in a development environment.</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">{% if jekyll.environment == &quot;development&quot; %}
+{% if site.github_editme_path %}
+&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/{{site.github_editme_path}}{{page.url | replace: &#39;.html&#39;, &#39;.md&#39;}}&quot; class=&quot;btn btn-default githubEditButton&quot; role=&quot;button&quot;&gt;&lt;i class=&quot;fa fa-github fa-lg&quot;&gt;&lt;/i&gt; Edit me&lt;/a&gt;
+{% endif %}
+</code></pre></div>
+<p>To activate the development environment, add the <a href="http://jekyllrb.com/docs/configuration/">environment flag</a> in your build command:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">JEKYLL_ENV=development jekyll serve
+</code></pre></div>
+<p>The default environment is production.</p>
 
+<h2 id="add-reviewers-as-collaborators">Add reviewers as collaborators</h2>
 
+<p>If you want people to collaborate on your project so that their edits get committed to a branch on your project, you need to add them as collaborators. For your Github repo, click <strong>Settings</strong> and add the collaborators on the Collaborators tab using their Github usernames.</p>
 
+<p>If you don&#39;t want to allow anyone to commit to your Github branch, don&#39;t add the reviewers as collaborators. When someone makes an edit, Github will fork the theme. The person&#39;s edit then will appear as a pull request to your repo. You can then choose to merge the change indicated in the pull or not.</p>
 
+<div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note: </b> When you process pull requests, you have to accept everything or nothing. You can't pick and choose which changes you'll merge. Therefore you'll probably want to edit the branch you're planning to merge or ask the contributor to make some changes to the fork before processing the pull request.</div> 
 
-
-
-
-
-
-
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
-</div>
 
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_navigation.html" class="btn btn-default navbar-btn cursorNorm" role="button">navigation</a>
+    
+    
     
 </div>
 
@@ -406,7 +413,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>

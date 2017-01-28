@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="You can push your build to AWS using commands from the command line. By including your copy commands in commands, you can package all of the build and deploy...">
+<meta name="keywords" content="publishing,  AWS, Amazon, command line, pushing build">
+<title>Pushing builds to server  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -115,7 +115,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the Pushing builds to server page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +142,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="Pushing builds to server">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +295,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">Pushing builds to server</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">You can push your build to AWS using commands from the command line. By including your copy commands in commands, you can package all of the build and deploy process into executable scripts.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +329,48 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_push_build_to_server.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
+  <h2 id="pushing-to-aws-s3">Pushing to AWS S3</h2>
 
+<p>If you have the AWS Command Line Interface installed and are pushing your builds to AWS, the following commands show how you can build and push to an AWS location from the command line:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">#aws s3 cp ~/users/tjohnson/projects/documentation-theme-jekyll-builds/thirtybees_writers s3://[aws path]documentation-theme-jekyll/thirtybees_writers --recursive
 
+#aws s3 cp ~/users/tjohnson/projects/documentation-theme-jekyll-builds/thirtybees_developers s3://[aws path]/documentation-theme-jekyll/thirtybees_developers --recursive
+</code></pre></div>
+<p>The first path is the local location; the second path is the destination.</p>
 
+<h2 id="pushing-to-a-regular-server">Pushing to a regular server</h2>
 
+<p>If you&#39;re pushing to a regular server that you can ssh into, you can use <code>scp</code> commands to push your build. Here&#39;s an example:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">scp -r /users/tjohnson/projects/documentation-theme-jekyll-builds/thirtybees_writers name@domain:/var/www/html/documentation-theme-jekyll/thirtybees_writers
+</code></pre></div>
+<p>Similar to the above, the first path is the local location; the second path is the destination.</p>
 
-
-
-
-
-
-
-
-
-
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
-</div>
 
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_publishing.html" class="btn btn-default navbar-btn cursorNorm" role="button">publishing</a>
+    
+    
     
 </div>
 
@@ -406,7 +399,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>

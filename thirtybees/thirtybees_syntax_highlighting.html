@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="You can apply syntax highlighting to your code. This theme uses pygments and applies color coding based on the lexer you specify.">
+<meta name="keywords" content="formatting,  rouge, pygments, prettify, color coding,">
+<title>Syntax highlighting  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -115,7 +115,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the Syntax highlighting page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +142,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="Syntax highlighting">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +295,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">Syntax highlighting</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">You can apply syntax highlighting to your code. This theme uses pygments and applies color coding based on the lexer you specify.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +329,92 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_syntax_highlighting.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
+  <h2 id="about-syntax-highlighting">About syntax highlighting</h2>
 
+<p>For syntax highlighting, use fenced code blocks optionally followed by the language syntax you want:</p>
 
+<pre>
+```ruby
+    def foo
+      puts 'foo'
+    end
+```
+</pre>
 
+<p>This looks as follows:</p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">    <span class="k">def</span> <span class="nf">foo</span>
+      <span class="nb">puts</span> <span class="s1">&#39;foo&#39;</span>
+    <span class="k">end</span>
+</code></pre></div>
+<p>Fenced code blocks require a blank line before and after.</p>
 
+<p>If you&#39;re using an HTML file, you can also use the <code>highlight</code> command with Liquid markup:</p>
 
+<pre>
+{% highlight ruby %}
+    def foo
+      puts 'foo'
+    end
+{% endhighlight %}
+</pre>
 
+<p>It renders the same: </p>
 
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">foo</span>
+      <span class="nb">puts</span> <span class="s1">&#39;foo&#39;</span>
+    <span class="k">end</span></code></pre></div>
 
+<p>The theme has syntax highlighting specified in the configuration file as follows:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">highlighter: pygments
+</code></pre></div>
+<p>You can use another highlighter such as <code>rouge</code>.</p>
 
+<p>The syntax highlighting is done via the css/syntax.css file.</p>
 
+<h2 id="available-pygments-lexers">Available Pygments lexers</h2>
 
+<p>The keywords you must add to specify the highlighting (in the previous example, <code>ruby</code>) are called &quot;lexers.&quot; You can search for &quot;pygments lexers&quot; or go directly to <a href="http://pygments.org/docs/lexers/">Available lexers</a> to see what values you can use. Here are some common ones I use:</p>
 
+<ul>
+<li>js</li>
+<li>html</li>
+<li>yaml</li>
+<li>css</li>
+<li>json</li>
+<li>php</li>
+<li>java</li>
+<li>cpp</li>
+<li>dotnet</li>
+<li>xml</li>
+<li>http</li>
+</ul>
 
-
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
-</div>
 
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_formatting.html" class="btn btn-default navbar-btn cursorNorm" role="button">formatting</a>
+    
+    
     
 </div>
 
@@ -406,7 +443,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>

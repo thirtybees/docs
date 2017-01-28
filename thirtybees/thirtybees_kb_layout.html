@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="This shows a sample layout for a knowledge base. Each square could link to a tag archive page. In this example, font icons from Font Awesome are enlarged to ...">
+<meta name="keywords" content="special_layouts,  knowledge base, support portal, grid, doc portal">
+<title>Knowledge-base layout  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -115,7 +115,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the Knowledge-base layout page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +142,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="Knowledge-base layout">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +295,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">Knowledge-base layout</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">This shows a sample layout for a knowledge base. Each square could link to a tag archive page. In this example, font icons from Font Awesome are enlarged to a large size. You can also add captions below each icon.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +329,373 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_kb_layout.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
+  <div class="row">
+          <div class="col-md-4"><a class="noCrossRef" href="tag_getting_started.html"><i class="fa fa-file-image-o fa-8x border"></i><div class="kbCaption">Getting Started</div></a></div>
+          <div class="col-md-4"><a class="noCrossRef" href="tag_navigation.html"><i class="fa fa-bar-chart-o fa-8x border"></i><div class="kbCaption">Navigation</a></div></div>
+          <div class="col-md-4"><a class="noCrossRef" href="tag_single_sourcing.html"><i class="fa fa-code fa-8x border"></i><div class="kbCaption">single_sourcing</div></a></div>
 </div>
 
+<p>&nbsp;</p>
+
+<div class="row">
+          <div class="col-md-4"><a class="noCrossRef" href="tag_publishing.html"><i class="fa fa-dashboard fa-8x border"></i><div class="kbCaption">Publishing</div></a></div>
+          <div class="col-md-4"><a class="noCrossRef" href="tag_special_layouts.html"><i class="fa fa-desktop fa-8x border"></i><div class="kbCaption">Special layouts</div></a></div>
+          <div class="col-md-4"><a class="noCrossRef" href="tag_formatting.html"><i class="fa fa-cloud fa-8x border"></i><div class="kbCaption">Formatting</div></a></div>
+</div>
+        
+
+<h2 id="generating-a-list-of-all-pages-with-a-certain-tag">Generating a list of all pages with a certain tag</h2>
+
+<p>If you don&#39;t want to link to a tag archive index, but instead want to list all pages that have a certain tag, you could use this code:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html">Getting started pages:
+<span class="nt">&lt;ul&gt;</span>
+{% assign sorted_pages = (site.pages | sort: &#39;title&#39;) %}
+{% for page in sorted_pages %}
+{% for tag in page.tags %}
+{% if tag == &quot;getting_started&quot; %}
+<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;{{page.url | prepend: &#39;..&#39;}}&quot;</span><span class="nt">&gt;</span>{{page.title}}<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+{% endif %}
+{% endfor %}
+{% endfor %} 
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div>
+<p>Getting started pages:</p>
+
+<ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="../thirtybees/thirtybees_getting_started.html">1. Build the default project</a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="../thirtybees/thirtybees_adding_new_projects.html">2. Add a new project</a></li>
+
+
+
+
+
+<li><a href="../thirtybees/thirtybees_decide_on_attributes.html">3. Decide on your project's attributes</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="../thirtybees/thirtybees_configure_sidebar.html">6. Configure the sidebar</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="../thirtybees/thirtybees_about.html">About the theme author</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="../thirtybees/home.html">Introduction</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="../thirtybees/thirtybees_pages.html">Pages</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="../thirtybees/thirtybees_sidebar_navigation.html">Sidebar Navigation</a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="../thirtybees/thirtybees_support.html">Support</a></li>
+
+
+
+
+
+<li><a href="../thirtybees/thirtybees_supported_features.html">Supported features</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="../thirtybees/thirtybees_troubleshooting.html">Troubleshooting</a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="../thirtybees/thirtybees_webstorm_text_editor.html">WebStorm Text Editor</a></li>
+
+
+
+
+
+
+
+
+
+
+ 
+</ul>
+
+
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_special_layouts.html" class="btn btn-default navbar-btn cursorNorm" role="button">special_layouts</a>
+    
+    
     
 </div>
 
@@ -406,7 +724,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>

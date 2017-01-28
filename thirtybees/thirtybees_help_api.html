@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+  <head>
+
+ <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="You can loop through files and generate a JSON file that developers can consume like a help API. Developers can pull in values from the JSON into interface e...">
+<meta name="keywords" content="publishingsingle_sourcingcontent-types,  API, content API, UI text, inline help, context-sensitive help, popovers, tooltips">
+<title>Help APIs and UI tooltips  | thirty bees developer guide</title>
+<link rel="stylesheet" type="text/css" href="../css/syntax.css">
+<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/base-theme.css">
+<link rel="stylesheet" type="text/css" href="../css/modern-business.css">
+<link rel="stylesheet" type="text/css" href="../css/customstyles.css">
+<link rel="stylesheet" type="text/css" href="../css/modern-business.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="../js/jquery.navgoco.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="../js/toc.js"></script>
+<script src="../js/customscripts.js"></script>
+<link rel="shortcut icon" href="../common_images/favicon.ico" type="image/x-icon">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+
+
+
+
+
+<script>
+  $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+  });
+</script>
+
+
+
+  </head>
+
+<body>
+
+   <!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="home.html">
+                <img src="/common_images/thirty-bees-dark.png" alt="thirty bees developer guide" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/developers</span>
+            </a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- entries without drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                
+                
+                
+                
+                
+                
+
+
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+
+                <li class="dropdown">
+                    
+                    
+                    
+
+                    </ul>
+                </li>
+                
+                
+
+
+                <!-- special insertion -->
+
+               
+                
+                
+                <!-- Send feedback function -->
+<script>
+function SendLinkByMail(href) {
+var subject= "thirty bees developer guide feedback";
+var body = "I have some feedback about the Help APIs and UI tooltips page: ";
+body += window.location.href;
+body += "";
+var uri = "mailto:devdocs@thirtybees.com?subject=";
+uri += encodeURIComponent(subject);
+uri += "&body=";
+uri += encodeURIComponent(body);
+window.location.href = uri;
+}
+</script>
+
+<li><a target="_blank"><i class="fa fa-envelope-o"></i> Feedback</a></li>
+
+
+
+                <!--<li>-->
+                     <!--start search-->
+                    <!--<div id="search-demo-container">-->
+                        <!--<input type="text" id="search-input" placeholder="search...">-->
+                        <!--<ul id="results-container"></ul>-->
+                    <!--</div>-->
+                    <!--<script src="../js/jekyll-search.js" type="text/javascript"></script>-->
+                    <!--<script type="text/javascript">-->
+                        <!--SimpleJekyllSearch.init({-->
+                            <!--searchInput: document.getElementById('search-input'),-->
+                            <!--resultsContainer: document.getElementById('results-container'),-->
+                            <!--dataSource: '../search.json',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="Help APIs and UI tooltips">{title}</a></li>',-->
+                        <!--noResultsText: 'No results found.',-->
+                                <!--limit: 10,-->
+                                <!--fuzzy: true,-->
+                        <!--})-->
+                    <!--</script>-->
+                     <!--end search-->
+                <!--</li>-->
+            
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="col-lg-12">&nbsp;</div>
+
+
+<!-- Content Row -->
+<div class="row">
+    <!-- Sidebar Column -->
+    <div class="col-md-3">
+        <script>
+            $(document).ready(function() {
+                // Initialize navgoco with default options
+                $("#mysidebar").navgoco({
+                    caretHtml: '',
+                    accordion: true,
+                    openClass: 'active', // open
+                    save: false, // leave false or nav highlighting doesn't work right
+                    cookie: {
+                        name: 'navgoco',
+                        expires: false,
+                        path: '/'
+                    },
+                    slide: {
+                        duration: 400,
+                        easing: 'swing'
+                    }
+                });
+
+                $("#collapseAll").click(function(e) {
+                    e.preventDefault();
+                    $("#mysidebar").navgoco('toggle', false);
+                });
+
+                $("#expandAll").click(function(e) {
+                    e.preventDefault();
+                    $("#mysidebar").navgoco('toggle', true);
+                });
+
+            });
+        </script>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <ul id="mysidebar" class="nav">
+            <span class="siteTagline">Developer<br />Guide</span>
+            <span class="versionTagline">Version 1.0.0</span>
+            
+            
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                
+
+
+                <!-- if you aren't using the accordion, uncomment this block:
+
+                     <p class="external">
+                         <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+                     </p>
+                 -->
+
+    </div>
+    <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+    <script>$("li.active").parents('li').toggleClass("active");</script>
+
+
+            <!-- Content Column -->
+            <div class="col-md-9">
+                <!--<div class="search">
+
+    <input type="text" placeholder="search...">
+</div>
+<div class="results">
+    <ul id="users"></ul>
+</div>
+
+<script src="http://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        var client = algoliasearch('NZAMRQCZYF', '');
+        var index = client.initIndex('documentation_theme_jekyll_designers');
+        var $input = $('input');
+        $input.keyup(function() {
+            index.search($input.val(), {
+                hitsPerPage: 10,
+                facets: '*'
+            }, searchCallback);
+        }).focus();
+    });
+
+    function searchCallback(err, content) {
+        console.log(content);
+        if (err) {
+            console.error(err);
+            return;
+        }
+
+        var $users = $('#users');
+        $users.empty();
+
+        for (var i = 0; i < content.hits.length; i++) {
+            $users.append('<li> <a href="' + content.hits[i].url + '">' + content.hits[i].title + '</a></li>');
+        }
+    };
+</script>
+-->
+                <div class="post-header">
+   <h1 class="post-title-main">Help APIs and UI tooltips</h1>
+</div>
+
+<div class="post-content">
+
+   
+    <div class="summary">You can loop through files and generate a JSON file that developers can consume like a help API. Developers can pull in values from the JSON into interface elements, styling them as popovers for user interface text, for example. The beauty of this method is that the UI text remains in the help system (or at least in a single JSON file delivered to the dev team) and isn't hard-coded into the UI.</div>
+   
+
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+
+<div id="toc"></div>
+
+
+    
+
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_help_api.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    
+
+  <h2 id="full-code-demo-of-content-api">Full code demo of content API</h2>
+
+<p>You can create a help API that developers can use to pull in content.</p>
+
+<p>For the full code demo, see the notes in the <a target="_blank" href="thirtybees_tooltips_fields.html" class="noCrossRef">tooltip demo</a>.</p>
+
+<p>In this demo, the popovers pull in and display content from the information in a <a target="_blank" href="thirtybees_tooltips_source.json">thirtybees_tooltips_source.json</a> file located in the same directory.</p>
+
+<p>Instead of placing the JSON source in the same directory, you could also host the JSON file on another site.</p>
+
+<p>Additionally, instead of tooltip popovers, you could also print content directly to the page. Basically, whatever you can stuff into a JSON file, developers can integrate it onto a page.</p>
+
+<h2 id="diagram-overview">Diagram overview</h2>
+
+<p>Here&#39;s a diagram showing the basic idea of the help API: </p>
+
+<p><img src="images/helpapi.svg" style="width: 650px;"/></p>
+
+<p>Is this really an API? Well, sort of. The help content is pushed out into a JSON file that other websites and applications can easily consume. The endpoints don&#39;t deliver different data based on parameters added to a URL. But the overall concept is similar to an API: you have a client requesting resources from a server.</p>
+
+<p>Note that in this scenario, the help is openly accessible on the web. If you have a private system, it&#39;s more complicated.</p>
+
+<p>To deliver help this way using Jekyll, follow the steps in each of the sections below.</p>
+
+<h2 id="1-create-a-collection-for-the-help-content">1. Create a &quot;collection&quot; for the help content</h2>
+
+<p>A collection is another content type that extends Jekyll beyond the use of pages and posts. Call the collection &quot;tooltips.&quot; </p>
+
+<p>Add the following information to your configuration file to declare your collection:</p>
+<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">collections:
+  tooltips:
+    output: false
+</code></pre></div>
+<p>In your Jekyll project&#39;s root directory, create a new folder called &quot;_tooltips&quot; and put every page that you want to be part of that tooltips collection inside that folder.</p>
+
+<p>In Jekyll, folders that begin with an underscore (&quot;_&quot;) aren&#39;t included in the output. However, in the collection information that you add to your configuration file, if you change <code>output</code> to <code>true</code>, the tooltips folder will appear in the output, and each page inside tooltips will be generated. You most likely don&#39;t want this for tooltips (you just want the JSON file), so make the <code>output</code> setting <code>false</code>.</p>
+
+<h2 id="2-create-tooltip-definitions-in-a-yaml-file">2. Create tooltip definitions in a YAML file</h2>
+
+<p>Inside _data &gt; thirtybees create a YAML file called something like thirtybees_definitions.yml. Add the definitions for each of your tooltips here like this:</p>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">basketball</span><span class="p-Indicator">:</span> <span class="s">&quot;Basketball</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">sport</span><span class="nv"> </span><span class="s">involving</span><span class="nv"> </span><span class="s">two</span><span class="nv"> </span><span class="s">teams</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">five</span><span class="nv"> </span><span class="s">players</span><span class="nv"> </span><span class="s">each</span><span class="nv"> </span><span class="s">competing</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">put</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">ball</span><span class="nv"> </span><span class="s">through</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">small</span><span class="nv"> </span><span class="s">circular</span><span class="nv"> </span><span class="s">rim</span><span class="nv"> </span><span class="s">10</span><span class="nv"> </span><span class="s">feet</span><span class="nv"> </span><span class="s">above</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">ground.</span><span class="nv"> </span><span class="s">Basketball</span><span class="nv"> </span><span class="s">requires</span><span class="nv"> </span><span class="s">players</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">be</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">top</span><span class="nv"> </span><span class="s">physical</span><span class="nv"> </span><span class="s">condition,</span><span class="nv"> </span><span class="s">since</span><span class="nv"> </span><span class="s">they</span><span class="nv"> </span><span class="s">spend</span><span class="nv"> </span><span class="s">most</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">game</span><span class="nv"> </span><span class="s">running</span><span class="nv"> </span><span class="s">back</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">forth</span><span class="nv"> </span><span class="s">along</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">94-foot-long</span><span class="nv"> </span><span class="s">floor.&quot;</span>
+</code></pre></div>
+<p>The definition of basketball is stored this data file so that you can re-use it in other parts of the help as well. You&#39;ll likely want the definition to appear not only in the tooltip in the UI, but also in the regular documentation as well.</p>
+
+<h2 id="3-create-pages-in-your-collection">3. Create pages in your collection</h2>
+
+<p>Create pages inside your new tooltips collection (that is, inside the _tooltips folder). Each page needs to have a unique <code>id</code> in the frontmatter as well as a <code>product</code>. Then reference the definition you created in the thirtybees_definitions.yml file. </p>
+
+<p>Here&#39;s an example:</p>
+<div class="highlight"><pre><code class="language-liquid" data-lang="liquid">---
+id: basketball
+product: thirtybees
+---
+
+<span class="p">{{</span><span class="nv">site</span><span class="p">.</span><span class="nv">data</span><span class="p">.</span><span class="nv">thirtybees</span><span class="p">.</span><span class="nv">thirtybees_definitions</span><span class="p">.</span><span class="nv">basketball</span><span class="p">}}</span>
+</code></pre></div>
+<p>You need to create a separate page for each tooltip you want to deliver.  </p>
+
+<p>The product attribute is required in the frontmatter to distinguish the tooltips produced here from the tooltips for other products in the same _tooltips folder. When creating the JSON file, Jekyll will iterate through all the pages inside _tooltips, regardless of any subfolders included here.</p>
+
+<h2 id="4-create-a-json-file-that-loops-through-your-collection-pages">4. Create a JSON file that loops through your collection pages</h2>
+
+<p>Now it&#39;s time to create a JSON file with Liquid code that iterates through our tooltip collection and grabs the information from each tooltip file.</p>
+
+<p>Inside your project&#39;s pages directory (e.g., thirtybees), add a file called &quot;thirtybees_tooltips_source.json.&quot; (You can use whatever name you want.) Add the following to your JSON file:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">---
+layout: none
+search: exclude
+---
+{
+&quot;entries&quot;:
+[
+{% for page in site.tooltips %}
+{% if page.product == &quot;thirtybees&quot; %}
+{
+&quot;id&quot;    : &quot;{{ page.id }}&quot;,
+&quot;body&quot;: &quot;{{ page.content | strip_newlines | replace: &#39;\&#39;, &#39;\\\\&#39; | replace: &#39;&quot;&#39;, &#39;\\&quot;&#39; }}&quot;
+} {% unless forloop.last %},{% endunless %}
+{% endif %}
+{% endfor %}
+]
+}
+</code></pre></div>
+<p>Change &quot;thirtybees&quot; to the product name you used in each of the tooltip files. The template here will only include content in the JSON file if it meets the <code>product</code> attribute requirements. We need this <code>if</code> statement to prevent tooltips from other products from being included in the JSON file.</p>
+
+<p>This code will loop through all pages in the tooltips collection and insert the <code>id</code> and <code>body</code> into key-value pairs for the JSON code. Here&#39;s an example of what that looks like after it&#39;s processed by Jekyll in the site build: </p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">{
+  &quot;entries&quot;: [
+    {
+      &quot;id&quot;: &quot;baseball&quot;,
+      &quot;body&quot;: &quot;Baseball is considered America&#39;s pasttime sport, though that may be more of a historical term than a current one. There&#39;s a lot more excitement about football than baseball. A baseball game is somewhat of a snooze to watch, for the most part.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;basketball&quot;,
+      &quot;body&quot;: &quot;Basketball is a sport involving two teams of five players each competing to put a ball through a small circular rim 10 feet above the ground. Basketball requires players to be in top physical condition, since they spend most of the game running back and forth along a 94-foot-long floor.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;football&quot;,
+      &quot;body&quot;: &quot;No doubt the most fun sport to watch, football also manages to accrue the most injuries with the players. From concussions to blown knees, football players have short sport lives.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;soccer&quot;,
+      &quot;body&quot;: &quot;If there&#39;s one sport that dominates the world landscape, it&#39;s soccer. However, US soccer fans are few and far between. Apart from the popularity of soccer during the World Cup, most people don&#39;t even know the name of the professional soccer organization in their area.&quot;
+    }
+  ]
+}
+</code></pre></div>
+<p>You can also view the same JSON file here: <a class="noCrossRef" href="thirtybees_tooltips_source.json">thirtybees_tooltips_source.json</a>.</p>
+
+<p>You can add different fields depending on how you want the JSON to be structured. Here we just have to fields: <code>id</code> and <code>body</code>. And the JSON is looking just in the tooltips collection that we created.</p>
+
+<div class="alert alert-success" role="alert"><i class="fa fa-check-square-o"></i> <b>Tip: </b> Check out <a href="https://google-styleguide.googlecode.com/svn/trunk/jsoncstyleguide.xml">Google's style guide for JSON</a>. These best practices can help you keep your JSON file valid.</div>
+
+<p>You can store your thirtybees_tooltips_source.json file anywhere you want, but to me it make sense to store it inside a tooltips folder for your specific project. This way it will automatically be excluded from other projects that are already excluding that project directory.</p>
+
+<p>Note that you can create different JSON files that specialize in different content. For example, suppose you have some getting started information. You could put that into a different JSON file. Using the same structure, you might add an <code>if</code> tag that checks whether the page has frontmatter that says <code>type: getting_started</code> or something. Or you could put the content into separate collection entirely (different from tooltips).</p>
+
+<p>By chunking up your JSON files, you can provide a quicker lookup, though I&#39;m not sure how big the JSON file can be before you experience any latency with the jQuery lookup.</p>
+
+<h2 id="5-build-your-site-and-look-for-the-json-file">5. Build your site and look for the JSON file</h2>
+
+<p>When you build your site, Jekyll will iterate through every page in your _tooltips folder and put the page id and body into this format. In the output, look for the JSON file in the thirtybees/tooltips/thirtybees_tooltips_source.json file. You&#39;ll see that Jekyll has populated it with content. This is because of the triple hyphen lines in the JSON file &mdash; this instructs Jekyll to process the file.</p>
+
+<h2 id="6-allow-cors-access-to-your-help-if-stored-on-a-remote-server">6. Allow CORS access to your help if stored on a remote server</h2>
+
+<p>You can simply deliver the JSON file to devs to add to the project. But if you have the option, it&#39;s best to keep the JSON file stored in your own help system. Assuming you have the ability to update your content on the fly, this will give you completely control over the tooltips without being tied to a specific release window. </p>
+
+<p>When people make calls to your site <em>from other domains</em>, you must allow them access to get the content. To do this, you have to enable something called CORS (cross origin resource sharing) within the server where your help resides. </p>
+
+<p>In other words, people are going to be executing calls to reach into your site and grab your content. Just like the door on your house, you have to unlock it so people can get in. Enabling CORS is unlocking it. </p>
+
+<p>How you enable CORS depends on the type of server. </p>
+
+<p>If your server setup allows htaccess files to override general server permissions, create an .htaccess file and add the following:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Header set Access-Control-Allow-Origin &quot;*&quot;
+</code></pre></div>
+<p>Store this in the same directory as your project. This is what I&#39;ve done in a directory on my web host (bluehost.com). Inside http://idratherbetellingstories.com/wp-content/apidemos/, I uploaded a file called &quot;.htaccess&quot; with the preceding code. You can view it <a href="http://idratherbetellingstories.com/wp-content/apidemos/thirtybees_tooltips_source.json">here</a>.</p>
+
+<p>After I uploaded it, I renamed it to .htaccess, right-clicked the file and set the permissions to 774.</p>
+
+<p>To test whether your server permissions are set correctly, open a terminal and run the following curl command pointing to your tooltips.json file:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">curl -I http://idratherbetellingstories.com/wp-content/apidemos/thirtybees_tooltips_source.json
+</code></pre></div>
+<p>The <code>-I</code> command tells cURL to return the request header only. </p>
+
+<p>If the server permissions are set correctly, you should see the following line somewhere in the response:</p>
+<div class="highlight"><pre><code class="language-xml" data-lang="xml">Access-Control-Allow-Origin: *
+</code></pre></div>
+<p>If you don&#39;t see this response, CORS isn&#39;t allowed for the file. </p>
+
+<p>If you have an AWS S3 bucket, you can supposedly add a CORS configuration to the bucket permissions. Log into AWS S3 and click your bucket. On the right, in the Permissions section, click <strong>Add CORS Configuration</strong>. In that space, add the following policy:</p>
+<div class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="nt">&lt;CORSConfiguration&gt;</span>
+ <span class="nt">&lt;CORSRule&gt;</span>
+   <span class="nt">&lt;AllowedOrigin&gt;</span>*<span class="nt">&lt;/AllowedOrigin&gt;</span>
+   <span class="nt">&lt;AllowedMethod&gt;</span>GET<span class="nt">&lt;/AllowedMethod&gt;</span>
+ <span class="nt">&lt;/CORSRule&gt;</span>
+<span class="nt">&lt;/CORSConfiguration&gt;</span>
+</code></pre></div>
+<p>Although this should work, in my experiment it doesn&#39;t. And I&#39;m not sure why...</p>
+
+<p>In other server setups, you may need to edit one of your Apache configuration files. See <a href="http://enable-cors.org/server.html">Enable CORS</a> or search online for ways to allow CORS for your server.</p>
+
+<p>If you don&#39;t have CORS enabled, users will see a CORS error/warning message in the console of the page making the request. </p>
+
+<div class="alert alert-success" role="alert"><i class="fa fa-check-square-o"></i> <b>Tip: </b> If enabling CORS is problematic, you could always just send developers the tooltips.json file and ask them to place it on their own server. </div>
+
+<h2 id="7-explain-how-developers-can-access-the-help">7. Explain how developers can access the help</h2>
+
+<p>Developers can access the help using the <code>.get</code> method from jQuery, among other methods. Here&#39;s an example of how to get a page with the ID of <code>basketball</code>:</p>
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;</span>
+<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+
+<span class="kd">var</span> <span class="nx">url</span> <span class="o">=</span> <span class="s2">&quot;thirtybees_tooltips_source.json&quot;</span><span class="p">;</span>
+
+
+<span class="nx">$</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span> <span class="nx">url</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">data</span> <span class="p">)</span> <span class="p">{</span>
+
+        <span class="nx">$</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">entries</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span> <span class="nx">page</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="nx">page</span><span class="p">.</span><span class="nx">id</span> <span class="o">==</span> <span class="s2">&quot;basketball&quot;</span><span class="p">)</span> <span class="p">{</span>
+                <span class="nx">$</span><span class="p">(</span> <span class="s2">&quot;#basketball&quot;</span> <span class="p">).</span><span class="nx">attr</span><span class="p">(</span> <span class="s2">&quot;data-content&quot;</span><span class="p">,</span> <span class="nx">page</span><span class="p">.</span><span class="nx">body</span> <span class="p">);</span>
+            <span class="p">}</span>
+
+        <span class="p">});</span>
+    <span class="p">});</span>
+
+<span class="p">});</span>
+<span class="o">&lt;</span><span class="err">/script&gt;</span>
+</code></pre></div>
+<p>View the <a class="noCrossRef" href="tooltips/thirtybees_tooltips_fields.html">Tooltip Demo</a> for a demo.</p>
+
+<p>The <code>url</code> here is relative, but you could equally point it to an absolute path on a remote host assuming CORS is enabled on the host. </p>
+
+<p>The <code>each</code> method looks through all the JSON content to find the item whose <code>page.id</code> is equal to <code>basketball</code>. It then looks for an element on the page named <code>#basketball</code> and adds a <code>data-content</code> attribute to that element.</p>
+
+<div class="alert alert-danger" role="alert"><i class="fa fa-exclamation-circle"></i> <b>Warning: </b><b>Note:</b> Make sure your JSON file is valid. Otherwise, this method won't work. I use the <a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en">JSON Formatter extension for Chrome</a>. When I go to the tooltips.json page in my browser, the JSON content &mdash; if valid &mdash; is nicely formatted (and includes some color coding). If the file isn't valid, it's not formatted and there isn't any color. You can also check the JSON formatting using <a href="http://jsonformatter.curiousconcept.com/">JSON Formatter and Validator</a>. If your JSON file isn't valid, identify the problem area using the validator and troubleshoot the file causing issues. It's usually due to some code that isn't escaping correctly. </div>
+
+<p>Why <code>data-content</code>? Well, in this case, I&#39;m using <a href="http://getbootstrap.com/javascript/#popovers">Bootstrap popovers</a> to display the tooltip content. The <code>data-content</code> attribute is how Bootstrap injects popovers.</p>
+
+<p>Here&#39;s the section on the page where the popover is inserted:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;p&gt;Basketball &lt;span class=&quot;glyphicon glyphicon-info-sign&quot; id=&quot;basketball&quot; data-toggle=&quot;popover&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+</code></pre></div>
+<p>Notice that I just have <code>id=&quot;basketball&quot;</code> added to this popover element. Developers merely need to add a unique ID to each tooltip they want to pull in the help content. Either you tell developers the unique ID they should add, or ask them what IDs they added (or just tell them to use an ID that matches the field&#39;s name).</p>
+
+<p>In order to use jQuery and Bootstrap, you&#39;ll need to add the appropriate references in the head tags of your page: </p>
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="o">&lt;</span><span class="nx">link</span> <span class="nx">rel</span><span class="o">=</span><span class="s2">&quot;stylesheet&quot;</span> <span class="nx">href</span><span class="o">=</span><span class="s2">&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css&quot;</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js&quot;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+<span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js&quot;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+
+<span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span><span class="o">&gt;</span>
+<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;[data-toggle=&quot;popover&quot;]&#39;</span><span class="p">).</span><span class="nx">popover</span><span class="p">({</span>
+        <span class="nx">placement</span> <span class="o">:</span> <span class="s1">&#39;right&#39;</span><span class="p">,</span>
+        <span class="nx">trigger</span><span class="o">:</span> <span class="s1">&#39;hover&#39;</span><span class="p">,</span>
+        <span class="nx">html</span><span class="o">:</span> <span class="kc">true</span>
+    <span class="p">});</span>
+</code></pre></div>
+<p>Again, see the <a class="noCrossRef" href="tooltips/thirtybees_tooltips_fields.html">Tooltip Demo</a> for a demo of the full code.</p>
+
+<p>Note that even though you reference a Bootstrap JS script, Bootstrap&#39;s popovers require you to initialize them using the above code as well &mdash; they aren&#39;t turned on by default.</p>
+
+<p>View the source code of the <a class="noCrossRef" href="thirtybees_tooltips_fields.html">Tooltip Demo</a> for the full comments. </p>
+
+<h2 id="8-create-easy-links-to-embed-the-help-in-your-help-site">8. Create easy links to embed the help in your help site</h2>
+
+<p>You might also want to insert the same content into different parts of your help site. For example, if you have tooltips providing definitions for fields, you&#39;ll probably want to create a page in your help that lists those same definitions. </p>
+
+<p>You could use the same method developers use to pull help content into their applications. But it will probably be easier to simply use Jekyll&#39;s tags for doing it. </p>
+
+<p>Here&#39;s how you would reuse the content:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h2&gt;</span>Reuse Demo<span class="nt">&lt;/h2&gt;</span>
+
+
+<span class="nt">&lt;table&gt;</span>
+<span class="nt">&lt;thead&gt;</span>
+<span class="nt">&lt;tr&gt;</span>
+<span class="nt">&lt;th&gt;</span>Sport<span class="nt">&lt;/th&gt;</span>
+<span class="nt">&lt;th&gt;</span>Comments<span class="nt">&lt;/th&gt;</span>
+<span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;/thead&gt;</span>
+<span class="nt">&lt;tbody&gt;</span>
+
+<span class="nt">&lt;tr&gt;</span>
+<span class="nt">&lt;td&gt;</span>Basketball<span class="nt">&lt;/td&gt;</span>
+<span class="nt">&lt;td&gt;</span>{{site.data.thirtybees.thirtybees_definitions.basketball}}<span class="nt">&lt;/td&gt;</span>
+<span class="nt">&lt;/tr&gt;</span>
+
+<span class="nt">&lt;tr&gt;</span>
+<span class="nt">&lt;td&gt;</span>Baseball<span class="nt">&lt;/td&gt;</span>
+<span class="nt">&lt;td&gt;</span>{{site.data.thirtybees.thirtybees_definitions.baseball}}<span class="nt">&lt;/td&gt;</span>
+<span class="nt">&lt;/tr&gt;</span>
+
+<span class="nt">&lt;tr&gt;</span>
+<span class="nt">&lt;td&gt;</span>Football<span class="nt">&lt;/td&gt;</span>
+<span class="nt">&lt;td&gt;</span>{{site.data.thirtybees.thirtybees_definitions.football}}<span class="nt">&lt;/td&gt;</span>
+<span class="nt">&lt;/tr&gt;</span>
+
+<span class="nt">&lt;tr&gt;</span>
+<span class="nt">&lt;td&gt;</span>Soccer<span class="nt">&lt;/td&gt;</span>
+<span class="nt">&lt;td&gt;</span>{{site.data.thirtybees.thirtybees_definitions.soccer}}<span class="nt">&lt;/td&gt;</span>
+<span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;/tbody&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div>
+<p>And here&#39;s the code: </p>
+
+<h2>Reuse Demo</h2>
+
+<table>
+<thead>
+<tr>
+<th>Sport</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>Basketball</td>
+<td>Basketball is a sport involving two teams of five players each competing to put a ball through a small circular rim 10 feet above the ground. Basketball requires players to be in top physical condition, since they spend most of the game running back and forth along a 94-foot-long floor.</td>
+</tr>
+
+<tr>
+<td>Baseball</td>
+<td>Baseball is considered America's pasttime sport, though that may be more of a historical term than a current one. There's a lot more excitement about football than baseball. A baseball game is somewhat of a snooze to watch, for the most part.</td>
+</tr>
+
+<tr>
+<td>Football</td>
+<td>No doubt the most fun sport to watch, football also manages to accrue the most injuries with the players. From concussions to blown knees, football players have short sport lives.</td>
+</tr>
+
+<tr>
+<td>Soccer</td>
+<td>If there's one sport that dominates the world landscape, it's soccer. However, US soccer fans are few and far between. Apart from the popularity of soccer during the World Cup, most people don't even know the name of the professional soccer organization in their area.</td>
+</tr>
+</tbody>
+</table>
+
+<p>Now you have both documentation and UI tooltips generated from the same definitions file.</p>
+
+
+<div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_publishing.html" class="btn btn-default navbar-btn cursorNorm" role="button">publishing</a>
+    
+    
+    
+    <a href="tag_single_sourcing.html" class="btn btn-default navbar-btn cursorNorm" role="button">single_sourcing</a>
+    
+    
+    
+    
+    
+</div>
+
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'thirty-bees'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2017 thirty bees. All rights reserved. <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
+<p><img src="../common_images/thirtyb-bees-black.png/></p>
+                </div>
+            </div>
+</footer>
+            </div><!-- /.row -->
+
+    </div>    <!-- /.container -->
+
+</body>
+
+
+</html>
+

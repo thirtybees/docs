@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="The top navigation provides some additional features involving a custom menu and pop-out link that you can customize.">
+<meta name="keywords" content="navigation,  custom menu, custom_menu, pop-out, frameescape, frame escape, top nav bar, topnav">
+<title>Top navigation  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -115,7 +115,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the Top navigation page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +142,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="Top navigation">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +295,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">Top navigation</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">The top navigation provides some additional features involving a custom menu and pop-out link that you can customize.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +329,68 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_top_navigation_deep_dive.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
+  <div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note: </b> For basic information about configuring the top navigation, see <a href='../thirtybees/thirtybees_top_navigation.html'>Top navigation</a>. This section gets into the top navigation in more depth. </div>
 
+<h2 id="custom-menu">Custom Menu</h2>
 
+<p>It&#39;s common to publish multiple sites. If you want to link the multiple together, you could simply list links to the other doc sites in a drop-down menu configured in the topnav_dropdowns section in the topnav_doc.yml file. However, suppose you want to do something more fancy.</p>
 
+<p>Included in the topnav.html file is an include to /doc/custom_menu.html. The code in custom_menu.html is as follows:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;dropdown&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;dropdown-toggle otherProgLangs&quot;</span> <span class="na">data-toggle=</span><span class="s">&quot;dropdown&quot;</span><span class="nt">&gt;</span>Custom Menu<span class="nt">&lt;b</span> <span class="na">class=</span><span class="s">&quot;caret&quot;</span><span class="nt">&gt;&lt;/b&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;dropdown-menu&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;li</span> <span class="err">{%</span> <span class="na">if</span> <span class="na">site</span><span class="err">.</span><span class="na">audience =</span><span class="s">=</span> <span class="err">&quot;</span><span class="na">writers</span><span class="err">&quot;</span> <span class="err">%}</span><span class="na">class=</span><span class="s">&quot;dropdownActive&quot;</span><span class="err">{%</span> <span class="na">endif</span> <span class="err">%}</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;{% if page.homepage == true or page.switch == false %}../thirtybees_writers/&quot;</span><span class="nt">&gt;</span>Writer docs<span class="nt">&lt;/a&gt;</span> {% else %} ../thirtybees_writers{{page.url}}&quot;&gt;Writer docs<span class="nt">&lt;/a&gt;</span>{% endif %}<span class="nt">&lt;/li&gt;</span>
 
+<span class="nt">&lt;li</span> <span class="err">{%</span> <span class="na">if</span> <span class="na">site</span><span class="err">.</span><span class="na">audience =</span><span class="s">=</span> <span class="err">&quot;</span><span class="na">designers</span><span class="err">&quot;</span> <span class="err">%}</span><span class="na">class=</span><span class="s">&quot;dropdownActive&quot;</span><span class="err">{%</span> <span class="na">endif</span> <span class="err">%}</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;{% if page.homepage == true or page.switch == false %}../thirtybees_developers/&quot;</span><span class="nt">&gt;</span>Designer docs<span class="nt">&lt;/a&gt;</span> {% else %} ../thirtybees_developers{{page.url}}&quot;&gt;Designer docs<span class="nt">&lt;/a&gt;</span>{% endif %}<span class="nt">&lt;/li&gt;</span>
 
+<span class="nt">&lt;/ul&gt;</span>
+<span class="nt">&lt;/li&gt;</span>
+</code></pre></div>
+<div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note: </b> In the theme, the link to the custom_menu.html include in the \_includes/topnav.html file is currently commented out. This is because this feature only works when you have multiple outputs hosted on the same server. 
 
+Github Pages, where I'm publishing this theme, allows only one output per Github Pages directory. So rather than removing this custom_menu feature from the theme, I've just commented it out so that it won't appear broken in the demo.</div>
 
+<p>The current doc site is highlighted. If you select another doc site, the site switches to that doc site and goes to the same page on that doc site. This way, if you have a task such as &quot;Configuring the license&quot; in several different programming languages, users can switch to other programming languages to see the same page.</p>
 
+<p>You need to have both the designers and writers sites deployed on a web server to see this in action. Once deployed, browse to any page in the navigation. Then go to the <strong>Custom Menu</strong> and select the <strong>Writers</strong> site. You&#39;ll go to the exact same page but on the Writers site.</p>
 
+<p>If your current page doesn&#39;t have an equivalent in your other outputs, then put this in the frontmatter of the page:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">switch: false
+</code></pre></div>
+<p>This Custom Menu may not be something you want, and if so, just remove the include from the sidebar.html file. But if you&#39;re outputting multiple sites, it may be something valuable. You will need to customize the previous code sample to be specific to your project names.</p>
 
+<h2 id="pop-out-link">Pop-out link</h2>
 
+<p>The topnav.html file also has an include to frameescape.html (which is also commented out). What does this file do? If the site is embedded inside a frame, a link on the top navigation bar appears that says Pop-out, and it will open the site in a new window. </p>
 
+<p>In most cases, you&#39;ll want to simply remove this include. I added this because some of my doc sites are delivered through a Salesforce Community and are embedded inside another page in a small area. This pop-out link is a way of liberating the site from these embedded page scenarios. If your site isn&#39;t embedded in an iframe, the Pop-out link doesn&#39;t appear. (Also, because it is commented out, it won&#39;t appear.) You can remove this part of the theme.</p>
 
-
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
-</div>
 
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_navigation.html" class="btn btn-default navbar-btn cursorNorm" role="button">navigation</a>
+    
+    
     
 </div>
 
@@ -406,7 +419,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>

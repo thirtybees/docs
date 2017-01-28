@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees developer guide</title>
+<meta name="description" content="By default, all the files in your Jekyll project are included in the output (this differs from DITA projects, which don't include files unless noted on the m...">
+<meta name="keywords" content="single_sourcing,  exclusion, separating outputs, removing files from outputs">
+<title>Excluding files  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="../css/syntax.css">
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/base-theme.css">
@@ -115,7 +115,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the Excluding files page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -142,7 +142,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="Excluding files">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -295,11 +295,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main"></h1>
+   <h1 class="post-title-main">Excluding files</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">By default, all the files in your Jekyll project are included in the output (this differs from DITA projects, which don't include files unless noted on the map). If you're single sourcing, you'll need to exclude the files that shouldn't be included in the output. The sidebar doesn't control inclusion or exclusion.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -327,57 +329,92 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/tocpage.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/thirtybees_excluding_files.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <!-- new page -->
-<div id="navig">
-    <h1>Table of Contents</h1>
-    
+  <h2 id="about-exclusion">About exclusion</h2>
 
+<p>By default, all files in your project are included in your output (regardless of whether they&#39;re listed in the sidebar_doc.yml file or not). To exclude files, note them in the <code>exclude</code> section in the configuration file. Here&#39;s a sample:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">exclude: 
+  - thirtybees_writers_*
+  - bower_components
+  - Gemfile
+</code></pre></div>
+<p>If you have different outputs for your site, you&#39;ll want to customize the exclude sections in your various configuration files.</p>
 
+<h2 id="exclude-strategies">Exclude strategies</h2>
 
+<p>Here&#39;s the process I recommend. Put all files in the root directory of your project. Suppose one project&#39;s name is alpha and the other is beta. Then name each file as follows:</p>
 
+<ul>
+<li>alpha_sample.html</li>
+<li>beta_sample.html</li>
+</ul>
 
+<p>In your exclude list for your beta project, specify it as follows:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">exclude: 
+- alpha_*
+</code></pre></div>
+<p>In your exclude list for your alpha project, specify it as follows:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">exclude:
+- beta_*
+</code></pre></div>
+<p>If you have more sophisticated exclusion, add another level to your file names. For example, if you have different programming languages you want to filter by, add this:</p>
 
+<ul>
+<li>alpha_java_sample.html</li>
+<li>alpha_cpp_sample.html</li>
+</ul>
 
+<p>Then you exclude files for your Alpha C++ project as follows:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">exclude: 
 
+- alpha_java_*
+- beta_*
+</code></pre></div>
+<p>And you exclude files for your Alpha Java project as follows:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">exclude:
 
+- alpha_cpp_*
+- alpha_beta_*
+</code></pre></div>
+<p>When you exclude folders, include the trailing slash at the end of the folder name:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">exclude:
+- images/alpha/
+</code></pre></div>
+<p>There isn&#39;t a way to automatically exclude anything. By default, everything is included unless you explicitly list it under the exclude section.</p>
 
+<h2 id="excluding-draft-content">Excluding draft content</h2>
 
+<p>If you&#39;re working on a draft, put it inside the _drafts folder or add <code>published: false</code> in the frontmatter. The _drafts folder is excluded by default, so you don&#39;t have to specify it in your exclude list. </p>
 
+<h2 id="limitations">Limitations</h2>
 
+<p>What if a file should appear in two projects but not the third? This can get tricky. For some files, rather than using a wildcard, you may need to manually specify the entire filename that you&#39;re excluding instead of excluding it by way of a wildcard pattern.</p>
 
-    <ul id="mysidebar" class="nav">
-        
-        
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-    
-    </ul>
-</div>
 
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_single_sourcing.html" class="btn btn-default navbar-btn cursorNorm" role="button">single_sourcing</a>
+    
+    
     
 </div>
 
@@ -406,7 +443,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 28, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 28, 2017 <br />
 <p><img src="../common_images/thirtyb-bees-black.png/></p>
                 </div>
             </div>
