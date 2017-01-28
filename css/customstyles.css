@@ -668,10 +668,6 @@ h4 {
 	font-style: italic;
 }
 
-.alert, .callout {
-	overflow: hidden;
-}
-
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 	background-color: #248ec2;
 	color: white;
@@ -707,19 +703,6 @@ li.activeSeries {
 	font-weight: bold;
 	margin-left: 43px;
 	font-size: 18px;
-}
-
-.alert-warning {
-	color: #444;
-}
-
-div.alert code, h2 code {
-	background-color: transparent !important;
-}
-
-/* without this, the links in these notes aren't visible.*/
-.alert a {
-	text-decoration: underline;
 }
 
 div.tags {
@@ -889,14 +872,9 @@ dd {
 	font-weight: bold;
 }
 
-.note code, .alert code, .warning code, div#toc code, h2 code, h3 code, h4 code {
+.note code, .warning code, div#toc code, h2 code, h3 code, h4 code {
 	color: inherit;
 	padding: 0px;
-}
-
-.alert {
-	margin-bottom: 10px;
-	margin-top: 10px;
 }
 
 a.accordion-toggle {
