@@ -6,7 +6,7 @@ platform: all
 version: all
 output: web
 destination: ../doc_outputs/mydoc/designers
-topnav_title: Jekyll Documentation Theme
+topnav_title: thirty bees documentation
 homepage_title: Jekyll doc theme for designers
 site_title: Jekyll theme for designers
 project_folder: mydoc
