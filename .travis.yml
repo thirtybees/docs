@@ -1,0 +1,20 @@
+language: ruby # don't install any environment
+
+sudo: false
+rvm:
+  - 2.2
+before_install:
+  - bundle update
+script:
+  - bash ./deploy.sh
+
+env:
+  global:
+  - ENCRYPTION_LABEL: "10c2dc3523c3"
+  - COMMIT_AUTHOR_EMAIL: "thirtybees@michaeldekker.com"
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+
+branches:
+  only:
+  - master
+  - docreviews

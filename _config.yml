@@ -5,7 +5,7 @@ product: doc
 platform: all
 version: all
 output: web
-destination: ../doc_outputs/mydoc/designers
+destination: out
 topnav_title: thirty bees developer documentation
 homepage_title: thirty bees developer documentation
 site_title: thirty bees developer documnatation
@@ -34,6 +34,7 @@ exclude:
   - _drafts
   - configs/
   - doc/mydoc_writers*
+  - vendor
 
 # same for all
 host: 127.0.0.1
