@@ -701,8 +701,8 @@ li.activeSeries {
 
 .seriesContext .dropdown-menu li.active {
 	font-weight: bold;
-	margin-left: 43px;
-	font-size: 18px;
+	margin-left: 18px;
+	font-size: 14px;
 }
 
 div.tags {
