@@ -1,25 +1,26 @@
 # project definitions
-project: mydoc_designers
-audience: designers
+project: thirtybees_developers
+audience: developers
 product: doc
 platform: all
 version: all
 output: web
 destination: out
-topnav_title: thirty bees developer documentation
-homepage_title: thirty bees developer documentation
-site_title: thirty bees developer documnatation
-project_folder: mydoc
+topnav_title: thirty bees developer guide
+homepage_title: thirty bees developer guide
+site_title: thirty bees developer guide
+project_folder: thirtybees
 company_name: thirty bees
-footer_image_location: ../common_images/company_logo.png
-github_editme_path: tomjohnson1492/documentation-theme-jekyll/edit/reviews
-disqus_shortname: idrbwjekyll
+header_image_location: ../common_images/thirty-bees-black.png
+footer_image_location: ../common_images/thirtyb-bees-black.png
+github_editme_path: thirtybees/devdocs/blob/master
+disqus_shortname: thirty-bees
 # variables
 
-sidebar_tagline: Designers
-sidebar_version: Version 4.0
+sidebar_tagline: Developer<br />Guide
+sidebar_version: Version 1.0.0
 theme_file: modern-business.css
-pdf_file_name: mydoc_designers_pdf.pdf
+pdf_file_name: thirtybees-devdocs.pdf
 
 gems:
   - algoliasearch-jekyll
@@ -33,12 +34,12 @@ exclude:
   - _site
   - _drafts
   - configs/
-  - doc/mydoc_writers*
+  - doc/thirtybees_writers*
   - vendor
 
 # same for all
 host: 127.0.0.1
-feedback_email: tomjohnson1492@gmail.com
+feedback_email: devdocs@thirtybees.com
 
 markdown: redcarpet
 

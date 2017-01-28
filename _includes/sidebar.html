@@ -2,9 +2,7 @@
 <div class="row">
     <!-- Sidebar Column -->
     <div class="col-md-3">
-
         <script>
-
             $(document).ready(function() {
                 // Initialize navgoco with default options
                 $("#mysidebar").navgoco({
@@ -34,17 +32,11 @@
                 });
 
             });
-
         </script>
-
-
         {% include custom/conditions.html %}
-
         <ul id="mysidebar" class="nav">
-
             <span class="siteTagline">{{site.sidebar_tagline}}</span>
             <span class="versionTagline">{{site.sidebar_version}}</span>
-
             {% for entry in sidebar %}
             {% for subcategory in entry.subcategories %}
             {% if subcategory.audience contains audience and subcategory.product contains product and subcategory.platform contains platform and subcategory.version contains version and subcategory.output contains "web" %}

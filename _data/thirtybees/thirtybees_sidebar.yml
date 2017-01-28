@@ -1,0 +1,600 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+  - title:
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: pdf
+    type: frontmatter
+    items:
+    - title:
+      url: /titlepage.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: Introduction
+      url: /thirtybees/home.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Supported features
+      url: /thirtybees/thirtybees_supported_features.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: About the theme author
+      url: /thirtybees/thirtybees_about.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web
+
+    - title: Support
+      url: /thirtybees/thirtybees_support.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web
+
+  - title: Get started
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: 1. Build the default project
+      url: /thirtybees/thirtybees_getting_started.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 2. Add a new project
+      url: /thirtybees/thirtybees_adding_new_projects.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 3. Decide on your project's attributes
+      url: /thirtybees/thirtybees_decide_on_attributes.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 4. Set the configuration options
+      url: /thirtybees/thirtybees_configuration_settings.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 5. Customize the conditions file
+      url: /thirtybees/thirtybees_conditions_file_customization.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 6. Configure the sidebar
+      url: /thirtybees/thirtybees_configure_sidebar.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 7. Configure the top navigation
+      url: /thirtybees/thirtybees_top_navigation.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 8. Customize the URL generator
+      url: /thirtybees/thirtybees_url_generator_customization.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 9. Set up Prince XML
+      url: /thirtybees/thirtybees_princexml_setup.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 10. Configure the build scripts
+      url: /thirtybees/thirtybees_build_scripts.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Authoring
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: Pages
+      url: /thirtybees/thirtybees_pages.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: WebStorm Text Editor
+      url: /thirtybees/thirtybees_webstorm_text_editor.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Conditional logic
+      url: /thirtybees/thirtybees_conditional_logic.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Content reuse
+      url: /thirtybees/thirtybees_content_reuse.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Collections
+      url: /thirtybees/thirtybees_collections.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Navigation
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: Sidebar navigation
+      url: /thirtybees/thirtybees_sidebar_navigation.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Tags
+      url: /thirtybees/thirtybees_tags.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Series
+      url: /thirtybees/thirtybees_series.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Formatting
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: Tooltips
+      url: /thirtybees/thirtybees_adding_tooltips.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Alerts
+      url: /thirtybees/thirtybees_alerts.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Icons
+      url: /thirtybees/thirtybees_icons.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Images
+      url: /thirtybees/thirtybees_images.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Labels
+      url: /thirtybees/thirtybees_labels.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Links
+      url: /thirtybees/thirtybees_hyperlinks.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Navtabs
+      url: /thirtybees/thirtybees_navtabs.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Video embeds
+      url: /thirtybees/thirtybees_video_embeds.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Tables
+      url: /thirtybees/thirtybees_tables.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Syntax highlighting
+      url: /thirtybees/thirtybees_syntax_highlighting.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Handling reviews
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+    - title: Commenting on files
+      url: /thirtybees/thirtybees_commenting_on_files.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Publishing
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+
+    - title: Build arguments
+      url: /thirtybees/thirtybees_build_arguments.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Themes
+      url: /thirtybees/thirtybees_themes.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Link validation
+      url: /thirtybees/thirtybees_link_validation.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Check page title consistency
+      url: /thirtybees/thirtybees_title_checker.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Generating PDFs
+      url: /thirtybees/thirtybees_generating_pdfs.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Excluding files
+      url: /thirtybees/thirtybees_excluding_files.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Help APIs and UI tooltips
+      url: /thirtybees/thirtybees_help_api.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Search configuration
+      url: /thirtybees/thirtybees_search_configuration.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: iTerm profiles
+      url: /thirtybees/thirtybees_iterm_profiles.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Pushing builds to server
+      url: /thirtybees/thirtybees_push_build_to_server.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Getting around the password prompts in SCP
+      url: /thirtybees/thirtybees_no_password_prompts_scp.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Special layouts
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+
+    - title: Knowledge-base layout
+      url: /thirtybees/thirtybees_kb_layout.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Scroll layout
+      url: /thirtybees/thirtybees_scroll.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Shuffle layout
+      url: /thirtybees/thirtybees_shuffle.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: FAQ layout
+      url: /thirtybees/thirtybees_faq.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: Glossary layout
+      url: /thirtybees/thirtybees_glossary.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+#  - title: Collaborating with version control
+#    audience: developers
+#    platform: all
+#    product: all
+#    version: all
+#    output: web, pdf
+#    items:
+#
+#    - title: Mercurial notes and tips
+#      url: /thirtybees/thirtybees_mercurial_collaboration.html
+#      audience: developers
+#      platform: all
+#      product: all
+#      version: all
+#      output: web, pdf
+#
+#    - title: Git notes and tips
+#      url: /thirtybees/thirtybees_git_collaboration.html
+#      audience: developers
+#      platform: all
+#      product: all
+#      version: all
+#      output: web, pdf
+
+  - title: Troubleshooting
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+
+    - title: Troubleshooting
+      url: /thirtybees/thirtybees_troubleshooting.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+  - title: Tag archives
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web
+    items:
+
+    - title: Tag archives overview
+      url: /thirtybees/thirtybees_tag_archives_overview.html
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web
+
+      thirdlevel:
+      - title: Tag archive pages
+        audience: developers
+        platform: all
+        version: all
+        product: all
+        output: web
+        thirdlevelitems:
+        - title: Getting started pages
+          url: /thirtybees/tag_getting_started.html
+          audience: developers
+          platform: all
+          version: all
+          product: all
+          output: web
+
+        - title: Formatting pages
+          url: /thirtybees/tag_formatting.html
+          audience: developers
+          platform: all
+          version: all
+          product: all
+          output: web
+
+        - title: Navigation pages
+          url: /thirtybees/tag_navigation.html
+          audience: developers
+          platform: all
+          version: all
+          product: all
+          output: web
+
+        - title: Content types pages
+          url: /thirtybees/tag_content_types.html
+          audience: developers
+          platform: all
+          version: all
+          product: all
+          output: web
+
+        - title: Publishing pages
+          url: /thirtybees/tag_publishing.html
+          audience: developers
+          platform: all
+          version: all
+          product: all
+          output: web
+
+        - title: Special layout pages
+          url: /thirtybees/tag_special_layouts.html
+          audience: developers
+          platform: all
+          version: all
+          product: all
+          output: web
+
+        - title: Collaboration pages
+          url: /thirtybees/tag_collaboration.html
+          audience: developers
+          platform: all
+          version: all
+          product: all
+          output: web
