@@ -6,11 +6,11 @@ platform: all
 version: all
 output: web
 destination: ../doc_outputs/mydoc/designers
-topnav_title: thirty bees documentation
-homepage_title: Jekyll doc theme for designers
-site_title: Jekyll theme for designers
+topnav_title: thirty bees developer documentation
+homepage_title: thirty bees developer documentation
+site_title: thirty bees developer documnatation
 project_folder: mydoc
-company_name: Your company
+company_name: thirty bees
 footer_image_location: ../common_images/company_logo.png
 github_editme_path: tomjohnson1492/documentation-theme-jekyll/edit/reviews
 disqus_shortname: idrbwjekyll
