@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Contact me for any support issues.">
-<meta name="keywords" content="Getting started,  questions, troubleshooting, contact, support">
-<title>Support  | thirty bees developer guide</title>
+<meta name="description" content="You can use a variety of text editors when working with a Jekyll project. WebStorm from IntelliJ offers a lot of project-specific features, such as find and ...">
+<meta name="keywords" content="Getting started,  webstorm, sublime, markdown, atom, gnome, notepad ++, textpad, bbedit">
+<title>WebStorm Text Editor  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/css/base-theme.css">
@@ -104,7 +104,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the Support page: ";
+var body = "I have some feedback about the WebStorm Text Editor page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -131,7 +131,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="Support">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="WebStorm Text Editor">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -230,7 +230,7 @@ window.location.href = uri;
                     
                     
                     
-                    <li class="active"><a href="/overview/support/">Support</a></li>
+                    <li><a href="/overview/support/">Support</a></li>
                     
 
                     
@@ -255,7 +255,7 @@ window.location.href = uri;
                     
                     
                     
-                    <li><a href="/authoring/webstorm-text-editor/">WebStorm Text Editor</a></li>
+                    <li class="active"><a href="/authoring/webstorm-text-editor/">WebStorm Text Editor</a></li>
                     
 
                     
@@ -349,13 +349,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main">Support</h1>
+   <h1 class="post-title-main">WebStorm Text Editor</h1>
 </div>
 
 <div class="post-content">
 
    
-    <div class="summary">Contact me for any support issues.</div>
+    <div class="summary">You can use a variety of text editors when working with a Jekyll project. WebStorm from IntelliJ offers a lot of project-specific features, such as find and replace, that make it ideal for working with tech comm projects.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -382,10 +382,100 @@ $('#toc').on('click', 'a', function() {
 
 
     
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/overview/support.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/authoring/webstorm_text_editor.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <p>I&#39;m actively developing this theme. Please let me know about any bugs or other issues that you find. Just email me at <a href="mailto:tomjohnson1492@gmail.com">tomjohnson1492@gmail.com</a>. You can also <a href="https://github.com/tomjohnson1492/jekyll-doc/issues">create issues directly within the Github repository here</a>.</p>
+  <h2 id="about-text-editors-and-webstorm">About text editors and WebStorm</h2>
+
+<p>There are a variety of text editors available, but I like WebStorm the best because it groups files into projects, which makes it easy to find all instances of a text string, to do find and replace operations across the project, and more.</p>
+
+<p>If you decide to use WebStorm, here are a few tips on configuring the editor.</p>
+
+<h2 id="remove-unnecessary-plugins">Remove unnecessary plugins</h2>
+
+<p>By default, WebStorm comes packaged with a lot more functionality than you probably need. You can lighten the editor by removing some of the plugins. Go to <strong>WebStorm &gt; Preferences &gt; Plugins</strong> and clear the check boxes of plugins you don&#39;t need.</p>
+
+<h2 id="add-the-markdown-support-plugin">Add the Markdown Support plugin</h2>
+
+<p>Since you&#39;ll be writing in Markdown, having color coding and other support for Markdown is key. Install the Markdown Support plugin by going to <strong>WebStorm &gt; Preferences &gt; Plugins</strong> and clicking <strong>Install JetBrains Plugin</strong>. Search for <strong>Markdown Support</strong>.</p>
+
+<h2 id="learn-a-few-key-commands">Learn a few key commands</h2>
+
+<table><thead>
+<tr>
+<th>Command</th>
+<th>Shortcuts</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Shift + Shift</td>
+<td>Allows you to find a file by searching for its name.</td>
+</tr>
+<tr>
+<td>Shift + Command + F</td>
+<td>Find in whole project. (WebStorm uses the term &quot;Find in path&quot;.)</td>
+</tr>
+<tr>
+<td>Shift + Command + R</td>
+<td>Replace in whole project. (Again, WebStorm calls it &quot;Replace in path.&quot;)</td>
+</tr>
+<tr>
+<td>Command + F</td>
+<td>Find on page</td>
+</tr>
+<tr>
+<td>Shift + R</td>
+<td>Replace on page</td>
+</tr>
+<tr>
+<td>Right-click &gt; Add to Favorites</td>
+<td>Allows you to add files to a Favorites section, which expands below the list of files in the project pane.</td>
+</tr>
+<tr>
+<td>Shift + tab</td>
+<td>Applies outdenting (opposite of tabbing)</td>
+</tr>
+<tr>
+<td>Shift + Function + F6</td>
+<td>Rename a file</td>
+</tr>
+<tr>
+<td>Command + Delete</td>
+<td>Delete a file</td>
+</tr>
+<tr>
+<td>Command + 2</td>
+<td>Show Favorites pane</td>
+</tr>
+<tr>
+<td>Shift + Option + F</td>
+<td>Add to Favorites</td>
+</tr>
+</tbody></table>
+
+<div class="alert alert-success" role="alert"><i class="fa fa-check-square-o"></i> <b>Tip: </b> If these shortcut keys aren't working for you, make sure you have the "Max OS X 10.5+" keymap selected. Go to <b>WebStorm > Preferences > Keymap</b> and select it there. </div>
+
+<h2 id="identifying-changed-files">Identifying changed files</h2>
+
+<p>When you have the Git and Github integration, changed files appear in blue. This lets you know what needs to be committed to your repository.</p>
+
+<h2 id="creating-file-templates">Creating file templates</h2>
+
+<p>Rather than insert the frontmatter by hand each time, it&#39;s much faster to simply create a Jekyll template. To create a Jekyll template in WebStorm:</p>
+
+<ol>
+<li><p>Right-click a file in the list of project files, and select <strong>New &gt; Edit File Templates</strong>.</p>
+
+<p>If you don&#39;t see the Edit File Templates option, you may need to create a file template first. Go to <strong>File &gt; Default Settings &gt; Editor &gt; File and Code Templates</strong>. Create a new file template with an md extension, and then close and restart WebStorm. Then repeat this step and you will see the File Templates option appear in the right context menu.</p></li>
+<li><p>In the upper-left corner of the dialog box that appears, click the <strong>+</strong> button to create a new template.</p></li>
+<li><p>Name it something like Jekyll page. Insert the frontmatter you want, and save it.</p>
+
+<p>To use the Jekyll template, when you create a new file in your WebStorm project, you can select your Jekyll file template.</p></li>
+</ol>
+
+<h2 id="disable-pair-quotes">Disable pair quotes</h2>
+
+<p>By default, each time you type <code>&#39;</code>, WebStorm will pair the quote (creating two quotes). You can disable this by going to <strong>WebStorm &gt; Preferences &gt; Editor &gt; Smartkeys</strong>. Clear the <strong>Insert pair quotes</strong> check box.</p>
 
 
 <div class="tags">

@@ -17,7 +17,7 @@
                         
                      
                          
-                            /overview/supported_features
+                            /overview/supported-features/
                                   
                         
                      
@@ -30,27 +30,27 @@
               
                       
                          
-                            /authoring/pages
+                            /authoring/pages/
                                   
                         
                      
                          
-                            /authoring/webstorm_text_editor
+                            /authoring/webstorm-text-editor/
                                   
                         
                      
                          
-                            /authoring/conditional_logic
+                            /authoring/conditional-logic/
                                   
                         
                      
                          
-                            /authoring/content_reuse
+                            /authoring/content-reuse/
                                   
                         
                      
                          
-                            /authoring/collections
+                            /authoring/collections/
                                   
                         
                      

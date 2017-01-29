@@ -6,7 +6,7 @@
 //
 //{
 //"title": "About the theme author",
-//"tags": "getting_started",
+//"tags": "Getting started",
 //"keywords": "documentation theme, jekyll, technical writers, help authoring tools, hat replacements",
 //"url": "../overview/about/",
 //"summary": "I use this theme for sophisticated single_sourcing projects that I work on as a professional technical writer."
@@ -16,8 +16,19 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/collaboration/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Collections",
-//"tags": "content-types",
+//"tags": "Content types",
 //"keywords": "groups, api, structure",
 //"url": "../authoring/collections/",
 //"summary": "Collections are useful if you want to loop through a special folder of pages that you make available in a content API. You could also use collections if you have a set of articles that you want to treat differently from the other content, with a different layout or format."
@@ -28,7 +39,7 @@
 //
 //{
 //"title": "Conditional logic",
-//"tags": "single-sourcing",
+//"tags": "Single sourcing",
 //"keywords": "if else logic, conditions, conditional attributes, conditional filtering",
 //"url": "../authoring/conditional-logic/",
 //"summary": "You can implement advanced conditional logic that includes if statements, or statements, unless, and more. This conditional logic facilitates single sourcing scenarios in which you're outputting the same content for different audiences."
@@ -38,11 +49,33 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/content-types/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Content reuse",
-//"tags": "single_sourcing",
+//"tags": "Single sourcing",
 //"keywords": "includes, conref, dita, transclusion, transclude, inclusion, reference",
-//"url": "../authoring/content_reuse/",
+//"url": "../authoring/content-reuse/",
 //"summary": "You can reuse chunks of content by storing these files in the includes folder. You then choose to include the file where you need it. This works similar to conref in DITA, except that you can include the file in any content type."
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/formatting/",
+//"summary": ""
 //},
 //
 //
@@ -64,7 +97,7 @@
 //
 //{
 //"title": "Introduction",
-//"tags": "getting-started",
+//"tags": "Getting started",
 //"keywords": "",
 //"url": "../",
 //"summary": ""
@@ -74,8 +107,19 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/navigation/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Pages",
-//"tags": "getting_startedformattingcontent-types",
+//"tags": "Getting startedFormattingContent types",
 //"keywords": "pages, authoring, exclusion, frontmatter",
 //"url": "../authoring/pages/",
 //"summary": "This theme uses pages only, not posts. You need to make sure your pages have the appropriate frontmatter. One frontmatter tag your users might find helpful is the summary tag. This functions similar in purpose to the shortdesc element in DITA."
@@ -87,6 +131,14 @@
 //
 //
 //
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/publishing/",
+//"summary": ""
+//},
+//
 //
 //
 //
@@ -97,8 +149,33 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/single-sourcing/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/special-layouts/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Support",
-//"tags": "getting_started",
+//"tags": "Getting started",
 //"keywords": "questions, troubleshooting, contact, support",
 //"url": "../overview/support/",
 //"summary": "Contact me for any support issues."
@@ -111,7 +188,7 @@
 //"title": "Supported features",
 //"tags": "Getting started",
 //"keywords": "features, capabilities, scalability, multichannel output, dita, hats, comparison, benefits",
-//"url": "../overview/supported_features/",
+//"url": "../overview/supported-features/",
 //"summary": "If you're not sure whether Jekyll and this theme will support your requirements, this list provides a semi-comprehensive overview of available features."
 //},
 //
@@ -162,9 +239,9 @@
 //
 //{
 //"title": "WebStorm Text Editor",
-//"tags": "getting_started",
+//"tags": "Getting started",
 //"keywords": "webstorm, sublime, markdown, atom, gnome, notepad ++, textpad, bbedit",
-//"url": "../authoring/webstorm_text_editor/",
+//"url": "../authoring/webstorm-text-editor/",
 //"summary": "You can use a variety of text editors when working with a Jekyll project. WebStorm from IntelliJ offers a lot of project-specific features, such as find and replace, that make it ideal for working with tech comm projects."
 //},
 //
@@ -174,6 +251,27 @@
 //]
 
 {
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
 
 
 ,
