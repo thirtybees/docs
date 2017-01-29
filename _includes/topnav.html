@@ -92,32 +92,14 @@
 							source: autocomplete.sources.hits(index, {hitsPerPage: 5}),
                             debug: true,
 							//value to be displayed in input control after user's suggestion selection
-							displayKey: 'permalink',
+							displayKey: function(suggestion) {
+								return suggestion.title || suggestion.h1 || suggestion.h2 || suggestion.h3 || suggestion.h4 ||  suggestion.h5 || suggestion.h6 || suggestion.unordered;
+							},
 							//hash of templates used when rendering dataset
 							templates: {
 								//'suggestion' templating function used to render a single suggestion
 								suggestion: function(suggestion) {
-									if (suggestion.h1) {
-										return '<span>' + suggestion.h1 + '</span>';
-									}
-									if (suggestion.h2) {
-										return '<span>' + suggestion.h2 + '</span>';
-									}
-									if (suggestion.h3) {
-										return '<span>' + suggestion.h3 + '</span>';
-									}
-									if (suggestion.h4) {
-										return '<span>' + suggestion.h4 + '</span>';
-									}
-									if (suggestion.h5) {
-										return '<span>' + suggestion.h5 + '</span>';
-									}
-									if (suggestion.h6) {
-										return '<span>' + suggestion.h6 + '</span>';
-									}
-									if (suggestion.title) {
-										return '<span>' + suggestion.title + '</span>';
-									}
+                                    return '<span>' + suggestion.title || suggestion.h1 || suggestion.h2 || suggestion.h3 || suggestion.h4 ||  suggestion.h5 || suggestion.h6 || suggestion.unordered + '</span>';
 								}
 							}
 						}).on('autocomplete:selected', function(event, suggestion, dataset) {
