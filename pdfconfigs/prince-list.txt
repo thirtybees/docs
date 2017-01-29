@@ -1,0 +1,29 @@
+---
+layout: none
+search: exclude
+---
+
+ {% for entry in site.data.thirtybees.thirtybees_sidebar.entries %}
+ {% for entry in entry.subcategories %}
+   {% for folder in entry.items %}
+      {% if folder.output contains "pdf" %}
+             {{site.url}}{{site.baseurl}}{{folder.url}}
+              {% for folderitem in folder.items %}
+                 {{folderitem.url}}
+                 {% if folderitem.output contains "pdf"  %}
+                    {{site.url}}{{site.baseurl}}{{folderitem.url}}
+                          {% for subfolders in folderitem.items %}
+                             {% if subfolders.output contains "pdf" %}
+                                        {% for subfolderitem in subfolders.items %}
+                                           {% if subfolderitem.output contains "pdf" %}
+                                              {{site.url}}{{site.baseurl}}{{subfolderitem.url}}
+                                           {% endif %}
+                                        {% endfor %}
+                             {% endif %}
+                          {% endfor %}
+                {% endif %}
+             {% endfor %}
+      {% endif %}
+  {% endfor %}
+  {% endfor %}
+ {% endfor %}

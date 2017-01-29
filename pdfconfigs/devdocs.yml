@@ -1,0 +1,55 @@
+# project definitions
+project: thirtybees_developers
+audience: developers
+product: doc
+platform: all
+version: all
+destination: out
+topnav_title: thirty bees developer guide
+homepage_title: thirty bees developer guide
+site_title: thirty bees developer guide
+project_folder: thirtybees
+company_name: thirty bees
+github_editme_path: thirtybees/devdocs/blob/master
+disqus_shortname: thirty-bees
+# variables
+
+sidebar_tagline: Developer<br />Guide
+sidebar_version: Version 1.0.0
+theme_file: modern-business.css
+pdf_file_name: thirtybees-devdocs.pdf
+
+exclude:
+  - _site
+  - _drafts
+  - configs/
+  - doc/thirtybees_writers*
+  - vendor
+
+# same for all
+host: 127.0.0.1
+feedback_email: devdocs@thirtybees.com
+
+markdown: redcarpet
+
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "tables", "with_toc_data"]
+
+highlighter: pygments
+
+collections:
+  tooltips:
+    output: false
+
+print_title: thirty bees — developer guide
+print_subtitle: version 1.0.0
+output: pdf
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page_print"
+      comments: true
+      search: true
