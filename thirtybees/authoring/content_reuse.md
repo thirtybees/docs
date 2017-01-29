@@ -4,6 +4,7 @@ tags: [single_sourcing]
 keywords: includes, conref, dita, transclusion, transclude, inclusion, reference
 last_updated: November 30, 2015
 summary: "You can reuse chunks of content by storing these files in the includes folder. You then choose to include the file where you need it. This works similar to conref in DITA, except that you can include the file in any content type."
+permalink: /authoring/content_reuse/
 ---
 
 ## About content reuse

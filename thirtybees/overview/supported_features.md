@@ -6,6 +6,7 @@ keywords: "features, capabilities, scalability, multichannel output, dita, hats,
 last_updated: "November 30, 2015"
 summary: "If you're not sure whether Jekyll and this theme will support your requirements, this list provides a semi-comprehensive overview of available features."
 published: true
+permalink: /overview/supported_features/
 ---
 
 Before you get into exploring Jekyll as a potential platform for help content, you may be wondering if it supports some basic features. The following table shows what is supported in Jekyll and this theme.

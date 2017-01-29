@@ -11,8 +11,6 @@ homepage_title: thirty bees developer guide
 site_title: thirty bees developer guide
 project_folder: thirtybees
 company_name: thirty bees
-header_image_location: ../common_images/thirty-bees-black.png
-footer_image_location: ../common_images/thirtyb-bees-black.png
 github_editme_path: thirtybees/devdocs/blob/master
 disqus_shortname: thirty-bees
 # variables
