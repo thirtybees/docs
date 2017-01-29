@@ -18,4 +18,3 @@ env:
 branches:
   only:
   - master
-  - docreviews
