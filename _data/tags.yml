@@ -1,2 +1,17 @@
 - slug: getting-started
   name: Getting started
+- slug: content-types
+  name: "Content types"
+- slug: navigation
+  name: Navigation
+- slug: formatting
+  name: Formatting
+- slug: publishing
+  name: Publishing
+- slug: single-sourcing
+  name: "Single sourcing"
+- slug: special-layouts
+  name: "Special layouts"
+- slug: collaboration
+  name: Collaboration
+

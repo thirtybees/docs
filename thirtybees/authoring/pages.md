@@ -1,6 +1,10 @@
 ---
 title: Pages
-tags: [getting_started, formatting, content-types]
+tags: 
+  - "Getting started"
+  - Formatting
+  - "Content types"
+ 
 keywords: pages, authoring, exclusion, frontmatter
 last_updated: November 30, 2015
 summary: "This theme uses pages only, not posts. You need to make sure your pages have the appropriate frontmatter. One frontmatter tag your users might find helpful is the summary tag. This functions similar in purpose to the shortdesc element in DITA."

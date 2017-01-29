@@ -28,7 +28,7 @@ entries:
       output: web, pdf
 
     - title: Supported features
-      url: /overview/supported_features
+      url: /overview/supported-features/
       audience: developers
       platform: all
       product: all
@@ -36,7 +36,7 @@ entries:
       output: web, pdf
 
     - title: About the theme author
-      url: /overview/about
+      url: /overview/about/
       audience: developers
       platform: all
       product: all
@@ -44,7 +44,7 @@ entries:
       output: web
 
     - title: Support
-      url: /overview/support
+      url: /overview/support/
       audience: developers
       platform: all
       product: all
@@ -59,7 +59,7 @@ entries:
     output: web, pdf
     items:
     - title: Pages
-      url: /authoring/pages
+      url: /authoring/pages/
       audience: developers
       platform: all
       product: all
@@ -67,7 +67,7 @@ entries:
       output: web, pdf
 
     - title: WebStorm Text Editor
-      url: /authoring/webstorm_text_editor
+      url: /authoring/webstorm-text-editor/
       audience: developers
       platform: all
       product: all
@@ -75,7 +75,7 @@ entries:
       output: web, pdf
 
     - title: Conditional logic
-      url: /authoring/conditional_logic
+      url: /authoring/conditional-logic/
       audience: developers
       platform: all
       product: all
@@ -83,7 +83,7 @@ entries:
       output: web, pdf
 
     - title: Content reuse
-      url: /authoring/content_reuse
+      url: /authoring/content-reuse/
       audience: developers
       platform: all
       product: all
@@ -91,7 +91,7 @@ entries:
       output: web, pdf
 
     - title: Collections
-      url: /authoring/collections
+      url: /authoring/collections/
       audience: developers
       platform: all
       product: all

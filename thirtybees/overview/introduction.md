@@ -1,6 +1,7 @@
 ---
 title: Introduction
-tags: [getting-started]
+tags:
+  - "Getting started"
 audience: developers
 type: first_page
 homepage: true

@@ -1,6 +1,7 @@
 ---
 title:  Collections
-tags: [content-types]
+tags: 
+  - "Content types"
 keywords: groups, api, structure
 last_updated: November 30, 2015
 summary: "Collections are useful if you want to loop through a special folder of pages that you make available in a content API. You could also use collections if you have a set of articles that you want to treat differently from the other content, with a different layout or format."

@@ -1,10 +1,11 @@
 ---
 title: WebStorm Text Editor
 keywords: webstorm, sublime, markdown, atom, gnome, notepad ++, textpad, bbedit
-tags: [getting_started]
+tags: 
+  - "Getting started"
 last_updated: November 30, 2015
 summary: "You can use a variety of text editors when working with a Jekyll project. WebStorm from IntelliJ offers a lot of project-specific features, such as find and replace, that make it ideal for working with tech comm projects."
-permalink: /authoring/webstorm_text_editor/
+permalink: /authoring/webstorm-text-editor/
 ---
 
 ## About text editors and WebStorm
