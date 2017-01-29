@@ -24,11 +24,13 @@ gems:
   - algoliasearch-jekyll
 
 algolia:
-  application_id: 'NZAMRQCZYF'
-  index_name:     'documentation_theme_jekyll_designers'
+  application_id: 'CCGEH5HUSI'
+  index_name:     'thirtybees_developer_docs'
+
 port: 4009
 
 exclude:
+  - out
   - _site
   - _drafts
   - configs/
