@@ -3,16 +3,8 @@
 topnav:
 - title: Topnav
   subcategories:
-    - title: Search
-      url: /thirtybees/search.html
-      audience: developers
-      platform: all
-      product: all
-      version: all
-      output: web
-
     - title: Github Repo
-      external_url: https://github.com/thirtybees/devdocs
+      external_url: https://github.com/thirtybees/ThirtyBees
       audience: developers
       platform: all
       product: all
