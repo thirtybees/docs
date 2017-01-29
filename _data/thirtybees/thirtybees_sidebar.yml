@@ -106,3 +106,17 @@ entries:
     product: all
     version: all
     output: web, pdf
+
+  - title: Contributing on Github
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+
+  - title: Reporting Bugs
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
