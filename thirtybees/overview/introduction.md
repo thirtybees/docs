@@ -2,9 +2,9 @@
 title: Introduction
 tags:
   - "Getting started"
-audience: developers
 type: first_page
 homepage: true
+audience: docs
 permalink: /
 ---
 

@@ -4,8 +4,8 @@ keywords: documentation theme, jekyll, technical writers, help authoring tools, 
 last_updated: November 30, 2015
 tags: 
   - "Getting started"
- 
 summary: "I use this theme for sophisticated single_sourcing projects that I work on as a professional technical writer."
+audience: docs
 permalink: /overview/about/
 ---
 

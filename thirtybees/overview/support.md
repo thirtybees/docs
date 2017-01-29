@@ -2,10 +2,10 @@
 title: Support
 tags:
   - "Getting started"
-
 keywords: questions, troubleshooting, contact, support
 last_updated: November 30, 2015
 summary: "Contact me for any support issues."
+audience: merchants
 permalink: /overview/support/
 ---
 
