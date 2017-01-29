@@ -634,7 +634,7 @@ i.border {
 }
 
 a[data-toggle] {
-	color: #fc0;
+	color: #158cba;
 }
 
 .summary {
@@ -1023,8 +1023,14 @@ a.no_icon:after {
 		float: left;
 	}
 	#algolia-box {
-		width: 30%;
+		width: 20%;
 		float: left;
+	}
+	.algolia-autocomplete {
+		width: 100%;
+	}
+	#algolia-svg {
+		height: 16px;
 	}
 }
 @media screen and (min-width: 768px) {
