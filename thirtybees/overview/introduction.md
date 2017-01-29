@@ -1,7 +1,7 @@
 ---
 title: Introduction
-tags: [getting_started]
-audience: field engineers, clients
+tags: [getting-started]
+audience: developers
 type: first_page
 homepage: true
 permalink: /

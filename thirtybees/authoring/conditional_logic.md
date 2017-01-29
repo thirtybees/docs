@@ -1,10 +1,10 @@
 ---
 title: Conditional logic
-tags: [single_sourcing]
+tags: [single-sourcing]
 keywords: if else logic, conditions, conditional attributes, conditional filtering
 last_updated: November 30, 2015
 summary: "You can implement advanced conditional logic that includes if statements, or statements, unless, and more. This conditional logic facilitates single sourcing scenarios in which you're outputting the same content for different audiences."
-permalink: /authoring/conditional_logic/
+permalink: /authoring/conditional-logic/
 ---
 
 ## About Liquid and conditional statements

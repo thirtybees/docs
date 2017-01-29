@@ -1,7 +1,7 @@
 ---
 title: Supported features
 tags: 
-  - "getting_started"
+  - "Getting started"
 keywords: "features, capabilities, scalability, multichannel output, dita, hats, comparison, benefits"
 last_updated: "November 30, 2015"
 summary: "If you're not sure whether Jekyll and this theme will support your requirements, this list provides a semi-comprehensive overview of available features."

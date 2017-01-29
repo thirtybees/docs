@@ -37,7 +37,7 @@ samplelink: {{page.samplelink}}
     {% include custom/conditions.html %}
     {% for tag in page.tags %}
     {% if projectTags contains tag %}
-    <a href="tag_{{tag}}.html" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+    <a href="/tag/{{tag | replace: ' ', '-' | downcase}}/" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
     {% endif %}
     {% endfor %}
     {% endif %}
