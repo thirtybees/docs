@@ -19,30 +19,19 @@
   
   
    
-      
-             /authoring/pages/
-              
-      
   
-      
-             /authoring/webstorm-text-editor/
-              
-      
+   
   
-      
-             /authoring/conditional-logic/
-              
-      
+   
   
-      
-             /authoring/content-reuse/
-              
-      
+   
   
-      
-             /authoring/collections/
-              
-      
+   
   
+   
+  
+   
+  
+   
   
  
