@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>Navigation pages  | thirty bees developer guide</title>
+<meta name="description" content="You can reuse chunks of content by storing these files in the includes folder. You then choose to include the file where you need it. This works similar to c...">
+<meta name="keywords" content="single_sourcing,  includes, conref, dita, transclusion, transclude, inclusion, reference">
+<title>Content reuse  | thirty bees developer guide</title>
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/css/base-theme.css">
@@ -139,7 +139,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees developer guide feedback";
-var body = "I have some feedback about the Navigation pages page: ";
+var body = "I have some feedback about the Content reuse page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -166,7 +166,7 @@ window.location.href = uri;
                             <!--searchInput: document.getElementById('search-input'),-->
                             <!--resultsContainer: document.getElementById('results-container'),-->
                             <!--dataSource: '../search.json',-->
-                            <!--searchResultTemplate: '<li><a href="{url}" title="Navigation pages">{title}</a></li>',-->
+                            <!--searchResultTemplate: '<li><a href="{url}" title="Content reuse">{title}</a></li>',-->
                         <!--noResultsText: 'No results found.',-->
                                 <!--limit: 10,-->
                                 <!--fuzzy: true,-->
@@ -393,11 +393,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main">Navigation pages</h1>
+   <h1 class="post-title-main">Content reuse</h1>
 </div>
 
 <div class="post-content">
 
+   
+    <div class="summary">You can reuse chunks of content by storing these files in the includes folder. You then choose to include the file where you need it. This works similar to conref in DITA, except that you can include the file in any content type.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -424,108 +426,57 @@ $('#toc').on('click', 'a', function() {
 
 
     
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/tag_navigation.html" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/authoring/content_reuse.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <p>The following pages are tagged with <button type="button" style="cursor: default" class="btn btn-default navbar-btn">navigation</button></p>
-    <table><thead><tr><th>Page</th><th>Excerpt</th></tr></thead>
-    <tbody>
-    
-  
-    
-   
-    
-        
-     
-   
-    
-        
-     
-   
-    
-        
-     
-   
-    
-        
-     
-   
-    
-   
-    
-        
-     
-   
-    
-        
-     
-        
-     
-        
-     
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-        
-     
-   
-    
-        
-     
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-        
-     
-   
-    
-        
-     
-   
-    
-        
-     
-   
-    
-   
-    
-   
-    
-   
-    
-   
-    
-        
-     
-    
-</tbody>
-</table>
+  <h2 id="about-content-reuse">About content reuse</h2>
+
+<p>You can embed content from one file inside another using includes. Put the file containing content you want to reuse (e.g., mypage.html) inside the _includes/thirtybees folder (replacing &quot;thirtybees&quot; with your project&#39;s name), and then use a tag like this:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>{% include thirtybees/mypage.html %}
+</code></pre></div>
+<p>With content in your _includes folder, you don&#39;t add any frontmatter to these pages because they will be included on other pages already containing frontmatter.</p>
+
+<p>Also, when you include a file, all of the file&#39;s contents get included. You can&#39;t specify that you only want a specific part of the file included. However, you can use parameters with includes. See <a href="http://stackoverflow.com/questions/21976330/passing-parameters-to-inclusion-in-liquid-templates">Jekyll&#39;s documentation</a> for more information on that.</p>
+
+<h2 id="re-using-content-across-projects">Re-using content across projects</h2>
+
+<p>When you want to re-use a topic across projects, store the content in the \includes folder (it can be in any project&#39;s subfolder). Any folder that begins with an underscore (<code>_</code>) isn&#39;t included in the site output. </p>
+
+<p>Also be sure to put any images in the common_images folder. None of the assets in the common_images folder should be excluded in the configuration files. This means every project&#39;s output will include the resources from the common_images folder.</p>
+
+<p>However, each project will likely exclude content from the specific folders where the pages are stored. This is why reuse across projects requires you to use the _includes folder and the common_images folder. (Unfortunately you can&#39;t include an image from the _includes folder.)</p>
+
+<h2 id="page-level-variables">Page-level variables</h2>
+
+<p>You can also create custom variables in your frontmatter like this: </p>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span></span><span class="nn">---</span>
+<span class="l l-Scalar l-Scalar-Plain">title</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Page-level variables</span>
+<span class="l l-Scalar l-Scalar-Plain">permalink</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">/page_level_variables/</span>
+<span class="l l-Scalar l-Scalar-Plain">thing1</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Joe</span>
+<span class="l l-Scalar l-Scalar-Plain">thing2</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Dave</span>
+<span class="nn">---</span>
+</code></pre></div>
+<p>You can then access the values in those custom variables using the <code>page</code> namespace, like this:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>thing1: {{page.thing1}}
+thing2: {{page.thing2}}
+</code></pre></div>
+<p>I haven&#39;t found a use case for page-level variables, but it&#39;s nice to know they&#39;re available. </p>
+
+<p>I use includes all the time. Most of the includes in the _includes directory are pulled into the theme layouts. For those includes that change, I put them inside custom and then inside a specific project folder. </p>
+
 
 <div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+    
+    
+    <a href="tag_single_sourcing.html" class="btn btn-default navbar-btn cursorNorm" role="button">single_sourcing</a>
+    
+    
     
 </div>
 
@@ -554,7 +505,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Jan 29, 2017 <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jan 29, 2017 <br />
 <p><img src="/></p>
                 </div>
             </div>

@@ -8,437 +8,69 @@
 
 
 
-
-
-
-
-
-
-
-
  
-
- 
-
-
-
- 
-home:
+/:
   title: "Introduction"
-  url: "../thirtybees/home.html"
-  link: "<a href='../thirtybees/home.html'>Introduction</a>"
+  url: "../"
+  link: "<a href='../'>Introduction</a>"
 
 
  
-thirtybees_supported_features:
+/overview/supported_features:
   title: "Supported features"
-  url: "../thirtybees/thirtybees_supported_features.html"
-  link: "<a href='../thirtybees/thirtybees_supported_features.html'>Supported features</a>"
+  url: "../overview/supported_features"
+  link: "<a href='../overview/supported_features'>Supported features</a>"
 
 
  
-thirtybees_about:
+/overview/about:
   title: "About the theme author"
-  url: "../thirtybees/thirtybees_about.html"
-  link: "<a href='../thirtybees/thirtybees_about.html'>About the theme author</a>"
+  url: "../overview/about"
+  link: "<a href='../overview/about'>About the theme author</a>"
 
 
  
-thirtybees_support:
+/overview/support:
   title: "Support"
-  url: "../thirtybees/thirtybees_support.html"
-  link: "<a href='../thirtybees/thirtybees_support.html'>Support</a>"
+  url: "../overview/support"
+  link: "<a href='../overview/support'>Support</a>"
 
 
 
 
  
-thirtybees_getting_started:
-  title: "1. Build the default project"
-  url: "../thirtybees/thirtybees_getting_started.html"
-  link: "<a href='../thirtybees/thirtybees_getting_started.html'>1. Build the default project</a>"
-
-
- 
-thirtybees_adding_new_projects:
-  title: "2. Add a new project"
-  url: "../thirtybees/thirtybees_adding_new_projects.html"
-  link: "<a href='../thirtybees/thirtybees_adding_new_projects.html'>2. Add a new project</a>"
-
-
- 
-thirtybees_decide_on_attributes:
-  title: "3. Decide on your project's attributes"
-  url: "../thirtybees/thirtybees_decide_on_attributes.html"
-  link: "<a href='../thirtybees/thirtybees_decide_on_attributes.html'>3. Decide on your project's attributes</a>"
-
-
- 
-thirtybees_configuration_settings:
-  title: "4. Set the configuration options"
-  url: "../thirtybees/thirtybees_configuration_settings.html"
-  link: "<a href='../thirtybees/thirtybees_configuration_settings.html'>4. Set the configuration options</a>"
-
-
- 
-thirtybees_conditions_file_customization:
-  title: "5. Customize the conditions file"
-  url: "../thirtybees/thirtybees_conditions_file_customization.html"
-  link: "<a href='../thirtybees/thirtybees_conditions_file_customization.html'>5. Customize the conditions file</a>"
-
-
- 
-thirtybees_configure_sidebar:
-  title: "6. Configure the sidebar"
-  url: "../thirtybees/thirtybees_configure_sidebar.html"
-  link: "<a href='../thirtybees/thirtybees_configure_sidebar.html'>6. Configure the sidebar</a>"
-
-
- 
-thirtybees_top_navigation:
-  title: "7. Configure the top navigation"
-  url: "../thirtybees/thirtybees_top_navigation.html"
-  link: "<a href='../thirtybees/thirtybees_top_navigation.html'>7. Configure the top navigation</a>"
-
-
- 
-thirtybees_url_generator_customization:
-  title: "8. Customize the URL generator"
-  url: "../thirtybees/thirtybees_url_generator_customization.html"
-  link: "<a href='../thirtybees/thirtybees_url_generator_customization.html'>8. Customize the URL generator</a>"
-
-
- 
-thirtybees_princexml_setup:
-  title: "9. Set up Prince XML"
-  url: "../thirtybees/thirtybees_princexml_setup.html"
-  link: "<a href='../thirtybees/thirtybees_princexml_setup.html'>9. Set up Prince XML</a>"
-
-
- 
-thirtybees_build_scripts:
-  title: "10. Configure the build scripts"
-  url: "../thirtybees/thirtybees_build_scripts.html"
-  link: "<a href='../thirtybees/thirtybees_build_scripts.html'>10. Configure the build scripts</a>"
-
-
-
-
- 
-thirtybees_pages:
+/authoring/pages:
   title: "Pages"
-  url: "../thirtybees/thirtybees_pages.html"
-  link: "<a href='../thirtybees/thirtybees_pages.html'>Pages</a>"
+  url: "../authoring/pages"
+  link: "<a href='../authoring/pages'>Pages</a>"
 
 
  
-thirtybees_webstorm_text_editor:
+/authoring/webstorm_text_editor:
   title: "WebStorm Text Editor"
-  url: "../thirtybees/thirtybees_webstorm_text_editor.html"
-  link: "<a href='../thirtybees/thirtybees_webstorm_text_editor.html'>WebStorm Text Editor</a>"
+  url: "../authoring/webstorm_text_editor"
+  link: "<a href='../authoring/webstorm_text_editor'>WebStorm Text Editor</a>"
 
 
  
-thirtybees_conditional_logic:
+/authoring/conditional_logic:
   title: "Conditional logic"
-  url: "../thirtybees/thirtybees_conditional_logic.html"
-  link: "<a href='../thirtybees/thirtybees_conditional_logic.html'>Conditional logic</a>"
+  url: "../authoring/conditional_logic"
+  link: "<a href='../authoring/conditional_logic'>Conditional logic</a>"
 
 
  
-thirtybees_content_reuse:
+/authoring/content_reuse:
   title: "Content reuse"
-  url: "../thirtybees/thirtybees_content_reuse.html"
-  link: "<a href='../thirtybees/thirtybees_content_reuse.html'>Content reuse</a>"
+  url: "../authoring/content_reuse"
+  link: "<a href='../authoring/content_reuse'>Content reuse</a>"
 
 
  
-thirtybees_collections:
+/authoring/collections:
   title: "Collections"
-  url: "../thirtybees/thirtybees_collections.html"
-  link: "<a href='../thirtybees/thirtybees_collections.html'>Collections</a>"
-
-
-
-
- 
-thirtybees_sidebar_navigation:
-  title: "Sidebar navigation"
-  url: "../thirtybees/thirtybees_sidebar_navigation.html"
-  link: "<a href='../thirtybees/thirtybees_sidebar_navigation.html'>Sidebar navigation</a>"
-
-
- 
-thirtybees_tags:
-  title: "Tags"
-  url: "../thirtybees/thirtybees_tags.html"
-  link: "<a href='../thirtybees/thirtybees_tags.html'>Tags</a>"
-
-
- 
-thirtybees_series:
-  title: "Series"
-  url: "../thirtybees/thirtybees_series.html"
-  link: "<a href='../thirtybees/thirtybees_series.html'>Series</a>"
-
-
-
-
- 
-thirtybees_adding_tooltips:
-  title: "Tooltips"
-  url: "../thirtybees/thirtybees_adding_tooltips.html"
-  link: "<a href='../thirtybees/thirtybees_adding_tooltips.html'>Tooltips</a>"
-
-
- 
-thirtybees_alerts:
-  title: "Alerts"
-  url: "../thirtybees/thirtybees_alerts.html"
-  link: "<a href='../thirtybees/thirtybees_alerts.html'>Alerts</a>"
-
-
- 
-thirtybees_icons:
-  title: "Icons"
-  url: "../thirtybees/thirtybees_icons.html"
-  link: "<a href='../thirtybees/thirtybees_icons.html'>Icons</a>"
-
-
- 
-thirtybees_images:
-  title: "Images"
-  url: "../thirtybees/thirtybees_images.html"
-  link: "<a href='../thirtybees/thirtybees_images.html'>Images</a>"
-
-
- 
-thirtybees_labels:
-  title: "Labels"
-  url: "../thirtybees/thirtybees_labels.html"
-  link: "<a href='../thirtybees/thirtybees_labels.html'>Labels</a>"
-
-
- 
-thirtybees_hyperlinks:
-  title: "Links"
-  url: "../thirtybees/thirtybees_hyperlinks.html"
-  link: "<a href='../thirtybees/thirtybees_hyperlinks.html'>Links</a>"
-
-
- 
-thirtybees_navtabs:
-  title: "Navtabs"
-  url: "../thirtybees/thirtybees_navtabs.html"
-  link: "<a href='../thirtybees/thirtybees_navtabs.html'>Navtabs</a>"
-
-
- 
-thirtybees_video_embeds:
-  title: "Video embeds"
-  url: "../thirtybees/thirtybees_video_embeds.html"
-  link: "<a href='../thirtybees/thirtybees_video_embeds.html'>Video embeds</a>"
-
-
- 
-thirtybees_tables:
-  title: "Tables"
-  url: "../thirtybees/thirtybees_tables.html"
-  link: "<a href='../thirtybees/thirtybees_tables.html'>Tables</a>"
-
-
- 
-thirtybees_syntax_highlighting:
-  title: "Syntax highlighting"
-  url: "../thirtybees/thirtybees_syntax_highlighting.html"
-  link: "<a href='../thirtybees/thirtybees_syntax_highlighting.html'>Syntax highlighting</a>"
-
-
-
-
- 
-thirtybees_commenting_on_files:
-  title: "Commenting on files"
-  url: "../thirtybees/thirtybees_commenting_on_files.html"
-  link: "<a href='../thirtybees/thirtybees_commenting_on_files.html'>Commenting on files</a>"
-
-
-
-
- 
-thirtybees_build_arguments:
-  title: "Build arguments"
-  url: "../thirtybees/thirtybees_build_arguments.html"
-  link: "<a href='../thirtybees/thirtybees_build_arguments.html'>Build arguments</a>"
-
-
- 
-thirtybees_themes:
-  title: "Themes"
-  url: "../thirtybees/thirtybees_themes.html"
-  link: "<a href='../thirtybees/thirtybees_themes.html'>Themes</a>"
-
-
- 
-thirtybees_link_validation:
-  title: "Link validation"
-  url: "../thirtybees/thirtybees_link_validation.html"
-  link: "<a href='../thirtybees/thirtybees_link_validation.html'>Link validation</a>"
-
-
- 
-thirtybees_title_checker:
-  title: "Check page title consistency"
-  url: "../thirtybees/thirtybees_title_checker.html"
-  link: "<a href='../thirtybees/thirtybees_title_checker.html'>Check page title consistency</a>"
-
-
- 
-thirtybees_generating_pdfs:
-  title: "Generating PDFs"
-  url: "../thirtybees/thirtybees_generating_pdfs.html"
-  link: "<a href='../thirtybees/thirtybees_generating_pdfs.html'>Generating PDFs</a>"
-
-
- 
-thirtybees_excluding_files:
-  title: "Excluding files"
-  url: "../thirtybees/thirtybees_excluding_files.html"
-  link: "<a href='../thirtybees/thirtybees_excluding_files.html'>Excluding files</a>"
-
-
- 
-thirtybees_help_api:
-  title: "Help APIs and UI tooltips"
-  url: "../thirtybees/thirtybees_help_api.html"
-  link: "<a href='../thirtybees/thirtybees_help_api.html'>Help APIs and UI tooltips</a>"
-
-
- 
-thirtybees_search_configuration:
-  title: "Search configuration"
-  url: "../thirtybees/thirtybees_search_configuration.html"
-  link: "<a href='../thirtybees/thirtybees_search_configuration.html'>Search configuration</a>"
-
-
- 
-thirtybees_iterm_profiles:
-  title: "iTerm profiles"
-  url: "../thirtybees/thirtybees_iterm_profiles.html"
-  link: "<a href='../thirtybees/thirtybees_iterm_profiles.html'>iTerm profiles</a>"
-
-
- 
-thirtybees_push_build_to_server:
-  title: "Pushing builds to server"
-  url: "../thirtybees/thirtybees_push_build_to_server.html"
-  link: "<a href='../thirtybees/thirtybees_push_build_to_server.html'>Pushing builds to server</a>"
-
-
- 
-thirtybees_no_password_prompts_scp:
-  title: "Getting around the password prompts in SCP"
-  url: "../thirtybees/thirtybees_no_password_prompts_scp.html"
-  link: "<a href='../thirtybees/thirtybees_no_password_prompts_scp.html'>Getting around the password prompts in SCP</a>"
-
-
-
-
- 
-thirtybees_kb_layout:
-  title: "Knowledge-base layout"
-  url: "../thirtybees/thirtybees_kb_layout.html"
-  link: "<a href='../thirtybees/thirtybees_kb_layout.html'>Knowledge-base layout</a>"
-
-
- 
-thirtybees_scroll:
-  title: "Scroll layout"
-  url: "../thirtybees/thirtybees_scroll.html"
-  link: "<a href='../thirtybees/thirtybees_scroll.html'>Scroll layout</a>"
-
-
- 
-thirtybees_shuffle:
-  title: "Shuffle layout"
-  url: "../thirtybees/thirtybees_shuffle.html"
-  link: "<a href='../thirtybees/thirtybees_shuffle.html'>Shuffle layout</a>"
-
-
- 
-thirtybees_faq:
-  title: "FAQ layout"
-  url: "../thirtybees/thirtybees_faq.html"
-  link: "<a href='../thirtybees/thirtybees_faq.html'>FAQ layout</a>"
-
-
- 
-thirtybees_glossary:
-  title: "Glossary layout"
-  url: "../thirtybees/thirtybees_glossary.html"
-  link: "<a href='../thirtybees/thirtybees_glossary.html'>Glossary layout</a>"
-
-
-
-
- 
-thirtybees_troubleshooting:
-  title: "Troubleshooting"
-  url: "../thirtybees/thirtybees_troubleshooting.html"
-  link: "<a href='../thirtybees/thirtybees_troubleshooting.html'>Troubleshooting</a>"
-
-
-
-
- 
-thirtybees_tag_archives_overview:
-  title: "Tag archives overview"
-  url: "../thirtybees/thirtybees_tag_archives_overview.html"
-  link: "<a href='../thirtybees/thirtybees_tag_archives_overview.html'>Tag archives overview</a>"
-
-
- 
-tag_getting_started:
-  title: "Getting started pages"
-  url: "../thirtybees/tag_getting_started.html"
-  link: "<a href='../thirtybees/tag_getting_started.html'>Getting started pages</a>"
-
- 
-tag_formatting:
-  title: "Formatting pages"
-  url: "../thirtybees/tag_formatting.html"
-  link: "<a href='../thirtybees/tag_formatting.html'>Formatting pages</a>"
-
- 
-tag_navigation:
-  title: "Navigation pages"
-  url: "../thirtybees/tag_navigation.html"
-  link: "<a href='../thirtybees/tag_navigation.html'>Navigation pages</a>"
-
- 
-tag_content_types:
-  title: "Content types pages"
-  url: "../thirtybees/tag_content_types.html"
-  link: "<a href='../thirtybees/tag_content_types.html'>Content types pages</a>"
-
- 
-tag_publishing:
-  title: "Publishing pages"
-  url: "../thirtybees/tag_publishing.html"
-  link: "<a href='../thirtybees/tag_publishing.html'>Publishing pages</a>"
-
- 
-tag_special_layouts:
-  title: "Special layout pages"
-  url: "../thirtybees/tag_special_layouts.html"
-  link: "<a href='../thirtybees/tag_special_layouts.html'>Special layout pages</a>"
-
- 
-tag_collaboration:
-  title: "Collaboration pages"
-  url: "../thirtybees/tag_collaboration.html"
-  link: "<a href='../thirtybees/tag_collaboration.html'>Collaboration pages</a>"
-
+  url: "../authoring/collections"
+  link: "<a href='../authoring/collections'>Collections</a>"
 
 
 
