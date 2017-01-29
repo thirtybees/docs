@@ -6,5 +6,5 @@ gem 'redcarpet', '~> 3.4.0'
 gem 'pygments.rb', '~> 1.1.1'
 
 group :jekyll_plugins do
-  gem 'algoliasearch-jekyll', '~> 0.5.3'
+  gem 'algoliasearch-jekyll', '~> 0.7.0'
 end
