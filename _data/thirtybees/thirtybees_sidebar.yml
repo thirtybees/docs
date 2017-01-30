@@ -65,6 +65,13 @@ entries:
     version: all
     output: web, pdf
 
+  - title: Merchants Guide
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    
   - title: Developers Guide
     audience: developers
     platform: all
@@ -93,13 +100,6 @@ entries:
     version: all
     output: web, pdf
 
-  - title: Merchants Guide
-    audience: developers
-    platform: all
-    product: all
-    version: all
-    output: web, pdf
-
   - title: SEO Guide
     audience: developers
     platform: all
@@ -107,12 +107,34 @@ entries:
     version: all
     output: web, pdf
 
-  - title: Contributing on Github
+  - title: Contribute
     audience: developers
     platform: all
     product: all
     version: all
-    output: web, pdf
+    output: web,
+    items:
+          - title: Code
+            url: /contribute/code/
+            audience: developers
+            platform: all
+            product: all
+            version: all
+            output: web, pdf
+          - title: Forums
+            url: /contribute/forums/
+            audience: developers
+            platform: all
+            product: all
+            version: all
+            output: web, pdf
+          - title: Feature Requests
+            url: /contribute/feature-requests/
+            audience: developers
+            platform: all
+            product: all
+            version: all
+            output: web, pdf
 
   - title: Reporting Bugs
     audience: developers

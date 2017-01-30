@@ -6,9 +6,9 @@ platform: all
 version: all
 output: web
 destination: out
-topnav_title: thirty bees developer guide
-homepage_title: thirty bees developer guide
-site_title: thirty bees developer guide
+topnav_title: thirty bees documents
+homepage_title: thirty bees documents
+site_title: thirty bees documents
 project_folder: thirtybees
 company_name: thirty bees
 github_editme_path: thirtybees/devdocs/blob/master
@@ -16,7 +16,7 @@ disqus_shortname: thirty-bees
 # variables
 
 sidebar_tagline: Developer<br />Guide
-sidebar_version: Version 1.0.0
+sidebar_version: Version 1.0.X
 theme_file: modern-business.css
 pdf_file_name: thirtybees-devdocs.pdf
 
