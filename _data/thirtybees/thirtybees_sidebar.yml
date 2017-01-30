@@ -79,7 +79,6 @@ entries:
        product: all
        version: all
        output: web
-    
   - title: Developers Guide
     audience: developers
     platform: all
