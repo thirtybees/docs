@@ -78,7 +78,14 @@ entries:
        platform: all
        product: all
        version: all
-       output: web
+       output: web, pdf
+    - title: Online Resources
+      url: /merchants-guide/online-resources/
+      audiance: merchants
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
   - title: Developers Guide
     audience: developers
     platform: all
