@@ -8,4 +8,4 @@ permalink: /merchants-guide/
 # Thrity Bees Online Resources
 Explore our resources available to you as a member of the **Thirty Bees Online Community**. We are organized by hundreds of volunteers around the world!
 
-<figure><span class="glyphicon glyphicons-book-open"></span><figcaption>Developer Source Code</figcaption></figure>
+<figure><span class="glyphicon glyphicon-book-open"></span><figcaption>Developer Source Code</figcaption></figure>
