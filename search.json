@@ -129,6 +129,17 @@
 //
 //
 //{
+//"title": "Merchant Resources",
+//"tags": "Resources",
+//"keywords": "",
+//"url": "../merchants-guide/resources/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Pages",
 //"tags": "Getting startedFormattingContent types",
 //"keywords": "pages, authoring, exclusion, frontmatter",
@@ -262,6 +273,9 @@
 //]
 
 {
+
+
+,
 
 
 ,
