@@ -79,13 +79,13 @@ entries:
        product: all
        version: all
        output: web, pdf
-    - title: Online Resources
-      url: /merchants-guide/online-resources/
-      audiance: merchants
-      platform: all
-      product: all
-      version: all
-      output: web, pdf
+     - title: Online Resources
+       url: /merchants-guide/online-resources/
+       audiance: merchants
+       platform: all
+       product: all
+       version: all
+       output: web, pdf
 
   - title: Developers Guide
     audience: developers
@@ -127,7 +127,7 @@ entries:
     platform: all
     product: all
     version: all
-    output: web,
+    output: web, pdf
     items:
           - title: Code
             url: /contribute/code/
