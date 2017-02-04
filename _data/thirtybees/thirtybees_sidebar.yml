@@ -80,7 +80,7 @@ entries:
        version: all
        output: web, pdf
      - title: Online Resources
-       url: /merchants-guide/online-resources/
+       url: /merchants-guide/
        audiance: merchants
        platform: all
        product: all
