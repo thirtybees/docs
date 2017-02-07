@@ -36,7 +36,8 @@
 	$(document).ready(function() {
 		if (typeof window.top !== 'undefined') {
 			window.top.postMessage({
-				inlineHelpHeight: document.body.scrollHeight
+				inlineHelpHeight: document.body.scrollHeight,
+				'*'
 			});
 		}
 	});
