@@ -32,7 +32,13 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-
+<script type="text/javascript">
+	$(document).ready(function() {
+		if (typeof window.top !== 'undefined') {
+			window.top.postMessage('inlinehelp', document.body.scrollHeight);
+		}
+	});
+</script>
 
 
 
