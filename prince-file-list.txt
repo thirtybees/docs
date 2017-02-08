@@ -12,18 +12,9 @@
               
                       
                          
-                            /
+                            
                                   
                         
-                     
-                         
-                            /overview/supported-features/
-                                  
-                        
-                     
-                         
-                     
-                         
                      
               
           
@@ -71,6 +62,15 @@
                      
                          
                             /contribute/feature-requests/
+                                  
+                        
+                     
+              
+          
+              
+                      
+                         
+                            /release_notes/v1_0_0_beta2_release_notes
                                   
                         
                      
