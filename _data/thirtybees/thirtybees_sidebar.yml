@@ -141,7 +141,7 @@ entries:
     output: web, pdf
     items:
       - title: Version 1.0.x
-        url: /release_notes/v1_0_0_beta2_release_notes
+        url: /release_notes/v1-0-x-release-notes
         audience: developers
         platform: all
         product: all

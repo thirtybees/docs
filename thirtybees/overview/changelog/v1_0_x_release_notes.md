@@ -8,7 +8,7 @@ tags:
   - "v1.0.0"
 summary: "The release notes for the second beta of thirty bees"
 audience: developers
-permalink: /release_notes/v1_0_0_beta2_release_notes
+permalink: /release_notes/v1-0-x-release-notes
 ---
 
 ## Version 1.0.0 beta.2
