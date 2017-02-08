@@ -29,17 +29,17 @@ Native modules added:
 - Bees blog  
 - Auth.net (revamped)  
 
-Updated features:
+Updated features:  
 - Ability to keep combined JS and CSS files on the server (SEO - *Advanced Parameters > Performance*).  
 - Gravatar for back office avatar  
 - Automatic currency formatting (now depends on currency and local)  
 
-Developer features:
+Developer features:  
 - A new testing framework to improve code quality (see the folder `/tests` on the GitHub repo)  
 - New coding style to make collaboration easier and cleaner code base  
 - Use Guzzle for HTTP requests  
 - Create database tables automatically with the renewed `ObjectModel`  
 
-Improvements:
+Improvements:  
 - More than 1000 (small and large) bug fixes  
 - Overall performance improved  
