@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="If you're not sure whether Jekyll and this theme will support your requirements, this list provides a semi-comprehensive overview of available features.">
-<meta name="keywords" content="Getting started,  features, capabilities, scalability, multichannel output, dita, hats, comparison, benefits">
-<title>Supported features  | thirty bees documents</title>
+<meta name="description" content="The release notes for the second beta of thirty bees">
+<meta name="keywords" content="Release notesBetav1.0.0,  release, beta">
+<title>v1.0.x release notes  | thirty bees documents</title>
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/css/base-theme.css">
@@ -80,7 +80,7 @@
             </button>
 
             <a class="navbar-brand" href="">
-                <img src="/common_images/thirty-bees-dark.png" alt="thirty bees documents" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/designers</span>
+                <img src="/common_images/thirty-bees-dark.png" alt="thirty bees documents" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/developers</span>
             </a>
 
         </div>
@@ -118,7 +118,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees documents feedback";
-var body = "I have some feedback about the Supported features page: ";
+var body = "I have some feedback about the v1.0.x release notes page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -358,7 +358,7 @@ window.location.href = uri;
                     
                     
                     
-                    <li><a href="/release_notes/v1-0-x-release-notes">Version 1.0.x</a></li>
+                    <li class="active"><a href="/release_notes/v1-0-x-release-notes">Version 1.0.x</a></li>
                     
 
                     
@@ -432,13 +432,13 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main">Supported features</h1>
+   <h1 class="post-title-main">v1.0.x release notes</h1>
 </div>
 
 <div class="post-content">
 
    
-    <div class="summary">If you're not sure whether Jekyll and this theme will support your requirements, this list provides a semi-comprehensive overview of available features.</div>
+    <div class="summary">The release notes for the second beta of thirty bees</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -465,129 +465,42 @@ $('#toc').on('click', 'a', function() {
 
 
     
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/overview/supported_features.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/overview/changelog/v1_0_x_release_notes.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <p>Before you get into exploring Jekyll as a potential platform for help content, you may be wondering if it supports some basic features. The following table shows what is supported in Jekyll and this theme.</p>
+  <h2 id="version-1-0-0-beta-2">Version 1.0.0 beta.2</h2>
 
-<table><thead>
-<tr>
-<th>Features</th>
-<th>Supported</th>
-<th>Notes</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>Content re-use</td>
-<td>Yes</td>
-<td>Supports re-use through Liquid. You can re-use variables, snippets of code, entire pages, and more. In DITA speak, this includes conref and keyref.</td>
-</tr>
-<tr>
-<td>Markdown</td>
-<td>Yes</td>
-<td>You can author content using Markdown syntax. This is a wiki-like syntax for HTML that you can probably pick up in 10 minutes. Where Markdown falls short, you can use HTML. Where HTML falls short, you use Liquid, which is a scripting that allows you to incorporate more advanced logic.</td>
-</tr>
-<tr>
-<td>Responsive design</td>
-<td>Yes</td>
-<td>Uses Bootstrap framework.</td>
-</tr>
-<tr>
-<td>Translation</td>
-<td>Yes</td>
-<td>I haven&#39;t done a translation project yet (just a pilot test). Here&#39;s the basic approach: Export the pages and send them to a translation agency. Then create a new project for that language and insert the translated pages. Everything will be translated.</td>
-</tr>
-<tr>
-<td>PDF</td>
-<td>Yes</td>
-<td>You can generate PDFs from your Jekyll site. This theme uses Prince XML (costs $495) to do the PDF conversion task. You basically set up a page that uses Liquid logic to get all the pages you want, and then you use PrinceXML (not part of Jekyll) to convert that page into a PDF.</td>
-</tr>
-<tr>
-<td>Collaboration</td>
-<td>Yes</td>
-<td>You collaborate with Jekyll projects the same way that developers collaborate with software projects. (You don&#39;t need a CMS.) Because you&#39;re working with text file formats, you can use any version control software (Git, Mercurial, Perforce, Bitbucket, etc.) as a CMS for your files.</td>
-</tr>
-<tr>
-<td>Scalability</td>
-<td>Yes</td>
-<td>Your site can scale to any size. It&#39;s up to you to determine how you will design the information architecture for your thousands of pages. You can choose what you display at first, second, third, fourth, and more levels, etc. Note that when your project has thousands of pages, the build time will be longer (maybe 1 minute per thousand pages?). It really depends on how many for loops you have iterating through the pages.</td>
-</tr>
-<tr>
-<td>Lightweight architecture</td>
-<td>Yes</td>
-<td>You don&#39;t need a LAMP stack (Linux, Apache, MySQL, PHP) architecture to get your site running. All of the building is done on your own machine, and you then push the static HTML files onto a server.</td>
-</tr>
-<tr>
-<td>Multichannel output</td>
-<td>Yes</td>
-<td>This term can mean a number of things, but let&#39;s say you have 10 different sites you want to generate from the same source. Maybe you have 7 different versions of your product, and 3 different locations. You can assemble your Jekyll site with various configurations, variants, and more. Jekyll actually does all of this quite well. Just specify a different config file for each unique build.</td>
-</tr>
-<tr>
-<td>Skinnability</td>
-<td>Yes</td>
-<td>You can skin your Jekyll site to look identical to pretty much any other site online. If you have a UX team, they can really skin and design the site using all the tools familiar to the modern designer -- JavaScript, HTML5, CSS, jQuery, and more. Jekyll is built on the modern web development stack rather than the XML stack (XSLT, XPath, XQuery).</td>
-</tr>
-<tr>
-<td>Support</td>
-<td>Yes</td>
-<td>The community for your Jekyll site isn&#39;t so much other tech writers (as is the case with DITA) but rather the wider web development community. <a href="http://talk.jekyllrb.com">Jekyll Talk</a> is a great resource. So is Stack Overflow.</td>
-</tr>
-<tr>
-<td>Blogging features</td>
-<td>No</td>
-<td>This theme just uses pages, not posts. I may integrate in post features in the future, but the theme really wasn&#39;t designed with posts in mind. If you want a post version of the site, you can clone my <a href="https://github.com/tomjohnson1492/tomjohnson1492.github.io">blog theme</a>, which is highly similar in that it&#39;s based on Bootstrap, but it uses posts to drive most of the features. I wanted to keep the project files simple.</td>
-</tr>
-<tr>
-<td>CMS interface</td>
-<td>No</td>
-<td>Unlike with WordPress, you don&#39;t log into an interface and navigate to your files. You work with text files and preview the site dynamically in your browser. Don&#39;t worry -- this is part of the simplicy that makes Jekyll awesome. I recommend using WebStorm as your text editor.</td>
-</tr>
-<tr>
-<td>WYSIWYG interface</td>
-<td>No, but ...</td>
-<td>As noted in the previous point, I use WebStorm to author content, because I like working in text file formats. But you can use any Markdown editor you want (e.g., Lightpaper for Mac, Marked) to author your content.</td>
-</tr>
-<tr>
-<td>Versioning</td>
-<td>Yes, but...</td>
-<td>Jekyll doesn&#39;t version your files. You upload your files to a version control system such as Git. Your files are versioned there.</td>
-</tr>
-<tr>
-<td>PC platform</td>
-<td>Yes, but ...</td>
-<td>Jekyll isn&#39;t officially supported on Windows, and since I&#39;m on a Mac, I haven&#39;t tried using Jekyll on Windows. See this <a href="http://jekyllrb.com/docs/windows/">page in Jekyllrb help</a> for details about installing and running Jekyll on a Windows machine. A couple of Windows users who have contacted me have been unsuccessful in installing Jekyll on Windows, so beware. In the configuration files, use <code>rouge</code> instead of <code>pygments</code> (which is Python-based) to avoid conflicts.</td>
-</tr>
-<tr>
-<td>jQuery plugins</td>
-<td>Yes</td>
-<td>You can use any jQuery plugins you and other JavaScript, CMS, or templating tools. However, note that if you use Ruby plugins, you can&#39;t directly host the source files on Github Pages because Github Pages doesn&#39;t allow Ruby plugins. Instead, you can just push your output to any web server. If you&#39;re not planning to use Github Pages, there are no restrictions on any plugins of any sort. Jekyll makes it super easy to integrate every kind of plugin imaginable. This theme doesn&#39;t actually use any plugins, so you can publish on Github if you want.</td>
-</tr>
-<tr>
-<td>Bootstrap integration</td>
-<td>Yes</td>
-<td>This theme is built on <a href="http://getbootstrap.com/">Bootstrap</a>. If you don&#39;t know what Bootstrap is, basically this means there are hundreds of pre-built components, styles, and other elements that you can simply drop into your site. For example, the responsive quality of the site comes about from the Bootstrap code base.</td>
-</tr>
-<tr>
-<td>Fast-loading pages</td>
-<td>Yes</td>
-<td>This is one of the Jekyll&#39;s strengths. Because the files are static, they loading extremely fast, approximately 0.5 seconds per page. You can&#39;t beat this for performance. (A typically database-driven site like WordPress averages about 2.5 + seconds loading time per page.) Because the pages are all static, it means they are also extremely secure. You won&#39;t get hacked like you might with a WordPress site.</td>
-</tr>
-<tr>
-<td>Relative links</td>
-<td>Yes</td>
-<td>This theme is built entirely with relative links, which means you can easily move the files from one folder to the next and it will still display. You don&#39;t need to view the site on a web server either -- you can view it locally just clicking the files. This relative link structure facilitates scenarios where you need to archive versions of content or move the files from one directory (a test directory) to another (such as a production directory).</td>
-</tr>
-<tr>
-<td>Themes</td>
-<td>Yes</td>
-<td>You can have different themes for different outputs. If you know CSS, theming both the web and print outputs is pretty easy.</td>
-</tr>
-<tr>
-<td>Open source</td>
-<td>Yes</td>
-<td>This theme is entirely open source. Every piece of code is open, viewable, and editable. Note that this openness comes at a price &mdash; it&#39;s easy to make changes that break the theme or otherwise cause errors.</td>
-</tr>
-</tbody></table>
+<p>These are the highlights for the second beta version.</p>
+
+<p>New features:<br>
+  - Full page cache (check the page <em>Advanced Parameters &gt; Performance</em>)<br>
+  - Clean URLs in the core (check the page <em>Preferences &gt; SEO &amp; URLs</em>)<br>
+  - Canonical URLs<br>
+  - Add CSS and JS from the back office! (<em>Preferences &gt; Custom Code</em>)<br>
+  - .htaccess and robots.txt editor<br>
+  - Enhanced favicon / device icon support  </p>
+
+<p>Native modules added:<br>
+- Stripe<br>
+- PayPal<br>
+- MailChimp<br>
+- Bees blog<br>
+- Auth.net (revamped)  </p>
+
+<p>Updated features:
+- Ability to keep combined JS and CSS files on the server (SEO - <em>Advanced Parameters &gt; Performance</em>).<br>
+- Gravatar for back office avatar<br>
+- Automatic currency formatting (now depends on currency and local)  </p>
+
+<p>Developer features:
+- A new testing framework to improve code quality (see the folder <code>/tests</code> on the GitHub repo)<br>
+- New coding style to make collaboration easier and cleaner code base<br>
+- Use Guzzle for HTTP requests<br>
+- Create database tables automatically with the renewed <code>ObjectModel</code>  </p>
+
+<p>Improvements:
+- More than 1000 (small and large) bug fixes<br>
+- Overall performance improved  </p>
 
 
 <div class="tags">
@@ -599,7 +512,9 @@ $('#toc').on('click', 'a', function() {
 
     
     
-    <a href="/tag/getting-started/" class="btn btn-default navbar-btn cursorNorm" role="button">Getting started</a>
+    
+    
+    
     
     
     
@@ -630,7 +545,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
-<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Feb 8, 2017 <br />
+<p>Page last updated:</span> February 8th, 2017<br/> Site last generated: Feb 8, 2017 <br />
 <p><img src="/></p>
                 </div>
             </div>
