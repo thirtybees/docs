@@ -11,6 +11,17 @@ audience: developers
 permalink: /release_notes/v1-0-x-release-notes
 ---
 
+## Version 1.0.0 beta.3
+These are the highlights for the third beta. The main focus of this release was to fix bugs.
+
+Fixes:  
+  - Fix installing currency rate modules  
+  - Update branding  
+  - Update taxes  
+  - Fix language rewrites  
+  
+The bees blog module no longer comes packed with this release
+
 ## Version 1.0.0 beta.2
 These are the highlights for the second beta version.
 
