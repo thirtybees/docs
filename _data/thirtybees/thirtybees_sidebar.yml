@@ -68,6 +68,13 @@ entries:
        product: all
        version: all
        output: web, pdf
+     - title: Admin Back-Office
+       url: /merchants-guide/
+       audiance: merchants
+       platform: all
+       product: all
+       verion: all
+       output: web, pdf
 
   - title: Developers Guide
     audience: developers
