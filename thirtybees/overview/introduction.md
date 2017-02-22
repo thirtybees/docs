@@ -10,15 +10,15 @@ permalink: /
 
 ## Overview 
 
-Welcome to the thirtybees documentation, training, and tips website.  Here you will learn all the different aspects of the software, from installing to the different areas of administration, development, hosting, and more.  There are various tips and tricks included within the sections as well as some “basic primers” and “best practices” in fields such as SEO so you are geared to succeed!
+Welcome to the thirty bees documentation, training, and tips website.  Here you will learn all the different aspects of the software, from installing to the different areas of administration, development, hosting, and more.  There are various tips and tricks included within the sections as well as some “basic primers” and “best practices” in fields such as SEO so you are geared to succeed!
 
 We will endeavor to provide you with as much documentation as possible for every aspect of the software, so you are tooled with all the information you need regardless of your endeavor.  However, as this is all open-source, we rely heavily on the contribution of our user base.  Please feel free to contribute where you can, the community appreciates it more than you will ever truly know!
 
-## thirtybees?
+## thirty bees?
 
 thirty bees is a company founded around one basic principle, listen to its users! We believe with enough community input we can shape our e-commerce platform into the most stable feature-rich Open Source platform in the world.  We always welcome all community input and will apply changes as quickly as we can.
 
-## thirtybees Features
+## thirty bees Features
 
 Listed are just some of the more prominent features of this software:
 
@@ -39,7 +39,7 @@ For more about the available features, see {{site.data.thirtybees.thirtybees_url
 
 ## Navigating This Guide
 
-This website was setup to flow in the order of the menu.  First follow thru on all the directions of setting up the proper environment for installing thirtybees.  Next read the Merchants Guide to familiarize yourself with the management of you site.  Lastly, read any SEO and likewise guides to learn the best practices when adding to your shop.  There are also guides for Developers, Designers, Modules Makers, and System Administrators.
+This website was setup to flow in the order of the menu.  First follow thru on all the directions of setting up the proper environment for installing thirty bees.  Next read the Merchants Guide to familiarize yourself with the management of you site.  Lastly, read any SEO and likewise guides to learn the best practices when adding to your shop.  There are also guides for Developers, Designers, Modules Makers, and System Administrators.
 
 ## Download Complete Full Guide (PDF)
 
