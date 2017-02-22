@@ -4,9 +4,9 @@
  <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Collections are useful if you want to loop through a special folder of pages that you make available in a content API. You could also use collections if you ...">
-<meta name="keywords" content="Content types,  groups, api, structure">
-<title>Collections  | thirty bees documents</title>
+<meta name="description" content="">
+<meta name="keywords" content="InstallationGetting Started,  ">
+<title>Getting Started  | thirty bees documents</title>
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/css/base-theme.css">
@@ -118,7 +118,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees documents feedback";
-var body = "I have some feedback about the Collections page: ";
+var body = "I have some feedback about the Getting Started page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -441,13 +441,11 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main">Collections</h1>
+   <h1 class="post-title-main">Getting Started</h1>
 </div>
 
 <div class="post-content">
 
-   
-    <div class="summary">Collections are useful if you want to loop through a special folder of pages that you make available in a content API. You could also use collections if you have a set of articles that you want to treat differently from the other content, with a different layout or format.</div>
    
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
@@ -474,31 +472,122 @@ $('#toc').on('click', 'a', function() {
 
 
     
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/authoring/collections.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/Installation/getting_started.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <h2 id="what-are-collections">What are collections</h2>
+  <h2 id="getting-started">Getting Started</h2>
 
-<p>Collections are custom content types different from pages and posts. You might create a collection if you want to treat a specific set of articles in a unique way, such as with a custom layout or listing. For more detail on collections, see <a href="http://ben.balter.com/2015/02/20/jekyll-collections/">Ben Balter&#39;s explanation of collections here</a>.</p>
+<p>So, you&#39;ve gotten a quick glace and what thirty bees is and now you want to try it out for yourself.  Great!  There are just a few things we need to go over first to get you going.</p>
 
-<h2 id="create-a-collection">Create a collection</h2>
+<h2 id="general-server-requirements">General Server Requirements</h2>
 
-<p>To create a collection, add the following in your configuration file:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>collections:
-  tooltips:
-    output: true
-</code></pre></div>
-<p>In this example, &quot;tooltips&quot;&quot; is the name of the collection.</p>
+<p>Now that you are ready to install thirty bees, lets go over what you will need.</p>
 
-<h2 id="interacting-with-collections">Interacting with collections</h2>
+<ul>
+<li>PHP 5.5 – PHP 7.1
 
-<p>You can interact with collections by using the <code>site.collectionname</code> namespace, where <code>collectionname</code> is what you&#39;ve configured. In this case, if I wanted to loop through all tooltips, I would use <code>site.tooltips</code> instead of <code>site.pages</code> or <code>site.posts</code>.</p>
+<ul>
+<li>At least 128 Mb of RAM dedicated to PHP is advised. The more the better!</li>
+<li>These extenstions in your phi.ini file are Must-Have:</li>
+<li>PDO_MySQL, cURL, SimpleXML, mcrypt, GD, OpenSSL, DOM, SOAP, Zip</li>
+<li>These settings in your php.ini file usually a good idea:</li>
+<li>allow_url_fopen set to On, </li>
+<li>register_globals set to Off,</li>
+<li>magic_quotes_* set to Off,</li>
+<li>safe_mode set to Off,</li>
+<li>upload_max_filesize set to &quot;16M&quot; (or more).</li>
+</ul></li>
+<li>Apache, nginx or IIS
 
-<p>See <a href="http://jekyllrb.com/docs/collections/">Collections in the Jekyll documentation</a> for more information.</p>
+<ul>
+<li>Apache Web Server 2.2 or later; or nginx Web Server.</li>
+<li>Apache module settings: </li>
+<li>mod_rewrite enabled, </li>
+<li>mod_security disabled,</li>
+<li>mod_auth_basic disabled.</li>
+</ul></li>
+<li>Windows, Linux or OS X</li>
+<li>MySQL 5.5.3+ or MariaDB 5.5+</li>
+<li>Required PHP Extensions: gd, bcmath, xml (SimpleXML, DOMDocument), json, zip, mysql (PDO only)</li>
+<li>Recommended: imap, curl, mbstring, opcache, apcu/redis/memcache(d)</li>
+</ul>
 
-<h2 id="how-to-use-collections">How to use collections</h2>
+<h2 id="domain">Domain</h2>
 
-<p>I haven&#39;t found a huge use for collections in normal documentation. However, I did find a use for collections in generating a tooltip file that would be used for delivering tooltips to a user interface from text files in the documentation. See  for details.</p>
+<p>If you already have a domain just proceed to the next step.</p>
+
+<p>To start your on-line business, you need to purchase a domain (https://example.com) so your visitors have a place to go.  Generally, you want the domain to be the name of you store (or business).  There are many sites you can get them and all pretty much do the same thing, aside from a few freebies and price differences.  Some places you can purchase domains from include but are not limited to:</p>
+
+<ul>
+<li>https://www.godaddy.com</li>
+<li>https://www.namecheap.com</li>
+<li>https://www.domains.com</li>
+</ul>
+
+<p>NOTE: Now is a good time to also start thinking about how you will display your domain. (www.yourdomain.com vs yourdomain.com)
+* Generally, these days more and more people are migrating to just using yourdomain.com, but chose as you will.  Only rule is keep it consistent!</p>
+
+<p>NOTE: For the most part most e-commerce stores are reqired to have SSL installed, and as it is a google ranking factor is also strongly advised. (https:// instead of the usual http://)</p>
+
+<h2 id="server">Server</h2>
+
+<p>Since you have your domain, its time to think about a server.  There are a few things to keep in mind when searching for the right one: price, server specifications, proximity of host to your target market, shared vs private, among others.  </p>
+
+<p>Generally speaking, shared hosting is the cheapest and bare minimum you can get.  While this may suite some sites with small quantities of items and low traffic, more heavily visited shops will require higher powered servers.  </p>
+
+<p><em>WARNING</em>  There are some users who claim using heavily utilized share hosting companies (such as godaddy and the like) result in random spikes and slow speeds due to others on the same server taxing the environment. </p>
+
+<p>It is advised to get hosting which guarantees a certain amount of processor cores and ram so you are not slowed down by others sharing your server resources.</p>
+
+<p>You can do a search for hosting providers and choose the right one for your needs and budget (just don&#39;t forget the requirements noted above) or visit our website and look over our trusted hosting partners.  </p>
+
+<ul>
+<li>https://thirtybees.com/partners/hosting-partners/</li>
+</ul>
+
+<h2 id="ftp-client-editor">FTP Client &amp; Editor</h2>
+
+<p>In order to transfer files from one place to another, most often FTP (File Transfer Protocol) is used.  You can search ftp clients and find many that may suite your needs as well as quick descriptions on how they work.  A free one that is widely used is FileZilla, but feel free to use whichever you prefer.</p>
+
+<p>You may also need to edit your configuration files, in which case you may need an editor.  You can likeswear search for editors and find a whole host of options.  Use what you prefer, whether Notepad, Sublime3, Notepad++, or others.</p>
+
+<h2 id="download-thirty-bees">Download thirty bees</h2>
+
+<p>Now that the Domain and Server are in place, its time to get thirty bees!  It is STRONGLY advised to only download from verified sources.  Unless there is a specific purpose, you also want to always use the latest version available.  If you are unsure what sites are trusted and not, you can always trust:</p>
+
+<ul>
+<li>https://thirtybees.com/download</li>
+</ul>
+
+<h2 id="installing-thirty-bees">Installing thirty bees</h2>
+
+<p>There are multiple ways in which to install thirty bees onto your environment.  We will break down the &quot;quick steps&quot; for those who are already familiar with working with these environemtns.  </p>
+
+<ol>
+<li>Download and Extract the thirty bees package into your desired folder. (Do not copy the thirty bees folder, just its contents)</li>
+<li>Create a Database and Database User for your thirty bees store</li>
+<li>Visit the public page of your website (i.e. if you installed on yourshop.com, visit this page)</li>
+<li>Run thru the installation instructions on screen to complete the setup</li>
+<li>Write down and save your new administration area url.  This is randomly made on each install for security. </li>
+<li>Delete the /install/ folder</li>
+<li>Proceed to the administration area to begin configuring your new store</li>
+</ol>
+
+<p>For more detailed instructions follow the links below to install it via your chosen method.</p>
+
+<ul>
+<li>FTP &amp; Browser Installation - </li>
+<li>Server Command Line Installation - </li>
+<li>Local Computer Installation - </li>
+</ul>
+
+<h2 id="download-complete-full-guide-pdf">Download Complete Full Guide (PDF)</h2>
+
+<p>You can download this entire guide, a comprehensive PDF containing all the content on this site and all its sections right here!  Work when, where, and how you want!</p>
+
+<p><a target="_blank" class="noCrossRef" href="/thirtybees/pdf/thirtybees_devdocs.pdf"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a></p>
+
+<p>The PDF contains a timestamp in the header indicating when it was last generated. </p>
 
 
 <div class="tags">
@@ -510,7 +599,7 @@ $('#toc').on('click', 'a', function() {
 
     
     
-    <a href="/tag/content-types/" class="btn btn-default navbar-btn cursorNorm" role="button">Content types</a>
+    
     
     
     
@@ -541,7 +630,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
-<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Feb 22, 2017 <br />
+ Site last generated: Feb 22, 2017 <br />
 <p><img src="/></p>
                 </div>
             </div>
