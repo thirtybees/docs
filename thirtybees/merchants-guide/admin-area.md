@@ -3,7 +3,7 @@ title: Admin Overview
 tags:
   - "Introduction"
 audience: merchants
-permalink: /merchants-guide/
+permalink: /merchants-guide/admin-area/
 ---
 #Admin Area
 ![Thirty Bees Back Office](../images/thirty-bees-back-office.jpg  "Thirty Bees Back Office")
