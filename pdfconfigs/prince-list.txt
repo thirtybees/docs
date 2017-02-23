@@ -11,7 +11,12 @@
   
    
       
-             /installation/getting_started.md
+             /installation/getting_started/
+              
+      
+  
+      
+             /installation/ftp-installation/
               
       
   
@@ -30,7 +35,7 @@
       
   
       
-             /merchants-guide/
+             /merchants-guide/online-resources/
               
       
   
