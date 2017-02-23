@@ -115,6 +115,17 @@
 //
 //
 //{
+//"title": "Getting started",
+//"tags": "InstallationGetting Started",
+//"keywords": "",
+//"url": "../installation/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "",
 //"tags": "",
 //"keywords": "",
@@ -143,7 +154,7 @@
 //"title": "Introduction",
 //"tags": "Getting started",
 //"keywords": "",
-//"url": "../overview/introduction/",
+//"url": "../",
 //"summary": ""
 //},
 //
@@ -165,7 +176,7 @@
 //"title": "Merchant Resources",
 //"tags": "Resources",
 //"keywords": "",
-//"url": "../merchants-guide/online-resources",
+//"url": "../merchants-guide/online-resources/",
 //"summary": ""
 //},
 //
@@ -317,6 +328,9 @@
 //]
 
 {
+
+
+,
 
 
 ,

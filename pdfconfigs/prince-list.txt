@@ -4,14 +4,14 @@
   
    
       
-             /overview/introduction/
+             /
               
       
   
   
    
       
-             /installation/getting_started/
+             /installation/
               
       
   
@@ -25,12 +25,12 @@
   
    
       
-             /merchants-guide/admin-area/
+             /merchants-guide/
               
       
   
       
-             /merchants-guide/
+             /merchants-guide/admin-area/
               
       
   
@@ -51,21 +51,6 @@
    
   
    
-      
-             /contribute/code/
-              
-      
-  
-      
-             /contribute/forums/
-              
-      
-  
-      
-             /contribute/feature-requests/
-              
-      
-  
   
    
       
