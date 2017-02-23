@@ -4,7 +4,7 @@ tags:
   - "Installation"
   - "Getting Started"
 audience: docs
-permalink: /installation/
+permalink: /installation/getting-started/
 ---
 
 ## Getting Started
