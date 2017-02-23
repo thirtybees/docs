@@ -72,6 +72,3 @@ DEPENDENCIES
   jekyll (~> 3.4.0)
   pygments.rb (~> 1.1.1)
   redcarpet (~> 3.4.0)
-
-BUNDLED WITH
-   1.14.3

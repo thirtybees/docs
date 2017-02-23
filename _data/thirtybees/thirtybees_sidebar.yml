@@ -20,7 +20,7 @@ entries:
     output: web, pdf
     items:
     - title: Introduction
-      url: /overview/introduction/
+      url: /
       audience: developers
       platform: all
       product: all
@@ -36,7 +36,7 @@ entries:
     output: web, pdf
     items:
      - title: Getting Started
-       url: /installation/getting_started/
+       url: /installation/
        audience: docs
        platform: all
        product: all
@@ -46,6 +46,7 @@ entries:
        url: /installation/ftp-installation/
        audience: docs
        platform: all
+       product: all
        version: all
        output: web,pdf
 
@@ -63,19 +64,19 @@ entries:
     version: all
     output: web, pdf
     items:
-     - title: Admin Back-Office
-       url: /merchants-guide/admin-area/
-       audiance: merchants
-       platform: all
-       product: all
-       verion: all
-       output: web, pdf
      - title: Getting started
        url: /merchants-guide/
        audience: merchants
        platform: all
        product: all
        version: all
+       output: web, pdf
+     - title: Admin Back-Office
+       url: /merchants-guide/admin-area/
+       audiance: merchants
+       platform: all
+       product: all
+       verion: all
        output: web, pdf
      - title: Online Resources
        url: /merchants-guide/online-resources/
@@ -127,28 +128,6 @@ entries:
     product: all
     version: all
     output: web, pdf
-    items:
-          - title: Code
-            url: /contribute/code/
-            audience: developers
-            platform: all
-            product: all
-            version: all
-            output: web, pdf
-          - title: Forums
-            url: /contribute/forums/
-            audience: developers
-            platform: all
-            product: all
-            version: all
-            output: web, pdf
-          - title: Feature Requests
-            url: /contribute/feature-requests/
-            audience: developers
-            platform: all
-            product: all
-            version: all
-            output: web, pdf
 
   - title: Release notes
     audience: developers
