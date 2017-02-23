@@ -20,33 +20,28 @@ entries:
     output: web, pdf
     items:
     - title: Introduction
+      url: /overview/introduction/
       audience: developers
       platform: all
       product: all
       version: all
       output: web, pdf
       items:
-        - title: Introduction
-          url: /
-          audience: developers
-          platform: all
-          product: all
-          version: all
-          output: web, pdf
+       
   - title: Installation
     audience: developers
     platform: all
     product: all
     version: all
     output: web, pdf
-
-  - title: Getting Started
-    url: /Installation/getting_started.md
-    audience: developers
-    platform: all
-    product: all
-    version: all
-    output: web, pdf
+    items:
+     - title: Getting Started
+       url: /installation/getting_started.md
+       audience: developers
+       platform: all
+       product: all
+       version: all
+       output: web, pdf
 
   - title: Troubleshooting
     audience: developers
@@ -62,6 +57,13 @@ entries:
     version: all
     output: web, pdf
     items:
+     - title: Admin Back-Office
+       url: /merchants-guide/admin-area/
+       audiance: merchants
+       platform: all
+       product: all
+       verion: all
+       output: web, pdf
      - title: Getting started
        url: /merchants-guide/
        audience: merchants
@@ -76,13 +78,7 @@ entries:
        product: all
        version: all
        output: web, pdf
-     - title: Admin Back-Office
-       url: /merchants-guide/
-       audiance: merchants
-       platform: all
-       product: all
-       verion: all
-       output: web, pdf
+     
 
   - title: Developers Guide
     audience: developers
