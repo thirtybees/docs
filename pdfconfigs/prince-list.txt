@@ -4,24 +4,23 @@
   
    
       
-             
+             /overview/introduction/
               
-                 /
-                 
-                    /
-                          
-                
-             
+      
+  
+  
+   
+      
+             /installation/getting_started.md
+              
       
   
   
    
   
    
-  
-   
       
-             /merchants-guide/
+             /merchants-guide/admin-area/
               
       
   
