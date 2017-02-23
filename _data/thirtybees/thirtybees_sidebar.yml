@@ -29,19 +29,25 @@ entries:
       items:
        
   - title: Installation
-    audience: developers
+    audience: docs
     platform: all
     product: all
     version: all
     output: web, pdf
     items:
      - title: Getting Started
-       url: /installation/getting_started.md
-       audience: developers
+       url: /installation/getting_started/
+       audience: docs
        platform: all
        product: all
        version: all
        output: web, pdf
+     - title: FTP Installation
+       url: /installation/ftp-installation/
+       audience: docs
+       platform: all
+       version: all
+       output: web,pdf
 
   - title: Troubleshooting
     audience: developers
@@ -72,7 +78,7 @@ entries:
        version: all
        output: web, pdf
      - title: Online Resources
-       url: /merchants-guide/
+       url: /merchants-guide/online-resources/
        audiance: merchants
        platform: all
        product: all
