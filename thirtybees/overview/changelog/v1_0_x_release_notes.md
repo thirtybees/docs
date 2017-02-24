@@ -11,6 +11,16 @@ audience: developers
 permalink: /release_notes/v1-0-x-release-notes
 ---
 
+## Version 1.0.1 (not released yet)
+### New modules:  
+- A cron jobs module has been added
+
+### Improved features:  
+- Url rewrite changes are now recorded and properly converted into redirects.
+
+## Version 1.0.0
+The first stable version of thirty bees. This release has seen plenty of bug fixes since beta 3.
+
 ## Version 1.0.0 beta.3
 These are the highlights for the third beta. The main focus of this release was to fix bugs.
 
