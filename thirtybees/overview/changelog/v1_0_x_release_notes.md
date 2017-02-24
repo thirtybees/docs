@@ -19,9 +19,11 @@ permalink: /release_notes/v1-0-x-release-notes
 - Url rewrite changes are now recorded and properly converted into redirects.
 
 ## Version 1.0.0
+<blockquote>February 16, 2017</blockquote>
 The first stable version of thirty bees. This release has seen plenty of bug fixes since beta 3.
 
 ## Version 1.0.0 beta.3
+<blockquote>February 12, 2017</blockquote>
 These are the highlights for the third beta. The main focus of this release was to fix bugs.
 
 Fixes:  
@@ -33,6 +35,7 @@ Fixes:
 The bees blog module no longer comes packed with this release
 
 ## Version 1.0.0 beta.2
+<blockquote>February 8, 2017</blockquote>
 These are the highlights for the second beta version.
 
 New features:  
@@ -64,3 +67,7 @@ Developer features:
 Improvements:  
 - More than 1000 (small and large) bug fixes  
 - Overall performance improved  
+
+## Version 1.0.0 beta.1
+<blockquote>February 2, 2017</blockquote> 
+First public version
