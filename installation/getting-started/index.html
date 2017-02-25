@@ -467,67 +467,74 @@ $('#toc').on('click', 'a', function() {
 
 <p>Now that you are ready to install thirty bees, lets go over what you will need.</p>
 
-<ul>
-<li>PHP 5.5 – PHP 7.1
+<h3 id="php">PHP</h3>
 
 <ul>
-<li>At least 128 Mb of RAM dedicated to PHP is advised. The more the better!</li>
-<li>These extenstions in your phi.ini file are Must-Have:</li>
-<li>PDO_MySQL, cURL, SimpleXML, mcrypt, GD, OpenSSL, DOM, SOAP, Zip</li>
-<li>These settings in your php.ini file usually a good idea:</li>
-<li>allow_url_fopen set to On, </li>
-<li>register_globals set to Off,</li>
-<li>magic_quotes_* set to Off,</li>
-<li>safe_mode set to Off,</li>
-<li>upload_max_filesize set to &quot;16M&quot; (or more).</li>
+<li>PHP 5.5 ~ PHP 7.1
+
+<ul>
+<li>At least 256 Mb of RAM dedicated to PHP is advised. The more the better!</li>
 </ul></li>
-<li>Apache, nginx or IIS
+</ul>
+
+<h4 id="required-extensions">Required Extensions</h4>
+
+<p>These extenstions for PHP are <strong>REQUIRED</strong>
+   * PDO_MySQL
+   * cURL
+   * SimpleXML
+   * mcrypt
+   * GD
+   * OpenSSL
+   * DOM
+   * SOAP
+   * Zip</p>
+
+<h4 id="recommended-extensions">Recommended Extensions</h4>
 
 <ul>
-<li>Apache Web Server 2.2 or later; or nginx Web Server.</li>
+<li>imap</li>
+<li>curl</li>
+<li>mbstring</li>
+<li>opcache</li>
+<li>apcu</li>
+<li>redis</li>
+<li>memcache(d)</li>
+</ul>
+
+<p>These settings in your php.ini file usually a good idea:
+<code>allow_url_fopen = 1</code>
+<code>allow_url_include = 0</code>
+<code>post_max_size = 32M</code>
+<code>max_input_vars = 10000</code>
+<code>upload_max_filesize =16M</code>
+<code>expose_php = Off</code></p>
+
+<h3 id="web-servers">Web Servers</h3>
+
+<h4 id="lamp-linux-apache-mysql-php">LAMP ( Linux, Apache, Mysql, PHP )</h4>
+
+<ul>
+<li>Apache Web Server 2.2x
+
+<ul>
 <li>Apache module settings: </li>
 <li>mod_rewrite enabled, </li>
 <li>mod_security disabled,</li>
 <li>mod_auth_basic disabled.</li>
-</ul></li>
-<li>Windows, Linux or OS X</li>
 <li>MySQL 5.5.3+ or MariaDB 5.5+</li>
-<li>Required PHP Extensions: gd, bcmath, xml (SimpleXML, DOMDocument), json, zip, mysql (PDO only)</li>
-<li>Recommended: imap, curl, mbstring, opcache, apcu/redis/memcache(d)</li>
+</ul></li>
 </ul>
 
-<h2 id="domain">Domain</h2>
+<p>Since you have your domain, its time to think about a server.  There are a few things to keep in mind when searching for the right one: price, server specifications, proximity of host to your target market, shared vs private, among others.</p>
 
-<p>If you already have a domain just proceed to the next step.</p>
+<p>Generally speaking, shared hosting is the cheapest and bare minimum you can get.  While this may suite some sites with small quantities of items and low traffic, more heavily visited shops will require higher powered servers.</p>
 
-<p>To start your on-line business, you need to purchase a domain (https://example.com) so your visitors have a place to go.  Generally, you want the domain to be the name of you store (or business).  There are many sites you can get them and all pretty much do the same thing, aside from a few freebies and price differences.  Some places you can purchase domains from include but are not limited to:</p>
-
-<ul>
-<li>https://www.godaddy.com</li>
-<li>https://www.namecheap.com</li>
-<li>https://www.domains.com</li>
-</ul>
-
-<p>NOTE: Now is a good time to also start thinking about how you will display your domain. (www.yourdomain.com vs yourdomain.com)
-* Generally, these days more and more people are migrating to just using yourdomain.com, but chose as you will.  Only rule is keep it consistent!</p>
-
-<p>NOTE: For the most part most e-commerce stores are reqired to have SSL installed, and as it is a google ranking factor is also strongly advised. (https:// instead of the usual http://)</p>
-
-<h2 id="server">Server</h2>
-
-<p>Since you have your domain, its time to think about a server.  There are a few things to keep in mind when searching for the right one: price, server specifications, proximity of host to your target market, shared vs private, among others.  </p>
-
-<p>Generally speaking, shared hosting is the cheapest and bare minimum you can get.  While this may suite some sites with small quantities of items and low traffic, more heavily visited shops will require higher powered servers.  </p>
-
-<p><em>WARNING</em>  There are some users who claim using heavily utilized share hosting companies (such as godaddy and the like) result in random spikes and slow speeds due to others on the same server taxing the environment. </p>
+<p><strong>WARNING</strong>  There are some users who claim using heavily utilized share hosting companies (such as godaddy and the like) result in random spikes and slow speeds due to others on the same server taxing the environment. </p>
 
 <p>It is advised to get hosting which guarantees a certain amount of processor cores and ram so you are not slowed down by others sharing your server resources.</p>
 
-<p>You can do a search for hosting providers and choose the right one for your needs and budget (just don&#39;t forget the requirements noted above) or visit our website and look over our trusted hosting partners.  </p>
-
-<ul>
-<li>https://thirtybees.com/partners/hosting-partners/</li>
-</ul>
+<p>You can do a search for hosting providers and choose the right one for your needs and budget (just don&#39;t forget the requirements noted above) or visit our website and look over our <a href="https://thirtybees.com/partners/hosting-partners/">trusted hosting partners</a>.</p>
 
 <h2 id="ftp-client-editor">FTP Client &amp; Editor</h2>
 
@@ -535,17 +542,16 @@ $('#toc').on('click', 'a', function() {
 
 <p>You may also need to edit your configuration files, in which case you may need an editor.  You can likeswear search for editors and find a whole host of options.  Use what you prefer, whether Notepad, Sublime3, Notepad++, or others.</p>
 
-<h2 id="download-thirty-bees">Download thirty bees</h2>
+<h2 id="download-thirty-bees">Download Thirty Bees</h2>
 
-<p>Now that the Domain and Server are in place, its time to get thirty bees!  It is STRONGLY advised to only download from verified sources.  Unless there is a specific purpose, you also want to always use the latest version available.  If you are unsure what sites are trusted and not, you can always trust:</p>
+<p>It is STRONGLY advised to only download from verified sources.  Unless there is a specific purpose by your web developer.
+<a target="_blank" class="noCrossRef" href="https://thirtybees.com/download"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>Download Thirty Bees Shopping Cart</button></a></p>
 
-<ul>
-<li>https://thirtybees.com/download</li>
-</ul>
+<p>Web developers can find the source code on <a href="https://github.com/thirtybees/ThirtyBees"><strong>github</strong></a></p>
 
-<h2 id="installing-thirty-bees">Installing thirty bees</h2>
+<h2 id="installing-thirty-bees">Installing Thirty Bees</h2>
 
-<p>There are multiple ways in which to install thirty bees onto your environment.  We will break down the &quot;quick steps&quot; for those who are already familiar with working with these environemtns.  </p>
+<p>There are multiple ways in which to install Thirty Bees into your server.  We will break down the &quot;quick steps&quot; for those who are already familiar with working with these environemtns.</p>
 
 <ol>
 <li>Download and Extract the thirty bees package into your desired folder. (Do not copy the thirty bees folder, just its contents)</li>
