@@ -2,6 +2,7 @@
 title: Admin Overview
 tags:
   - "Introduction"
+type: first_page
 audience: merchants
 permalink: /merchants-guide/admin-area/
 ---
