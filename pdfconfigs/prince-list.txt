@@ -30,12 +30,12 @@
       
   
       
-             /merchants-guide/admin-area/
+             /merchants-guide/online-resources/
               
       
   
       
-             /merchants-guide/online-resources/
+             /merchants-guide/admin-area/
               
       
   

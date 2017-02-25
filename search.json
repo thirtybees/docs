@@ -5,17 +5,6 @@
 //
 //
 //{
-//"title": "About the theme author",
-//"tags": "Getting started",
-//"keywords": "documentation theme, jekyll, technical writers, help authoring tools, hat replacements",
-//"url": "../overview/about/",
-//"summary": "I use this theme for sophisticated single_sourcing projects that I work on as a professional technical writer."
-//},
-//
-//
-//
-//
-//{
 //"title": "Admin Overview",
 //"tags": "Introduction",
 //"keywords": "",
@@ -143,7 +132,7 @@
 //"title": "Introduction",
 //"tags": "Getting started",
 //"keywords": "",
-//"url": "../",
+//"url": "../overview/introduction/",
 //"summary": ""
 //},
 //
@@ -229,28 +218,6 @@
 //
 //
 //{
-//"title": "Support",
-//"tags": "Getting started",
-//"keywords": "questions, troubleshooting, contact, support",
-//"url": "../overview/support/",
-//"summary": "Contact me for any support issues."
-//},
-//
-//
-//
-//
-//{
-//"title": "Supported features",
-//"tags": "Getting started",
-//"keywords": "features, capabilities, scalability, multichannel output, dita, hats, comparison, benefits",
-//"url": "../overview/supported-features/",
-//"summary": "If you're not sure whether Jekyll and this theme will support your requirements, this list provides a semi-comprehensive overview of available features."
-//},
-//
-//
-//
-//
-//{
 //"title": "FAQ layout",
 //"tags": "special_layouts",
 //"keywords": "frequently asked questions, FAQ, question and answer, collapsible sections, expand, collapse",
@@ -317,15 +284,6 @@
 //]
 
 {
-
-
-,
-
-
-,
-
-
-,
 
 
 ,
