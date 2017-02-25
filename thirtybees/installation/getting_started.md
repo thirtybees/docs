@@ -41,7 +41,7 @@ These extenstions for PHP are **REQUIRED**
 * apcu
 * redis
 * memcache(d)
-   
+
 ####Recommended thirty bees php.ini settings
 These settings in your php.ini file usually a good idea:
 
