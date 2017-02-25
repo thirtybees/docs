@@ -3,7 +3,6 @@ title: Getting Started
 tags:
   - "Installation"
   - "Getting Started"
-type: first_page
 audience: docs
 permalink: /installation/
 ---

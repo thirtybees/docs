@@ -71,19 +71,19 @@ entries:
        product: all
        version: all
        output: web, pdf
-     - title: Admin Back-Office
-       url: /merchants-guide/admin-area/
-       audiance: merchants
-       platform: all
-       product: all
-       verion: all
-       output: web, pdf
      - title: Online Resources
        url: /merchants-guide/online-resources/
        audiance: merchants
        platform: all
        product: all
        version: all
+       output: web, pdf
+     - title: Admin Back-Office
+       url: /merchants-guide/admin-area/
+       audiance: merchants
+       platform: all
+       product: all
+       verion: all
        output: web, pdf
      
 

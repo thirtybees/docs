@@ -5,18 +5,16 @@ tags:
 type: first_page
 homepage: true
 audience: docs
-permalink: /
+permalink: /overview/introduction/
 ---
 
-## Overview 
+## Mission Statement 
 
-Welcome to the thirty bees documentation, training, and tips website.  Here you will learn all the different aspects of the software, from installing to the different areas of administration, development, hosting, and more.  There are various tips and tricks included within the sections as well as some “basic primers” and “best practices” in fields such as SEO so you are geared to succeed!
+thirty bees will endeavor to provide you with as much documentation as possible for every aspect of the software, so you are tooled with all the information you need regardless of your endeavor.  However, as this is all open-source, we rely heavily on the contribution of our user base.  Please feel free to contribute where you can, the community appreciates it more than you will ever truly know!
 
-We will endeavor to provide you with as much documentation as possible for every aspect of the software, so you are tooled with all the information you need regardless of your endeavor.  However, as this is all open-source, we rely heavily on the contribution of our user base.  Please feel free to contribute where you can, the community appreciates it more than you will ever truly know!
+## Why thirty bees?
 
-## thirty bees?
-
-thirty bees is a company founded around one basic principle, listen to its users! We believe with enough community input we can shape our e-commerce platform into the most stable feature-rich Open Source platform in the world.  We always welcome all community input and will apply changes as quickly as we can.
+thirty bees is an eCommerce company founded around one basic principle: **"listen to its community!** We believe with enough community input we can shape our e-commerce platform into the most stable feature-rich, Open Source platform in the world.  We always welcome all community input and will apply changes as quickly as we can.
 
 ## thirty bees Features
 
