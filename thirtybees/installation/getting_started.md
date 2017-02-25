@@ -42,7 +42,7 @@ These extenstions for PHP are **REQUIRED**
 * redis
 * memcache(d)
    
-####Recommended php.ini settings
+####Recommended thirty bees php.ini settings
 These settings in your php.ini file usually a good idea:
 
 `allow_url_fopen = 1`
