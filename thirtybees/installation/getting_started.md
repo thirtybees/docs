@@ -41,13 +41,14 @@ These extenstions for PHP are **REQUIRED**
 * redis
 * memcache(d)
    
+####Recommended php.ini settings
 These settings in your php.ini file usually a good idea:
-```allow_url_fopen = 1```
-```allow_url_include = 0```
-```post_max_size = 32M```
-```max_input_vars = 10000```
-```upload_max_filesize =16M```
-```expose_php = Off```
+`allow_url_fopen = 1`
+`allow_url_include = 0`
+`post_max_size = 32M`
+`max_input_vars = 10000`
+`upload_max_filesize =16M`
+`expose_php = Off`
     
 ###Web Servers
 
@@ -78,13 +79,13 @@ You may also need to edit your configuration files, in which case you may need a
 ## Download Thirty Bees
 
 It is STRONGLY advised to only download from verified sources.  Unless there is a specific purpose by your web developer.
-<a target="_blank" class="noCrossRef" href="https://thirtybees.com/download"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>Download Thirty Bees Shopping Cart</button></a>
+<a target="_blank" class="noCrossRef" href="https://thirtybees.com/download"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>Download thirty bees Shopping Cart</button></a>
 
 Web developers can find the source code on [**github**](https://github.com/thirtybees/ThirtyBees)
 
 ## Installing Thirty Bees
 
-There are multiple ways in which to install Thirty Bees into your server.  We will break down the "quick steps" for those who are already familiar with working with these environemtns.
+There are multiple ways in which to install thirty bees into your server.  We will break down the "quick steps" for those who are already familiar with working with these environemtns.
 
  1. Download and Extract the thirty bees package into your desired folder. (Do not copy the thirty bees folder, just its contents)
  2. Create a Database and Database User for your thirty bees store
@@ -106,4 +107,4 @@ You can download this entire guide, a comprehensive PDF containing all the conte
 
 <a target="_blank" class="noCrossRef" href="{{base}}/thirtybees/pdf/thirtybees_devdocs.pdf"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
 
-The PDF contains a timestamp in the header indicating when it was last generated. 
+The PDF contains a timestamp in the header indicating when it was last generated.
