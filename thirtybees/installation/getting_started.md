@@ -3,8 +3,9 @@ title: Getting Started
 tags:
   - "Installation"
   - "Getting Started"
+type: first_page
 audience: docs
-permalink: /installation/getting-started/
+permalink: /installation/
 ---
 
 ## Getting Started
@@ -43,13 +44,19 @@ These extenstions for PHP are **REQUIRED**
    
 ####Recommended php.ini settings
 These settings in your php.ini file usually a good idea:
+
 `allow_url_fopen = 1`
+
 `allow_url_include = 0`
+
 `post_max_size = 32M`
+
 `max_input_vars = 10000`
+
 `upload_max_filesize =16M`
+
 `expose_php = Off`
-    
+
 ###Web Servers
 
 ####LAMP ( Linux, Apache, Mysql, PHP )
