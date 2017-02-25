@@ -14,56 +14,60 @@ So, you've gotten a quick glace and what thirty bees is and now you want to try 
 ## General Server Requirements
 
 Now that you are ready to install thirty bees, lets go over what you will need.
+###PHP
+* PHP 5.5 ~ PHP 7.1
+ * At least 256 Mb of RAM dedicated to PHP is advised. The more the better!
+ 
+####Required Extensions
+ 
+These extenstions for PHP are **REQUIRED**
+   * PDO_MySQL
+   * cURL
+   * SimpleXML
+   * mcrypt
+   * GD
+   * OpenSSL
+   * DOM
+   * SOAP
+   * Zip
+  
+####Recommended Extensions
 
-* PHP 5.5 – PHP 7.1
- * At least 128 Mb of RAM dedicated to PHP is advised. The more the better!
- * These extenstions in your phi.ini file are Must-Have:
-   * PDO_MySQL, cURL, SimpleXML, mcrypt, GD, OpenSSL, DOM, SOAP, Zip
- * These settings in your php.ini file usually a good idea:
-   * allow_url_fopen set to On, 
-    * register_globals set to Off,
-    * magic_quotes_* set to Off,
-    * safe_mode set to Off,
-    * upload_max_filesize set to "16M" (or more).
-* Apache, nginx or IIS
- * Apache Web Server 2.2 or later; or nginx Web Server.
+* imap
+* curl
+* mbstring
+* opcache
+* apcu
+* redis
+* memcache(d)
+   
+These settings in your php.ini file usually a good idea:
+```allow_url_fopen = 1```
+```allow_url_include = 0```
+```post_max_size = 32M```
+```max_input_vars = 10000```
+```upload_max_filesize =16M```
+```expose_php = Off```
+    
+###Web Servers
+
+####LAMP ( Linux, Apache, Mysql, PHP )
+ * Apache Web Server 2.2x
   * Apache module settings: 
     * mod_rewrite enabled, 
     * mod_security disabled,
     * mod_auth_basic disabled.
-* Windows, Linux or OS X
 * MySQL 5.5.3+ or MariaDB 5.5+
-* Required PHP Extensions: gd, bcmath, xml (SimpleXML, DOMDocument), json, zip, mysql (PDO only)
-* Recommended: imap, curl, mbstring, opcache, apcu/redis/memcache(d)
 
-## Domain
+Since you have your domain, its time to think about a server.  There are a few things to keep in mind when searching for the right one: price, server specifications, proximity of host to your target market, shared vs private, among others.
 
-If you already have a domain just proceed to the next step.
+Generally speaking, shared hosting is the cheapest and bare minimum you can get.  While this may suite some sites with small quantities of items and low traffic, more heavily visited shops will require higher powered servers.
 
-To start your on-line business, you need to purchase a domain (https://example.com) so your visitors have a place to go.  Generally, you want the domain to be the name of you store (or business).  There are many sites you can get them and all pretty much do the same thing, aside from a few freebies and price differences.  Some places you can purchase domains from include but are not limited to:
-
-* https://www.godaddy.com
-* https://www.namecheap.com
-* https://www.domains.com
-
-NOTE: Now is a good time to also start thinking about how you will display your domain. (www.yourdomain.com vs yourdomain.com)
-* Generally, these days more and more people are migrating to just using yourdomain.com, but chose as you will.  Only rule is keep it consistent!
-
-NOTE: For the most part most e-commerce stores are reqired to have SSL installed, and as it is a google ranking factor is also strongly advised. (https:// instead of the usual http://)
-
-## Server
-
-Since you have your domain, its time to think about a server.  There are a few things to keep in mind when searching for the right one: price, server specifications, proximity of host to your target market, shared vs private, among others.  
-
-Generally speaking, shared hosting is the cheapest and bare minimum you can get.  While this may suite some sites with small quantities of items and low traffic, more heavily visited shops will require higher powered servers.  
-
-*WARNING*  There are some users who claim using heavily utilized share hosting companies (such as godaddy and the like) result in random spikes and slow speeds due to others on the same server taxing the environment. 
+**WARNING**  There are some users who claim using heavily utilized share hosting companies (such as godaddy and the like) result in random spikes and slow speeds due to others on the same server taxing the environment. 
 
 It is advised to get hosting which guarantees a certain amount of processor cores and ram so you are not slowed down by others sharing your server resources.
 
-You can do a search for hosting providers and choose the right one for your needs and budget (just don't forget the requirements noted above) or visit our website and look over our trusted hosting partners.  
-
-* https://thirtybees.com/partners/hosting-partners/
+You can do a search for hosting providers and choose the right one for your needs and budget (just don't forget the requirements noted above) or visit our website and look over our [trusted hosting partners](https://thirtybees.com/partners/hosting-partners/).
 
 ## FTP Client & Editor
 
@@ -71,15 +75,16 @@ In order to transfer files from one place to another, most often FTP (File Trans
 
 You may also need to edit your configuration files, in which case you may need an editor.  You can likeswear search for editors and find a whole host of options.  Use what you prefer, whether Notepad, Sublime3, Notepad++, or others.
 
-## Download thirty bees
+## Download Thirty Bees
 
-Now that the Domain and Server are in place, its time to get thirty bees!  It is STRONGLY advised to only download from verified sources.  Unless there is a specific purpose, you also want to always use the latest version available.  If you are unsure what sites are trusted and not, you can always trust:
+It is STRONGLY advised to only download from verified sources.  Unless there is a specific purpose by your web developer.
+<a target="_blank" class="noCrossRef" href="https://thirtybees.com/download"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>Download Thirty Bees Shopping Cart</button></a>
 
-* https://thirtybees.com/download
+Web developers can find the source code on [**github**](https://github.com/thirtybees/ThirtyBees)
 
-## Installing thirty bees
+## Installing Thirty Bees
 
-There are multiple ways in which to install thirty bees onto your environment.  We will break down the "quick steps" for those who are already familiar with working with these environemtns.  
+There are multiple ways in which to install Thirty Bees into your server.  We will break down the "quick steps" for those who are already familiar with working with these environemtns.
 
  1. Download and Extract the thirty bees package into your desired folder. (Do not copy the thirty bees folder, just its contents)
  2. Create a Database and Database User for your thirty bees store
