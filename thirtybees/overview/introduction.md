@@ -5,7 +5,7 @@ tags:
 type: first_page
 homepage: true
 audience: docs
-permalink: /overview/introduction/
+permalink: /
 ---
 
 ## Mission Statement 
