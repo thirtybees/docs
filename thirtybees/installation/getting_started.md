@@ -7,31 +7,28 @@ audience: docs
 permalink: /installation/
 ---
 
-## Getting Started
+# General Server Requirements For thirty bees
 
-So, you've gotten a quick glace and what thirty bees is and now you want to try it out for yourself.  Great!  There are just a few things we need to go over first to get you going.
-
-## General Server Requirements
-
-Now that you are ready to install thirty bees, lets go over what you will need.
-###PHP
+thirty bees is an [eCommerce](https://en.wikipedia.org/wiki/E-commerce) web application. It has to be installed on a web server running MySQL or MariaDB and PHP. The code requires certain PHP modules and PHP versions to operate consistently and without error.
+##PHP
 * PHP 5.5 ~ PHP 7.1
- * At least 256 Mb of RAM dedicated to PHP is advised. The more the better!
+ * At least 256 Mb of RAM dedicated to PHP is advised. Certain features and functionality will require more ram be allocated to the aplication. Consult your developer or hosting service for advice.
  
-####Required Extensions
+###Required Extensions
  
 These extenstions for PHP are **REQUIRED**
-   * PDO_MySQL
-   * cURL
-   * SimpleXML
-   * mcrypt
-   * GD
-   * OpenSSL
-   * DOM
-   * SOAP
-   * Zip
+
+* PDO_MySQL
+* cURL
+* SimpleXML
+* mcrypt
+* GD
+* OpenSSL
+* DOM
+* SOAP
+* Zip
   
-####Recommended Extensions
+###Recommended Extensions
 
 * imap
 * curl
@@ -41,7 +38,7 @@ These extenstions for PHP are **REQUIRED**
 * redis
 * memcache(d)
 
-####Recommended thirty bees php.ini settings
+###Recommended thirty bees php.ini settings
 These settings in your php.ini file usually a good idea:
 
 `allow_url_fopen = 1`
@@ -56,9 +53,9 @@ These settings in your php.ini file usually a good idea:
 
 `expose_php = Off`
 
-###Web Servers
+##Web Servers
 
-####LAMP ( Linux, Apache, Mysql, PHP )
+###LAMP ( Linux, Apache, Mysql, PHP )
  * Apache Web Server 2.2x
   * Apache module settings: 
     * mod_rewrite enabled, 
