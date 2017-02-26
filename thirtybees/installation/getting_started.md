@@ -73,11 +73,6 @@ It is advised to get hosting which guarantees a certain amount of processor core
 
 You can do a search for hosting providers and choose the right one for your needs and budget (just don't forget the requirements noted above) or visit our website and look over our [trusted hosting partners](https://thirtybees.com/partners/hosting-partners/).
 
-## FTP Client & Editor
-
-In order to transfer files from one place to another, most often FTP (File Transfer Protocol) is used.  You can search ftp clients and find many that may suite your needs as well as quick descriptions on how they work.  A free one that is widely used is FileZilla, but feel free to use whichever you prefer.
-
-You may also need to edit your configuration files, in which case you may need an editor.  You can likeswear search for editors and find a whole host of options.  Use what you prefer, whether Notepad, Sublime3, Notepad++, or others.
 
 ## Download Thirty Bees
 
@@ -100,7 +95,7 @@ There are multiple ways in which to install thirty bees into your server.  We wi
 
 For more detailed instructions follow the links below to install it via your chosen method.
 
-* FTP & Browser Installation - 
+* [FTP Installation](/installation/ftp-installation/) 
 * Server Command Line Installation - 
 * Local Computer Installation - 
 
