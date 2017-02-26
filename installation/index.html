@@ -466,38 +466,37 @@ $('#toc').on('click', 'a', function() {
     <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/installation/getting_started.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <h2 id="getting-started">Getting Started</h2>
+  <h1 id="general-server-requirements-for-thirty-bees">General Server Requirements For thirty bees</h1>
 
-<p>So, you&#39;ve gotten a quick glace and what thirty bees is and now you want to try it out for yourself.  Great!  There are just a few things we need to go over first to get you going.</p>
+<p>thirty bees is an <a href="https://en.wikipedia.org/wiki/E-commerce">eCommerce</a> web application. It has to be installed on a web server running MySQL or MariaDB and PHP. The code requires certain PHP modules and PHP versions to operate consistently and without error.</p>
 
-<h2 id="general-server-requirements">General Server Requirements</h2>
-
-<p>Now that you are ready to install thirty bees, lets go over what you will need.</p>
-
-<h3 id="php">PHP</h3>
+<h2 id="php">PHP</h2>
 
 <ul>
 <li>PHP 5.5 ~ PHP 7.1
 
 <ul>
-<li>At least 256 Mb of RAM dedicated to PHP is advised. The more the better!</li>
+<li>At least 256 Mb of RAM dedicated to PHP is advised. Certain features and functionality will require more ram be allocated to the aplication. Consult your developer or hosting service for advice.</li>
 </ul></li>
 </ul>
 
-<h4 id="required-extensions">Required Extensions</h4>
+<h3 id="required-extensions">Required Extensions</h3>
 
-<p>These extenstions for PHP are <strong>REQUIRED</strong>
-   * PDO_MySQL
-   * cURL
-   * SimpleXML
-   * mcrypt
-   * GD
-   * OpenSSL
-   * DOM
-   * SOAP
-   * Zip</p>
+<p>These extenstions for PHP are <strong>REQUIRED</strong></p>
 
-<h4 id="recommended-extensions">Recommended Extensions</h4>
+<ul>
+<li>PDO_MySQL</li>
+<li>cURL</li>
+<li>SimpleXML</li>
+<li>mcrypt</li>
+<li>GD</li>
+<li>OpenSSL</li>
+<li>DOM</li>
+<li>SOAP</li>
+<li>Zip</li>
+</ul>
+
+<h3 id="recommended-extensions">Recommended Extensions</h3>
 
 <ul>
 <li>imap</li>
@@ -509,7 +508,7 @@ $('#toc').on('click', 'a', function() {
 <li>memcache(d)</li>
 </ul>
 
-<h4 id="recommended-thirty-bees-php-ini-settings">Recommended thirty bees php.ini settings</h4>
+<h3 id="recommended-thirty-bees-php-ini-settings">Recommended thirty bees php.ini settings</h3>
 
 <p>These settings in your php.ini file usually a good idea:</p>
 
@@ -525,9 +524,9 @@ $('#toc').on('click', 'a', function() {
 
 <p><code>expose_php = Off</code></p>
 
-<h3 id="web-servers">Web Servers</h3>
+<h2 id="web-servers">Web Servers</h2>
 
-<h4 id="lamp-linux-apache-mysql-php">LAMP ( Linux, Apache, Mysql, PHP )</h4>
+<h3 id="lamp-linux-apache-mysql-php">LAMP ( Linux, Apache, Mysql, PHP )</h3>
 
 <ul>
 <li>Apache Web Server 2.2x
