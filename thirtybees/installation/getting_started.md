@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Installing thirty bees
 tags:
   - "Installation"
   - "Getting Started"
