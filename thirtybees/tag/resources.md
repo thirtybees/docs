@@ -1,6 +1,6 @@
 ---
 layout: tag_page
 tag: Resources
-audience: docs
+audience: merchants
 permalink: /tag/resources/
 ---
