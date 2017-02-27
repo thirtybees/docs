@@ -24,8 +24,8 @@ gems:
   - algoliasearch-jekyll
 
 algolia:
-  application_id: 'CCGEH5HUSI'
-  index_name:     'thirtybees_developer_docs'
+  application_id: 'PIVL0Y1GI8'
+  index_name:     'thirtybees_docs'
 
 port: 4009
 
