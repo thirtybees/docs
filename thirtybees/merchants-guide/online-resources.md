@@ -13,7 +13,7 @@ permalink: /merchants-guide/online-resources/
 					thirty bees forums
 				</h2>
 				<p>
-					Our online community is thriving when people like you visit and post to our forums. Discuss matters with other store owners and our growing membership of volunteer developers and designers. Replies and updates are sent to your email inbox.
+					Our online community thrives when people like you ask question, post solutions and create comments in our forums. Come meet other store owners and our growing list of volunteer developers and designers. Replies and updates are sent to your email inbox.
 				</p>
 				<p>
 					<a class="btn btn-primary btn-large" href="https://forum.thirtybees.com/">Participate</a>
