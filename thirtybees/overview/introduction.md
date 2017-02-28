@@ -10,7 +10,7 @@ permalink: /
 
 ## Mission Statement 
 
-thirty bees will endeavor to provide you with as much documentation as possible for every aspect of the software, so you are tooled with all the information you need regardless of your endeavor.  However, as this is all open-source, we rely heavily on the contribution of our user base.  Please feel free to contribute where you can, the community appreciates it more than you will ever truly know!
+thirty bees will endeavor to provide you with as much documentation as possible for every aspect of the software, so you are tooled with all the information you need regardless of your task.  However, as this is all open-source, we rely heavily on the contribution of our user base.  Please feel free to contribute where you can, the community appreciates it more than you will ever truly know!
 
 ## Why thirty bees?
 
