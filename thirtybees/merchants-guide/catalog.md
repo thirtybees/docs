@@ -7,7 +7,7 @@ permalink: /merchants-guide/catalog/
 ---
 
 #Catalog
-![Thirty Bees Catalog]({{baseurl}}/thirtybees/images//merchants-guide/catalog.jpg  "Thirty Bees Catalog")
+![Thirty Bees Catalog]({{baseurl}}/thirtybees/images/merchants-guide/catalog.jpg  "Thirty Bees Catalog")
 
 Enter beginner blurb here.
 
