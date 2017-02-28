@@ -12,9 +12,9 @@ Welcome to the thirty bees<sup>**&trade;**</sup> Merchants Guide. You will find 
 
 ### Understanding thirty bees
 
-Before logging in and getting to it, let's first go over thirty bees. There are two parts of your store. The **front view** and **back office**. The front view refers to the "face" of your website. front view is controlled by an installed theme and various modules in the back office.
+Before logging in and getting to it, let's first go over thirty bees. There are two parts of your store. The **Front Office** and **Back Office**. The Front Office refers to the "face" of your website, or, what your customers see when they visit your store. The Front Office is controlled by an installed theme and various modules in the Back Office.
 
-The back office is where you and your employees login and administer the store.
+The Back Office is where you and your employees login and administer the store.  It is where you change all your settings, add products, switch themes, add modules, and pretty much do everything else related to your store.
 
 ### Customizing thirty bees
 
@@ -22,11 +22,11 @@ thirty bees provides two free themes with every installation. The **default them
 
 ### Setting up thirty bees
 
-Throughout this guide, we will document all settings and options available within thirty bees **back office**. thirty bees is designed to work ***"out of the box"*** with just a few basic settings and adjustments.
+Throughout this guide, we will document all settings and options available within thirty bees **Back Office**. thirty bees is designed to work ***"out of the box"*** with just a few basic settings and adjustments.
 
 ### Next Steps
 
-Start familiarizing yourself with the [**back office**](/merchants-guide/admin-area/ "thirty bees Back Office").
+Start familiarizing yourself with the [**Back Office**](/merchants-guide/admin-area/ "thirty bees Back Office").
 
 ### What Else Should You Do?
 
