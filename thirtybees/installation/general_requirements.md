@@ -114,7 +114,7 @@ There are multiple ways in which to install thirty bees into your server.  We wi
  4. Run thru the installation instructions on screen to complete the setup
  5. Write down and save your new administration area url.  This is randomly made on each install for security. 
  5. Delete the /install/ folder
- 6. Proceed to the administration area to begin configuring your new store
+ 6. Proceed to the Back Office to begin configuring your new store
 
 For more detailed instructions follow the links below to install it via your chosen method.
 
