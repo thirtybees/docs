@@ -4,7 +4,12 @@ topnav:
 - title: Topnav
   subcategories:
     - title: Home
-      
+      url: /
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
     - title: Website
       external_url: https://www.thirtybees.com/
       audience: developers
