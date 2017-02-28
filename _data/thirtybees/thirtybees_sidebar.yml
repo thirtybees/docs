@@ -34,7 +34,7 @@ entries:
     version: all
     output: web, pdf
     items:
-     - title: Getting Started
+     - title: General Requirements
        url: /installation/
        audience: docs
        platform: all
