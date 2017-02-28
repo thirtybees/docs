@@ -98,6 +98,69 @@ entries:
        product: all
        version: all
        output: web, pdf
+     - title: Customers
+       url: /merchants-guide/customers/
+       audiance: merchants
+       platform: all
+       product: all
+       version: all
+       output: web, pdf
+     - title: Price Rules
+       url: /merchants-guide/price-rules/
+       audiance: merchants
+       platform: all
+       product: all
+       version: all
+       output: web, pdf
+     - title: Modules & Services
+       url: /merchants-guide/modules-services/
+       audiance: merchants
+       platform: all
+       product: all
+       version: all
+       output: web, pdf
+     - title: Shipping
+       url: /merchants-guide/shipping/
+       audiance: merchants
+       platform: all
+       product: all
+       version: all
+       output: web, pdf
+     - title: Localization
+       url: /merchants-guide/localization/
+       audiance: merchants
+       platform: all
+       product: all
+       version: all
+       output: web, pdf
+     - title: Preferences
+       url: /merchants-guide/preferences/
+       audiance: merchants
+       platform: all
+       product: all
+       version: all
+       output: web, pdf
+     - title: Advanced Parameters
+       url: /merchants-guide/advanced-parameters/
+       audiance: merchants
+       platform: all
+       product: all
+       version: all
+       output: web, pdf
+     - title: Administration
+       url: /merchants-guide/administration/
+       audiance: merchants
+       platform: all
+       product: all
+       version: all
+       output: web, pdf
+     - title: Stats
+       url: /merchants-guide/stats/
+       audiance: merchants
+       platform: all
+       product: all
+       version: all
+       output: web, pdf
 
   - title: Developers Guide
     audience: developers
