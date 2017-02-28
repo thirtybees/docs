@@ -350,6 +350,17 @@
 //
 //
 //{
+//"title": "Stock",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../merchants-guide/stock/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "FAQ layout",
 //"tags": "special_layouts",
 //"keywords": "frequently asked questions, FAQ, question and answer, collapsible sections, expand, collapse",
@@ -416,6 +427,9 @@
 //]
 
 {
+
+
+,
 
 
 ,
