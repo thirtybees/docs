@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="keywords" content="InstallationGetting Started,  ">
-<title>Installing thirty bees  | thirty bees documents</title>
+<title>thirty bees General Requirements  | thirty bees documents</title>
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/css/base-theme.css">
@@ -118,7 +118,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees documents feedback";
-var body = "I have some feedback about the Installing thirty bees page: ";
+var body = "I have some feedback about the thirty bees General Requirements page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -432,7 +432,7 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main">Installing thirty bees</h1>
+   <h1 class="post-title-main">thirty bees General Requirements</h1>
 </div>
 
 <div class="post-content">
@@ -463,14 +463,59 @@ $('#toc').on('click', 'a', function() {
 
 
     
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/installation/getting_started.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/installation/general_requirements.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <h1 id="general-server-requirements-for-thirty-bees">General Server Requirements For thirty bees</h1>
+  <h1 id="general-requirements-for-thirty-bees">General Requirements For thirty bees</h1>
 
-<p>thirty bees is an <a href="https://en.wikipedia.org/wiki/E-commerce">eCommerce</a> web application. It has to be installed on a web server running MySQL or MariaDB and PHP. The code requires certain PHP modules and PHP versions to operate consistently and without error.</p>
+<p>thirty bees is an <a href="https://en.wikipedia.org/wiki/E-commerce">eCommerce</a> web application. It is completely free to download and use.  To get started you will need a domain name, ftp application, editor, and a server.  thirty bees has to be installed on a web server running MySQL or MariaDB and PHP. The code requires certain PHP modules and PHP versions to operate consistently and without error.</p>
 
-<h2 id="php">PHP</h2>
+<h2 id="domain">Domain</h2>
+
+<p>If you already have a domain just proceed to the next step.</p>
+
+<p>To start your on-line business, you need to purchase a domain (https://example.com) so your visitors have a place to go.  Generally, you want the domain to be the name of you store (or business).  There are many sites you can get them and all pretty much do the same thing, aside from a few freebies and price differences.  Some places you can purchase domains from include but are not limited to:</p>
+
+<ul>
+<li>https://www.godaddy.com</li>
+<li>https://www.namecheap.com</li>
+<li>https://www.domains.com</li>
+</ul>
+
+<p>NOTE: Now is a good time to also start thinking about how you will display your domain. (www.yourdomain.com vs yourdomain.com)
+* Generally, these days more and more people are migrating to just using yourdomain.com, but chose as you will.  Only rule is keep it consistent!</p>
+
+<p>NOTE: For the most part most e-commerce stores are reqired to have SSL installed, and as it is a google ranking factor is also strongly advised. (https:// instead of the usual http://)</p>
+
+<h2 id="server">Server</h2>
+
+<p>Since you have your domain, its time to think about a server.  There are a few things to keep in mind when searching for the right one: price, server specifications, proximity of host to your target market, shared vs private, among others.</p>
+
+<p>Generally speaking, shared hosting is the cheapest and bare minimum you can get.  While this may suite some sites with small quantities of items and low traffic, more heavily visited shops will require higher powered servers.</p>
+
+<p><strong>WARNING</strong>  There are some users who claim using heavily utilized share hosting companies (such as godaddy and the like) result in random spikes and slow speeds due to others on the same server taxing the environment. </p>
+
+<p>It is advised to get hosting which guarantees a certain amount of processor cores and ram so you are not slowed down by others sharing your server resources.</p>
+
+<p>You can do a search for hosting providers and choose the right one for your needs and budget (just don&#39;t forget the requirements noted above) or visit our website and look over our <a href="https://thirtybees.com/partners/hosting-partners/">trusted hosting partners</a>.</p>
+
+<h2 id="server-requirements">Server Requirements</h2>
+
+<h3 id="amp-apache-mysql-php-requirements">AMP ( Apache, Mysql, PHP ) Requirements</h3>
+
+<ul>
+<li>Apache Web Server 2.2x
+
+<ul>
+<li>Apache module settings: </li>
+<li>mod_rewrite enabled, </li>
+<li>mod_security disabled,</li>
+<li>mod_auth_basic disabled.</li>
+<li>MySQL 5.5.3+ or MariaDB 5.5+</li>
+</ul></li>
+</ul>
+
+<h3 id="php-requirements">PHP Requirements</h3>
 
 <ul>
 <li>PHP 5.5 ~ PHP 7.1
@@ -524,31 +569,11 @@ $('#toc').on('click', 'a', function() {
 
 <p><code>expose_php = Off</code></p>
 
-<h2 id="web-servers">Web Servers</h2>
+<h2 id="ftp-client-editor">FTP Client &amp; Editor</h2>
 
-<h3 id="lamp-linux-apache-mysql-php">LAMP ( Linux, Apache, Mysql, PHP )</h3>
+<p>In order to transfer files from one place to another, most often FTP (File Transfer Protocol) is used.  You can search ftp clients and find many that may suite your needs as well as quick descriptions on how they work.  A free one that is widely used is FileZilla, but feel free to use whichever you prefer.</p>
 
-<ul>
-<li>Apache Web Server 2.2x
-
-<ul>
-<li>Apache module settings: </li>
-<li>mod_rewrite enabled, </li>
-<li>mod_security disabled,</li>
-<li>mod_auth_basic disabled.</li>
-<li>MySQL 5.5.3+ or MariaDB 5.5+</li>
-</ul></li>
-</ul>
-
-<p>Since you have your domain, its time to think about a server.  There are a few things to keep in mind when searching for the right one: price, server specifications, proximity of host to your target market, shared vs private, among others.</p>
-
-<p>Generally speaking, shared hosting is the cheapest and bare minimum you can get.  While this may suite some sites with small quantities of items and low traffic, more heavily visited shops will require higher powered servers.</p>
-
-<p><strong>WARNING</strong>  There are some users who claim using heavily utilized share hosting companies (such as godaddy and the like) result in random spikes and slow speeds due to others on the same server taxing the environment. </p>
-
-<p>It is advised to get hosting which guarantees a certain amount of processor cores and ram so you are not slowed down by others sharing your server resources.</p>
-
-<p>You can do a search for hosting providers and choose the right one for your needs and budget (just don&#39;t forget the requirements noted above) or visit our website and look over our <a href="https://thirtybees.com/partners/hosting-partners/">trusted hosting partners</a>.</p>
+<p>You may also need to edit your configuration files, in which case you may need an editor.  You can likeswear search for editors and find a whole host of options.  Use what you prefer, whether Notepad, Sublime3, Notepad++, or others.</p>
 
 <h2 id="download-thirty-bees">Download Thirty Bees</h2>
 
@@ -628,7 +653,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Feb 27, 2017 <br />
+ Site last generated: Feb 28, 2017 <br />
 <p><img src="/></p>
                 </div>
             </div>
