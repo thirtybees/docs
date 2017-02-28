@@ -49,6 +49,51 @@
               
       
   
+      
+             /merchants-guide/customers/
+              
+      
+  
+      
+             /merchants-guide/price-rules/
+              
+      
+  
+      
+             /merchants-guide/modules-services/
+              
+      
+  
+      
+             /merchants-guide/shipping/
+              
+      
+  
+      
+             /merchants-guide/localization/
+              
+      
+  
+      
+             /merchants-guide/preferences/
+              
+      
+  
+      
+             /merchants-guide/advanced-parameters/
+              
+      
+  
+      
+             /merchants-guide/administration/
+              
+      
+  
+      
+             /merchants-guide/stats/
+              
+      
+  
   
    
   
