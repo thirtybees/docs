@@ -3,10 +3,17 @@
 topnav:
 - title: Topnav
   subcategories:
+    - title: Website
+      external_url: https://www.thirtybees.com/
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
     - title: Github Repo
       external_url: https://github.com/thirtybees/ThirtyBees
       audience: developers
       platform: all
       product: all
       version: all
-      output: web
+      output: web, pdf
