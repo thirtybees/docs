@@ -3,7 +3,7 @@ title: Orders
 tags:
   - "Introduction"
 audience: merchants
-permalink: /merchants-guide/catalog/
+permalink: /merchants-guide/orders/
 ---
 
 #Orders
