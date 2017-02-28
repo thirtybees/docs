@@ -161,6 +161,13 @@ entries:
        product: all
        version: all
        output: web, pdf
+     - title: Stock
+       url: /merchants-guide/stock/
+       audiance: merchants
+       platform: all
+       product: all
+       version: all
+       output: web, pdf
 
   - title: Developers Guide
     audience: developers
