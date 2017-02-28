@@ -39,6 +39,16 @@
               
       
   
+      
+             /merchants-guide/catalog/
+              
+      
+  
+      
+             /merchants-guide/orders/
+              
+      
+  
   
    
   
