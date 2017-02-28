@@ -3,6 +3,8 @@
 topnav:
 - title: Topnav
   subcategories:
+    - title: Home
+      
     - title: Website
       external_url: https://www.thirtybees.com/
       audience: developers
