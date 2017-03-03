@@ -16,7 +16,7 @@
 //
 //
 //{
-//"title": "Administration",
+//"title": "Back Office Administration",
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/administration/",
@@ -27,7 +27,7 @@
 //
 //
 //{
-//"title": "Advanced Parameters",
+//"title": "Back Office Advanced Parameters",
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/advanced-parameters/",
@@ -38,7 +38,7 @@
 //
 //
 //{
-//"title": "Catalog",
+//"title": "Back Office Catalog",
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/catalog/",
@@ -104,7 +104,7 @@
 //
 //
 //{
-//"title": "Customers",
+//"title": "Back Office Customers",
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/customers/",
@@ -184,7 +184,7 @@
 //
 //
 //{
-//"title": "Localization",
+//"title": "Back Office Localization",
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/localization/",
@@ -195,7 +195,7 @@
 //
 //
 //{
-//"title": "Modules &amp; Services",
+//"title": "Back Office Modules &amp; Services",
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/modules-services/",
@@ -228,7 +228,7 @@
 //
 //
 //{
-//"title": "Orders",
+//"title": "Back Office Orders",
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/orders/",
@@ -250,7 +250,7 @@
 //
 //
 //{
-//"title": "Preferences",
+//"title": "Back Office Preferences",
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/preferences/",
@@ -261,7 +261,7 @@
 //
 //
 //{
-//"title": "Price Rules",
+//"title": "Back Office Price Rules",
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/price-rules/",
@@ -303,7 +303,7 @@
 //
 //
 //{
-//"title": "Shipping",
+//"title": "Back Office Shipping",
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/shipping/",
@@ -339,7 +339,7 @@
 //
 //
 //{
-//"title": "Stats",
+//"title": "Back Office Stats",
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/stats/",
@@ -350,7 +350,7 @@
 //
 //
 //{
-//"title": "Stock",
+//"title": "Back Office Stock",
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/stock/",

@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    algoliasearch (1.12.6)
+    algoliasearch (1.12.7)
       httpclient (~> 2.8.3)
       json (>= 1.5.1)
     algoliasearch-jekyll (0.7.0)
@@ -22,7 +22,7 @@ GEM
     ffi (1.9.17)
     forwardable-extended (2.6.0)
     httpclient (2.8.3)
-    jekyll (3.4.0)
+    jekyll (3.4.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
