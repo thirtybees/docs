@@ -1,7 +1,9 @@
 ---
-title: Catalog
+title: Back Office Catalog
 tags:
   - "Introduction"
+series: "Back Office series"
+weight: 0.2
 audience: merchants
 permalink: /merchants-guide/catalog/
 ---
@@ -28,3 +30,5 @@ Enter beginner blurb here.
 ## Tags
 
 ## Attachments
+
+{% include custom/series_backoffice.html %}{% include custom/series_backoffice_next.html %}

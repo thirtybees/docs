@@ -2,6 +2,8 @@
 title: Admin Overview
 tags:
   - "Introduction"
+series: "Back Office series"
+weight: 0.1
 audience: merchants
 permalink: /merchants-guide/admin-area/
 ---
@@ -98,3 +100,5 @@ Check the “Display non-positionable hooks”Checkbox
 	- In the “Search for a hook” field, enter “dashboardZoneTwo” for the right Colum.
 
 Once you see the selected hook, you can drag the order by clicking on the modules (next to the numbers on the left) and moving them up and down.
+
+{% include custom/series_backoffice.html %}{% include custom/series_backoffice_next.html %}
