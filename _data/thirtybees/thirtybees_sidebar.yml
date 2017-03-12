@@ -169,6 +169,29 @@ entries:
        version: all
        output: web, pdf
 
+  - title: Native Modules
+    url: /native-modules/
+    audience: merchants
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+      - title: PayPal Module
+        url: /native-modules/paypal/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
+  
+  - title: SEO Guide
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+
   - title: Developers Guide
     audience: developers
     platform: all
@@ -191,13 +214,6 @@ entries:
     output: web, pdf
 
   - title: System Administration Guide
-    audience: developers
-    platform: all
-    product: all
-    version: all
-    output: web, pdf
-
-  - title: SEO Guide
     audience: developers
     platform: all
     product: all
