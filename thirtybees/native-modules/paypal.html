@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<meta name="keywords" content="Introduction,  ">
-<title>Back Office Orders  | thirty bees documents</title>
+<meta name="keywords" content=" ">
+<title>  | thirty bees documents</title>
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/css/base-theme.css">
@@ -80,7 +80,7 @@
             </button>
 
             <a class="navbar-brand" href="">
-                <img src="/common_images/thirty-bees-dark.png" alt="thirty bees documents" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/merchants</span>
+                <img src="/common_images/thirty-bees-dark.png" alt="thirty bees documents" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/</span>
             </a>
 
         </div>
@@ -130,7 +130,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees documents feedback";
-var body = "I have some feedback about the Back Office Orders page: ";
+var body = "I have some feedback about the  page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -330,7 +330,7 @@ window.location.href = uri;
                     
                     
                     
-                    <li class="active"><a href="/merchants-guide/orders/">Orders</a></li>
+                    <li><a href="/merchants-guide/orders/">Orders</a></li>
                     
 
                     
@@ -568,7 +568,7 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main">Back Office Orders</h1>
+   <h1 class="post-title-main"></h1>
 </div>
 
 <div class="post-content">
@@ -599,369 +599,74 @@ $('#toc').on('click', 'a', function() {
 
 
     
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/merchants-guide/orders.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/native-modules/paypal.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <h1 id="orders">Orders</h1>
+  <h1 id="paypal-module-by-thirtybees">Paypal Module by thirtybees</h1>
 
-<p><img src="/thirtybees/images/merchants-guide/orders.jpg" alt="Thirty Bees Orders" title="Thirty Bees Orders"></p>
+<p>Current Version as of writing: PayPal v4.0.0 by thirtybees</p>
 
-<p>Enter beginner blurb here.</p>
+<p>Guide Contributed By: alwayspaws</p>
 
-<h2 id="orders">Orders</h2>
+<h2 id="setting-up-the-paypal-module">Setting up the PayPal Module</h2>
 
-<h2 id="invoices">Invoices</h2>
+<p>In admin, navigate to Modules and Services, List of Modules, Payments and Gateways.</p>
 
-<h2 id="merchandise-returns">Merchandise Returns</h2>
+<p>Click “Configure” in PayPal v4.0.0 - by Thirty Bees
+&quot;Accepts payments by credit cards (CB, Visa, MasterCard, Amex, Aurore, Cofinoga, 4 stars) with PayPal.&quot;</p>
 
-<h2 id="delivery-slips">Delivery Slips</h2>
+<p>Next, open a new browser window and go here:</p>
 
-<h2 id="credit-slips">Credit Slips</h2>
+<p>https://developer.paypal.com/ (or here: https://developer.paypal.com/developer/applications/) and log in.</p>
 
-<h2 id="statuses">Statuses</h2>
+<p>Please note that sometimes you have to double-click to get a submenu from the left side of the page to open. For example, if you scroll down to the “LIVE” menu and click “Transactions”, if single-clicking doesn’t work, double click it! (I added this first to avoid frustration.)</p>
 
-<h2 id="order-messages">Order Messages</h2>
+<ol>
+<li>Log in with your normal PayPal credentials. (email and password).</li>
+<li>Click “dashboard” at the top right of the page.</li>
+<li>Scroll down until you find: REST API apps</li>
+</ol>
 
-<div class="row seriesContext" >
- <div class="panel panel-default">
-    <div class="panel-heading"><h1>Back Office Series</h1></div>
-    <div class="panel-body">
-  <ul class="list-inline">
-    <li>
-    <div class="btn-group">
-        <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Back Office<span class="caret"></span></button>
-        <ol class="dropdown-menu">
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <li>
-                <a href="/merchants-guide/admin-area/" title="Admin Overview" rel="help prev">0.1. Admin Overview</a>
-            </li>
-            
-            
-            
-            
-            
-            <li>
-                <a href="/merchants-guide/catalog/" title="Back Office Catalog" rel="help prev">0.2. Back Office Catalog</a>
-            </li>
-            
-            
-            
-            
-            
-            <li class="active"> → 0.3. Back Office Orders</li>
-            
-            
-            
-            
-            
-            <li>
-                <a href="/merchants-guide/customers/" title="Back Office Customers" rel="help prev">0.4. Back Office Customers</a>
-            </li>
-            
-            
-            
-            
-            
-            <li>
-                <a href="/merchants-guide/price-rules/" title="Back Office Price Rules" rel="help prev">0.5. Back Office Price Rules</a>
-            </li>
-            
-            
-            
-            
-            
-            <li>
-                <a href="/merchants-guide/modules-services/" title="Back Office Modules & Services" rel="help prev">0.6. Back Office Modules & Services</a>
-            </li>
-            
-            
-            
-            
-            
-            <li>
-                <a href="/merchants-guide/shipping/" title="Back Office Shipping" rel="help prev">0.6. Back Office Shipping</a>
-            </li>
-            
-            
-            
-            
-            
-            <li>
-                <a href="/merchants-guide/localization/" title="Back Office Localization" rel="help prev">0.7. Back Office Localization</a>
-            </li>
-            
-            
-            
-            
-            
-            <li>
-                <a href="/merchants-guide/preferences/" title="Back Office Preferences" rel="help prev">0.8. Back Office Preferences</a>
-            </li>
-            
-            
-            
-            
-            
-            <li>
-                <a href="/merchants-guide/advanced-parameters/" title="Back Office Advanced Parameters" rel="help prev">0.9. Back Office Advanced Parameters</a>
-            </li>
-            
-            
-            
-            
-            
-            <li>
-                <a href="/merchants-guide/administration/" title="Back Office Administration" rel="help prev">1.0. Back Office Administration</a>
-            </li>
-            
-            
-            
-            
-            
-            <li>
-                <a href="/merchants-guide/stats/" title="Back Office Stats" rel="help prev">1.1. Back Office Stats</a>
-            </li>
-            
-            
-            
-            
-            
-            <li>
-                <a href="/merchants-guide/stock/" title="Back Office Stock" rel="help prev">1.2. Back Office Stock</a>
-            </li>
-            
-            
-            
-        </ol>
-    </div>
-</li>
-    <li>
-      <div>
-        <p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <a href="/merchants-guide/customers/" title="Back Office Customers" rel="next"><button type="button" class="btn btn-primary">Next: 0.4  Back Office Customers</button></a>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-       </p>
-     </div>
-   </li>
-  </ul>
-</div>
+<p>“Create an app to receive REST API credentials for testing and live transactions.”</p>
 
-<div class="panel-footer"><p>Navigate the Back Office using the buttons above.</p></div>
+<ol>
+<li>Click the button that says “Create App”.</li>
+<li><strong>If you see a circle going around until it gives up, manage your cookie blocking:</strong></li>
+</ol>
 
-<p></div></p>
+<p>Check third party cookies. Allow paypalobjects.com and two long, weird strings (which is what I had in Google Chrome) or whatever you see that is PayPal-related and blocked.</p>
+
+<ol>
+<li>Refresh the page or log out and log back in and proceed with Steps 2, 3 and 4.</li>
+<li><strong>Create New App:</strong></li>
+</ol>
+
+<p>Enter an App name that is related to your website and business.</p>
+
+<ol>
+<li>In this same section, under the App Name, make sure the correct email is listed under “Sandbox developer account”.</li>
+<li>Click the Create App button.</li>
+<li><strong>COPY AND SAVE your SANDBOX API CREDENTIALS.</strong></li>
+<li>Scroll down to “SANDBOX APP SETTINGS” and choose the feature options you need. SAVE.</li>
+<li>At the top of the page, click the “Sandbox/Live” slider button to get your LIVE CREDENTIALS.</li>
+<li><strong>COPY AND SAVE your LIVE API CREDENTIALS.</strong></li>
+<li>Scroll down to “LIVE APP SETTINGS”, enter your return URL and choose the feature options you need. SAVE.</li>
+<li>If you get lost or forgot to save your API CREDENTIALS for Sandbox and/or Live, go back to the top right and click “dashboard” and then click (or double-click) the menu / submenu on the left side.</li>
+</ol>
+
+<h2 id="more-info">More info:</h2>
+
+<ul>
+<li>From left side menu, under Sandbox, click “Accounts” and see your records (accounts) listed.</li>
+<li>Click on the email address you want to view information for and it will open two links: “Profile” and “Notifications”.</li>
+<li><strong>“Profile” opens a window of Account Details with Tabs for Profile, API Credentials, Funding and Settings. Click each to view and make sure the information is correct.</strong></li>
+<li>Copy all that info down and save it in your password vault in case you can’t find it again!</li>
+</ul>
+
+<p>Note: for the “API Credentials” tab I saw “Classic TEST API Credentials”. I copied and saved them, as well.</p>
 
 
 <div class="tags">
-    
-    <b>Tags: </b>
-    
-
-
-
-    
-    
-    
     
 </div>
 
