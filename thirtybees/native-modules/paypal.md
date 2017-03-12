@@ -27,30 +27,30 @@ https://developer.paypal.com/ (or here: https://developer.paypal.com/developer/a
 
 Please note that sometimes you have to double-click to get a submenu from the left side of the page to open. For example, if you scroll down to the “LIVE” menu and click “Transactions”, if single-clicking doesn’t work, double click it! (I added this first to avoid frustration.)
 
-1. Log in with your normal PayPal credentials. (email and password).
-2. Click “dashboard” at the top right of the page.
-3. Scroll down until you find: REST API apps
+- Log in with your normal PayPal credentials. (email and password).
+- Click “dashboard” at the top right of the page.
+- Scroll down until you find: REST API apps
 
 “Create an app to receive REST API credentials for testing and live transactions.”
 
-4. Click the button that says “Create App”.
-5. **If you see a circle going around until it gives up, manage your cookie blocking:**
+- Click the button that says “Create App”.
+- **If you see a circle going around until it gives up, manage your cookie blocking:**
 
 Check third party cookies. Allow paypalobjects.com and two long, weird strings (which is what I had in Google Chrome) or whatever you see that is PayPal-related and blocked.
 
-6. Refresh the page or log out and log back in and proceed with Steps 2, 3 and 4.
-7. **Create New App:**
+- Refresh the page or log out and log back in and proceed with Steps 2, 3 and 4.
+- **Create New App:**
 
 Enter an App name that is related to your website and business.
 
-8. In this same section, under the App Name, make sure the correct email is listed under “Sandbox developer account”.
-9. Click the Create App button.
-10. **COPY AND SAVE your SANDBOX API CREDENTIALS.**
-11. Scroll down to “SANDBOX APP SETTINGS” and choose the feature options you need. SAVE.
-12. At the top of the page, click the “Sandbox/Live” slider button to get your LIVE CREDENTIALS.
-13. **COPY AND SAVE your LIVE API CREDENTIALS.**
-14. Scroll down to “LIVE APP SETTINGS”, enter your return URL and choose the feature options you need. SAVE.
-15. If you get lost or forgot to save your API CREDENTIALS for Sandbox and/or Live, go back to the top right and click “dashboard” and then click (or double-click) the menu / submenu on the left side.
+- In this same section, under the App Name, make sure the correct email is listed under “Sandbox developer account”.
+- Click the Create App button.
+- **COPY AND SAVE your SANDBOX API CREDENTIALS.**
+- Scroll down to “SANDBOX APP SETTINGS” and choose the feature options you need. SAVE.
+- At the top of the page, click the “Sandbox/Live” slider button to get your LIVE CREDENTIALS.
+- **COPY AND SAVE your LIVE API CREDENTIALS.**
+- Scroll down to “LIVE APP SETTINGS”, enter your return URL and choose the feature options you need. SAVE.
+- If you get lost or forgot to save your API CREDENTIALS for Sandbox and/or Live, go back to the top right and click “dashboard” and then click (or double-click) the menu / submenu on the left side.
 
 ## More info:
 
