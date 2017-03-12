@@ -1,3 +1,3 @@
-## Jekyll Documentation theme
+## thirtybees Documentation
 
-This is the readme page of the Jekyll documentation theme.
+This is the readme page of the thirtybees documentation directory.
