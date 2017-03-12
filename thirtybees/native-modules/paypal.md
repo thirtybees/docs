@@ -1,6 +1,7 @@
 ---
 title: Payment: Paypal Module
 tags:
+  - "Introduction"
   - "Native Modules"
 series: "Native Modules series"
 weight: 0.1
