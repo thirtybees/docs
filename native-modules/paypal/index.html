@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<meta name="keywords" content=" ">
-<title>  | thirty bees documents</title>
+<meta name="keywords" content="InstallationGetting Started,  ">
+<title>Payment Module - Payypal by thirty bees  | thirty bees documents</title>
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/css/base-theme.css">
@@ -130,7 +130,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees documents feedback";
-var body = "I have some feedback about the  page: ";
+var body = "I have some feedback about the Payment Module - Payypal by thirty bees page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -445,7 +445,7 @@ window.location.href = uri;
                     
                     
                     
-                    <li><a href="/native-modules/paypal/">PayPal Module</a></li>
+                    <li class="active"><a href="/native-modules/paypal/">PayPal Module</a></li>
                     
 
                     
@@ -576,189 +576,150 @@ window.location.href = uri;
     };
 </script>
 -->
-                <p>The following pages are tagged with
-    <button type="button" style="cursor: default" class="btn btn-default navbar-btn">Navigation</button>
-</p>
-<table>
-    <thead>
-    <tr>
-        <th>Page</th>
-        <th>Excerpt</th>
-    </tr>
-    </thead>
-    <tbody>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    </tbody>
-</table>
+                <div class="post-header">
+   <h1 class="post-title-main">Payment Module - Payypal by thirty bees</h1>
+</div>
+
+<div class="post-content">
+
+   
+
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+
+<div id="toc"></div>
+
+
+    
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/native-modules/paypal.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    
+
+  <h1 id="paypal-module-by-thirtybees">Paypal Module by thirtybees</h1>
+
+<p>Current Version as of writing: PayPal v4.0.0 by thirtybees</p>
+
+<p>Guide Contributed By: alwayspaws</p>
+
+<h2 id="setting-up-the-paypal-module">Setting up the PayPal Module</h2>
+
+<p>In admin, navigate to Modules and Services, List of Modules, Payments and Gateways.</p>
+
+<p>Click “Configure” in PayPal v4.0.0 - by Thirty Bees
+&quot;Accepts payments by credit cards (CB, Visa, MasterCard, Amex, Aurore, Cofinoga, 4 stars) with PayPal.&quot;</p>
+
+<p>Next, open a new browser window and go here:</p>
+
+<p>https://developer.paypal.com/ (or here: https://developer.paypal.com/developer/applications/) and log in.</p>
+
+<p>Please note that sometimes you have to double-click to get a submenu from the left side of the page to open. For example, if you scroll down to the “LIVE” menu and click “Transactions”, if single-clicking doesn’t work, double click it! (I added this first to avoid frustration.)</p>
+
+<ul>
+<li>Log in with your normal PayPal credentials. (email and password).</li>
+<li>Click “dashboard” at the top right of the page.</li>
+<li>Scroll down until you find: REST API apps</li>
+</ul>
+
+<p>“Create an app to receive REST API credentials for testing and live transactions.”</p>
+
+<ul>
+<li>Click the button that says “Create App”.</li>
+<li><strong>If you see a circle going around until it gives up, manage your cookie blocking:</strong></li>
+</ul>
+
+<p>Check third party cookies. Allow paypalobjects.com and two long, weird strings (which is what I had in Google Chrome) or whatever you see that is PayPal-related and blocked.</p>
+
+<ul>
+<li>Refresh the page or log out and log back in and proceed with Steps 2, 3 and 4.</li>
+<li><strong>Create New App:</strong></li>
+</ul>
+
+<p>Enter an App name that is related to your website and business.</p>
+
+<ul>
+<li>In this same section, under the App Name, make sure the correct email is listed under “Sandbox developer account”.</li>
+<li>Click the Create App button.</li>
+<li><strong>COPY AND SAVE your SANDBOX API CREDENTIALS.</strong></li>
+<li>Scroll down to “SANDBOX APP SETTINGS” and choose the feature options you need. SAVE.</li>
+<li>At the top of the page, click the “Sandbox/Live” slider button to get your LIVE CREDENTIALS.</li>
+<li><strong>COPY AND SAVE your LIVE API CREDENTIALS.</strong></li>
+<li>Scroll down to “LIVE APP SETTINGS”, enter your return URL and choose the feature options you need. SAVE.</li>
+<li>If you get lost or forgot to save your API CREDENTIALS for Sandbox and/or Live, go back to the top right and click “dashboard” and then click (or double-click) the menu / submenu on the left side.</li>
+</ul>
+
+<h2 id="more-info">More info:</h2>
+
+<ul>
+<li>From left side menu, under Sandbox, click “Accounts” and see your records (accounts) listed.</li>
+<li>Click on the email address you want to view information for and it will open two links: “Profile” and “Notifications”.</li>
+<li><strong>“Profile” opens a window of Account Details with Tabs for Profile, API Credentials, Funding and Settings. Click each to view and make sure the information is correct.</strong></li>
+<li>Copy all that info down and save it in your password vault in case you can’t find it again!</li>
+</ul>
+
+<p>Note: for the “API Credentials” tab I saw “Classic TEST API Credentials”. I copied and saved them, as well.</p>
+
+
+<div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+    
+    
+    
+    
+    
+    
+</div>
+
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'thirty-bees'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2017 thirty bees. All rights reserved. <br />
+ Site last generated: Mar 13, 2017 <br />
+<p><img src="/></p>
+                </div>
+            </div>
+</footer>
 
             </div><!-- /.row -->
 
