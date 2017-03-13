@@ -2,9 +2,7 @@
 title: Payment: Paypal Module
 tags:
   - "Introduction"
-series: "Native Modules series"
-weight: 0.1
-audience: merchants
+audience: docs
 permalink: /native-modules/paypal/
 ---
 
