@@ -1,5 +1,5 @@
 ---
-title: Payment Module - Payypal by thirty bees
+title: Payment Module - Paypal by thirty bees
 tags:
   - "Installation"
   - "Getting Started"
@@ -7,9 +7,9 @@ audience: docs
 permalink: /native-modules/paypal/
 ---
 
-#Paypal Module by thirtybees
+#Paypal Module by thirty bees
 
-Current Version as of writing: PayPal v4.0.0 by thirtybees
+Current Version as of writing: PayPal v4.0.0 by thirty bees
 
 Guide Contributed By: alwayspaws
 
