@@ -1,7 +1,8 @@
 ---
-title: Payment: Paypal Module
+title: Payment Module - Payypal by thirty bees
 tags:
-  - "Introduction"
+  - "Installation"
+  - "Getting Started"
 audience: docs
 permalink: /native-modules/paypal/
 ---
