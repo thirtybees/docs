@@ -11,8 +11,6 @@ permalink: /native-modules/paypal/
 
 Current Version as of writing: PayPal v4.0.0 by thirty bees
 
-Guide Contributed By: alwayspaws
-
 ## Setting up the PayPal Module
 
 In admin, navigate to Modules and Services, List of Modules, Payments and Gateways.
@@ -58,4 +56,12 @@ Enter an App name that is related to your website and business.
 - **“Profile” opens a window of Account Details with Tabs for Profile, API Credentials, Funding and Settings. Click each to view and make sure the information is correct.**
 - Copy all that info down and save it in your password vault in case you can’t find it again!
 
-Note: for the “API Credentials” tab I saw “Classic TEST API Credentials”. I copied and saved them, as well.
+<div class="alert alert-warning">Note: for the “API Credentials” tab I saw “Classic TEST API Credentials”. I copied and saved them, as well.</div>
+
+<div class="alert alert-info">This page contains contributions by:
+  <ul>
+    <li>alwayspaws</li>
+  </ul>
+</div>
+
+
