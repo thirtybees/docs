@@ -49,6 +49,17 @@
 //
 //
 //{
+//"title": "Classes API",
+//"tags": "ClassesAPI",
+//"keywords": "",
+//"url": "../developers/classes/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "",
 //"tags": "",
 //"keywords": "",
@@ -98,6 +109,17 @@
 //"keywords": "includes, conref, dita, transclusion, transclude, inclusion, reference",
 //"url": "../authoring/content-reuse/",
 //"summary": "You can reuse chunks of content by storing these files in the includes folder. You then choose to include the file where you need it. This works similar to conref in DITA, except that you can include the file in any content type."
+//},
+//
+//
+//
+//
+//{
+//"title": "Controllers API",
+//"tags": "ControllersAPI",
+//"keywords": "",
+//"url": "../developers/controllers/",
+//"summary": ""
 //},
 //
 //
@@ -449,6 +471,12 @@
 //]
 
 {
+
+
+,
+
+
+,
 
 
 ,
