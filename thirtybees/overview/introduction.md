@@ -49,6 +49,6 @@ The PDF contains a timestamp in the header indicating when it was last generated
 
 ## Getting started
 
-Now that you've had the 2 cent tour, head on over to the Installation Guide to learn about setting up the proper server environent and getting thirtybees installed!
+Now that you've had the 2 cent tour, head on over to the Installation Guide to learn about setting up the proper server environment and getting thirtybees installed!
 
 {{site.data.thirtybees.thirtybees_urls.thirtybees_getting_started.link}}
