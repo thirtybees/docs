@@ -631,20 +631,21 @@ $('#toc').on('click', 'a', function() {
 
   <p><img src="/thirtybees/images/merchants-guide/price-rules.jpg" alt="Thirty Bees Price Rules" title="Thirty Bees Price Rules"></p>
 
-<p>Enter beginner blurb here.</p>
-
 <h2 id="cart-rules">Cart Rules</h2>
 
 <p>Here you can create discounts and coupon codes for your store.  Simply click the Add New in the top right corner and get prompted with 3 screens full of choices.</p>
 
-<p><strong>Information:</strong>
-- <strong>Name</strong> - Required - The name of your voucher (will show up on the invoice).
-- <strong>Description</strong> - Optional - Description for yourself.  Customers never see this.
-- <strong>Code</strong> - Optional - The code (&quot;voucher) customers will use to be granted the discount.  If no code is entered, it will be automatically applied to all those applicable.
-- <strong>Highlight</strong> - Optional - Show the discount in the cart for customers to click and apply?
-- <strong>Partial Use</strong> - Optional - If the voucher is greater than the customer price, a new voucher will be created with the remaining balance.
-- <strong>Priority</strong> - Optional - A cart rule with a prioirty of 1 will be processed before prioirty 2, etc.
-- <strong>Status</strong> - Required - Enable or Disable the voucher.</p>
+<p><strong>Information:</strong></p>
+
+<ul>
+<li><strong>Name</strong> - Required - The name of your voucher (will show up on the invoice).</li>
+<li><strong>Description</strong> - Optional - Description for yourself.  Customers never see this.</li>
+<li><strong>Code</strong> - Optional - The code (&quot;voucher) customers will use to be granted the discount.  If no code is entered, it will be automatically applied to all those applicable.</li>
+<li><strong>Highlight</strong> - Optional - Show the discount in the cart for customers to click and apply?</li>
+<li><strong>Partial Use</strong> - Optional - If the voucher is greater than the customer price, a new voucher will be created with the remaining balance.</li>
+<li><strong>Priority</strong> - Optional - A cart rule with a prioirty of 1 will be processed before prioirty 2, etc.</li>
+<li><strong>Status</strong> - Required - Enable or Disable the voucher.</li>
+</ul>
 
 <p><strong>Conditions:</strong></p>
 
@@ -674,7 +675,31 @@ $('#toc').on('click', 'a', function() {
 
 <h2 id="catalog-price-rules">Catalog Price Rules</h2>
 
-<p>...</p>
+<p>This is where you can create discounts store wide.  Keep in mind these are automatic discounts requriing no code.  In the top right corner click add new to begin making your discount.</p>
+
+<ul>
+<li><strong>Name</strong> - Required - The name that will appear on the invoice.</li>
+<li><strong>Currency</strong> - Optional - Apply the discount to certain curriencies only.</li>
+<li><strong>Country</strong> - Optional - Apply the discount for certain countries only.</li>
+<li><strong>Group</strong> - Optional - Apply the discount for certain groups only.</li>
+<li><strong>From Quantity</strong> - Required - Set the number of products that must be added to cart for discount to apply.</li>
+<li><strong>Price (Tax Excl.)</strong> - Optional - Set a specific price. (only applies if you uncheck Leave Base Price)</li>
+<li><strong>Leave Base Price</strong> - Optional - Keep the original price, striked out, and show sale price near it?</li>
+<li><strong>From</strong> - Optional - The start date of the discount.</li>
+<li><strong>To</strong> - Optional - The end date of the discount.</li>
+<li><strong>Reduction Type</strong> - Optional - The type of discount (amount vs percentage).</li>
+<li><strong>Reduction With/Without Taxes</strong> - Optional - Will the reduction be applied before or after tax calculation?</li>
+<li><strong>Reduction</strong> - Required - The amount of the reduction.</li>
+<li><strong>Conditions:</strong> - Optional - Requirements for the discount to be applied.
+
+<ul>
+<li><strong>Category</strong> - Apply the discount based on category(s).</li>
+<li><strong>Manufacturer</strong> - Apply the discount based on certain manufacturer(s).</li>
+<li><strong>Supplier</strong> - Apply the discount based on certain suuplier(s).</li>
+<li><strong>Attributes</strong> - Apply the discount based on an attribute.</li>
+<li><strong>Features</strong> - Apply the discount based on a feature.</li>
+</ul></li>
+</ul>
 
 <h2 id="marketing">Marketing</h2>
 
@@ -1070,7 +1095,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Mar 26, 2017 <br />
+ Site last generated: Mar 27, 2017 <br />
 <p><img src="/></p>
                 </div>
             </div>
