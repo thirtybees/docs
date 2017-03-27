@@ -10,8 +10,6 @@ permalink: /merchants-guide/shipping/
 
 ![Thirty Bees Shipping]({{baseurl}}/thirtybees/images/merchants-guide/shipping.jpg  "Thirty Bees Shipping")
 
-Enter beginner blurb here.
-
 ## Carriers
 
 Here you setup which carrier will be available to your customers.  You can either use modules to autopupulate and calculate shipments or you can create your own custom ones.  Please note, usually, when using modules it can add a few seconds delay to your "add to cart" click as it contacts the carriers and calculates price on the spot each time.
