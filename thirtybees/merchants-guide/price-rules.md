@@ -10,13 +10,12 @@ permalink: /merchants-guide/price-rules/
 
 ![Thirty Bees Price Rules]({{baseurl}}/thirtybees/images/merchants-guide/price-rules.jpg  "Thirty Bees Price Rules")
 
-Enter beginner blurb here.
-
 ## Cart Rules
 
 Here you can create discounts and coupon codes for your store.  Simply click the Add New in the top right corner and get prompted with 3 screens full of choices.
 
 **Information:**
+
 - **Name** - Required - The name of your voucher (will show up on the invoice).
 - **Description** - Optional - Description for yourself.  Customers never see this.
 - **Code** - Optional - The code ("voucher) customers will use to be granted the discount.  If no code is entered, it will be automatically applied to all those applicable.
@@ -46,7 +45,26 @@ Here you can create discounts and coupon codes for your store.  Simply click the
 
 ## Catalog Price Rules
 
-...
+This is where you can create discounts store wide.  Keep in mind these are automatic discounts requriing no code.  In the top right corner click add new to begin making your discount.
+
+- **Name** - Required - The name that will appear on the invoice.
+- **Currency** - Optional - Apply the discount to certain curriencies only.
+- **Country** - Optional - Apply the discount for certain countries only.
+- **Group** - Optional - Apply the discount for certain groups only.
+- **From Quantity** - Required - Set the number of products that must be added to cart for discount to apply.
+- **Price (Tax Excl.)** - Optional - Set a specific price. (only applies if you uncheck Leave Base Price)
+- **Leave Base Price** - Optional - Keep the original price, striked out, and show sale price near it?
+- **From** - Optional - The start date of the discount.
+- **To** - Optional - The end date of the discount.
+- **Reduction Type** - Optional - The type of discount (amount vs percentage).
+- **Reduction With/Without Taxes** - Optional - Will the reduction be applied before or after tax calculation?
+- **Reduction** - Required - The amount of the reduction.
+- **Conditions:** - Optional - Requirements for the discount to be applied.
+  - **Category** - Apply the discount based on category(s).
+  - **Manufacturer** - Apply the discount based on certain manufacturer(s).
+  - **Supplier** - Apply the discount based on certain suuplier(s).
+  - **Attributes** - Apply the discount based on an attribute.
+  - **Features** - Apply the discount based on a feature.
 
 ## Marketing
 
