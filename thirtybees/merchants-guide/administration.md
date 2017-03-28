@@ -12,7 +12,7 @@ permalink: /merchants-guide/administration/
 
 On this screen you can setup your general administrative store preferences.
 
-![Thirty Bees Administration Preferences]({{baseurl}}thirtybees/images/merchants-guide/thirty_bees-administration-preferences.jpg  "Thirty Bees Administration Preferences")
+![Thirty Bees Administration Preferences]({{baseurl}}/thirtybees/images/merchants-guide/thirty_bees-administration-preferences.jpg  "Thirty Bees Administration Preferences")
 
 **General:**
 
