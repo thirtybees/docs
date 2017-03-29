@@ -27,7 +27,7 @@ permalink: /merchants-guide/online-resources/
 				thirty bees blog
 			</h2>
 			<p>
-				Checkout our latest bog post about thirty bees. Be sure to post comments and share on your social networks. You never know who might need help running an ecommerce business.
+				Check out our latest bog posts about thirty bees. Be sure to post comments and please share on your social networks. You never know who may need help running an ecommerce business.
 			</p>
 			<p>
 				<a class="btn" href="https://thirtybees.com/blog/">Read Posts »</a>
@@ -38,7 +38,7 @@ permalink: /merchants-guide/online-resources/
 				thirty bees features
 			</h2>
 			<p>
-				Do you have an idea that might make thirty bees better? Submit your idea and our community members will vote on and comment your suggestion. Be sure to post your idea to your social networks and gain more votes on your idea.
+				Do you have an idea that may improve thirty bees? Submit your idea and our community members will vote and comment on your suggestion(s). Please share and post your ideas on your social networks to gain more votes on your ideas.
 			</p>
 			<p>
 				<a class="btn" href="https://thirtybees.com/feature-request/">Feature Requests »</a>
@@ -49,7 +49,7 @@ permalink: /merchants-guide/online-resources/
 				thirty bees bug reports
 			</h2>
 			<p>
-				If you have gone through our [trouble shooting guide] and still have errors in your store, we have a place for you to submit your bug reports, online. Create a new post and share with our community.
+				If you have gone through our [troubleshooting guide] and still have errors in your store, we have a forum for you to submit your bug reports online. Create a new post and share it with our community. We welcome any information you may provide.
 			</p>
 			<p>
 				<a class="btn" href="https://forum.thirtybees.com/category/10/bug-reports">Submit Bug Report »</a>
