@@ -39,16 +39,10 @@ For more about the available features, see {{site.data.thirtybees.thirtybees_url
 
 This website was set up to flow in the order of the menu.  First, follow all the directions for setting up the proper environment for installing thirty bees.  Next read the Merchants Guide to familiarize yourself with the management of your site.  Lastly, read any SEO and, likewise, guides to learn the best practices when adding to your shop.  There are also guides for Developers, Designers, Modules Makers and System Administrators.
 
-## Download Complete Full Guide (PDF)
-
-You can download this entire guide, which is a comprehensive PDF containing all the content on this site and all its sections, right here!  Work when, where and how you want!
-
-<a target="_blank" class="noCrossRef" href="{{base}}/thirtybees/pdf/thirtybees_devdocs.pdf"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
-
-The PDF contains a timestamp in the header indicating when it was last generated. 
-
 ## Getting started
 
 Now that you've had the 2 cent tour, head on over to the Installation Guide to learn about setting up the proper server environment and getting thirtybees installed!
 
 {{site.data.thirtybees.thirtybees_urls.thirtybees_getting_started.link}}
+
+{% include custom/pdf-catalog.html %}

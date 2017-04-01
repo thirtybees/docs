@@ -58,10 +58,4 @@ Enter an App name that is related to your website and business.
 
 <div class="alert alert-warning">Note: for the “API Credentials” tab I saw “Classic TEST API Credentials”. I copied and saved them, as well.</div>
 
-<div class="alert alert-info">This page contains contributions by:
-  <ul>
-    <li>alwayspaws</li>
-  </ul>
-</div>
-
-
+{% include custom/pdf-catalog.html %}

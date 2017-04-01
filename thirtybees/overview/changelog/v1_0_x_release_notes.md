@@ -71,3 +71,5 @@ Improvements:
 ## Version 1.0.0 beta.1
 <blockquote>February 2, 2017</blockquote> 
 First public version
+
+{% include custom/pdf-catalog.html %}
