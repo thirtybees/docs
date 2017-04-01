@@ -33,10 +33,4 @@ thirty bees will keep all native modules in v1 updated and supported for at leas
 
 - Paypal 
 
-## Download Complete Full Guide (PDF)
-
-You can download this entire guide, a comprehensive PDF containing all the content on this site and all its sections right here!  Work when, where, and how you want!
-
-<a target="_blank" class="noCrossRef" href="{{base}}/thirtybees/pdf/thirtybees_devdocs.pdf"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
-
-The PDF contains a timestamp in the header indicating when it was last generated.
+{% include custom/pdf-catalog.html %}
