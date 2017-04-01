@@ -7,6 +7,7 @@ weight: 0.1
 audience: merchants
 permalink: /merchants-guide/admin-area/
 ---
+{% include custom/series_backoffice.html %}{% include custom/series_backoffice_next.html %}
 
 #Admin Area
 ![Thirty Bees Back Office]({{baseurl}}/thirtybees/images/thirty-bees-back-office.jpg  "Thirty Bees Back Office")
