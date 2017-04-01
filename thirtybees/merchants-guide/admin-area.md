@@ -113,7 +113,7 @@ thirty bees Merchant Guide [pdf]
 <div class="panel-body">
 You can download this entire guide, a comprehensive PDF containing all the content on this site and all its sections, right here!  Work when, where and how you want!
 
-<a target="_blank" class="noCrossRef" href="{{base}}/thirtybees/pdf/thirtybees_devdocs.pdf"><button type="button" class="btn btn-default" class="pull-right" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
+<a rel="help bookmark" target="_blank" class="noCrossRef" href="{{base}}/thirtybees/pdf/thirtybees_devdocs.pdf"><button type="button" class="btn btn-default" class="pull-right" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
 </div>
 <footer class="panel-footer">
 The PDF contains a timestamp in the header indicating when it was last generated.
