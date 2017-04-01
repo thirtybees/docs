@@ -9,20 +9,19 @@ permalink: /native-modules/paypal/
 
 #Paypal Module by thirty bees
 
-Current Version as of writing: PayPal v4.0.0 by thirty bees
+Needs introduction and screen captures.
 
 ## Setting up the PayPal Module
 
 In admin, navigate to Modules and Services, List of Modules, Payments and Gateways.
 
-Click “Configure” in PayPal v4.0.0 - by Thirty Bees
-"Accepts payments by credit cards (CB, Visa, MasterCard, Amex, Aurore, Cofinoga, 4 stars) with PayPal."
-
-Next, open a new browser window and go here:
+- Search for **Paypal**
+- Click **Configure **
+- Open a new browser window and go here:
 
 https://developer.paypal.com/ (or here: https://developer.paypal.com/developer/applications/) and log in.
 
-Please note that sometimes you have to double-click to get a submenu from the left side of the page to open. For example, if you scroll down to the “LIVE” menu and click “Transactions”, if single-clicking doesn’t work, double click it! (I added this first to avoid frustration.)
+Please note that sometimes you have to double-click to get a submenu from the left side of the page to open. For example, if you scroll down to the “LIVE” menu and click “Transactions”, if single-clicking doesn’t work, double click it!
 
 - Log in with your normal PayPal credentials. (email and password).
 - Click “dashboard” at the top right of the page.
@@ -54,8 +53,8 @@ Enter an App name that is related to your website and business.
 - From left side menu, under Sandbox, click “Accounts” and see your records (accounts) listed.
 - Click on the email address you want to view information for and it will open two links: “Profile” and “Notifications”.
 - **“Profile” opens a window of Account Details with Tabs for Profile, API Credentials, Funding and Settings. Click each to view and make sure the information is correct.**
-- Copy all that info down and save it in your password vault in case you can’t find it again!
+- Copy all that info down and save it in your password vault in case you can not find it again!
 
-<div class="alert alert-warning">Note: for the “API Credentials” tab I saw “Classic TEST API Credentials”. I copied and saved them, as well.</div>
+<div class="alert alert-warning">Note: for the “API Credentials” tab called **Classic TEST API Credentials**. Copy and saved them.</div>
 
 {% include custom/pdf-catalog.html %}
