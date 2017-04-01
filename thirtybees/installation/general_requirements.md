@@ -121,10 +121,11 @@ For more detailed instructions, please follow the links below to install thirty 
 * [FTP Installation](/installation/ftp-installation/) 
 * Server Command Line Installation - 
 * Local Computer Installation - 
+
 <header class="panel panel-default>
 <div class="panel-heading>
 <h2 class="panel-title">
-Download Complete Full Guide (PDF)
+thirty bees Merchant Guide [pdf]
 </h2>
 </header>
 </div>
