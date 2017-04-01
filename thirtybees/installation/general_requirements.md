@@ -124,7 +124,7 @@ For more detailed instructions, please follow the links below to install thirty 
 
 <header class="panel panel-default>
 <div class="panel-heading>
-<h2 class="panel-title">
+<h1 class="panel-title">
 thirty bees Merchant Guide [pdf]
 </h2>
 </header>
@@ -137,4 +137,3 @@ You can download this entire guide, a comprehensive PDF containing all the conte
 <footer class="panel-footer">
 The PDF contains a timestamp in the header indicating when it was last generated.
 </footer>
-</div>
