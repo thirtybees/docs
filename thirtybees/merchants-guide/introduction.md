@@ -32,10 +32,18 @@ Start familiarizing yourself with the [**Back Office**](/merchants-guide/admin-a
 
 Study the [**SEO Guide**](# "thirty bees SEO Guide"). Utilize our forums and read our blog posts found in [**Online Resources**](/merchants-guide/online-resources/ "thirty bees Online Resource Guide").
 
-### PDF Download Option for Help Material
+<header class="panel panel-default>
+<div class="panel-heading>
+<h1 class="panel-title">
+thirty bees Merchant Guide [pdf]
+</h2>
+</header>
+</div>
+<div class="panel-body">
+You can download this entire guide, a comprehensive PDF containing all the content on this site and all its sections, right here!  Work when, where and how you want!
 
-If you would like to download this help file as a PDF, you can do so here. The PDF is comprised of all the documentation in the online help.
-
-<a target="_blank" class="noCrossRef" href="{{base}}/thirtybees/pdf/thirtybees_merchant_guide.pdf"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
-
+<a rel="help bookmark" target="_blank" class="noCrossRef" href="{{base}}/thirtybees/pdf/thirtybees_devdocs.pdf"><button type="button" class="btn btn-default" class="pull-right" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
+</div>
+<footer class="panel-footer">
 The PDF contains a timestamp in the header indicating when it was last generated.
+</footer>
