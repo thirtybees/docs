@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+  <head>
+
+ <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="Introduction,  ">
+<title>Admin Overview  | thirty bees documents</title>
+<link rel="stylesheet" type="text/css" href="/css/syntax.css">
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/css/base-theme.css">
+<link rel="stylesheet" type="text/css" href="/css/modern-business.css">
+<link rel="stylesheet" type="text/css" href="/css/customstyles.css">
+<link rel="stylesheet" type="text/css" href="/css/algolia.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.min.css">
+<link rel="stylesheet" type="text/css" href="/css/modern-business.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<script src="/js/jquery.navgoco.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/customscripts.js"></script>
+<link rel="shortcut icon" href="/common_images/favicon.ico" type="image/x-icon">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		var body = document.body,
+			html = document.documentElement;
+
+		var height = Math.max( body.scrollHeight, body.offsetHeight,
+			html.clientHeight, html.scrollHeight, html.offsetHeight ) + 200;
+
+		if (typeof window.top !== 'undefined') {
+			window.top.postMessage({
+				inlineHelpHeight: height
+			},
+			'*'
+			);
+		}
+	});
+</script>
+
+
+
+
+
+
+
+<script>
+  $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+  });
+</script>
+
+
+
+  </head>
+
+<body>
+
+   <!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="">
+                <img src="/common_images/thirty-bees-dark.png" alt="thirty bees documents" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/merchants</span>
+            </a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- entries without drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+
+
+
+
+                
+                
+                
+                
+                <li><a href="/">Home</a></li>
+                
+                
+                
+                
+                
+                <li><a href="https://www.thirtybees.com/" target="_blank">Website</a></li>
+                
+                
+                
+                
+                
+                <li><a href="https://github.com/thirtybees/ThirtyBees" target="_blank">Github Repo</a></li>
+                
+                
+                
+                
+
+
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+
+                <li class="dropdown">
+                    
+
+
+                <!-- special insertion -->
+
+               
+                <!-- Send feedback function -->
+<script>
+function SendLinkByMail(href) {
+var subject= "thirty bees documents feedback";
+var body = "I have some feedback about the Admin Overview page: ";
+body += window.location.href;
+body += "";
+var uri = "mailto:devdocs@thirtybees.com?subject=";
+uri += encodeURIComponent(subject);
+uri += "&body=";
+uri += encodeURIComponent(body);
+window.location.href = uri;
+}
+</script>
+
+<li><a href="mailto:devdocs@thirtybees.com"><i class="fa fa-envelope-o"></i> Feedback</a></li>
+
+
+
+                <li id="search-box">
+                    <div class="form-group" style="margin-bottom: -6px">
+                        <input id="algolia-search" type="text" class="form-control col-lg-4" placeholder="Search" style="margin: 8px; float: left">
+                    </div>
+                </li>
+
+                <li id="algolia-box">
+                    <a href="https://algolia.com" target="_blank" class="col-lg-2" id="algolia-svg-link" style="background: transparent; float:left; cursor: pointer">
+                        <img id="algolia-svg" src="/common_images/algolia.png">
+                    </a>
+                </li>
+                <script>
+					var client = algoliasearch("PIVL0Y1GI8", "8e047928cc6047d49bbb083d194c552d");
+					var index = client.initIndex('thirtybees_docs');
+					autocomplete('#algolia-search',
+						{ hint: false }, {
+							source: autocomplete.sources.hits(index, {hitsPerPage: 5}),
+                            debug: true,
+							//value to be displayed in input control after user's suggestion selection
+							displayKey: function(suggestion) {
+								return suggestion.title || suggestion.h1 || suggestion.h2 || suggestion.h3 || suggestion.h4 ||  suggestion.h5 || suggestion.h6 || suggestion.unordered;
+							},
+							//hash of templates used when rendering dataset
+							templates: {
+								//'suggestion' templating function used to render a single suggestion
+								suggestion: function(suggestion) {
+                                    return '<span>' + suggestion.title || suggestion.h1 || suggestion.h2 || suggestion.h3 || suggestion.h4 ||  suggestion.h5 || suggestion.h6 || suggestion.unordered + '</span>';
+								}
+							}
+						}).on('autocomplete:selected', function(event, suggestion, dataset) {
+                            if (suggestion.title) {
+								window.location.href = suggestion.permalink;
+                            }
+
+                            window.location.href = suggestion.url;
+                    });
+                </script>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="col-lg-12">&nbsp;</div>
+
+
+<!-- Content Row -->
+<div class="row">
+    <!-- Sidebar Column -->
+    <div class="col-md-3">
+        <script>
+            $(document).ready(function() {
+                // Initialize navgoco with default options
+                $("#mysidebar").navgoco({
+                    caretHtml: '',
+                    accordion: true,
+                    openClass: 'active', // open
+                    save: false, // leave false or nav highlighting doesn't work right
+                    cookie: {
+                        name: 'navgoco',
+                        expires: false,
+                        path: '/'
+                    },
+                    slide: {
+                        duration: 400,
+                        easing: 'swing'
+                    }
+                });
+
+                $("#collapseAll").click(function(e) {
+                    e.preventDefault();
+                    $("#mysidebar").navgoco('toggle', false);
+                });
+
+                $("#expandAll").click(function(e) {
+                    e.preventDefault();
+                    $("#mysidebar").navgoco('toggle', true);
+                });
+
+            });
+        </script>
+        
+
+
+
+        <ul id="mysidebar" class="nav">
+         <!--   <span class="siteTagline">Developer<br />Guide</span> -->
+            <span class="versionTagline">Version 1.0.X</span>
+            
+            
+            
+                
+            
+            <li><a href="#">Overview</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/">Introduction</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Installation</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/installation/">General Requirements</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/installation/ftp-installation/">FTP Installation</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Troubleshooting</a>
+                <ul>
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Merchants Guide</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/merchants-guide/">Getting started</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/merchants-guide/online-resources/">Online Resources</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/merchants-guide/admin-area/">Back Office</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">SEO Guide</a>
+                <ul>
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Developers Guide</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/developers/classes/">Classes API</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/developers/controllers/">Controllers API</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Designers Guide</a>
+                <ul>
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Module Makers Guide</a>
+                <ul>
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">System Administration Guide</a>
+                <ul>
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Contribute</a>
+                <ul>
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Release notes</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/release_notes/v1-0-x-release-notes">Version 1.0.x</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Reporting Bugs</a>
+                <ul>
+                    
+                </ul>
+                
+                
+                
+
+
+                <!-- if you aren't using the accordion, uncomment this block:
+
+                     <p class="external">
+                         <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+                     </p>
+                 -->
+
+    </div>
+    <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+    <script>$("li.active").parents('li').toggleClass("active");</script>
+
+
+            <!-- Content Column -->
+            <div class="col-md-9">
+                <!--<div class="search">
+
+    <input type="text" placeholder="search...">
+</div>
+<div class="results">
+    <ul id="users"></ul>
+</div>
+
+<script src="http://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        var client = algoliasearch('PIVL0Y1GI8', '');
+        var index = client.initIndex('thirtybees_docs');
+        var $input = $('input');
+        $input.keyup(function() {
+            index.search($input.val(), {
+                hitsPerPage: 10,
+                facets: '*'
+            }, searchCallback);
+        }).focus();
+    });
+
+    function searchCallback(err, content) {
+        console.log(content);
+        if (err) {
+            console.error(err);
+            return;
+        }
+
+        var $users = $('#users');
+        $users.empty();
+
+        for (var i = 0; i < content.hits.length; i++) {
+            $users.append('<li> <a href="' + content.hits[i].url + '">' + content.hits[i].title + '</a></li>');
+        }
+    };
+</script>
+-->
+                <div class="post-header">
+   <h1 class="post-title-main">Admin Overview</h1>
+</div>
+
+<div class="post-content">
+
+   
+
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+
+<div id="toc"></div>
+
+
+    
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/api/1.0/AdminEmployees.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    
+
+  <h2 id="preferences">Preferences</h2>
+
+<p>On this screen you can setup your general administrative store preferences.</p>
+
+<p><img src="/thirtybees/images/merchants-guide/thirty_bees-administration-preferences.jpg" alt="Thirty Bees Administration Preferences" title="Thirty Bees Administration Preferences"></p>
+
+<p><strong>General:</strong></p>
+
+<ul>
+<li><strong>Automatically Check for Module Updates</strong> 
+
+<ul>
+<li>Would you like your modules checked automatically and be made aware if there are any updates.</li>
+</ul></li>
+<li><strong>Check The Cookie&#39;s IP Address</strong> 
+
+<ul>
+<li>Ensure the cookies ip address match to protect against hijacked cookies.</li>
+</ul></li>
+<li><strong>Lifetime of front office cookies</strong> 
+
+<ul>
+<li>Length of time a cookie is valid and the customer isn&#39;t required to re-login.</li>
+</ul></li>
+<li><strong>Lifetime of back office cookies</strong> 
+
+<ul>
+<li>Length of time a cookie is valid and an employee isn&#39;t required to re-login.</li>
+</ul></li>
+</ul>
+
+<p><strong>Upload Quota:</strong></p>
+
+<ul>
+<li><strong>Note:</strong> The following values must be less than or equal to what your server settings allow.</li>
+<li><strong>Maximum size for attachment</strong>
+
+<ul>
+<li>Set the maximum file size you allow in attachments.</li>
+</ul></li>
+<li><strong>Maximum size for a downloadable product</strong> 
+
+<ul>
+<li>Set the maximum file size you allow for downloadable products.</li>
+</ul></li>
+<li><strong>Maximum size for a product&#39;s image</strong> 
+
+<ul>
+<li>Set the maximum file size you allow for product images.</li>
+</ul></li>
+</ul>
+
+<p><strong>Notifications:</strong></p>
+
+<ul>
+<li><strong>Show notifications for new orders</strong> 
+
+<ul>
+<li>Would you like to be notified in the top bar of the Back Office about new orders?</li>
+</ul></li>
+<li><strong>Show notifications for new customers</strong> 
+
+<ul>
+<li>Would you like to be notified in the top bar of the Back Office about new customers?</li>
+</ul></li>
+<li><strong>Show notifications for new messages</strong> 
+
+<ul>
+<li>Would you like to be notified in the top bar of the Back Office about new messages?</li>
+</ul></li>
+</ul>
+
+<h2 id="quick-access">Quick Access</h2>
+
+<p>On this screen you can add, remove, or readjust the Quick Access menu, located in the top bar of the Back Office.  To create a new menu item, click Add New Quick Access button in the top right corner.</p>
+
+<p><strong>Add New Quick Access</strong></p>
+
+<ul>
+<li><strong>Name</strong> - The name of the link as you would like it to appear in the Quick Access Menu.</li>
+<li><strong>URL</strong> - What page would you like to go to when you click on the link.</li>
+<li><strong>Open In New Window</strong> - Would you like this link to open in a new window when clicked?</li>
+</ul>
+
+<h2 id="employees">Employees</h2>
+
+<p>On this screen you can view, add, or remove your list of employees.  To add a new employee, click the Add New Employee button in the top right corner.</p>
+
+<p><strong>Add New Employee:</strong></p>
+
+<ul>
+<li><strong>First Name</strong> - Enter the first name of your employee.  (Will be visible when replying to customers and in Back Office.)</li>
+<li><strong>Last Name</strong> - Enter the last name of your employee.  (Will be visible when replying to customers and in Back Office.)</li>
+<li><strong>E-Mail Address</strong> - Enter the email address of your employee.  (Will be used to log into the Back Office)</li>
+<li><strong>Password</strong> - Enter the password for your employee.</li>
+<li><strong>Subscribe to thirty bees Newsletter</strong> - Would you like your employee subscribed to the thirty bees newsletter?</li>
+<li>** Default Page** - Set the default page your employee will land on when logging in.</li>
+<li><strong>Language</strong> - Set the default language for your employee.</li>
+<li><strong>Theme</strong> - Set the default theme for your employee.</li>
+<li><strong>Admin Menu Orientation</strong> - Set the default menu orientation for your employee in the Back Office.  Left Vertically or Top Horizontally.</li>
+<li><strong>Active</strong> - Is this account active, and the employee is able to login?</li>
+<li><strong>Permission Profile</strong> - Set the permission level of your employee.</li>
+</ul>
+
+<p><strong>General Employee Options:</strong></p>
+
+<ul>
+<li><strong>Password Regeneration</strong> - The minimum time which employees need to wait before being allowed to reset the password from the last time it was reset.</li>
+<li><strong>Memorize the Language Used in Admin Panel Forms</strong> - Allow employees to select specific languages for form.</li>
+</ul>
+
+<h2 id="profiles">Profiles</h2>
+
+<p>On this screen you can create the names of the different permission level grouups you plan to have.  To create a new name, click the Add New Profile button in the top right corner.</p>
+
+<p><strong>Add New Profile:</strong></p>
+
+<ul>
+<li><strong>Name</strong> - The name of the profile group.</li>
+</ul>
+
+<h2 id="permissions">Permissions</h2>
+
+<p>On this screen you can assign your profiles different permission levels for the different roles your employees will play in your organization.</p>
+
+<p>Simply create a profile name for it to show up on the left side menu.  Once there, you can click on the profile names and be presented with a screen that has every section of the store as well as specific modules and protocols.  </p>
+
+<p><strong>You can assign your employees the following access:</strong></p>
+
+<ul>
+<li>View</li>
+<li>Add</li>
+<li>Edit</li>
+<li>Delete</li>
+<li>Do All The Above</li>
+</ul>
+
+<p>In this way, you can assign your shipping department only those things they need to complete their task and do the same for other parts of your enterprise.</p>
+
+<h2 id="menus">Menus</h2>
+
+<p>On this screen you can add, edit, remove, or readjust the Back Office menu.  The first level menu is visible as soon as you enter the page.  Click into any of them to see what links are under them in the second level menu.  To create a new menu, click the Add New Menu button in the top right corner.</p>
+
+<p><strong>Add New Menu:</strong></p>
+
+<ul>
+<li><strong>Name</strong> - Name of the menu as you want it to appear</li>
+<li><strong>Class</strong> - </li>
+<li><strong>Module</strong> - </li>
+<li><strong>Status</strong> - </li>
+<li><strong>Parent</strong> - </li>
+</ul>
+
+
+<div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+    
+    
+    
+    
+</div>
+
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'thirty-bees'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2017 thirty bees. All rights reserved. <br />
+ Site last generated: Apr 4, 2017 <br />
+<p><img src="/></p>
+                </div>
+            </div>
+</footer>
+
+            </div><!-- /.row -->
+
+    </div>    <!-- /.container -->
+
+</body>
+
+
+</html>
+

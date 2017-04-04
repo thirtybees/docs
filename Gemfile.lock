@@ -51,7 +51,7 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
-    pygments.rb (1.1.1)
+    pygments.rb (1.1.2)
       multi_json (>= 1.0.0)
     rake (12.0.0)
     rb-fsevent (0.9.8)

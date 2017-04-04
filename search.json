@@ -8,6 +8,776 @@
 //"title": "Admin Overview",
 //"tags": "Introduction",
 //"keywords": "",
+//"url": "../api/1.0/AdminAccess",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminAddresses",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminAdminPreferences",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminAttachments",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminAttributesGroups",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminBackup",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminCarriers",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminCartRules",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminCarts",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminCategories",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminCmsContent",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminContacts",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminCountries",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminCurrencies",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminCustomCode",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminCustomerPreferences",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminCustomerThreads",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminCustomers",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminDeliverySlip",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminEmails",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminEmployees",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminFeatures",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminGenders",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminGeolocation",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminGroups",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminImages",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminImport",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminInformation",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminInvoices",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminLanguages",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminLocalization",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminLogs",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminMaintenance",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminManufacturers",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminMarketing",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminMeta",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminModules",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminModulesPositions",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminOrderMessage",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminOrderPreferences",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminOrders",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminPPreferences",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminPayment",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminPerformance",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminPreferences",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminProducts",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminProfiles",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminQuickAccesses",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminReferrers",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminRequestSql",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminReturn",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminSearchConf",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminSearchEngines",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminShipping",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminSlip",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminSpecificPriceRule",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminStates",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminStats",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminStatuses",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminStores",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminSuppliers",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminTabs",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminTags",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminTaxRulesGroup",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminTaxes",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminThemes",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminTracking",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminTranslations",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminWebservice",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
+//"url": "../api/1.0/AdminZones",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Admin Overview",
+//"tags": "Introduction",
+//"keywords": "",
 //"url": "../merchants-guide/admin-area/",
 //"summary": ""
 //},
@@ -460,6 +1230,216 @@
 //]
 
 {
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
 
 
 ,
