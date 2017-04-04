@@ -8,23 +8,7 @@ audience: merchants
 permalink: /merchants-guide/stock/
 ---
 
-![Thirty Bees Stock]({{baseurl}}/thirtybees/images/merchants-guide/stock.jpg  "Thirty Bees Stock")
-
-Enter beginner blurb here.
-
-## Warehouses
-
-## Stock Management
-
-## Stock Movement
-
-## Instant Stock Status
-
-## Stock Coverage
-
-## Supply Orders
-
-## Configuration
+{% include api/1.0/stock-content.md %}
 
 {% include custom/series_backoffice.html %}{% include custom/series_backoffice_next.html %}
 

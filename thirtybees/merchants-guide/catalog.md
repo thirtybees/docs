@@ -8,28 +8,7 @@ audience: merchants
 permalink: /merchants-guide/catalog/
 ---
 
-#Catalog
-![Thirty Bees Catalog]({{baseurl}}/thirtybees/images/merchants-guide/catalog.jpg  "Thirty Bees Catalog")
-
-Enter beginner blurb here.
-
-## Products
-
-## Categories
-
-## Monitoring
-
-## Product Attributes
-
-## Product Features
-
-## Manufacturers
-
-## Suppliers
-
-## Tags
-
-## Attachments
+{% include api/1.0/catalog-content.md %}
 
 {% include custom/series_backoffice.html %}{% include custom/series_backoffice_next.html %}
 

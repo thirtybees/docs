@@ -8,27 +8,7 @@ audience: merchants
 permalink: /merchants-guide/localization/
 ---
 
-![Thirty Bees Localization]({{baseurl}}/thirtybees/images/merchants-guide/price-rules.jpg  "Thirty Bees Localization")
-
-Enter beginner blurb here.
-
-## Localization
-
-## Languages
-
-## Zones
-
-## Countries
-
-## States
-
-## Currencies
-
-## Taxes
-
-## Tax Rules
-
-## Translations
+{% include api/1.0/localization-content.md %}
 
 {% include custom/series_backoffice.html %}{% include custom/series_backoffice_next.html %}
 
