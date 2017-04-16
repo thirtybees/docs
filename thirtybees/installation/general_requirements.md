@@ -36,7 +36,7 @@ Generally speaking, shared hosting is the cheapest and bare minimum you can get.
 
 It is advised to get hosting which guarantees a certain amount of processor cores and ram so that you are not slowed down by others sharing your server resources.
 
-You can do a search for hosting providers and choose the right one for your needs and budget (just don't forget the requirements noted above). Please visit our website and look over our [trusted hosting partners](https://thirtybees.com/partners/hosting-partners/). One suggestion is the hosting integration between thirty bees and Cloudways (https://www.cloudways.com/en/).
+You can do a search for hosting providers and choose the right one for your needs and budget (just don't forget the requirements noted above). Please visit our website and look over our [trusted hosting partners](https://thirtybees.com/partners/hosting-partners/). If you do not want to install thirty bees yourself  [Cloudways] (https://www.cloudways.com/en/?id=11188) can automatically launch an optimized version of thirty bees with their installer.
 
 ## Server Requirements
 
