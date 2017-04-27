@@ -4,7 +4,7 @@ tags:
   - "Installation"
   - "Getting Started"
 audience: docs
-permalink: /installation/command-line/
+permalink: /installation/
 ---
 ## Installation
 You can install the master or follow a [release package](https://github.com/thirtybees/thirtybees/releases) 
