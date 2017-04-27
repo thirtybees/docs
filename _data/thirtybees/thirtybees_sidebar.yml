@@ -55,7 +55,6 @@ entries:
        product: all
        version: all
        output: web,pdf
-
   - title: Troubleshooting
     audience: developers
     platform: all
