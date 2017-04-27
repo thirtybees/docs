@@ -20,6 +20,16 @@
               
       
   
+      
+             /installation/command-line/
+              
+      
+  
+      
+             /installation/migration/
+              
+      
+  
   
    
   

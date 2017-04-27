@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="keywords" content="InstallationGetting Started,  ">
-<title>thirty bees General Requirements  | thirty bees documents</title>
+<title>thirty bees Migration Module  | thirty bees documents</title>
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/css/base-theme.css">
@@ -130,7 +130,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees documents feedback";
-var body = "I have some feedback about the thirty bees General Requirements page: ";
+var body = "I have some feedback about the thirty bees Migration Module page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -272,6 +272,24 @@ window.location.href = uri;
                     
                     
                     <li><a href="/installation/ftp-installation/">FTP Installation</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/installation/command-line/">Command Line Installation</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/installation/migration/">Shopping Cart Migrations</a></li>
                     
 
                     
@@ -462,7 +480,7 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main">thirty bees General Requirements</h1>
+   <h1 class="post-title-main">thirty bees Migration Module</h1>
 </div>
 
 <div class="post-content">
@@ -493,146 +511,24 @@ $('#toc').on('click', 'a', function() {
 
 
     
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/installation/general_requirements.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/installation/migration.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <h1 id="general-requirements-for-thirty-bees">General Requirements For thirty bees</h1>
+  <h1 id="thirty-bees-shopping-cart-migration">thirty bees Shopping Cart Migration</h1>
 
-<p>thirty bees is an <a href="https://en.wikipedia.org/wiki/E-commerce">eCommerce</a> web application. It is completely free to download and use.  To get started you will need a domain name, ftp application, editor and a server.  thirty bees has to be installed on a web server running MySQL or MariaDB and PHP. The code requires certain PHP modules and PHP versions to operate consistently and without error.</p>
+<p>Introduction</p>
 
-<h2 id="domain">Domain</h2>
+<h2 id="backup-your-website">Backup Your Website</h2>
 
-<p>If you already have a domain just proceed to the next step.</p>
+<p>Refer to our Systems Administration Guide to create a <a href="#"><strong>backup</strong></a>  of your website.</p>
 
-<p>To start your on-line business, you need to purchase a domain (https://example.com) so your visitors have a place to go.  Generally, you want the domain to be the name of your store (or business).  There are many sites where you can get them and all pretty much do the same thing, aside from a few freebies and price differences.  Some places you can purchase domains from include but are not limited to:</p>
+<h2 id="install-configure-migration-module">Install &amp; Configure Migration Module</h2>
 
-<ul>
-<li>https://www.godaddy.com</li>
-<li>https://www.namecheap.com</li>
-<li>https://www.domains.com</li>
-</ul>
+<p>Refer to XXX for more information about the thirty bees migration from PrestaShop 1.6.x ~ 1.7.x shopping cart.</p>
 
-<p>NOTE: Now is a good time to also start thinking about how you will display your domain. (www.yourdomain.com vs yourdomain.com)
-* Generally, these days more and more people are migrating to just using yourdomain.com, but choose as you will.  The only rule is to keep it consistent!</p>
+<h2 id="your-custom-modules">Your Custom Modules</h2>
 
-<p>NOTE: For the most part, most e-commerce stores are reqired to have SSL installed and, since it is a google ranking factor, it is strongly recommended. (https:// instead of the usual http://)</p>
-
-<h2 id="server">Server</h2>
-
-<p>Once you have your domain, it&#39;s time to think about a server.  There are a few things to keep in mind when searching for the right one: price, server specifications, proximity of the host to your target market, shared vs private among others.</p>
-
-<p>Generally speaking, shared hosting is the cheapest and bare minimum you can get.  While this may suit some sites with small quantities of items and low traffic, more heavily visited shops will require higher powered servers.</p>
-
-<p><strong>WARNING</strong>  There are some users who claim that using heavily utilized, shared hosting companies (such as godaddy and the like) result in random spikes and slow speeds, due to others on the same server taxing the environment. </p>
-
-<p>It is advised to get hosting which guarantees a certain amount of processor cores and ram so that you are not slowed down by others sharing your server resources.</p>
-
-<p>You can do a search for hosting providers and choose the right one for your needs and budget (just don&#39;t forget the requirements noted above). Please visit our website and look over our <a href="https://thirtybees.com/partners/hosting-partners/">trusted hosting partners</a>. If you do not want to install thirty bees yourself  <a href="https://www.cloudways.com/en/?id=11188">Cloudways</a> can automatically launch an optimized version of thirty bees with their installer.</p>
-
-<h2 id="server-requirements">Server Requirements</h2>
-
-<h3 id="amp-apache-mysql-php-requirements">AMP ( Apache, Mysql, PHP ) Requirements</h3>
-
-<ul>
-<li>Apache Web Server 2.2x
-
-<ul>
-<li>Apache module settings: </li>
-<li>mod_rewrite enabled, </li>
-<li>mod_security disabled,</li>
-<li>mod_auth_basic disabled.</li>
-<li>MySQL 5.5.3+ or MariaDB 5.5+</li>
-</ul></li>
-</ul>
-
-<h3 id="php-requirements">PHP Requirements</h3>
-
-<ul>
-<li>PHP 5.5 ~ PHP 7.1
-
-<ul>
-<li>At least 256MB of RAM dedicated to PHP is advised. Certain features and functionality will require more ram to be allocated to the application. Consult your developer or hosting service for advice.</li>
-</ul></li>
-</ul>
-
-<h3 id="required-extensions">Required Extensions</h3>
-
-<p>These extensions for PHP are <strong>REQUIRED</strong></p>
-
-<ul>
-<li>PDO_MySQL</li>
-<li>cURL</li>
-<li>SimpleXML</li>
-<li>mcrypt</li>
-<li>GD</li>
-<li>OpenSSL</li>
-<li>DOM</li>
-<li>SOAP</li>
-<li>Zip</li>
-</ul>
-
-<h3 id="recommended-extensions">Recommended Extensions</h3>
-
-<ul>
-<li>imap</li>
-<li>curl</li>
-<li>mbstring</li>
-<li>opcache</li>
-<li>apcu</li>
-<li>redis</li>
-<li>memcache(d)</li>
-</ul>
-
-<h3 id="recommended-thirty-bees-php-ini-settings">Recommended thirty bees php.ini settings</h3>
-
-<p>The below settings in your php.ini file are strongly recommended:</p>
-
-<p><code>allow_url_fopen = 1</code></p>
-
-<p><code>allow_url_include = 0</code></p>
-
-<p><code>post_max_size = 32M</code></p>
-
-<p><code>max_input_vars = 10000</code></p>
-
-<p><code>upload_max_filesize =16M</code></p>
-
-<p><code>expose_php = Off</code></p>
-
-<h2 id="ftp-client-editor">FTP Client &amp; Editor</h2>
-
-<p>In order to transfer files from one place to another, most often FTP (File Transfer Protocol) is used.  You can search for ftp clients and find many that may suit your needs, including quick descriptions on how they work.  A free one that is widely used is FileZilla, but feel free to use whichever you prefer.</p>
-
-<p>You may also need to edit your configuration files, in which case you may need an editor.  You can  search for editors and find many options.  Use what you prefer, whether it is Notepad, Sublime3, Notepad++ or others.</p>
-
-<h2 id="download-thirty-bees">Download Thirty Bees</h2>
-
-<p>It is STRONGLY advised to only download from verified sources, unless there is a specific purpose by your web developer.
-<a target="_blank" class="noCrossRef" href="https://thirtybees.com/download"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>Download thirty bees Shopping Cart</button></a></p>
-
-<p>Web developers can find the source code on <a href="https://github.com/thirtybees/ThirtyBees"><strong>github</strong></a></p>
-
-<h2 id="installing-thirty-bees">Installing Thirty Bees</h2>
-
-<p>There are multiple ways in which to install thirty bees on your server.  We will break down the &quot;quick steps&quot; for those who are already familiar with working with these environments.</p>
-
-<ol>
-<li>Download and Extract the thirty bees package into your desired folder. (Do not copy the thirty bees folder; just its contents).</li>
-<li>Create a Database and Database User for your thirty bees store.</li>
-<li>Visit the public page of your website (i.e. if you installed on yourshop.com, visit this page).</li>
-<li>Run through the onscreen installation instructions to complete the setup.</li>
-<li>Write down and save your new administration area url.  This is randomly created for each install for security purposes. </li>
-<li>Delete the /install/ folder.</li>
-<li>Congratulations!  Proceed to the Back Office to begin configuring your new store.</li>
-</ol>
-
-<p>For more detailed instructions, please follow the links below to install thirty bees via your chosen method.</p>
-
-<ul>
-<li><a href="/installation/ftp-installation/">FTP Installation</a> </li>
-<li>Server Command Line Installation - </li>
-<li>Local Computer Installation - </li>
-</ul>
+<p>Refer your developer to <a href="#"><strong>Modules Maker Guide</strong></a></p>
 
 <aside>
 <header class="panel panel-default>
@@ -693,7 +589,7 @@ The PDF contains a timestamp in the header indicating when it was last generated
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 thirty bees. All rights reserved. <br />
- Site last generated: Apr 16, 2017 <br />
+ Site last generated: Apr 27, 2017 <br />
 <p><img src="/></p>
                 </div>
             </div>

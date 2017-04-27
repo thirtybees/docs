@@ -852,6 +852,17 @@
 //
 //
 //{
+//"title": "thirty bees Command Line Installation",
+//"tags": "InstallationGetting Started",
+//"keywords": "",
+//"url": "../installation/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Conditional logic",
 //"tags": "Single sourcing",
 //"keywords": "if else logic, conditions, conditional attributes, conditional filtering",
@@ -980,6 +991,17 @@
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/localization/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "thirty bees Migration Module",
+//"tags": "InstallationGetting Started",
+//"keywords": "",
+//"url": "../installation/",
 //"summary": ""
 //},
 //
@@ -1230,6 +1252,12 @@
 //]
 
 {
+
+
+,
+
+
+,
 
 
 ,
