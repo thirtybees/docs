@@ -48,6 +48,13 @@ entries:
        product: all
        version: all
        output: web,pdf
+     - title: Shopping Cart Migrations
+       url: /installation/migration/
+       audience: docs
+       platform: all
+       product: all
+       version: all
+       output: web,pdf
 
   - title: Troubleshooting
     audience: developers
