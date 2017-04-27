@@ -48,7 +48,20 @@ entries:
        product: all
        version: all
        output: web,pdf
-
+     - title: Command Line Installation
+       url: /installation/command-line/
+       audience: docs
+       platform: all
+       product: all
+       version: all
+       output: web,pdf
+     - title: Shopping Cart Migrations
+       url: /installation/migration/
+       audience: docs
+       platform: all
+       product: all
+       version: all
+       output: web,pdf
   - title: Troubleshooting
     audience: developers
     platform: all
