@@ -11,9 +11,18 @@ audience: developers
 permalink: /release_notes/v1-0-x-release-notes
 ---
 
-## Version 1.0.1 (not released yet)
+## Version 1.0.1
 ### New modules:  
-- A cron jobs module has been added
+- Fix language, localization, currency import
+- Better error reporting
+- Plenty of bugfixes
+- Fix URL rewrites
+- Changed top menu
+- Custom currency symbol
+- Improve PS 1.6 compatibility
+- Module updater
+- `tb_versions_compliancy` for modules. Set this as a regular [SemVer range string](https://semver.npmjs.com/) and thirty bees will automatically check the compatibility.
+- Performance improvements
 
 ### Improved features:  
 - Url rewrite changes are now recorded and properly converted into redirects.
