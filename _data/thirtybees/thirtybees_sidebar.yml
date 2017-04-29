@@ -155,6 +155,14 @@ entries:
     product: all
     version: all
     output: web, pdf
+    items:
+      - title: Contributing
+        url: /contributing/
+        audience: developers
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
 
   - title: Release notes
     audience: developers
