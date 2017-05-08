@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<meta name="keywords" content="Introduction,  ">
-<title>Admin Overview  | thirty bees documents</title>
+<meta name="keywords" content="InstallationGetting Started,  ">
+<title>Payment Module - Paypal by thirty bees  | thirty bees documents</title>
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/css/base-theme.css">
@@ -80,7 +80,7 @@
             </button>
 
             <a class="navbar-brand" href="">
-                <img src="/common_images/thirty-bees-dark.png" alt="thirty bees documents" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/merchants</span>
+                <img src="/common_images/thirty-bees-dark.png" alt="thirty bees documents" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/docs</span>
             </a>
 
         </div>
@@ -130,7 +130,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees documents feedback";
-var body = "I have some feedback about the Admin Overview page: ";
+var body = "I have some feedback about the Payment Module - Paypal by thirty bees page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -346,7 +346,7 @@ window.location.href = uri;
                     
                     
                     
-                    <li><a href="/merchants-guide/native-modules/paypal/">PayPal</a></li>
+                    <li class="active"><a href="/merchants-guide/native-modules/paypal/">PayPal</a></li>
                     
 
                     
@@ -505,7 +505,7 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main">Admin Overview</h1>
+   <h1 class="post-title-main">Payment Module - Paypal by thirty bees</h1>
 </div>
 
 <div class="post-content">
@@ -536,83 +536,70 @@ $('#toc').on('click', 'a', function() {
 
 
     
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/api/1.0/AdminContacts.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/merchants-guide/native-modules/paypal.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <p><img src="/thirtybees/images/merchants-guide/customers.jpg" alt="Thirty Bees Orders" title="Thirty Bees Orders"></p>
+  <h1 id="paypal-module-by-thirty-bees">Paypal Module by thirty bees</h1>
 
-<p>Enter beginner blurb here.</p>
+<p>Needs introduction and screen captures.</p>
 
-<h2 id="customers">Customers</h2>
+<h2 id="setting-up-the-paypal-module">Setting up the PayPal Module</h2>
 
-<p>This screen shows you the list of all your customers.  To manually add a new customer, click the Add New Customer button in the top right corner.</p>
-
-<ul>
-<li><strong>Social Title</strong> - Optional - Set the title for this customer.</li>
-<li><strong>First Name</strong> - Required - Set the first name for this customer.</li>
-<li><strong>Last Name</strong> - Required - Set the last name for this customer.</li>
-<li><strong>E-Mail Address</strong> - Required - Set the e-mail address for this customer.</li>
-<li><strong>Password</strong> - Required - Set the password for this customer.</li>
-<li><strong>Birthday</strong> - Optional - Set the birthday for this customer.</li>
-<li><strong>Enabled</strong> - Is this customer profile enabled and active?</li>
-<li><strong>Newsletter</strong> - Optional - Does the customer want to recieve your newsletter?</li>
-<li><strong>Opt-In</strong> - Optional - Does your customer want to recieve your ads?</li>
-<li><strong>Group Access</strong> - Required - Select the groups this customer is a part of.</li>
-<li><strong>Default Customer Group</strong> - Optional - Select the default group this customer will browse your store as.</li>
-</ul>
-
-<h2 id="addresses">Addresses</h2>
-
-<h2 id="groups">Groups</h2>
-
-<p>This screen shows you all the groups in your store.  You can put customers into specific groups, and then allow specific groups access to certain areas, features, or options.  To create a new group, click the Add New Group button in the top right corner.</p>
+<p>In admin, navigate to Modules and Services, List of Modules, Payments and Gateways.</p>
 
 <ul>
-<li><strong>Name</strong> - Required - The name of the group.</li>
-<li><strong>Discount %</strong> - Optional - Apply a certain percentage discount for everyone in this group.</li>
-<li><strong>Price Display Method</strong> - Optional - Display prices as tax included or excluded.</li>
-<li><strong>Show Prices</strong> - Optional - Show the prices of the products in your store.</li>
+<li>Search for <strong>Paypal</strong></li>
+<li>Click *<em>Configure *</em></li>
+<li>Open a new browser window and go here:</li>
 </ul>
 
-<h2 id="shopping-carts">Shopping Carts</h2>
+<p>https://developer.paypal.com/ (or here: https://developer.paypal.com/developer/applications/) and log in.</p>
 
-<p>This screen shows you all the carts in your store.  This includes carts which customers simply added to as well as completed orders.  You can select and delete old carts which did not result in a completed sale as well as export the lists for further data analysis.</p>
-
-<h2 id="customer-service">Customer Service</h2>
-
-<p>This screen shows you all the messages recieved via the contact us form on your store.  You can view, respond, pass along, and close the tickets as the cases are handled.</p>
-
-<p><strong>Contact Options:</strong></p>
+<p>Please note that sometimes you have to double-click to get a submenu from the left side of the page to open. For example, if you scroll down to the “LIVE” menu and click “Transactions”, if single-clicking doesn’t work, double click it!</p>
 
 <ul>
-<li><strong>Allow File Uploading</strong> - Allow customers to upload files when submitting a message?</li>
-<li><strong>Default Message</strong> - The default template when creating or replying to a customer.</li>
+<li>Log in with your normal PayPal credentials. (email and password).</li>
+<li>Click “dashboard” at the top right of the page.</li>
+<li>Scroll down until you find: REST API apps</li>
 </ul>
 
-<p><strong>Customer Service Options:</strong></p>
-
-<h2 id="contacts">Contacts</h2>
-
-<p>This screen shows the Customer Service contacts available to your customers via the contact us form.  To add new contacts (departments), click the Add New Contact button in the top right corner.</p>
+<p>“Create an app to receive REST API credentials for testing and live transactions.”</p>
 
 <ul>
-<li><strong>Title</strong> - Contact (department) Name</li>
-<li><strong>E-Mail Address</strong> - Messages sent to this contact (department) will be forwared to the e-mail address set here.</li>
-<li><strong>Save Message?</strong> - Save all messages in the customer service screen?</li>
-<li><strong>Description</strong> - Information for the customers regarding this contact (department)</li>
+<li>Click the button that says “Create App”.</li>
+<li><strong>If you see a circle going around until it gives up, manage your cookie blocking:</strong></li>
 </ul>
 
-<h2 id="titles">Titles</h2>
-
-<p>This screen shows the titls available when customers are signing up, eg. Mr., Mrs., etc.  To create additional titles, click the Add New Title button in the top right corner.</p>
+<p>Check third party cookies. Allow paypalobjects.com and two long, weird strings (which is what I had in Google Chrome) or whatever you see that is PayPal-related and blocked.</p>
 
 <ul>
-<li><strong>Social Title</strong> - Required - Set the name of the title.</li>
-<li><strong>Gender</strong> - Required - Set Male, Female, or Neutral.</li>
-<li><strong>Image</strong> - Optional - Add an image icon for the title.</li>
-<li><strong>Image Width</strong> - Optional - Set the image width of the icon.</li>
-<li><strong>Image Height</strong> - Optional - Set the image height of the icon.</li>
+<li>Refresh the page or log out and log back in and proceed with Steps 2, 3 and 4.</li>
+<li><strong>Create New App:</strong></li>
 </ul>
+
+<p>Enter an App name that is related to your website and business.</p>
+
+<ul>
+<li>In this same section, under the App Name, make sure the correct email is listed under “Sandbox developer account”.</li>
+<li>Click the Create App button.</li>
+<li><strong>COPY AND SAVE your SANDBOX API CREDENTIALS.</strong></li>
+<li>Scroll down to “SANDBOX APP SETTINGS” and choose the feature options you need. SAVE.</li>
+<li>At the top of the page, click the “Sandbox/Live” slider button to get your LIVE CREDENTIALS.</li>
+<li><strong>COPY AND SAVE your LIVE API CREDENTIALS.</strong></li>
+<li>Scroll down to “LIVE APP SETTINGS”, enter your return URL and choose the feature options you need. SAVE.</li>
+<li>If you get lost or forgot to save your API CREDENTIALS for Sandbox and/or Live, go back to the top right and click “dashboard” and then click (or double-click) the menu / submenu on the left side.</li>
+</ul>
+
+<h2 id="more-info">More info:</h2>
+
+<ul>
+<li>From left side menu, under Sandbox, click “Accounts” and see your records (accounts) listed.</li>
+<li>Click on the email address you want to view information for and it will open two links: “Profile” and “Notifications”.</li>
+<li><strong>“Profile” opens a window of Account Details with Tabs for Profile, API Credentials, Funding and Settings. Click each to view and make sure the information is correct.</strong></li>
+<li>Copy all that info down and save it in your password vault in case you can not find it again!</li>
+</ul>
+
+<div class="alert alert-warning">Note: for the “API Credentials” tab called **Classic TEST API Credentials**. Copy and saved them.</div>
 
 
 <div class="tags">
@@ -622,6 +609,8 @@ $('#toc').on('click', 'a', function() {
 
 
 
+    
+    
     
     
     

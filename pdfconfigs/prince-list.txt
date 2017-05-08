@@ -51,6 +51,13 @@
   
   
    
+      
+             /merchants-guide/native-modules/paypal/
+              
+      
+  
+  
+   
   
    
       
