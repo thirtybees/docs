@@ -98,6 +98,21 @@ entries:
        product: all
        version: all
        output: web, pdf
+
+  - title: Native Modules
+    audience: merchants
+    platform: all
+    product: all
+    version: all
+    output: web,pdf
+    items:
+      - title: PayPal
+        url: /merchants-guide/native-modules/paypal/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
   
   - title: SEO Guide
     audience: developers
