@@ -541,65 +541,116 @@ $('#toc').on('click', 'a', function() {
 
   <h1 id="paypal-module-by-thirty-bees">Paypal Module by thirty bees</h1>
 
-<p>Needs introduction and screen captures.</p>
-
 <h2 id="setting-up-the-paypal-module">Setting up the PayPal Module</h2>
+
+<p>Installing the module involves getting your PayPal API credentials into the module as well.
+Besides an explanation on how to install this module, this guide also describes how to retrieve the necessary PayPal REST API credentials in order to connect the module with your PayPal account and to start receiving payments.
+PayPal provides a sandbox environment which allows you to test the module first. We strongly recommend you to follow this procedure and that is why this 
+guide will first describe how to connect with the sandbox environment before getting into detail on how to go live with the module.</p>
+
+<h3 id="installing-the-paypal-module">Installing the PayPal module</h3>
 
 <p>In admin, navigate to Modules and Services, List of Modules, Payments and Gateways.</p>
 
 <ul>
-<li>Search for <strong>Paypal</strong></li>
-<li>Click *<em>Configure *</em></li>
-<li>Open a new browser window and go here:</li>
+<li>Search for <strong>paypal</strong> from the module list</li>
+<li>Click <strong>Configure</strong><br></li>
 </ul>
 
-<p>https://developer.paypal.com/ (or here: https://developer.paypal.com/developer/applications/) and log in.</p>
+<p><img src="../../../thirtybees/images/merchants-guide/native-modules/paypalmoduleslist.png" alt="PayPal"></p>
 
-<p>Please note that sometimes you have to double-click to get a submenu from the left side of the page to open. For example, if you scroll down to the “LIVE” menu and click “Transactions”, if single-clicking doesn’t work, double click it!</p>
+<h3 id="developer-page">Developer Page</h3>
+
+<p>Open a new browser window and go to this page: <a href="https://developer.paypal.com/developer/applications/">https://developer.paypal.com/developer/applications/</a> and log in.</p>
 
 <ul>
-<li>Log in with your normal PayPal credentials. (email and password).</li>
-<li>Click “dashboard” at the top right of the page.</li>
-<li>Scroll down until you find: REST API apps</li>
+<li>Log in with your normal PayPal credentials which consists of your email and password.</li>
+<li>Click &quot;dashboard&quot; at the top right of the page.</li>
+<li>Scroll down until you find: <code>REST API apps</code></li>
 </ul>
 
-<p>“Create an app to receive REST API credentials for testing and live transactions.”</p>
+<h4 id="registering-an-app-to-the-rest-api-sandbox">Registering an app to the REST API (sandbox)</h4>
 
 <ul>
-<li>Click the button that says “Create App”.</li>
-<li><strong>If you see a circle going around until it gives up, manage your cookie blocking:</strong></li>
+<li>Click the button that says <code>Create App</code>.<br></li>
 </ul>
 
-<p>Check third party cookies. Allow paypalobjects.com and two long, weird strings (which is what I had in Google Chrome) or whatever you see that is PayPal-related and blocked.</p>
+<p><img src="../../../thirtybees/images/merchants-guide/native-modules/paypalrestapiapps.png" alt="PayPal REST API apps"></p>
 
 <ul>
-<li>Refresh the page or log out and log back in and proceed with Steps 2, 3 and 4.</li>
-<li><strong>Create New App:</strong></li>
+<li><p><strong>Create New App:</strong><br>
+Enter an App name that is related to your website and business.</p></li>
+<li><p>In this same section, under the App Name, make sure the correct email is listed under &quot;Sandbox developer account&quot;.</p></li>
+<li><p>Click the <code>Create App</code> button.  </p></li>
+<li><p>Scroll down to &quot;SANDBOX APP SETTINGS&quot; and choose the following feature options:  </p>
+
+<ul>
+<li><code>Accept payments</code><br></li>
+<li>Expand the <code>Advanced options</code> and tick <code>Billing agreements</code><br></li>
+<li>Log in with PayPal<br></li>
+</ul></li>
 </ul>
 
-<p>Enter an App name that is related to your website and business.</p>
+<p>In order to make PayPal login work properly, make sure you set a return URL for your website:
+- Scroll back to &quot;SANDBOX APP SETTINGS&quot;
+- Expand the Return URL settings
+- The default (and most stable) location of the PayPal login module return URL is <code>index.php?fc=module&amp;module=paypal&amp;controller=logintoken?authentication</code>,
+ so if your website is location at <code>https://www.mywebsite.com</code> your return URL would be <code>https://www.mywebsite.com/index.php?fc=module&amp;module=paypal&amp;controller=logintoken?authentication</code>
+- Add the URL and don&#39;t forget to click <code>Save</code> at the bottom of the panel.</p>
+
+<p>Go back to the CLIENT ID and SECRET and copy these credentials. Now enter these on the module&#39;s configuration page as follows:
+<img src="../../../thirtybees/images/merchants-guide/native-modules/paypalapisettings.png" alt="PayPal API settings"></p>
+
+<p>You will see that the web profiles needed for the PayPal checkout to work aren&#39;t available at the moment. 
+After you click <code>Save</code> this message should turn green and every web profile should be available. 
+This is the confirmation that your CLIENT ID and SECRET have been accepted by PayPal and you can now enable the checkout types you like. 
+In case the web profiles cannot be loaded, check if your credentials are correct and not too old. Otherwise check if the module is able to communicate with PayPal. 
+You can see every single communication attempt in your Developer Dashboard at (https://developer.paypal.com/)[https://developer.paypal.com/]. Just visit the page &quot;Sandbox &gt; API calls&quot; from your dashboard.</p>
+
+<h4 id="registering-an-app-to-the-rest-api-live">Registering an app to the REST API (live)</h4>
+
+<p>This is essentially the same procedure as described above in the sandbox section. We recommend you read that section before proceeding with this part. The only difference is that:</p>
 
 <ul>
-<li>In this same section, under the App Name, make sure the correct email is listed under “Sandbox developer account”.</li>
-<li>Click the Create App button.</li>
-<li><strong>COPY AND SAVE your SANDBOX API CREDENTIALS.</strong></li>
-<li>Scroll down to “SANDBOX APP SETTINGS” and choose the feature options you need. SAVE.</li>
-<li>At the top of the page, click the “Sandbox/Live” slider button to get your LIVE CREDENTIALS.</li>
-<li><strong>COPY AND SAVE your LIVE API CREDENTIALS.</strong></li>
-<li>Scroll down to “LIVE APP SETTINGS”, enter your return URL and choose the feature options you need. SAVE.</li>
-<li>If you get lost or forgot to save your API CREDENTIALS for Sandbox and/or Live, go back to the top right and click “dashboard” and then click (or double-click) the menu / submenu on the left side.</li>
+<li>At the top of the page, click the &quot;Sandbox/Live&quot; slider button to get your LIVE CREDENTIALS.</li>
+<li>Create a new app to retrieve the live Client ID and SECRET.</li>
+<li>Scroll down to &quot;LIVE APP SETTINGS&quot;, enter your return URL and choose the feature options you need. These are stil the same.</li>
+<li>On the module&#39;s configuration tick <code>Go Live</code> and Save.</li>
 </ul>
 
-<h2 id="more-info">More info:</h2>
+<h3 id="payment-methods">Payment methods</h3>
+
+<p>The module comes packed with three PayPal payment checkouts:
+- Website Payments Standard (the default one)
+- Website Payments Plus (used for Germany)
+- Express checkout (this adds a checkout button on your product page, the cart page and the order page)</p>
+
+<h4 id="website-payments-standard">Website Payments Standard</h4>
+
+<p>By enabling this option you will see a new payment button on your checkout page.</p>
+
+<h4 id="website-payments-plus">Website Payments Plus</h4>
+
+<p>By enabling this option you will see a new (iframed) payment button on your checkout page.</p>
+
+<h4 id="express-checkout">Express Checkout</h4>
+
+<p>This option adds an Express Checkout button to your product pages, your cart page and the order page. By clicking this button a new popup appears (only if it is supported, otherwise a redirection to paypal.com) which allows you to quickly pay for a product.</p>
+
+<h3 id="paypal-login">PayPal login</h3>
+
+<p>To increase the checkout speed, this module also provides a way for your customers to login on your website via PayPal login. 
+The PayPal login comes in two flavors: silver and blue. It will be shown on the login page of your store and it allows the customer to bypass the regular registration/login form. 
+If you have configured the Return URL and Rest API app permissions as stated in the Sandbox section, this option will immediately available after enabling it on the module&#39;s configuration page.</p>
+
+<h3 id="more-info">More info:</h3>
 
 <ul>
-<li>From left side menu, under Sandbox, click “Accounts” and see your records (accounts) listed.</li>
+<li>From left side menu, under Sandbox, click &quot;Accounts&quot; and see your records (accounts) listed.</li>
 <li>Click on the email address you want to view information for and it will open two links: “Profile” and “Notifications”.</li>
-<li><strong>“Profile” opens a window of Account Details with Tabs for Profile, API Credentials, Funding and Settings. Click each to view and make sure the information is correct.</strong></li>
+<li><strong>&quot;Profile&quot; opens a window of Account Details with Tabs for Profile, API Credentials, Funding and Settings. Click each to view and make sure the information is correct.</strong></li>
 <li>Copy all that info down and save it in your password vault in case you can not find it again!</li>
 </ul>
-
-<div class="alert alert-warning">Note: for the “API Credentials” tab called **Classic TEST API Credentials**. Copy and saved them.</div>
 
 
 <div class="tags">
