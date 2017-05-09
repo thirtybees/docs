@@ -1076,7 +1076,7 @@
 //
 //{
 //"title": "Payment Module - Paypal by thirty bees",
-//"tags": "InstallationGetting Started",
+//"tags": "PayPalNative modules",
 //"keywords": "",
 //"url": "../merchants-guide/native-modules/paypal/",
 //"summary": ""
@@ -1197,6 +1197,17 @@
 //
 //
 //{
+//"title": "tawk.to live chat module by thirty bees",
+//"tags": "tawk.toNative modules",
+//"keywords": "",
+//"url": "../merchants-guide/native-modules/tawkto/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "FAQ layout",
 //"tags": "special_layouts",
 //"keywords": "frequently asked questions, FAQ, question and answer, collapsible sections, expand, collapse",
@@ -1263,6 +1274,9 @@
 //]
 
 {
+
+
+,
 
 
 ,
