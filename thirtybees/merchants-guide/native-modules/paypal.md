@@ -1,8 +1,8 @@
 ---
 title: Payment Module - Paypal by thirty bees
 tags:
-  - "Installation"
-  - "Getting Started"
+  - "PayPal"
+  - "Native modules"
 audience: docs
 permalink: /merchants-guide/native-modules/paypal/
 ---
