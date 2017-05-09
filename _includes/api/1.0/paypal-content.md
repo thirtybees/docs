@@ -55,7 +55,7 @@ You will see that the web profiles needed for the PayPal checkout to work aren't
 After you click `Save` this message should turn green and every web profile should be available. 
 This is the confirmation that your CLIENT ID and SECRET have been accepted by PayPal and you can now enable the checkout types you like. 
 In case the web profiles cannot be loaded, check if your credentials are correct and not too old. Otherwise check if the module is able to communicate with PayPal. 
-You can see every single communication attempt in your Developer Dashboard at (https://developer.paypal.com/)[https://developer.paypal.com/]. Just visit the page "Sandbox > API calls" from your dashboard.
+You can see every single communication attempt in your Developer Dashboard at [https://developer.paypal.com/](https://developer.paypal.com/). Just visit the page "Sandbox > API calls" from your dashboard.
 
 #### Registering an app to the REST API (live)
 
