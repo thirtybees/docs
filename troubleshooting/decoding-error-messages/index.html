@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<meta name="keywords" content="Introduction,  ">
-<title>Admin Overview  | thirty bees documents</title>
+<meta name="keywords" content="error messages,  ">
+<title>Decoding Error Messages  | thirty bees documents</title>
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/css/base-theme.css">
@@ -80,7 +80,7 @@
             </button>
 
             <a class="navbar-brand" href="">
-                <img src="/common_images/thirty-bees-dark.png" alt="thirty bees documents" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/merchants</span>
+                <img src="/common_images/thirty-bees-dark.png" alt="thirty bees documents" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/developers</span>
             </a>
 
         </div>
@@ -130,7 +130,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees documents feedback";
-var body = "I have some feedback about the Admin Overview page: ";
+var body = "I have some feedback about the Decoding Error Messages page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -305,7 +305,7 @@ window.location.href = uri;
                     
                     
                     
-                    <li><a href="/troubleshooting/decoding-error-messages/">Decoding Error Messages</a></li>
+                    <li class="active"><a href="/troubleshooting/decoding-error-messages/">Decoding Error Messages</a></li>
                     
 
                     
@@ -532,7 +532,7 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main">Admin Overview</h1>
+   <h1 class="post-title-main">Decoding Error Messages</h1>
 </div>
 
 <div class="post-content">
@@ -563,161 +563,16 @@ $('#toc').on('click', 'a', function() {
 
 
     
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/api/1.0/AdminProfiles.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/troubleshooting/decoding-error-messages.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <h2 id="preferences">Preferences</h2>
+  <h1 id="decoding-thirty-bees-error-messages">Decoding thirty bees error messages</h1>
 
-<p>On this screen you can setup your general administrative store preferences.</p>
+<p>There are few things more frustrating than an error message. With our system of encoded error messages it might be impossible to decode the error messages on your shop sometimes. If that is the case you can use the decoder below to decode your error message.</p>
 
-<p><img src="/thirtybees/images/merchants-guide/thirty_bees-administration-preferences.jpg" alt="Thirty Bees Administration Preferences" title="Thirty Bees Administration Preferences"></p>
+<h2 id="decode-your-error-message">Decode your error message</h2>
 
-<p><strong>General:</strong></p>
-
-<ul>
-<li><strong>Automatically Check for Module Updates</strong> 
-
-<ul>
-<li>Would you like your modules checked automatically and be made aware if there are any updates.</li>
-</ul></li>
-<li><strong>Check The Cookie&#39;s IP Address</strong> 
-
-<ul>
-<li>Ensure the cookies ip address match to protect against hijacked cookies.</li>
-</ul></li>
-<li><strong>Lifetime of front office cookies</strong> 
-
-<ul>
-<li>Length of time a cookie is valid and the customer isn&#39;t required to re-login.</li>
-</ul></li>
-<li><strong>Lifetime of back office cookies</strong> 
-
-<ul>
-<li>Length of time a cookie is valid and an employee isn&#39;t required to re-login.</li>
-</ul></li>
-</ul>
-
-<p><strong>Upload Quota:</strong></p>
-
-<ul>
-<li><strong>Note:</strong> The following values must be less than or equal to what your server settings allow.</li>
-<li><strong>Maximum size for attachment</strong>
-
-<ul>
-<li>Set the maximum file size you allow in attachments.</li>
-</ul></li>
-<li><strong>Maximum size for a downloadable product</strong> 
-
-<ul>
-<li>Set the maximum file size you allow for downloadable products.</li>
-</ul></li>
-<li><strong>Maximum size for a product&#39;s image</strong> 
-
-<ul>
-<li>Set the maximum file size you allow for product images.</li>
-</ul></li>
-</ul>
-
-<p><strong>Notifications:</strong></p>
-
-<ul>
-<li><strong>Show notifications for new orders</strong> 
-
-<ul>
-<li>Would you like to be notified in the top bar of the Back Office about new orders?</li>
-</ul></li>
-<li><strong>Show notifications for new customers</strong> 
-
-<ul>
-<li>Would you like to be notified in the top bar of the Back Office about new customers?</li>
-</ul></li>
-<li><strong>Show notifications for new messages</strong> 
-
-<ul>
-<li>Would you like to be notified in the top bar of the Back Office about new messages?</li>
-</ul></li>
-</ul>
-
-<h2 id="quick-access">Quick Access</h2>
-
-<p>On this screen you can add, remove, or readjust the Quick Access menu, located in the top bar of the Back Office.  To create a new menu item, click Add New Quick Access button in the top right corner.</p>
-
-<p><strong>Add New Quick Access</strong></p>
-
-<ul>
-<li><strong>Name</strong> - The name of the link as you would like it to appear in the Quick Access Menu.</li>
-<li><strong>URL</strong> - What page would you like to go to when you click on the link.</li>
-<li><strong>Open In New Window</strong> - Would you like this link to open in a new window when clicked?</li>
-</ul>
-
-<h2 id="employees">Employees</h2>
-
-<p>On this screen you can view, add, or remove your list of employees.  To add a new employee, click the Add New Employee button in the top right corner.</p>
-
-<p><strong>Add New Employee:</strong></p>
-
-<ul>
-<li><strong>First Name</strong> - Enter the first name of your employee.  (Will be visible when replying to customers and in Back Office.)</li>
-<li><strong>Last Name</strong> - Enter the last name of your employee.  (Will be visible when replying to customers and in Back Office.)</li>
-<li><strong>E-Mail Address</strong> - Enter the email address of your employee.  (Will be used to log into the Back Office)</li>
-<li><strong>Password</strong> - Enter the password for your employee.</li>
-<li><strong>Subscribe to thirty bees Newsletter</strong> - Would you like your employee subscribed to the thirty bees newsletter?</li>
-<li>** Default Page** - Set the default page your employee will land on when logging in.</li>
-<li><strong>Language</strong> - Set the default language for your employee.</li>
-<li><strong>Theme</strong> - Set the default theme for your employee.</li>
-<li><strong>Admin Menu Orientation</strong> - Set the default menu orientation for your employee in the Back Office.  Left Vertically or Top Horizontally.</li>
-<li><strong>Active</strong> - Is this account active, and the employee is able to login?</li>
-<li><strong>Permission Profile</strong> - Set the permission level of your employee.</li>
-</ul>
-
-<p><strong>General Employee Options:</strong></p>
-
-<ul>
-<li><strong>Password Regeneration</strong> - The minimum time which employees need to wait before being allowed to reset the password from the last time it was reset.</li>
-<li><strong>Memorize the Language Used in Admin Panel Forms</strong> - Allow employees to select specific languages for form.</li>
-</ul>
-
-<h2 id="profiles">Profiles</h2>
-
-<p>On this screen you can create the names of the different permission level grouups you plan to have.  To create a new name, click the Add New Profile button in the top right corner.</p>
-
-<p><strong>Add New Profile:</strong></p>
-
-<ul>
-<li><strong>Name</strong> - The name of the profile group.</li>
-</ul>
-
-<h2 id="permissions">Permissions</h2>
-
-<p>On this screen you can assign your profiles different permission levels for the different roles your employees will play in your organization.</p>
-
-<p>Simply create a profile name for it to show up on the left side menu.  Once there, you can click on the profile names and be presented with a screen that has every section of the store as well as specific modules and protocols.  </p>
-
-<p><strong>You can assign your employees the following access:</strong></p>
-
-<ul>
-<li>View</li>
-<li>Add</li>
-<li>Edit</li>
-<li>Delete</li>
-<li>Do All The Above</li>
-</ul>
-
-<p>In this way, you can assign your shipping department only those things they need to complete their task and do the same for other parts of your enterprise.</p>
-
-<h2 id="menus">Menus</h2>
-
-<p>On this screen you can add, edit, remove, or readjust the Back Office menu.  The first level menu is visible as soon as you enter the page.  Click into any of them to see what links are under them in the second level menu.  To create a new menu, click the Add New Menu button in the top right corner.</p>
-
-<p><strong>Add New Menu:</strong></p>
-
-<ul>
-<li><strong>Name</strong> - Name of the menu as you want it to appear</li>
-<li><strong>Class</strong> - </li>
-<li><strong>Module</strong> - </li>
-<li><strong>Status</strong> - </li>
-<li><strong>Parent</strong> - </li>
-</ul>
+<iframe src="https://decrypter.thirtybees.com" width=100% height=600px></iframe>
 
 
 <div class="tags">
