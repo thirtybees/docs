@@ -69,6 +69,14 @@ entries:
     product: all
     version: all
     output: web, pdf
+    items:
+     - title: Decoding Error Messages
+       url: /troubleshooting/decoding-error-messages/
+       audience: docs
+       platform: all
+       product: all
+       version: all
+       output: web,pdf
 
   - title: Merchants Guide
     audience: merchants
