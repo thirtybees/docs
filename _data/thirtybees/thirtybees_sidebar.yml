@@ -106,6 +106,13 @@ entries:
     version: all
     output: web,pdf
     items:
+      - title: Custom payment methods
+        url: /merchants-guide/native-modules/custompayments/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
       - title: PayPal
         url: /merchants-guide/native-modules/paypal/
         audience: merchants
