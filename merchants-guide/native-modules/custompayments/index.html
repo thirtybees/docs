@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<meta name="keywords" content="Introduction,  ">
-<title>Admin Overview  | thirty bees documents</title>
+<meta name="keywords" content="PayPalCustom Payment MethodsCash on deliveryStore pickup,  ">
+<title>Payment Module - Custom Payment Methods by thirty bees  | thirty bees documents</title>
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/css/base-theme.css">
@@ -130,7 +130,7 @@
 <script>
 function SendLinkByMail(href) {
 var subject= "thirty bees documents feedback";
-var body = "I have some feedback about the Admin Overview page: ";
+var body = "I have some feedback about the Payment Module - Custom Payment Methods by thirty bees page: ";
 body += window.location.href;
 body += "";
 var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -514,7 +514,7 @@ window.location.href = uri;
 </script>
 -->
                 <div class="post-header">
-   <h1 class="post-title-main">Admin Overview</h1>
+   <h1 class="post-title-main">Payment Module - Custom Payment Methods by thirty bees</h1>
 </div>
 
 <div class="post-content">
@@ -545,83 +545,44 @@ $('#toc').on('click', 'a', function() {
 
 
     
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/api/1.0/AdminCustomers.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/merchants-guide/native-modules/custompayments.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-  <p><img src="/thirtybees/images/merchants-guide/customers.jpg" alt="Thirty Bees Orders" title="Thirty Bees Orders"></p>
+  <h1 id="custom-payment-methods-module-by-thirty-bees">Custom Payment Methods module by thirty bees</h1>
 
-<p>Enter beginner blurb here.</p>
+<h2 id="setting-up-the-custom-payment-methods-module">Setting up the Custom Payment Methods module</h2>
 
-<h2 id="customers">Customers</h2>
+<p>You can simply install the module from your back office and it will give you an extra menu item which can be found at &quot;Modules and Services &gt; Custom Payment Methods&quot;.
+Besides an explanation on how to install this module, this guide will also briefly explain how to add a payment method via the new back office page that allows you to manage offline payment methods.</p>
 
-<p>This screen shows you the list of all your customers.  To manually add a new customer, click the Add New Customer button in the top right corner.</p>
+<h3 id="installing-the-custom-payment-methods-module">Installing the Custom Payment Methods module</h3>
 
-<ul>
-<li><strong>Social Title</strong> - Optional - Set the title for this customer.</li>
-<li><strong>First Name</strong> - Required - Set the first name for this customer.</li>
-<li><strong>Last Name</strong> - Required - Set the last name for this customer.</li>
-<li><strong>E-Mail Address</strong> - Required - Set the e-mail address for this customer.</li>
-<li><strong>Password</strong> - Required - Set the password for this customer.</li>
-<li><strong>Birthday</strong> - Optional - Set the birthday for this customer.</li>
-<li><strong>Enabled</strong> - Is this customer profile enabled and active?</li>
-<li><strong>Newsletter</strong> - Optional - Does the customer want to recieve your newsletter?</li>
-<li><strong>Opt-In</strong> - Optional - Does your customer want to recieve your ads?</li>
-<li><strong>Group Access</strong> - Required - Select the groups this customer is a part of.</li>
-<li><strong>Default Customer Group</strong> - Optional - Select the default group this customer will browse your store as.</li>
-</ul>
-
-<h2 id="addresses">Addresses</h2>
-
-<h2 id="groups">Groups</h2>
-
-<p>This screen shows you all the groups in your store.  You can put customers into specific groups, and then allow specific groups access to certain areas, features, or options.  To create a new group, click the Add New Group button in the top right corner.</p>
+<p>On the back office, navigate to Modules and Services, List of Modules, Payments and Gateways.</p>
 
 <ul>
-<li><strong>Name</strong> - Required - The name of the group.</li>
-<li><strong>Discount %</strong> - Optional - Apply a certain percentage discount for everyone in this group.</li>
-<li><strong>Price Display Method</strong> - Optional - Display prices as tax included or excluded.</li>
-<li><strong>Show Prices</strong> - Optional - Show the prices of the products in your store.</li>
+<li>Search for <strong>custompayments</strong> from the module list</li>
+<li>Click <strong>Install</strong><br></li>
 </ul>
 
-<h2 id="shopping-carts">Shopping Carts</h2>
+<p><img src="../../../thirtybees/images/merchants-guide/native-modules/custompaymentmethodssearch.png" alt="Custom Payment Methods"></p>
 
-<p>This screen shows you all the carts in your store.  This includes carts which customers simply added to as well as completed orders.  You can select and delete old carts which did not result in a completed sale as well as export the lists for further data analysis.</p>
+<h3 id="configuring-custom-payment-methods">Configuring custom payment methods</h3>
 
-<h2 id="customer-service">Customer Service</h2>
+<p><img src="../../../thirtybees/images/merchants-guide/native-modules/addnewcustompayment.png" alt="Add new Custom Payment methods"></p>
 
-<p>This screen shows you all the messages recieved via the contact us form on your store.  You can view, respond, pass along, and close the tickets as the cases are handled.</p>
+<p>Visit &quot;Modules and Services &gt; Custom Payment Methods&quot;. Click the + button to add a new payment option. Here you can configure everything to your liking. Let&#39;s go through the options on this page:
+- Name: this is displayed on the checkout
+- Displayed: show the payment method on the checkout
+- Cart type: what kind of products does this module support (virtual and/or real)
+- Short description: the short description that is shown underneath the name on the checkout page
+- Description: the full description that is shown when the confirmation button has been enabled on this module&#39;s configuration page and the payment method is clicked on the checkout page (only when not using the EU checkout)
+- Description success: shown on the order confirmation page
+- Image: upload a logo for your payment method (you can configure the dimensions on this module&#39;s configuration page)
+- Carrier: only show this carrier for the chosen carriers
+- Groups: when this feature is enabled you can limit this payment method to several groups
+- Order discount: if cart rules have been found, this option becomes available and you can optionally apply a cart rule when this payment method is chosen during the checkout</p>
 
-<p><strong>Contact Options:</strong></p>
-
-<ul>
-<li><strong>Allow File Uploading</strong> - Allow customers to upload files when submitting a message?</li>
-<li><strong>Default Message</strong> - The default template when creating or replying to a customer.</li>
-</ul>
-
-<p><strong>Customer Service Options:</strong></p>
-
-<h2 id="contacts">Contacts</h2>
-
-<p>This screen shows the Customer Service contacts available to your customers via the contact us form.  To add new contacts (departments), click the Add New Contact button in the top right corner.</p>
-
-<ul>
-<li><strong>Title</strong> - Contact (department) Name</li>
-<li><strong>E-Mail Address</strong> - Messages sent to this contact (department) will be forwared to the e-mail address set here.</li>
-<li><strong>Save Message?</strong> - Save all messages in the customer service screen?</li>
-<li><strong>Description</strong> - Information for the customers regarding this contact (department)</li>
-</ul>
-
-<h2 id="titles">Titles</h2>
-
-<p>This screen shows the titls available when customers are signing up, eg. Mr., Mrs., etc.  To create additional titles, click the Add New Title button in the top right corner.</p>
-
-<ul>
-<li><strong>Social Title</strong> - Required - Set the name of the title.</li>
-<li><strong>Gender</strong> - Required - Set Male, Female, or Neutral.</li>
-<li><strong>Image</strong> - Optional - Add an image icon for the title.</li>
-<li><strong>Image Width</strong> - Optional - Set the image width of the icon.</li>
-<li><strong>Image Height</strong> - Optional - Set the image height of the icon.</li>
-</ul>
+<p>Click <code>Save</code> to save your configuration and the payment method has just become available. If you want to further tweak the availability of this module, visit the back office page &quot;Module and Services &gt; Payment&quot; to set restrictions such as currency, country, carrier, etc.</p>
 
 
 <div class="tags">
@@ -631,6 +592,12 @@ $('#toc').on('click', 'a', function() {
 
 
 
+    
+    
+    
+    
+    
+    
     
     
     
