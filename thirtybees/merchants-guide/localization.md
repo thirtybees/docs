@@ -2,7 +2,7 @@
 title: Back Office Localization
 tags:
   - "Introduction"
-series: "Back Office series"
+series: "Back Office old series"
 weight: 0.7
 audience: merchants
 permalink: /merchants-guide/localization/

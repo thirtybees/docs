@@ -2,7 +2,7 @@
       <div>
         <p>{% assign series_pages = site.tags.series_backoffice %}
     {% for p in pages %}
-    {% if p.series == "Back Office series" %}
+    {% if p.series == "Back Office old series" %}
     {% assign nextTopic = page.weight | plus: "0.1"  %}
     {% if p.weight == nextTopic  %}
     <a href="{{p.url}}" title="{{p.title}}" rel="next"><button type="button" class="btn btn-primary">Next: {{p.weight}}  {{p.title}}</button></a>

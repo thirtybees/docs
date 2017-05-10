@@ -2,7 +2,7 @@
 title: Back Office Shipping
 tags:
   - "Introduction"
-series: "Back Office series"
+series: "Back Office old series"
 weight: 0.6
 audience: merchants
 permalink: /merchants-guide/shipping/

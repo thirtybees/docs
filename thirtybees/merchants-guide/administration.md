@@ -2,7 +2,7 @@
 title: Back Office Administration
 tags:
   - "Introduction"
-series: "Back Office series"
+series: "Back Office old series"
 weight: 1.0
 audience: merchants
 permalink: /merchants-guide/administration/

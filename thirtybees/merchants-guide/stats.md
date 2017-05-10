@@ -2,7 +2,7 @@
 title: Back Office Stats
 tags:
   - "Introduction"
-series: "Back Office series"
+series: "Back Office old series"
 weight: 1.1
 audience: merchants
 permalink: /merchants-guide/stats/

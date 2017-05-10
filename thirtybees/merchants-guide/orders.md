@@ -2,7 +2,7 @@
 title: Back Office Orders
 tags:
   - "Introduction"
-series: "Back Office series"
+series: "Back Office old series"
 weight: 0.3
 audience: merchants
 permalink: /merchants-guide/orders/

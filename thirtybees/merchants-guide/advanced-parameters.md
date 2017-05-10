@@ -2,7 +2,7 @@
 title: Back Office Advanced Parameters
 tags:
   - "Introduction"
-series: "Back Office series"
+series: "Back Office old series"
 weight: 0.9
 audience: merchants
 permalink: /merchants-guide/advanced-parameters/

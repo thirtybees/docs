@@ -2,7 +2,7 @@
 title: Back Office Stock
 tags:
   - "Introduction"
-series: "Back Office series"
+series: "Back Office old series"
 weight: 1.2
 audience: merchants
 permalink: /merchants-guide/stock/

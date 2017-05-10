@@ -2,7 +2,7 @@
 title: Back Office Preferences
 tags:
   - "Introduction"
-series: "Back Office series"
+series: "Back Office old series"
 weight: 0.8
 audience: merchants
 permalink: /merchants-guide/preferences/

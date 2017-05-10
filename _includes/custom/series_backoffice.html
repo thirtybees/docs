@@ -9,7 +9,7 @@
         <ol class="dropdown-menu">
             {% assign pages = site.pages | sort:"weight"  %}
             {% for p in pages %}
-            {% if p.series == "Back Office series" %}
+            {% if p.series == "Back Office old series" %}
             {% if p.url == page.url %}
             <li class="active"> → {{p.weight}}. {{p.title}}</li>
             {% else %}
