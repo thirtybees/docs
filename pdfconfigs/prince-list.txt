@@ -52,6 +52,11 @@
   
    
       
+             /merchants-guide/native-modules/custompayments/
+              
+      
+  
+      
              /merchants-guide/native-modules/paypal/
               
       
