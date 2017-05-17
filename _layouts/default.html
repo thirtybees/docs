@@ -1,49 +1,49 @@
 <!DOCTYPE html>
-  <head>
+<head>
 
- {% include head.html %}
+	{% include head.html %}
 
-<script>
-  $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
-  });
-</script>
+	<script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      });
+	</script>
 
-{% if page.datatable == true %}
-<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
-<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.5/js/jquery.dataTables.js"></script>
-<script>
-  $(document).ready(function() {
-      $('table.datatable').DataTable({
-              paging: false,
-              stateSave: true
+	{% if page.datatable == true %}
+	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
+	<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.5/js/jquery.dataTables.js"></script>
+	<script>
+      $(document).ready(function () {
+        $('table.datatable').DataTable({
+            paging: false,
+            stateSave: true
           }
-      );
-  });
-</script>
-{% endif %}
+        );
+      });
+	</script>
+	{% endif %}
 
-  </head>
+</head>
 
 <body>
 
-   {% include topnav.html %}
+{% include topnav.html %}
 
 
-    <!-- Page Content -->
-    <div class="container">
-        <div class="col-lg-12">&nbsp;</div>
+<!-- Page Content -->
+<div class="container">
+	<div class="col-lg-12">&nbsp;</div>
 
 
-{% include sidebar.html %}
+	{% include sidebar.html %}
 
-            <!-- Content Column -->
-            <div class="col-md-9">
-                <!--{% include search.html %}-->
-                {{content}}
-            </div><!-- /.row -->
+	<!-- Content Column -->
+	<div class="col-md-9">
+		<!--{% include search.html %}-->
+		{{content}}
+	</div><!-- /.row -->
 
-    </div>    <!-- /.container -->
+</div>    <!-- /.container -->
 
 </body>
 {% if site.google_analytics %}

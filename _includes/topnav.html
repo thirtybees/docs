@@ -1,116 +1,116 @@
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container topnavlinks">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+	<div class="container topnavlinks">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 
-            <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}">
-                <img src="{{site.url}}{{site.baseurl}}/common_images/thirty-bees-dark.png" alt="{{site.topnav_title}}" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/{{page.audience | split: ', ' | first}}</span>
-            </a>
+			<a class="navbar-brand" href="{{site.url}}{{site.baseurl}}">
+				<img src="{{site.url}}{{site.baseurl}}/common_images/thirty-bees-dark.png" alt="{{site.topnav_title}}" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/{{page.audience | split: ', ' | first}}</span>
+			</a>
 
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <!-- entries without drop-downs appear here -->
-                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
-                {% include custom/conditions.html %}
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<!-- entries without drop-downs appear here -->
+				<!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+				{% include custom/conditions.html %}
 
-                {% for entry in topnav %}
-                {% for subcategory in entry.subcategories %}
-                {% if subcategory.audience contains audience and subcategory.product contains product and subcategory.platform contains platform and subcategory.version contains version and subcategory.output contains "web" %}
-                {% if subcategory.external_url %}
-                <li><a href="{{subcategory.external_url}}" target="_blank">{{subcategory.title}}</a></li>
-                {% elsif page.url == subcategory.url %}
-                <li class="active"><a href="{{subcategory.url}}">{{subcategory.title}}</a></li>
-                {% else %}
-                <li><a href="{{subcategory.url}}">{{subcategory.title}}</a></li>
-                {% endif %}
-                {% endif %}
-                {% endfor %}
-                {% endfor %}
-
-
-                <!-- entries with drop-downs appear here -->
-                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
-
-                <li class="dropdown">
-                    {% for entry in topnav_dropdowns %}
-                    {% for subcategory in entry.subcategories %}
-                    {% if subcategory.audience contains audience and subcategory.product contains product and subcategory.platform contains platform and subcategory.version contains version and subcategory.output contains "web" %}
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ subcategory.title }}<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        {% for subitem in subcategory.items %}
-                        {% if subitem.audience contains audience and subitem.product contains product and subitem.platform contains platform and subcategory.version contains version and subitem.output contains "web" %}
-                        {% if subitem.external_url %}
-                        <li><a href="{{subitem.external_url}}" target="_blank">{{subitem.title}}</a></li>
-                        {% elsif page.url contains subitem.url %}
-                        <li class="dropdownActive"><a href="{{subitem.url}}">{{subitem.title}}</a></li>
-                        {% else %}
-                        <li><a href="{{subitem.url}}">{{subitem.title}}</a></li>
-                        {% endif %}
-                        {% endif %}
-                        {% endfor %}
-                        {% endif %}
-
-                    </ul>
-                </li>
-                {% endfor %}
-                {% endfor %}
+				{% for entry in topnav %}
+				{% for subcategory in entry.subcategories %}
+				{% if subcategory.audience contains audience and subcategory.product contains product and subcategory.platform contains platform and subcategory.version contains version and subcategory.output contains "web" %}
+				{% if subcategory.external_url %}
+				<li><a href="{{subcategory.external_url}}" target="_blank">{{subcategory.title}}</a></li>
+				{% elsif page.url == subcategory.url %}
+				<li class="active"><a href="{{subcategory.url}}">{{subcategory.title}}</a></li>
+				{% else %}
+				<li><a href="{{subcategory.url}}">{{subcategory.title}}</a></li>
+				{% endif %}
+				{% endif %}
+				{% endfor %}
+				{% endfor %}
 
 
-                <!-- special insertion -->
+				<!-- entries with drop-downs appear here -->
+				<!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
 
-               {% if site.project == "thirtybees_developers" or site.project == "thirtybees_writers" %}
-                {% comment %}
-                {% include custom/thirtybees/custom_menu.html %}
-                {% endcomment %}
-                {% endif %}
-                {% include feedback.html %}
+				<li class="dropdown">
+					{% for entry in topnav_dropdowns %}
+					{% for subcategory in entry.subcategories %}
+					{% if subcategory.audience contains audience and subcategory.product contains product and subcategory.platform contains platform and subcategory.version contains version and subcategory.output contains "web" %}
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ subcategory.title }}<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						{% for subitem in subcategory.items %}
+						{% if subitem.audience contains audience and subitem.product contains product and subitem.platform contains platform and subcategory.version contains version and subitem.output contains "web" %}
+						{% if subitem.external_url %}
+						<li><a href="{{subitem.external_url}}" target="_blank">{{subitem.title}}</a></li>
+						{% elsif page.url contains subitem.url %}
+						<li class="dropdownActive"><a href="{{subitem.url}}">{{subitem.title}}</a></li>
+						{% else %}
+						<li><a href="{{subitem.url}}">{{subitem.title}}</a></li>
+						{% endif %}
+						{% endif %}
+						{% endfor %}
+						{% endif %}
+
+					</ul>
+				</li>
+				{% endfor %}
+				{% endfor %}
 
 
-                <li id="search-box">
-                    <div class="form-group" style="margin-bottom: -6px">
-                        <input id="algolia-search" type="text" class="form-control col-lg-4" placeholder="Search" style="margin: 8px; float: left">
-                    </div>
-                </li>
+				<!-- special insertion -->
 
-                <li id="algolia-box">
-                    <a href="https://algolia.com" target="_blank" class="col-lg-2" id="algolia-svg-link" style="background: transparent; float:left; cursor: pointer">
-                        <img id="algolia-svg" src="{{site.url}}{{site.baseurl}}/common_images/algolia.png">
-                    </a>
-                </li>
-                <script>
-					var client = algoliasearch("PIVL0Y1GI8", "8e047928cc6047d49bbb083d194c552d");
-					var index = client.initIndex('thirtybees_docs');
-					autocomplete('#algolia-search',
-						{ hint: false }, {
-							source: autocomplete.sources.hits(index, {hitsPerPage: 5}),
-                            debug: true,
-							//value to be displayed in input control after user's suggestion selection
-							displayKey: function(suggestion) {
-								return suggestion.title || suggestion.h1 || suggestion.h2 || suggestion.h3 || suggestion.h4 ||  suggestion.h5 || suggestion.h6 || suggestion.unordered;
-							},
-							//hash of templates used when rendering dataset
-							templates: {
-								//'suggestion' templating function used to render a single suggestion
-								suggestion: function(suggestion) {
-                                    return '<span>' + suggestion.title || suggestion.h1 || suggestion.h2 || suggestion.h3 || suggestion.h4 ||  suggestion.h5 || suggestion.h6 || suggestion.unordered + '</span>';
-								}
-							}
-						}).on('autocomplete:selected', function(event, suggestion, dataset) {
-                            if (suggestion.title) {
-								window.location.href = suggestion.permalink;
-                            }
+				{% if site.project == "thirtybees_developers" or site.project == "thirtybees_writers" %}
+				{% comment %}
+				{% include custom/thirtybees/custom_menu.html %}
+				{% endcomment %}
+				{% endif %}
+				{% include feedback.html %}
 
-                            window.location.href = suggestion.url;
-                    });
-                </script>
-            </ul>
-        </div>
-    </div>
+
+				<li id="search-box">
+					<div class="form-group" style="margin-bottom: -6px">
+						<input id="algolia-search" type="text" class="form-control col-lg-4" placeholder="Search" style="margin: 8px; float: left">
+					</div>
+				</li>
+
+				<li id="algolia-box">
+					<a href="https://algolia.com" target="_blank" class="col-lg-2" id="algolia-svg-link" style="background: transparent; float:left; cursor: pointer">
+						<img id="algolia-svg" src="{{site.url}}{{site.baseurl}}/common_images/algolia.png">
+					</a>
+				</li>
+				<script>
+                  var client = algoliasearch("PIVL0Y1GI8", "8e047928cc6047d49bbb083d194c552d");
+                  var index = client.initIndex('thirtybees_docs');
+                  autocomplete('#algolia-search',
+                    { hint: false }, {
+                      source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+                      debug: true,
+                      //value to be displayed in input control after user's suggestion selection
+                      displayKey: function (suggestion) {
+                        return suggestion.title || suggestion.h1 || suggestion.h2 || suggestion.h3 || suggestion.h4 || suggestion.h5 || suggestion.h6 || suggestion.unordered;
+                      },
+                      //hash of templates used when rendering dataset
+                      templates: {
+                        //'suggestion' templating function used to render a single suggestion
+                        suggestion: function (suggestion) {
+                          return '<span>' + suggestion.title || suggestion.h1 || suggestion.h2 || suggestion.h3 || suggestion.h4 || suggestion.h5 || suggestion.h6 || suggestion.unordered + '</span>';
+                        }
+                      }
+                    }).on('autocomplete:selected', function (event, suggestion, dataset) {
+                    if (suggestion.title) {
+                      window.location.href = suggestion.permalink;
+                    }
+
+                    window.location.href = suggestion.url;
+                  });
+				</script>
+			</ul>
+		</div>
+	</div>
 </nav>

@@ -3,35 +3,35 @@ layout: default
 ---
 
 <div class="post-header">
-   <h1 class="post-title-main">{% if page.homepage == true %} {{site.homepage_title}} {% else %}{{ page.title }}{% endif %}</h1>
+    <h1 class="post-title-main">{% if page.homepage == true %} {{site.homepage_title}} {% else %}{{ page.title }}{% endif %}</h1>
 </div>
 
 <div class="post-content">
 
-   {% if page.summary %}
+    {% if page.summary %}
     <div class="summary">{{page.summary}}</div>
-   {% endif %}
-{% include toc.html %}
+    {% endif %}
+    {% include toc.html %}
 
     {% if site.github_editme_path %}
     <a target="_blank" href="https://github.com/{{site.github_editme_path}}/{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     {% endif %}
 
-  {{content}}
+    {{content}}
 
-<div class="tags">
-    {% if page.tags != null %}
-    <b>Tags: </b>
-    {% include custom/conditions.html %}
-    {% for tag in page.tags %}
-    {% if projectTags contains tag %}
-    <a href="/tag/{{tag | replace: ' ', '-' | downcase}}/" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
-    {% endif %}
-    {% endfor %}
-    {% endif %}
-</div>
+    <div class="tags">
+        {% if page.tags != null %}
+        <b>Tags: </b>
+        {% include custom/conditions.html %}
+        {% for tag in page.tags %}
+        {% if projectTags contains tag %}
+        <a href="/tag/{{tag | replace: ' ', '-' | downcase}}/" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+    </div>
 
-{% include disqus.html %}
+    {% include disqus.html %}
 
 </div>
 
