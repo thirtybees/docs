@@ -1,5 +1,5 @@
 
-![Thirty Bees Stats]({{baseurl}}/thirtybees/images/merchants-guide/stats.jpg  "Thirty Bees Stats")
+![thirty bees Stats]({{baseurl}}/thirtybees/images/merchants-guide/stats.jpg  "thirty bees Stats")
 
 ## Stats
 

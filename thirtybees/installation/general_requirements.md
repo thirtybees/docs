@@ -40,7 +40,7 @@ You can do a search for hosting providers and choose the right one for your need
 
 ## Server Requirements
 
-###AMP ( Apache, Mysql, PHP ) Requirements
+### AMP (Apache, Mysql, PHP) Requirements
  * Apache Web Server 2.2x
   * Apache module settings: 
     * mod_rewrite enabled, 
@@ -48,11 +48,11 @@ You can do a search for hosting providers and choose the right one for your need
     * mod_auth_basic disabled.
 * MySQL 5.5.3+ or MariaDB 5.5+
 
-###PHP Requirements
+### PHP Requirements
 * PHP 5.5 ~ PHP 7.1
  * At least 256MB of RAM dedicated to PHP is advised. Certain features and functionality will require more ram to be allocated to the application. Consult your developer or hosting service for advice.
  
-###Required Extensions
+### Required Extensions
  
 These extensions for PHP are **REQUIRED**
 
@@ -66,7 +66,7 @@ These extensions for PHP are **REQUIRED**
 * SOAP
 * Zip
   
-###Recommended Extensions
+### Recommended Extensions
 
 * imap
 * curl
@@ -76,20 +76,15 @@ These extensions for PHP are **REQUIRED**
 * redis
 * memcache(d)
 
-###Recommended thirty bees php.ini settings
+### Recommended thirty bees php.ini settings
 The below settings in your php.ini file are strongly recommended:
 
-`allow_url_fopen = 1`
-
-`allow_url_include = 0`
-
-`post_max_size = 32M`
-
-`max_input_vars = 10000`
-
-`upload_max_filesize =16M`
-
-`expose_php = Off`
+`allow_url_fopen = 1`  
+`allow_url_include = 0`  
+`post_max_size = 32M`  
+`max_input_vars = 10000`  
+`upload_max_filesize = 16M`  
+`expose_php = Off`  
 
 ## FTP Client & Editor
 
@@ -97,14 +92,14 @@ In order to transfer files from one place to another, most often FTP (File Trans
 
 You may also need to edit your configuration files, in which case you may need an editor.  You can  search for editors and find many options.  Use what you prefer, whether it is Notepad, Sublime3, Notepad++ or others.
 
-## Download Thirty Bees
+## Download thirty bees
 
-It is STRONGLY advised to only download from verified sources, unless there is a specific purpose by your web developer.
-<a target="_blank" class="noCrossRef" href="https://thirtybees.com/download"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>Download thirty bees Shopping Cart</button></a>
+It is STRONGLY advised to only download from verified sources, unless there is a specific purpose by your web developer.  
+<a target="_blank" href="https://thirtybees.com/download" class="btn btn-default" role="button"><i class="fa fa-lg fa-download"></i> Download thirty bees</a>
 
-Web developers can find the source code on [**github**](https://github.com/thirtybees/ThirtyBees)
+Web developers can find the source code on [**GitHub**](https://github.com/thirtybees/thirtybees)
 
-## Installing Thirty Bees
+## Installing thirty bees
 
 There are multiple ways in which to install thirty bees on your server.  We will break down the "quick steps" for those who are already familiar with working with these environments.
 
@@ -115,11 +110,3 @@ There are multiple ways in which to install thirty bees on your server.  We will
  5. Write down and save your new administration area url.  This is randomly created for each install for security purposes. 
  5. Delete the /install/ folder.
  6. Congratulations!  Proceed to the Back Office to begin configuring your new store.
-
-For more detailed instructions, please follow the links below to install thirty bees via your chosen method.
-
-* [FTP Installation](/installation/ftp-installation/) 
-* Server Command Line Installation - 
-* Local Computer Installation - 
-
-{% include custom/pdf-catalog.html %}

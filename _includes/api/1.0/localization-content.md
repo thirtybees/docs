@@ -1,5 +1,5 @@
 
-![Thirty Bees Localization]({{baseurl}}/thirtybees/images/merchants-guide/price-rules.jpg  "Thirty Bees Localization")
+![thirty bees Localization]({{baseurl}}/thirtybees/images/merchants-guide/price-rules.jpg  "thirty bees Localization")
 
 Enter beginner blurb here.
 

@@ -1,5 +1,5 @@
 ## Getting Started
- <small>**Thirty Bees 1.0.X**</small>
+ <small>**thirty bees 1.0.X**</small>
 
 Welcome to the thirty bees<sup>**&trade;**</sup> Merchants Guide. You will find these pages updated as often as possible with the latest information available.  thirty bees is an open source platform that is heavily dependent on its community contributors.  If you see any errors or missing information and believe you can help, please feel free to [**contribute**](# "Contribute to thirty bees").
 

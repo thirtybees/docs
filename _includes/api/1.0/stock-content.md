@@ -1,4 +1,4 @@
-![Thirty Bees Stock]({{baseurl}}/thirtybees/images/merchants-guide/stock.jpg  "Thirty Bees Stock")
+![thirty bees Stock]({{baseurl}}/thirtybees/images/merchants-guide/stock.jpg  "thirty bees Stock")
 
 Enter beginner blurb here.
 

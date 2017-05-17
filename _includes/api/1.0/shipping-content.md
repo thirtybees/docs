@@ -1,4 +1,4 @@
-![Thirty Bees Shipping]({{baseurl}}/thirtybees/images/merchants-guide/shipping.jpg  "Thirty Bees Shipping")
+![thirty bees Shipping]({{baseurl}}/thirtybees/images/merchants-guide/shipping.jpg  "thirty bees Shipping")
 
 ## Carriers
 

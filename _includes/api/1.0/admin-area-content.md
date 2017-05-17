@@ -1,5 +1,5 @@
 #Admin Area
-![Thirty Bees Back Office]({{baseurl}}/thirtybees/images/thirty-bees-back-office.jpg  "Thirty Bees Back Office")
+![thirty bees Back Office]({{baseurl}}/thirtybees/images/thirty-bees-back-office.jpg  "thirty bees Back Office")
 
 Welcome to the backbone of your store!  Now that you’ve installed ThirtyBees it is time to learn how to navigate the administration area and well as go over all the features available to you.
 

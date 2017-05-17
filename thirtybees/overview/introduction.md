@@ -44,5 +44,3 @@ This website was set up to flow in the order of the menu.  First, follow all the
 Now that you've had the 2 cent tour, head on over to the Installation Guide to learn about setting up the proper server environment and getting thirtybees installed!
 
 {{site.data.thirtybees.thirtybees_urls.thirtybees_getting_started.link}}
-
-{% include custom/pdf-catalog.html %}

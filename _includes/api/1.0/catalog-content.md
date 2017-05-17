@@ -1,5 +1,5 @@
 #Catalog
-![Thirty Bees Catalog]({{baseurl}}/thirtybees/images/merchants-guide/catalog.jpg  "Thirty Bees Catalog")
+![thirty bees Catalog]({{baseurl}}/thirtybees/images/merchants-guide/catalog.jpg  "thirty bees Catalog")
 
 Enter beginner blurb here.
 

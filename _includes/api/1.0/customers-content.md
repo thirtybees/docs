@@ -1,4 +1,4 @@
-![Thirty Bees Orders]({{baseurl}}/thirtybees/images/merchants-guide/customers.jpg  "Thirty Bees Orders")
+![thirty bees Orders]({{baseurl}}/thirtybees/images/merchants-guide/customers.jpg  "thirty bees Orders")
 
 Enter beginner blurb here.
 

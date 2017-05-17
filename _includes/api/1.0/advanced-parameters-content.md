@@ -1,4 +1,4 @@
-![Thirty Bees Advanced Parameters]({{baseurl}}/thirtybees/images/merchants-guide/advanced-parameters.jpg  "Thirty Bees Advanced Parameters")
+![thirty bees Advanced Parameters]({{baseurl}}/thirtybees/images/merchants-guide/advanced-parameters.jpg  "thirty bees Advanced Parameters")
 
 ## Configuration Information
 

@@ -1,5 +1,5 @@
 
-![Thirty Bees Price Rules]({{baseurl}}/thirtybees/images/merchants-guide/price-rules.jpg  "Thirty Bees Price Rules")
+![thirty bees Price Rules]({{baseurl}}/thirtybees/images/merchants-guide/price-rules.jpg  "thirty bees Price Rules")
 
 ## Cart Rules
 

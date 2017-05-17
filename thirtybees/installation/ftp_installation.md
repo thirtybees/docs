@@ -12,7 +12,7 @@ permalink: /installation/ftp-installation/
 There are several free extraction programs available, such as winzip, winrar and gzip. FTP means "file transfer protocol". If you have never used compression / decompression software before, please see the documentation on the website where you downloaded the extraction software. Then, it's best if you use the wizard, quickstart or whatever your chosen program has, to do the following: extract the thirty bees software you downloaded earlier.  This should result in the creation of a folder named "thirty bees".  It contains a vast amount of subfolders and files (or subdirectories and files), depending upon whether you use a PC or a Mac.  Take note of where this folder is located so that you can access it immediately.  If you can't find the compressed (zip) file, check your desktop and your downloads folder. If you still can't find it, do a search on your computer for "thirty". If all else fails, go back and download it again and select where to save it before you press "enter" or "return" to save it.
 
 ## FTP Files to Server
-![Thirty Bees Transfer Files]({{base}}/thirtybees/images/installation/installation-ftp_installation-transfer_files.jpg  "Thirty Bees Transfer Files")
+![thirty bees Transfer Files]({{base}}/thirtybees/images/installation/installation-ftp_installation-transfer_files.jpg  "thirty bees Transfer Files")
 
 Your hosting provider should have given you a log in and a password to access your website server. If you don't know where those credentials are, search your email for your web host's emails. Most likely, you will have received email with the log in and password and advice / directions to "change your password". Now, run your FTP client, discussed earlier, and fill in your log in and password credentials. Save these settings and connect to your server.  Please save your log in and password somewhere readily accessible, since you will need it for a variety of processes related to your website. You should see a list of folders once you are connected.  Usually, you will find one of two folders listed: /public_html/ or /www/httpdocs.  In the FTP client, navigate to where you extracted the thirty bees folder and drag all the folders and files into the /public_html/ or /www/httpdocs/ folder.
 
@@ -21,12 +21,12 @@ Your hosting provider should have given you a log in and a password to access yo
 NOTE: If you want your shop to be located in yourdomain.com/shop/ for instance, then be sure to create a folder named "shop" in your /public_html/ or /www/httpdocs subdirectory / subfolder and move the installation files into it.  For instance, if you want your shop located at mydomain.com/myshop, you would move all the installation files and folders to /public_html/myshop/.
 
 ## Creating a Database
-![Thirty Bees Database Creation]({{base}}/thirtybees/images/installation/installation-ftp_installation-db_creation.jpg  "Thirty Bees Database Creation")
+![thirty bees Database Creation]({{base}}/thirtybees/images/installation/installation-ftp_installation-db_creation.jpg  "thirty bees Database Creation")
 
 While the FTP software is transferring files, you can begin the next step.  The Database is where all the information for your store is saved.  Most hosting platforms use cPanel and phpmyadmin with quick database creation tools. See illustration.  You will need to create a new database for thirty bees and a user account with all privileges. You are the user. Please write down the database name, username and password, since this information is required for other steps.
 
 ## Install thirty bees
-![Thirty Bees Installation]({{base}}/thirtybees/images/installation/installation-ftp_installation-thirtybees_installer.jpg  "Thirty Bees Installation")
+![thirty bees Installation]({{base}}/thirtybees/images/installation/installation-ftp_installation-thirtybees_installer.jpg  "thirty bees Installation")
 
 Once all of your files are transferred and your database is created, it's time to install thirty bees!  Open any web browser and navigate to your domain.  You should be greeted with a thirty bees installer screen.  In this screen you will do the following:
 

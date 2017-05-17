@@ -2,7 +2,7 @@
 
 On this screen you can setup your general administrative store preferences.
 
-![Thirty Bees Administration Preferences]({{baseurl}}/thirtybees/images/merchants-guide/thirty_bees-administration-preferences.jpg  "Thirty Bees Administration Preferences")
+![thirty bees Administration Preferences]({{baseurl}}/thirtybees/images/merchants-guide/thirty_bees-administration-preferences.jpg  "thirty bees Administration Preferences")
 
 **General:**
 

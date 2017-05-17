@@ -1,4 +1,4 @@
-![Thirty Bees Preferences]({{baseurl}}/thirtybees/images/merchants-guide/preferences.jpg  "Thirty Bees Preferences")
+![thirty bees Preferences]({{baseurl}}/thirtybees/images/merchants-guide/preferences.jpg  "thirty bees Preferences")
 
 ## General
 
