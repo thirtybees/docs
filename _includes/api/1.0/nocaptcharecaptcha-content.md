@@ -32,6 +32,7 @@ Currently the module supports:
 - Registration page
 - Password forgotten form
 - Contact form
+- Back Office login form
 
 ### Make sure you clear the cache of your store and checking a few settings
 
