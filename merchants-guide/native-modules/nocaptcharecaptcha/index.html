@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<meta name="keywords" content="Introduction,  ">
-<title>Admin Overview | thirty bees documents</title>
+<meta name="keywords" content="reCAPTCHANative modules,  ">
+<title>No CAPTCHA reCAPTCHA - by thirty bees | thirty bees documents</title>
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/css/base-theme.css">
@@ -130,7 +130,7 @@
 <script>
   function SendLinkByMail(href) {
     var subject = "thirty bees documents feedback";
-    var body = "I have some feedback about the Admin Overview page: ";
+    var body = "I have some feedback about the No CAPTCHA reCAPTCHA - by thirty bees page: ";
     body += window.location.href;
     body += "";
     var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -364,7 +364,7 @@
                     
                     
                     
-                    <li><a href="/merchants-guide/native-modules/nocaptcharecaptcha/">No CAPTCHA reCAPTCHA</a></li>
+                    <li class="active"><a href="/merchants-guide/native-modules/nocaptcharecaptcha/">No CAPTCHA reCAPTCHA</a></li>
                     
 
                     
@@ -541,7 +541,7 @@
 </script>
 -->
 		<div class="post-header">
-    <h1 class="post-title-main">Admin Overview</h1>
+    <h1 class="post-title-main">No CAPTCHA reCAPTCHA - by thirty bees</h1>
 </div>
 
 <div class="post-content">
@@ -572,160 +572,53 @@ $('#toc').on('click', 'a', function() {
 
 
     
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/api/1.0/AdminWebservice.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/merchants-guide/native-modules/nocaptchrecaptcha.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-    <p><img src="/thirtybees/images/merchants-guide/advanced-parameters.jpg" alt="thirty bees Advanced Parameters" title="thirty bees Advanced Parameters"></p>
+    <h1 id="no-captcha-recaptcha-by-thirty-bees">No CAPTCHA reCAPTCHA by thirty bees</h1>
 
-<h2 id="configuration-information">Configuration Information</h2>
+<h2 id="setting-up-the-module">Setting up the module</h2>
 
-<p>This page shows you all the information related to the environment running your store.</p>
+<p>Installing and configuring the module consists of 5 steps: 
+1. Retrieving your Google reCAPTCHA credentials
+1. Entering your Google reCAPTCHA credentials
+1. Selecting where you want to display the captcha
+1. Make sure you clear the cache of your store and checking a few settings
+1. Check if the captchas display properly.</p>
 
-<ul>
-<li>Server Information</li>
-<li>Database Information</li>
-<li>Store Information</li>
-<li>Mail Configuration</li>
-<li>Your Information</li>
-<li>Check Your Configuration</li>
-<li>List of Recently Changed Files</li>
-</ul>
+<h3 id="retrieving-your-google-recaptcha-credentials">Retrieving your Google reCAPTCHA credentials</h3>
 
-<h2 id="performance">Performance</h2>
+<p>Register your domain with reCAPTCHA and find your secret and site keys. Via <a href="https://www.google.com/recaptcha/intro/index.html">https://www.google.com/recaptcha/intro/index.html</a> you can register your domain for reCAPTCHA.
+Click Get reCAPTCHA. After you’ve logged in, you will see a window that is comparable to figure 1. On this screen you can add a label and domain name. It is important to note that you will only need to enter the main domain. It is not necessary to enter any subdomains. After the domain has been added it will be shown in the table above. An example is shown in figure 2.
+Click on the domain in this table. Afterwards, click Keys. A screen with extra information appears. It includes both the Site key and Secret key that are needed. Figure 3
+is an example.</p>
 
-<p>On this page you can change the settings influencing the performance, and thereby speed, of your store.</p>
+<p><img src="../../../thirtybees/images/merchants-guide/native-modules/recaptchakeys.png" alt="reCAPTCHA keys"></p>
 
-<p><strong>Smarty</strong></p>
+<h3 id="entering-your-credentials">Entering your credentials</h3>
 
-<ul>
-<li><strong>Template Compilation</strong> - </li>
-<li><strong>Cache</strong> - </li>
-<li><strong>Caching System</strong> - </li>
-<li><strong>Clear Cache</strong> - </li>
-</ul>
+<p>You can enter the credentials on the module&#39;s configuration page.</p>
 
-<p><strong>Debug Mode</strong></p>
+<p><img src="../../../thirtybees/images/merchants-guide/native-modules/recaptchasettings.png" alt="reCAPTCHA settings"></p>
 
-<ul>
-<li><strong>Disable Non thirty bees Modules</strong> - </li>
-<li><strong>Disable All Overrides</strong> - </li>
-<li><strong>Debug Mode</strong> - </li>
-<li><strong>Profiling</strong> - </li>
-</ul>
+<h3 id="selecting-where-you-want-to-display-the-captcha">Selecting where you want to display the captcha</h3>
 
-<p><strong>Optional Features</strong></p>
+<p>Select the forms on which you would like to enable the captchas and optionally pick a theme. You can choose between a light and dark theme. These can be adjusted for every type of form.
+Currently the module supports:
+- Login page
+- Registration page
+- Password forgotten form
+- Contact form</p>
 
-<ul>
-<li><strong>Combinations</strong> - </li>
-<li><strong>Features</strong> - </li>
-<li><strong>Customer Groups</strong> - </li>
-</ul>
+<h3 id="make-sure-you-clear-the-cache-of-your-store-and-checking-a-few-settings">Make sure you clear the cache of your store and checking a few settings</h3>
 
-<p><em>**CCC (Combine, Compress, and Cache)</em>*</p>
+<p>Visit <code>Advanced Parameters &gt; Performance</code> and clear the cache. Make sure that
+both <code>Disable non PrestaShop modules</code> and <code>Disable all override</code> are set to <code>NO</code>. This
+step makes sure that backend checks can be performed without problems.</p>
 
-<ul>
-<li><strong>Smart Cache for CSS</strong> - </li>
-<li><strong>Smart Cache for Javascript</strong> - </li>
-<li><strong>Compress Inline Javascript in HTML</strong> - </li>
-<li><strong>Move Javascript to the End</strong> - </li>
-<li><strong>Apache Optimization</strong> - </li>
-<li><strong>Keep JS and CSS Files</strong> - </li>
-</ul>
+<h3 id="check-if-the-captchas-display-properly">Check if the captchas display properly.</h3>
 
-<p><strong>Media Servers (Use Only with CCC)</strong> </p>
-
-<ul>
-<li>Enter media servers domains or subdomains in order to use cookieless static content.</li>
-</ul>
-
-<p><strong>Ciphering</strong></p>
-
-<ul>
-<li>Algorithm</li>
-</ul>
-
-<p><strong>Caching</strong></p>
-
-<ul>
-<li>...</li>
-</ul>
-
-<p><strong>Full Page Cache</strong> </p>
-
-<ul>
-<li>..</li>
-</ul>
-
-<h2 id="email">Email</h2>
-
-<p><strong>Email List</strong></p>
-
-<ul>
-<li>..</li>
-</ul>
-
-<p><strong>Email Settings</strong></p>
-
-<ul>
-<li>..</li>
-</ul>
-
-<p><strong>Test Your Email Configuration</strong></p>
-
-<ul>
-<li>..</li>
-</ul>
-
-<h2 id="csv-import">CSV Import</h2>
-
-<p><strong>Import</strong></p>
-
-<ul>
-<li><strong>What Do You Want to Import?</strong></li>
-<li><strong>Select A File to Import</strong></li>
-<li><strong>Langauge of the File</strong></li>
-<li><strong>Field Separator</strong></li>
-<li><strong>Multiple Value Separator</strong></li>
-<li><strong>Delete All Categories Before Import</strong></li>
-<li><strong>Skip Thumbnails Regeneration</strong></li>
-<li><strong>Force All ID Numbers</strong></li>
-<li><strong>Send Notification Email</strong></li>
-</ul>
-
-<p><strong>Available Fields</strong></p>
-
-<ul>
-<li>...</li>
-</ul>
-
-<p><strong>Download Samples CSV Files</strong></p>
-
-<ul>
-<li>...</li>
-</ul>
-
-<h2 id="db-backup">DB Backup</h2>
-
-<p>On this page you can create a backup of your database directly from within thirty bees.  Please following the on-screen directions CAREFULLY.  When ready click the &quot;I Have Read The Disclaimer...&quot; button in order to begin.  Once completed, you will see the file available for download.</p>
-
-<p><strong>DB Backup List</strong></p>
-
-<ul>
-<li>Provides a list of the DB Backups you have created</li>
-</ul>
-
-<p><strong>Backup Options</strong></p>
-
-<ul>
-<li><strong>Ignore Statistics Tables</strong></li>
-<li><strong>Drop Existing Tables During Import</strong> - </li>
-</ul>
-
-<h2 id="sql-manager">SQL Manager</h2>
-
-<h2 id="logs">Logs</h2>
-
-<h2 id="webservice">Webservice</h2>
+<p>If not, you might have to tweak the advanced settings. Here you can set the displayed HTML and the jQuery selector to place the captcha.</p>
 
 
     <div class="tags">
@@ -735,6 +628,8 @@ $('#toc').on('click', 'a', function() {
 
 
 
+        
+        
         
         
         
