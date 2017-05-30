@@ -243,6 +243,12 @@
 
 > Class RangePriceCore
 
+| Visibility | Property | Type |
+|:-----------|:---------|:-----|
+| public | <strong>id_carrier</strong> | <em>int</em> |
+| public | <strong>delimiter1</strong> | <em>float</em> |
+| public | <strong>delimiter2</strong> | <em>float</em> |
+
 | Visibility | Function |
 |:-----------|:---------|
 | public | <strong>add(</strong><em>bool</em> <strong>$autodate=true</strong>, <em>bool</em> <strong>$nullValues=false</strong>)</strong> : <em>bool Insertion result</em><br /><em>Override add to create delivery value for all zones</em> |
@@ -259,6 +265,12 @@
 
 > Class RangeWeightCore
 
+| Visibility | Property | Type |
+|:-----------|:---------|:-----|
+| public | <strong>id_carrier</strong> | <em>int</em> |
+| public | <strong>delimiter1</strong> | <em>float</em> |
+| public | <strong>delimiter2</strong> | <em>float</em> |
+
 | Visibility | Function |
 |:-----------|:---------|
 | public | <strong>add(</strong><em>bool</em> <strong>$autodate=true</strong>, <em>bool</em> <strong>$nullValues=false</strong>)</strong> : <em>bool Insertion result</em><br /><em>Override add to create delivery value for all zones</em> |
@@ -274,6 +286,12 @@
 ### Class: TagCore
 
 > Class TagCore
+
+| Visibility | Property | Type |
+|:-----------|:---------|:-----|
+| public | <strong>id_lang</strong> | <em>int</em> |
+| public | <strong>name</strong> | <em>string</em> |
+
 
 | Visibility | Function |
 |:-----------|:---------|
@@ -295,6 +313,11 @@
 ### Class: RequestSqlCore
 
 > Class RequestSqlCore
+
+| Visibility | Property | Type |
+|:-----------|:---------|:-----|
+| public | <strong>name</strong> | <em>string</em> |
+| public | <strong>sql</strong> | <em>string</em> |
 
 | Visibility | Function |
 |:-----------|:---------|
@@ -326,6 +349,12 @@
 <hr /> 
 ### Class: GenderCore
 
+| Visibility | Property | Type |
+|:-----------|:---------|:-----|
+| public | <strong>id_gender</strong> | <em>int</em> |
+| public | <strong>name</strong> | <em>string</em> |
+| public | <strong>type</strong> | <em>int</em> |
+
 | Visibility | Function |
 |:-----------|:---------|
 | public | <strong>__construct(</strong><em>int/null</em> <strong>$id=null</strong>, <em>int/null</em> <strong>$idLang=null</strong>, <em>int/null</em> <strong>$idShop=null</strong>)</strong> : <em>void</em><br /><em>GenderCore constructor.</em> |
@@ -340,6 +369,20 @@
 ### Class: CookieCore
 
 > Class CookieCore
+
+| Visibility | Property | Type |
+|:-----------|:---------|:-----|
+| protected | <strong>_content</strong> | <em>array</em> |
+| protected | <strong>_name</strong> | <em>array</em> |
+| protected | <strong>_expire</strong> | <em>array</em> |
+| protected | <strong>_domain</strong> | <em>array</em> |
+| protected | <strong>_path</strong> | <em>array</em> |
+| protected | <strong>_cipherTool</strong> | <em>object</em> |
+| protected | <strong>_modified</strong> | <em>bool</em> |
+| protected | <strong>_allow_writing</strong> | <em>bool</em> |
+| protected | <strong>_salt</strong> | <em>string</em> |
+| protected | <strong>_standalone</strong> | <em>bool</em> |
+| protected | <strong>_secure</strong> | <em>bool</em> |
 
 | Visibility | Function |
 |:-----------|:---------|
