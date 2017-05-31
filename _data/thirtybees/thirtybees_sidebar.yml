@@ -142,7 +142,7 @@ entries:
         product: all
         version: all
         output: web, pdf
-      - title: tawk.to
+      - title: MailChimp
         url: /merchants-guide/native-modules/mailchimp/
         audience: merchants
         platform: all
