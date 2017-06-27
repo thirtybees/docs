@@ -57,27 +57,27 @@
   
    
       
-             /merchants-guide/native-modules/custompayments/
+             /native-modules/custompayments/
               
       
   
       
-             /merchants-guide/native-modules/nocaptcharecaptcha/
+             /native-modules/nocaptcharecaptcha/
               
       
   
       
-             /merchants-guide/native-modules/paypal/
+             /native-modules/paypal/
               
       
   
       
-             /merchants-guide/native-modules/tawkto/
+             /native-modules/tawkto/
               
       
   
       
-             /merchants-guide/native-modules/mailchimp/
+             /native-modules/mailchimp/
               
       
   
