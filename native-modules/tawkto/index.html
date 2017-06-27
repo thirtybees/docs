@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<meta name="keywords" content="PayPalNative modules,  ">
-<title>Payment Module - Paypal by thirty bees | thirty bees documents</title>
+<meta name="keywords" content="tawk.toNative modules,  ">
+<title>tawk.to live chat module by thirty bees | thirty bees documents</title>
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/css/base-theme.css">
@@ -80,7 +80,7 @@
 			</button>
 
 			<a class="navbar-brand" href="">
-				<img src="/common_images/thirty-bees-dark.png" alt="thirty bees documents" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/docs</span>
+				<img src="/common_images/thirty-bees-dark.png" alt="thirty bees documents" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/merchants</span>
 			</a>
 
 		</div>
@@ -130,7 +130,7 @@
 <script>
   function SendLinkByMail(href) {
     var subject = "thirty bees documents feedback";
-    var body = "I have some feedback about the Payment Module - Paypal by thirty bees page: ";
+    var body = "I have some feedback about the tawk.to live chat module by thirty bees page: ";
     body += window.location.href;
     body += "";
     var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -373,7 +373,7 @@
                     
                     
                     
-                    <li class="active"><a href="/native-modules/paypal/">PayPal</a></li>
+                    <li><a href="/native-modules/paypal/">PayPal</a></li>
                     
 
                     
@@ -382,7 +382,7 @@
                     
                     
                     
-                    <li><a href="/native-modules/tawkto/">tawk.to</a></li>
+                    <li class="active"><a href="/native-modules/tawkto/">tawk.to</a></li>
                     
 
                     
@@ -550,7 +550,7 @@
 </script>
 -->
 		<div class="post-header">
-    <h1 class="post-title-main">Payment Module - Paypal by thirty bees</h1>
+    <h1 class="post-title-main">tawk.to live chat module by thirty bees</h1>
 </div>
 
 <div class="post-content">
@@ -581,121 +581,34 @@ $('#toc').on('click', 'a', function() {
 
 
     
-    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/native-modules/paypal.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/native-modules/tawkto.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-    <h1 id="paypal-module-by-thirty-bees">Paypal Module by thirty bees</h1>
+    <h1 id="tawk-to-module-by-thirty-bees">tawk.to Module by thirty bees</h1>
 
-<h2 id="setting-up-the-paypal-module">Setting up the PayPal Module</h2>
+<p>tawk.to is a free service that allows you to chat with your site&#39;s customers. It is very easy to integrate in your store with thirty bees&#39; native module for tawk.to.<br>
+For more info head over to their website: <a href="https://tawk.to/">https://tawk.to/</a></p>
 
-<p>Installing the module involves getting your PayPal API credentials into the module as well.
-Besides an explanation on how to install this module, this guide also describes how to retrieve the necessary PayPal REST API credentials in order to connect the module with your PayPal account and to start receiving payments.
-PayPal provides a sandbox environment which allows you to test the module first. We strongly recommend you to follow this procedure and that is why this 
-guide will first describe how to connect with the sandbox environment before getting into detail on how to go live with the module.</p>
+<h2 id="installing-the-tawk-to-module">Installing the tawk.to module</h2>
 
-<h3 id="installing-the-paypal-module">Installing the PayPal module</h3>
+<p>Navigate to your module list on the BO page &quot;Modules and Services &gt; Modules and Services&quot;. Search for <code>tawkto</code> and install the module.
+<img src="../../../thirtybees/images/merchants-guide/native-modules/tawktoinstall.png" alt="tawk.to module"></p>
 
-<p>In admin, navigate to Modules and Services, List of Modules, Payments and Gateways.</p>
+<h2 id="setting-up-the-tawk-to-module">Setting up the tawk.to Module</h2>
 
-<ul>
-<li>Search for <strong>paypal</strong> from the module list</li>
-<li>Click <strong>Configure</strong><br></li>
-</ul>
+<p>After you have successfully installed the tawk.to module you will be presented with the module&#39;s configuration page. It is a very simple and minimal interface, meant to get you started as quickly as possible. 
+The first time you open up this page you will see a login form. If you already have a tawk.to account, enter your credentials and click <code>Sign in</code>. Otherwise go to <a href="https://tawk.to/">https://tawk.to/</a> and sign up for a tawk.to account.
+<img src="../../../thirtybees/images/merchants-guide/native-modules/tawktosignup.png" alt="tawk.to first time module page"></p>
 
-<p><img src="../../../thirtybees/images/merchants-guide/native-modules/paypalmoduleslist.png" alt="PayPal"></p>
+<h3 id="signing-up-for-tawk-to">Signing up for tawk.to</h3>
 
-<h3 id="developer-page">Developer Page</h3>
+<p>You can create a new account on <a href="https://tawk.to/">https://tawk.to/</a>. The signup form will be on the frontpage.
+<img src="../../../thirtybees/images/merchants-guide/native-modules/signupformtawkto.png" alt="tawk.to sign up form"></p>
 
-<p>Open a new browser window and go to this page: <a href="https://developer.paypal.com/developer/applications/">https://developer.paypal.com/developer/applications/</a> and log in.</p>
+<h3 id="configuring-the-module">Configuring the module</h3>
 
-<ul>
-<li>Log in with your normal PayPal credentials which consists of your email and password.</li>
-<li>Click &quot;dashboard&quot; at the top right of the page.</li>
-<li>Scroll down until you find: <code>REST API apps</code></li>
-</ul>
-
-<h4 id="registering-an-app-to-the-rest-api-sandbox">Registering an app to the REST API (sandbox)</h4>
-
-<ul>
-<li>Click the button that says <code>Create App</code>.<br></li>
-</ul>
-
-<p><img src="../../../thirtybees/images/merchants-guide/native-modules/paypalrestapiapps.png" alt="PayPal REST API apps"></p>
-
-<ul>
-<li><p><strong>Create New App:</strong><br>
-Enter an App name that is related to your website and business.</p></li>
-<li><p>In this same section, under the App Name, make sure the correct email is listed under &quot;Sandbox developer account&quot;.</p></li>
-<li><p>Click the <code>Create App</code> button.  </p></li>
-<li><p>Scroll down to &quot;SANDBOX APP SETTINGS&quot; and choose the following feature options:  </p>
-
-<ul>
-<li><code>Accept payments</code><br></li>
-<li>Expand the <code>Advanced options</code> and tick <code>Billing agreements</code><br></li>
-<li>Log in with PayPal<br></li>
-</ul></li>
-</ul>
-
-<p>In order to make PayPal login work properly, make sure you set a return URL for your website:
-- Scroll back to &quot;SANDBOX APP SETTINGS&quot;
-- Expand the Return URL settings
-- The default (and most stable) location of the PayPal login module return URL is <code>index.php?fc=module&amp;module=paypal&amp;controller=logintoken?authentication</code>,
- so if your website is location at <code>https://www.mywebsite.com</code> your return URL would be <code>https://www.mywebsite.com/index.php?fc=module&amp;module=paypal&amp;controller=logintoken?authentication</code>
-- Add the URL and don&#39;t forget to click <code>Save</code> at the bottom of the panel.</p>
-
-<p>Go back to the CLIENT ID and SECRET and copy these credentials. Now enter these on the module&#39;s configuration page as follows:
-<img src="../../../thirtybees/images/merchants-guide/native-modules/paypalapisettings.png" alt="PayPal API settings"></p>
-
-<p>You will see that the web profiles needed for the PayPal checkout to work aren&#39;t available at the moment. 
-After you click <code>Save</code> this message should turn green and every web profile should be available. 
-This is the confirmation that your CLIENT ID and SECRET have been accepted by PayPal and you can now enable the checkout types you like. 
-In case the web profiles cannot be loaded, check if your credentials are correct and not too old. Otherwise check if the module is able to communicate with PayPal. 
-You can see every single communication attempt in your Developer Dashboard at <a href="https://developer.paypal.com/">https://developer.paypal.com/</a>. Just visit the page &quot;Sandbox &gt; API calls&quot; from your dashboard.</p>
-
-<h4 id="registering-an-app-to-the-rest-api-live">Registering an app to the REST API (live)</h4>
-
-<p>This is essentially the same procedure as described above in the sandbox section. We recommend you read that section before proceeding with this part. The only difference is that:</p>
-
-<ul>
-<li>At the top of the page, click the &quot;Sandbox/Live&quot; slider button to get your LIVE CREDENTIALS.</li>
-<li>Create a new app to retrieve the live Client ID and SECRET.</li>
-<li>Scroll down to &quot;LIVE APP SETTINGS&quot;, enter your return URL and choose the feature options you need. These are stil the same.</li>
-<li>On the module&#39;s configuration tick <code>Go Live</code> and Save.</li>
-</ul>
-
-<h3 id="payment-methods">Payment methods</h3>
-
-<p>The module comes packed with three PayPal payment checkouts:
-- Website Payments Standard (the default one)
-- Website Payments Plus (used for Germany)
-- Express checkout (this adds a checkout button on your product page, the cart page and the order page)</p>
-
-<h4 id="website-payments-standard">Website Payments Standard</h4>
-
-<p>By enabling this option you will see a new payment button on your checkout page.</p>
-
-<h4 id="website-payments-plus">Website Payments Plus</h4>
-
-<p>By enabling this option you will see a new (iframed) payment button on your checkout page.</p>
-
-<h4 id="express-checkout">Express Checkout</h4>
-
-<p>This option adds an Express Checkout button to your product pages, your cart page and the order page. By clicking this button a new popup appears (only if it is supported, otherwise a redirection to paypal.com) which allows you to quickly pay for a product.</p>
-
-<h3 id="paypal-login">PayPal login</h3>
-
-<p>To increase the checkout speed, this module also provides a way for your customers to login on your website via PayPal login. 
-The PayPal login comes in two flavors: silver and blue. It will be shown on the login page of your store and it allows the customer to bypass the regular registration/login form. 
-If you have configured the Return URL and Rest API app permissions as stated in the Sandbox section, this option will immediately available after enabling it on the module&#39;s configuration page.</p>
-
-<h3 id="more-info">More info:</h3>
-
-<ul>
-<li>From left side menu, under Sandbox, click &quot;Accounts&quot; and see your records (accounts) listed.</li>
-<li>Click on the email address you want to view information for and it will open two links: “Profile” and “Notifications”.</li>
-<li><strong>&quot;Profile&quot; opens a window of Account Details with Tabs for Profile, API Credentials, Funding and Settings. Click each to view and make sure the information is correct.</strong></li>
-<li>Copy all that info down and save it in your password vault in case you can not find it again!</li>
-</ul>
+<p>After you have successfully created an account and logged in on the module page you can choose a widget. Make sure you click <code>Use selected widget</code> to make the widget active. The chat widget is now shown and live on your front office. Further configuration of the widget is done via your tawk.to dashboard. Click the <code>Go to dashboard</code> button to visit your dashboard (mobile users: scroll all the way to the right first).
+<img src="../../../thirtybees/images/merchants-guide/native-modules/tawktoconfigured.png" alt="tawk.to fully configured"></p>
 
 
     <div class="tags">
