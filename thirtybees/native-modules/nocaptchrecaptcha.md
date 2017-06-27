@@ -4,7 +4,7 @@ tags:
   - "reCAPTCHA"
   - "Native modules"
 audience: merchants
-permalink: /merchants-guide/native-modules/nocaptcharecaptcha/
+permalink: /native-modules/nocaptcharecaptcha/
 ---
 
 {% include api/1.0/nocaptcharecaptcha-content.md %}

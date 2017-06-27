@@ -6,7 +6,7 @@ tags:
   - "Cash on delivery"
   - "Store pickup"
 audience: merchants
-permalink: /merchants-guide/native-modules/custompayments/
+permalink: /native-modules/custompayments/
 ---
 
 {% include api/1.0/custompayments-content.md %}

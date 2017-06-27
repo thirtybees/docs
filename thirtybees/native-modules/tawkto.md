@@ -4,7 +4,7 @@ tags:
   - "tawk.to"
   - "Native modules"
 audience: merchants
-permalink: /merchants-guide/native-modules/tawkto/
+permalink: /native-modules/tawkto/
 ---
 
 {% include api/1.0/tawkto-content.md %}
