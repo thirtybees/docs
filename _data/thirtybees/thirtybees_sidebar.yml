@@ -115,35 +115,35 @@ entries:
     output: web,pdf
     items:
       - title: Custom payment methods
-        url: /merchants-guide/native-modules/custompayments/
+        url: /native-modules/custompayments/
         audience: merchants
         platform: all
         product: all
         version: all
         output: web, pdf
       - title: No CAPTCHA reCAPTCHA
-        url: /merchants-guide/native-modules/nocaptcharecaptcha/
+        url: /native-modules/nocaptcharecaptcha/
         audience: merchants
         platform: all
         product: all
         version: all
         output: web, pdf
       - title: PayPal
-        url: /merchants-guide/native-modules/paypal/
+        url: /native-modules/paypal/
         audience: merchants
         platform: all
         product: all
         version: all
         output: web, pdf
       - title: tawk.to
-        url: /merchants-guide/native-modules/tawkto/
+        url: /native-modules/tawkto/
         audience: merchants
         platform: all
         product: all
         version: all
         output: web, pdf
       - title: MailChimp
-        url: /merchants-guide/native-modules/mailchimp/
+        url: /native-modules/mailchimp/
         audience: merchants
         platform: all
         product: all
