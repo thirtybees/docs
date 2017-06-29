@@ -7,4 +7,15 @@ audience: merchants
 permalink: /native-modules/tawkto/
 ---
 
+
 {% include api/1.0/tawkto-content.md %}
+
+## Further reading
+
+[Tawkto Blog Post](https://thirtybees.com/native-modules/new-module-tawk-to-add-live-chat-to-your-site/)
+
+## Report issues
+
+[Tawkto Forum](https://forum.thirtybees.com/category/26/tawk-to)
+
+[Tawkto Report a Bug](https://github.com/thirtybees/tawkto/issues)
