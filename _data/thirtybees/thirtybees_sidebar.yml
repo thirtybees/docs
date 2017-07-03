@@ -106,6 +106,13 @@ entries:
        product: all
        version: all
        output: web, pdf
+     - title: Admin Product Page
+       url: /merchants-guide/admin-products/
+       audiance: merchants
+       platform: all
+       product: all
+       version: all
+       output: web, pdf
 
   - title: Native Modules
     audience: merchants
