@@ -11,6 +11,8 @@ permalink: /release_notes/v1-0-x-release-notes
 ---
 
 ## Version 1.0.2
+<blockquote>July 17th, 2017</blockquote>
+
 ### Fixes:  
 - Fix CSV import  
   - Import long CSV files
@@ -56,6 +58,8 @@ permalink: /release_notes/v1-0-x-release-notes
  - Synchronize MySQL timezone with PHP timezone
 
 ## Version 1.0.1
+<blockquote>April 26th, 2017</blockquote>
+
 ### Fixes:  
 - Fix language, localization, currency import
 - Better error reporting
@@ -72,11 +76,11 @@ permalink: /release_notes/v1-0-x-release-notes
 - Url rewrite changes are now recorded and properly converted into redirects.
 
 ## Version 1.0.0
-<blockquote>February 16, 2017</blockquote>
+<blockquote>February 16th, 2017</blockquote>
 The first stable version of thirty bees. This release has seen plenty of bug fixes since beta 3.
 
 ## Version 1.0.0 beta.3
-<blockquote>February 12, 2017</blockquote>
+<blockquote>February 12th, 2017</blockquote>
 These are the highlights for the third beta. The main focus of this release was to fix bugs.
 
 Fixes:  
@@ -88,7 +92,7 @@ Fixes:
 The bees blog module no longer comes packed with this release
 
 ## Version 1.0.0 beta.2
-<blockquote>February 8, 2017</blockquote>
+<blockquote>February 8th, 2017</blockquote>
 These are the highlights for the second beta version.
 
 New features:  
@@ -122,7 +126,7 @@ Improvements:
 - Overall performance improved  
 
 ## Version 1.0.0 beta.1
-<blockquote>February 2, 2017</blockquote> 
+<blockquote>February 2nd, 2017</blockquote> 
 First public version
 
 {% include custom/pdf-catalog.html %}
