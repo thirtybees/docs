@@ -595,9 +595,82 @@ $('#toc').on('click', 'a', function() {
     <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/overview/changelog/v1_0_x_release_notes.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-    <h2 id="version-1-0-1">Version 1.0.1</h2>
+    <h2 id="version-1-0-2">Version 1.0.2</h2>
 
-<h3 id="new-modules">New modules:</h3>
+<h3 id="fixes">Fixes:</h3>
+
+<ul>
+<li>Fix CSV import<br>
+
+<ul>
+<li>Import long CSV files</li>
+<li>Fix image descriptions</li>
+<li>Fix importing of <code>.xlsx</code>, <code>.xls</code> and <code>.ods</code> files</li>
+<li>General stability fixes</li>
+</ul></li>
+<li>Fix currency display
+
+<ul>
+<li>Option to disable auto formatting on the BO Currency page</li>
+</ul></li>
+<li>Fix taxes
+
+<ul>
+<li>Fix EU Compliance proportionate shipping taxes (requires the latest version of the th EU compliance module as well)</li>
+<li>Fix taxes on invoices</li>
+<li>Fix taxes on credit slips</li>
+<li>Fix taxes when a Cart Rules and or Specific Price Rules are used</li>
+<li>Reverse Specific Price Rule calculations (enable on Taxes BO page to set a default tax rate)</li>
+<li>Fix tax rounding on the invoice</li>
+<li>Fix tax breakdown on invoices</li>
+<li>Fix tax spreading (e.g. in case a generic €10 discount voucher is used over an invoice with mixed tax rates)</li>
+</ul></li>
+<li>Fix discounts
+
+<ul>
+<li>Properly calculates the cheapest product of a Cart Rule (within the configured restrictions!)</li>
+<li>No longer applies the average tax rate, but only applies the tax rate of the selected product</li>
+</ul></li>
+<li>Fix product customizations
+
+<ul>
+<li>Can now add or remove product customizations in the cart</li>
+<li>Product customization database structure has been fixed</li>
+</ul></li>
+<li>Fix URL rewrites
+
+<ul>
+<li>Can now add URLs with an ID on the SEO &amp; URLs BO page</li>
+</ul></li>
+<li>Fix RTL languages</li>
+<li>Fix permissions on module folders
+
+<ul>
+<li>Now unzips with umask 0000</li>
+</ul></li>
+<li>Fix comments on orders</li>
+<li>Fix the discount page on the customer portal</li>
+<li>Fix the custom code BO Page</li>
+<li>Fixes for the full page cache</li>
+</ul>
+
+<h3 id="improvements">Improvements:</h3>
+
+<ul>
+<li>Increased performance</li>
+<li>Higher code quality</li>
+<li>Vagrant files in the git repo</li>
+<li>thirty bees fixtures</li>
+<li>State and Country pages have a better (de)select all dropdown menu</li>
+<li>Remove the last JavaScript sync stuff (no longer deprecation warnings in Chrome)</li>
+<li>Email validation is the same as SwiftMailer (RFC 2822)</li>
+<li>Google Maps API key on the General Settings page</li>
+<li>Synchronize MySQL timezone with PHP timezone</li>
+</ul>
+
+<h2 id="version-1-0-1">Version 1.0.1</h2>
+
+<h3 id="fixes">Fixes:</h3>
 
 <ul>
 <li>Fix language, localization, currency import</li>
@@ -726,7 +799,7 @@ $('#toc').on('click', 'a', function() {
 	<div class="row">
 		<div class="col-lg-12 footer">
 			&copy;2017 thirty bees. All rights reserved. <br/>
-			<p>Page last updated:</span> February 8th, 2017<br/> Site last generated: Jul 3, 2017 <br/>
+			<p>Page last updated:</span> February 8th, 2017<br/> Site last generated: Jul 17, 2017 <br/>
 			<p><img src="/></p>
                 </div>
             </div>
