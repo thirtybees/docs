@@ -1,12 +1,11 @@
 ---
 title: v1.0.x release notes
 keywords: release, beta
-last_updated: February 8th, 2017
+last_updated: July 17th, 2017
 tags: 
   - "Release notes"
-  - "Beta"
   - "v1.0.0"
-summary: "The release notes for the second beta of thirty bees"
+summary: "The release notes for thirty bees 1.0.x"
 audience: developers
 permalink: /release_notes/v1-0-x-release-notes
 ---
