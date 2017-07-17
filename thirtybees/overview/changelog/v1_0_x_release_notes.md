@@ -11,8 +11,53 @@ audience: developers
 permalink: /release_notes/v1-0-x-release-notes
 ---
 
+## Version 1.0.2
+### Fixes:  
+- Fix CSV import  
+  - Import long CSV files
+  - Fix image descriptions
+  - Fix importing of `.xlsx`, `.xls` and `.ods` files
+  - General stability fixes
+- Fix currency display
+  - Option to disable auto formatting on the BO Currency page
+- Fix taxes
+  - Fix EU Compliance proportionate shipping taxes (requires the latest version of the th EU compliance module as well)
+  - Fix taxes on invoices
+  - Fix taxes on credit slips
+  - Fix taxes when a Cart Rules and or Specific Price Rules are used
+  - Reverse Specific Price Rule calculations (enable on Taxes BO page to set a default tax rate)
+  - Fix tax rounding on the invoice
+  - Fix tax breakdown on invoices
+  - Fix tax spreading (e.g. in case a generic €10 discount voucher is used over an invoice with mixed tax rates)
+- Fix discounts
+  - Properly calculates the cheapest product of a Cart Rule (within the configured restrictions!)
+  - No longer applies the average tax rate, but only applies the tax rate of the selected product
+- Fix product customizations
+  - Can now add or remove product customizations in the cart
+  - Product customization database structure has been fixed
+- Fix URL rewrites
+  - Can now add URLs with an ID on the SEO & URLs BO page
+- Fix RTL languages
+- Fix permissions on module folders
+  - Now unzips with umask 0000
+- Fix comments on orders
+- Fix the discount page on the customer portal
+- Fix the custom code BO Page
+- Fixes for the full page cache
+
+### Improvements:
+ - Increased performance
+ - Higher code quality
+ - Vagrant files in the git repo
+ - thirty bees fixtures
+ - State and Country pages have a better (de)select all dropdown menu
+ - Remove the last JavaScript sync stuff (no longer deprecation warnings in Chrome)
+ - Email validation is the same as SwiftMailer (RFC 2822)
+ - Google Maps API key on the General Settings page
+ - Synchronize MySQL timezone with PHP timezone
+
 ## Version 1.0.1
-### New modules:  
+### Fixes:  
 - Fix language, localization, currency import
 - Better error reporting
 - Plenty of bugfixes
