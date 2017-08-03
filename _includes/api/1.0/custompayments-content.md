@@ -19,6 +19,7 @@ On the back office, navigate to Modules and Services, List of Modules, Payments 
 ![Add new Custom Payment methods](../../../thirtybees/images/merchants-guide/native-modules/addnewcustompayment.png)
 
 Visit "Modules and Services > Custom Payment Methods". Click the + button to add a new payment option. Here you can configure everything to your liking. Let's go through the options on this page:  
+
 - **Name**: this is displayed on the checkout
 - **Displayed**: show the payment method on the checkout
 - **Cart type**: what kind of products does this module support (virtual and/or real)
