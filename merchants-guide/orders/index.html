@@ -112,7 +112,18 @@
   $(document).ready(function () {
     $.get('https://thirtybees.com/processheader/templates/header.html', null, function (response) {
       $('body').prepend('<div class="avada-noconflict">' + response + '</div>');
-      $.getScript('https://thirtybees.com/wp-content/themes/Avada/assets/js/main.min.js?ver=5.0.6');
+
+      function checkAddScript () {
+        if ($('.fusion-header-wrapper').length <= 0) {
+          setTimeout(checkAddScript, 100);
+
+          return;
+        }
+
+        $.getScript('https://thirtybees.com/wp-content/themes/Avada/assets/js/main.min.js?ver=5.0.6');
+      }
+
+      checkAddScript();
     },
       'html'
     );
