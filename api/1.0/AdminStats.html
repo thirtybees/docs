@@ -111,6 +111,7 @@
 	$(document).ready(function () {
 	  $.get('https://thirtybees.com/processheader/templates/header.html', null, function (response) {
 	    $('body').prepend('<div class="avada-noconflict">' + response + '</div>');
+	    $.getScript('https://thirtybees.com/wp-content/themes/Avada/assets/js/main.min.js?ver=5.0.6');
 		},
 			'html'
 		);
@@ -138,6 +139,105 @@
       );
     }
   });
+</script>
+<script type="text/javascript">
+  window.avadaVars = {
+    admin_ajax: "https://thirtybees.com/wp-admin/admin-ajax.php",
+    admin_ajax_nonce: "acbfbf9109",
+    avada_rev_styles: "1",
+    avada_styles_dropdowns: "1",
+    blog_grid_column_spacing: "40",
+    blog_pagination_type: "Pagination",
+    carousel_speed: "2500",
+    content_break_point: "800",
+    counter_box_speed: "1000",
+    disable_mobile_animate_css: "0",
+    disable_mobile_image_hovers: "1",
+    dropdown_goto: "Go to...",
+    faqs_loading_text: "<em>Loading FAQ Items...</em>",
+    flex_smoothHeight: "false",
+    form_bg_color: "#ffffff",
+    header_padding_bottom: "0px",
+    header_padding_top: "0px",
+    header_position: "Top",
+    header_sticky: "1",
+    header_sticky_mobile: "0",
+    header_sticky_tablet: "0",
+    header_sticky_type2_layout: "menu_only",
+    header_transparency: "0",
+    infinite_blog_finished_msg: "<em>All posts displayed.</em>",
+    infinite_blog_text: "<em>Loading the next set of posts...</em>",
+    infinite_finished_msg: "<em>All items displayed.</em>",
+    is_responsive: "1",
+    is_ssl: "true",
+    isotope_type: "masonry",
+    language_flag: "",
+    layout_mode: "wide",
+    lightbox_animation_speed: "Normal",
+    lightbox_arrows: "1",
+    lightbox_autoplay: "0",
+    lightbox_behavior: "all",
+    lightbox_deeplinking: "1",
+    lightbox_desc: "1",
+    lightbox_gallery: "1",
+    lightbox_opacity: "0.90",
+    lightbox_path: "vertical",
+    lightbox_post_images: "1",
+    lightbox_skin: "metro-white",
+    lightbox_slideshow_speed: "5000",
+    lightbox_social: "1",
+    lightbox_title: "1",
+    lightbox_video_height: "720",
+    lightbox_video_width: "1280",
+    logo_alignment: "Center",
+    logo_margin_bottom: "31px",
+    logo_margin_top: "31px",
+    megamenu_max_width: "1100",
+    mobile_menu_design: "modern",
+    mobile_nav_cart: "Shopping Cart",
+    nav_height: "83",
+    nav_highlight_border: "3",
+    order_actions: "Details",
+    page_smoothHeight: "false",
+    page_title_fading: "0",
+    pagination_video_slide: "0",
+    portfolio_loading_text: "<em>Loading Portfolio Items...</em>",
+    portfolio_pagination_type: "Pagination",
+    protocol: "1",
+    related_posts_speed: "2500",
+    side_header_break_point: "800",
+    side_header_width: "0",
+    sidenav_behavior: "Hover",
+    site_width: "1100px",
+    slider_position: "below",
+    slideshow_autoplay: "1",
+    slideshow_speed: "7000",
+    smooth_scrolling: "0",
+    status_lightbox: "1",
+    status_totop_mobile: "0",
+    status_vimeo: "1",
+    status_yt: "1",
+    sticky_header_shrinkage: "1",
+    submenu_slideout: "1",
+    testimonials_speed: "4000",
+    tfes_animation: "sides",
+    tfes_autoplay: "1",
+    tfes_interval: "3000",
+    tfes_speed: "800",
+    tfes_width: "150",
+    theme_url: "https://thirtybees.com/wp-content/themes/Avada",
+    title_margin_bottom: "31px",
+    title_margin_top: "0px",
+    title_style_type: "double",
+    typography_factor: "1.5",
+    typography_responsive: "0",
+    typography_sensitivity: "0.6",
+    woocommerce_checkout_error: "Not all fields have been filled in correctly.",
+    woocommerce_shop_page_columns: ""
+  };
+  window.toTopscreenReaderText = {
+    label: "Go to Top"
+	};
 </script>
 <style>
 	.fusion-footer-widget-area {
@@ -169,7 +269,7 @@
 
 </head>
 
-<body>
+<body class="page-template-default page page-id-1 fusion-body no-tablet-sticky-header no-mobile-sticky-header no-mobile-slidingbar no-mobile-totop mobile-logo-pos-center layout-wide-mode fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-image-hovers fusion-show-pagination-text customize-support do-animate">
 
 <!-- Navigation -->
 <nav class="navbar navbar-inverse" role="navigation">
