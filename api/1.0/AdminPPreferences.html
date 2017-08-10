@@ -108,7 +108,7 @@
   doc.setAttribute('data-useragent', navigator.userAgent);
 </script>
 <script type="text/javascript">
-	(function () {
+	$(document).ready(function () {
 	  $.get('https://thirtybees.com/processheader/templates/header.html', null, function (response) {
 	    $('body').prepend('<div class="avada-noconflict">' + response + '</div>');
 		},
@@ -119,7 +119,7 @@
       },
       'html'
     );
-	}());
+	});
 </script>
 
 <script type="text/javascript">
