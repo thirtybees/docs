@@ -32,6 +32,7 @@
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="dns-prefetch" href="//s.w.org">
 <link rel="stylesheet" href="https://store.thirtybees.com/modules/wordpressheader/views/css/avada-noconflict.css" type="text/css" media="all">
+<link rel="stylesheet" href="https://store.thirtybees.com/modules/wordpressheader/views/css/totop.css" type="text/css" media="all">
 <link rel="stylesheet" id="um_recaptcha-css" href="https://thirtybees.com/wp-content/plugins/um-recaptcha/assets/css/um-recaptcha.css?ver=4.8.1" type="text/css" media="all">
 <link rel="stylesheet" id="layerslider-css" href="https://thirtybees.com/wp-content/plugins/LayerSlider/static/layerslider/css/layerslider.css?ver=6.0.6" type="text/css" media="all">
 <link rel="stylesheet" id="ls-google-fonts-css" href="https://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&amp;subset=latin%2Clatin-ext" type="text/css" media="all">
@@ -107,8 +108,9 @@
 <script type="text/javascript">
 	$(document).ready(function () {
 	  $.get('https://thirtybees.com/processheader/templates/header.html', null, function (response) {
-	    $('body').prepend('<div class="avada-noconflict">' + response + '</div>');
-	    $.getScript('https://thirtybees.com/wp-content/themes/Avada/assets/js/main.min.js?ver=5.0.6');
+	    $('body')
+				.prepend('<div class="avada-noconflict">' + response + '</div>');
+				$.getScript('https://thirtybees.com/wp-content/themes/Avada/assets/js/main.min.js?ver=5.0.6');
 		},
 			'html'
 		);
