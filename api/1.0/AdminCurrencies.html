@@ -109,20 +109,19 @@
   doc.setAttribute('data-useragent', navigator.userAgent);
 </script>
 <script type="text/javascript">
-	$(document).ready(function () {
-	  $.get('https://thirtybees.com/processheader/templates/header.html', null, function (response) {
-	    $('body')
-				.prepend('<div class="avada-noconflict">' + response + '</div>');
-				$.getScript('https://thirtybees.com/wp-content/themes/Avada/assets/js/main.min.js?ver=5.0.6');
-		},
-			'html'
-		);
+  $(document).ready(function () {
+    $.get('https://thirtybees.com/processheader/templates/header.html', null, function (response) {
+      $('body').prepend('<div class="avada-noconflict">' + response + '</div>');
+      $.getScript('https://thirtybees.com/wp-content/themes/Avada/assets/js/main.min.js?ver=5.0.6');
+    },
+      'html'
+    );
     $.get('https://thirtybees.com/processheader/templates/footer.html', null, function (response) {
-        $('body').append('<div class="avada-noconflict">' + response + '</div>');
+        $('#fusion-footer').prepend(response);
       },
       'html'
     );
-	});
+  });
 </script>
 
 <script type="text/javascript">
@@ -239,21 +238,21 @@
   };
   window.toTopscreenReaderText = {
     label: "Go to Top"
-	};
+  };
 </script>
 <style>
-	.fusion-footer-widget-area {
-		margin: 0 !important;
-	}
-	.avada-noconflict .fusion-main-menu .fusion-dropdown-menu {
-		overflow: visible !important;
-	}
-	.avada-noconflict a:after {
-		content: "";
-	}
-	.avada-noconflict .fusion-main-menu > ul > li > a {
-		font-size: 15px !important;
-	}
+  .fusion-footer-widget-area {
+    margin: 0 !important;
+  }
+  .avada-noconflict .fusion-main-menu .fusion-dropdown-menu {
+    overflow: visible !important;
+  }
+  .avada-noconflict a:after {
+    content: "";
+  }
+  .avada-noconflict .fusion-main-menu > ul > li > a {
+    font-size: 15px !important;
+  }
 </style>
 
 
@@ -869,12 +868,25 @@ $('#toc').on('click', 'a', function() {
 </footer>
 
 
+		</div>
 	</div><!-- /.row -->
-
 </div>    <!-- /.container -->
 
+
 <div class="avada-noconflict">
-	<div class="to-top-container"></div>
+	<div class="fusion-footer" id="fusion-footer">
+		<footer id="footer" class="fusion-footer-copyright-area">
+			<div class="fusion-row">
+				<div class="fusion-copyright-content">
+					<div class="fusion-copyright-notice" style="padding-bottom: 0px;">
+						<div>Copyright 2017 thirty bees | all rights reserved</div>
+					</div>
+					<div class="fusion-social-links-footer" style="display: none;">
+					</div>
+				</div> <!-- fusion-fusion-copyright-content -->
+			</div> <!-- fusion-row -->
+		</footer>
+	</div>
 </div>
 </body>
 
