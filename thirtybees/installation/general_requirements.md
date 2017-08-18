@@ -41,30 +41,29 @@ You can do a search for hosting providers and choose the right one for your need
 ## Server Requirements
 
 ### AMP (Apache, Mysql, PHP) Requirements
- * Apache Web Server 2.2x
+ * Apache Web Server `2.2x`+ or nginx `1.8.0`+ (IIS is not supported)
   * Apache module settings: 
     * mod_rewrite enabled, 
     * mod_security disabled,
     * mod_auth_basic disabled.
-* MySQL 5.5.3+ or MariaDB 5.5+
+* MySQL 5.5.3+ (excluding 8.x) or MariaDB 5.5+
+  * Full UTF-8 support, so the `utf8mb4` character set and `utf8mb4_unicode_ci` collation should be available
+* Linux, Windows (discouraged) or OS X (discouraged)
 
 ### PHP Requirements
 * PHP 5.5 ~ PHP 7.1
- * At least 256MB of RAM dedicated to PHP is advised. Certain features and functionality will require more ram to be allocated to the application. Consult your developer or hosting service for advice.
+ * At least 128MB of RAM dedicated to PHP is advised. Certain features and functionality will require more ram to be allocated to the application. Consult your developer or hosting service for advice.
  
 ### Required Extensions
  
 These extensions for PHP are **REQUIRED**
 
-* PDO_MySQL
-* cURL
-* SimpleXML
-* mcrypt
-* GD
-* OpenSSL
-* DOM
-* SOAP
-* Zip
+* mysql (PDO only)
+* xml (`SimpleXML` and `DOMDocument`)
+* gd
+* json
+* bcmath
+* zip (`ZipArchive`
   
 ### Recommended Extensions
 
@@ -72,9 +71,8 @@ These extensions for PHP are **REQUIRED**
 * curl
 * mbstring
 * opcache
-* apcu
-* redis
-* memcache(d)
+* soap
+* apcu, redis or memcache(d)
 
 ### Recommended thirty bees php.ini settings
 The below settings in your php.ini file are strongly recommended:
