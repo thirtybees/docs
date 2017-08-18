@@ -1,7 +1,7 @@
 ---
 title: v1.0.x release notes
 keywords: release, beta
-last_updated: July 17th, 2017
+last_updated: August 18th, 2017
 tags: 
   - "Release notes"
   - "v1.0.0"
@@ -9,6 +9,31 @@ summary: "The release notes for thirty bees 1.0.x"
 audience: developers
 permalink: /release_notes/v1-0-x-release-notes
 ---
+
+## Version 1.0.3
+<blockquote>August 18th, 2017</blockquote>
+
+### Fixes:  
+- Database query fixes
+- Fix tax displays on the back office
+- Fix partial refunds on the BO order page
+- RTL admin fixes
+- Further fix product customizations in cart
+- Fix select boxes on admin panel
+- Fix enabling/disabling columns on pages
+- Fix line rounding when ecotax is enabled
+- Timezone validation before applying it (some PHP versions have strict timezone limits)
+- Fix Slovene language at install
+- Fix `countActiveLanguages` in some cases reporting an incorrect number of active languages
+
+
+### Improvements:
+- Improve (ajaxed) imports
+- Improve duplicating products, stock reporting should be better
+- Improved search for language flags when missing
+- Use HTTPS for Google Maps URLs on the BO order page
+- Auto prefix table names in `DbQuery`  class
+- Avoid `mcrypt` when extension is not enabled
 
 ## Version 1.0.2
 <blockquote>July 17th, 2017</blockquote>
