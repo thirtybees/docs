@@ -846,14 +846,16 @@ $('#toc').on('click', 'a', function() {
 <h3 id="amp-apache-mysql-php-requirements">AMP (Apache, Mysql, PHP) Requirements</h3>
 
 <ul>
-<li>Apache Web Server 2.2x
+<li>Apache Web Server <code>2.2x</code>+ or nginx <code>1.8.0</code>+ (IIS is not supported)
 
 <ul>
 <li>Apache module settings: </li>
 <li>mod_rewrite enabled, </li>
 <li>mod_security disabled,</li>
 <li>mod_auth_basic disabled.</li>
-<li>MySQL 5.5.3+ or MariaDB 5.5+</li>
+<li>MySQL 5.5.3+ (excluding 8.x) or MariaDB 5.5+</li>
+<li>Full UTF-8 support, so the <code>utf8mb4</code> character set and <code>utf8mb4_unicode_ci</code> collation should be available</li>
+<li>Linux, Windows (discouraged) or OS X (discouraged)</li>
 </ul></li>
 </ul>
 
@@ -863,7 +865,7 @@ $('#toc').on('click', 'a', function() {
 <li>PHP 5.5 ~ PHP 7.1
 
 <ul>
-<li>At least 256MB of RAM dedicated to PHP is advised. Certain features and functionality will require more ram to be allocated to the application. Consult your developer or hosting service for advice.</li>
+<li>At least 128MB of RAM dedicated to PHP is advised. Certain features and functionality will require more ram to be allocated to the application. Consult your developer or hosting service for advice.</li>
 </ul></li>
 </ul>
 
@@ -872,15 +874,12 @@ $('#toc').on('click', 'a', function() {
 <p>These extensions for PHP are <strong>REQUIRED</strong></p>
 
 <ul>
-<li>PDO_MySQL</li>
-<li>cURL</li>
-<li>SimpleXML</li>
-<li>mcrypt</li>
-<li>GD</li>
-<li>OpenSSL</li>
-<li>DOM</li>
-<li>SOAP</li>
-<li>Zip</li>
+<li>mysql (PDO only)</li>
+<li>xml (<code>SimpleXML</code> and <code>DOMDocument</code>)</li>
+<li>gd</li>
+<li>json</li>
+<li>bcmath</li>
+<li>zip (<code>ZipArchive</code></li>
 </ul>
 
 <h3 id="recommended-extensions">Recommended Extensions</h3>
@@ -890,9 +889,8 @@ $('#toc').on('click', 'a', function() {
 <li>curl</li>
 <li>mbstring</li>
 <li>opcache</li>
-<li>apcu</li>
-<li>redis</li>
-<li>memcache(d)</li>
+<li>soap</li>
+<li>apcu, redis or memcache(d)</li>
 </ul>
 
 <h3 id="recommended-thirty-bees-php-ini-settings">Recommended thirty bees php.ini settings</h3>
