@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
-    algoliasearch (1.15.0)
+    algoliasearch (1.15.1)
       httpclient (~> 2.8.3)
       json (>= 1.5.1)
     algoliasearch-jekyll (0.7.0)
