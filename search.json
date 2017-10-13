@@ -808,6 +808,17 @@
 //
 //
 //{
+//"title": "APCu Cache Manager by thirty bees",
+//"tags": "apcapcucachespeed",
+//"keywords": "",
+//"url": "../native-modules/apcumanager/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Back Office Catalog",
 //"tags": "Introduction",
 //"keywords": "",
@@ -1042,6 +1053,17 @@
 //
 //
 //{
+//"title": "Memcache Manager by thirty bees",
+//"tags": "memcachememcachedspeedcache",
+//"keywords": "",
+//"url": "../native-modules/memcachemanager/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "thirty bees Migration Module",
 //"tags": "InstallationGetting Started",
 //"keywords": "",
@@ -1090,6 +1112,17 @@
 //"tags": "Resources",
 //"keywords": "",
 //"url": "../merchants-guide/online-resources/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Opcache Manager by thirty bees",
+//"tags": "opcachecachespeed",
+//"keywords": "",
+//"url": "../native-modules/opcachemanager/",
 //"summary": ""
 //},
 //
@@ -1329,6 +1362,15 @@
 //]
 
 {
+
+
+,
+
+
+,
+
+
+,
 
 
 ,
