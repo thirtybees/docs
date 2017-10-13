@@ -862,12 +862,12 @@ $('#toc').on('click', 'a', function() {
     <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/native-modules/apcumanager.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-    <p>The APCu cache manager provided with thirty bees allows you to view your APCu cache usage and clear your APCu cache from the back office. This module is meant to be used on servers that have APCu installed.</p>
+    <p>The APCu cache manager module provided by thirty bees allows you to view your APCu cache usage and clear your APCu cache from the back office. This module is meant to be used on servers that have APCu installed.</p>
 
 <h2 id="module-features">Module Features</h2>
 
 <ul>
-<li>View APCu cache from back office</li>
+<li>View APCu cache usage from back office</li>
 <li>Clear APCu cache from back office</li>
 <li>Gain insights to tune your cache</li>
 </ul>
@@ -881,6 +881,10 @@ $('#toc').on('click', 'a', function() {
 <h2 id="using-the-module">Using the module</h2>
 
 <p>Once the module is installed, you can click configure to view the modules configuration screen. The module does not require any actual configuration to use. A window inside the module will load and give you information on your APCu cache, such as hit rates, cache misses, and memory usage. There is also a clear cache button in the top right corner of the interface.</p>
+
+<p>The module is meant to be used with the APC caching method set in the Preferences -&gt; Performance page of the back office. The APC caching method is at the bottom of the page.</p>
+
+<p><img src="/thirtybees/images/modules/common/bottom-apc.png" alt="thirty bees apc" title="thirty bees apc"></p>
 
 <p>This module allows you to monitor the memory usage of your APCu cache so you can adjust it as needed. It does not provide the functionality to adjust the cache memory in the module, that is not possible with PHP.</p>
 
