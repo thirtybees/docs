@@ -6,5 +6,5 @@ tags:
   - "speed"
   - "cache"
 audience: merchants
-permalink: /native-modules/memcachemanager/
+permalink: /native-modules/memcache-manager/
 ---

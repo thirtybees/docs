@@ -6,5 +6,5 @@ tags:
   - "speed"
 
 audience: merchants
-permalink: /native-modules/opcachemanager/
+permalink: /native-modules/opcache-manager/
 ---

@@ -6,5 +6,5 @@ tags:
   - "cache"
   - "speed"
 audience: merchants
-permalink: /native-modules/apcumanager/
+permalink: /native-modules/apcu-manager/
 ---

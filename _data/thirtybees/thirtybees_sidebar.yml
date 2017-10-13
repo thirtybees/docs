@@ -121,15 +121,22 @@ entries:
     version: all
     output: web,pdf
     items:
-      - title: APCu Cache Maanger
-        url: /native-modules/apcumanager/
+      - title: APCu Cache Manger
+        url: /native-modules/apcu-manager/
         audience: merchants
         platform: all
         product: all
         version: all
         output: web, pdf
-      - title: Custom payment methods
+      - title: Custom Payment Methods
         url: /native-modules/custompayments/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
+      - title: Elastic Search
+        url: /native-modules/elastic-search/
         audience: merchants
         platform: all
         product: all
@@ -143,7 +150,7 @@ entries:
         version: all
         output: web, pdf
       - title: Memcache Manager
-        url: /native-modules/memcachemanager/
+        url: /native-modules/memcache-manager/
         audience: merchants
         platform: all
         product: all
@@ -157,7 +164,7 @@ entries:
         version: all
         output: web, pdf
       - title: Opcache Manager
-        url: /native-modules/opcachemanager/
+        url: /native-modules/opcache-manager/
         audience: merchants
         platform: all
         product: all
