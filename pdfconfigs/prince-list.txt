@@ -62,12 +62,32 @@
   
    
       
+             /native-modules/apcumanager/
+              
+      
+  
+      
              /native-modules/custompayments/
               
       
   
       
+             /native-modules/mailchimp/
+              
+      
+  
+      
+             /native-modules/memcachemanager/
+              
+      
+  
+      
              /native-modules/nocaptcharecaptcha/
+              
+      
+  
+      
+             /native-modules/opcachemanager/
               
       
   
@@ -78,11 +98,6 @@
   
       
              /native-modules/tawkto/
-              
-      
-  
-      
-             /native-modules/mailchimp/
               
       
   
