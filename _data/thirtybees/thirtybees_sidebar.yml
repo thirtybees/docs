@@ -142,6 +142,20 @@ entries:
         product: all
         version: all
         output: web, pdf
+      - title: Google Analytics
+        url: /native-modules/google-analytics/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
+      - title: JSON Module
+        url: /native-modules/json-module/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
       - title: MailChimp
         url: /native-modules/mailchimp/
         audience: merchants
