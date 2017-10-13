@@ -62,7 +62,7 @@
   
    
       
-             /native-modules/apcumanager/
+             /native-modules/apcu-manager/
               
       
   
@@ -72,12 +72,27 @@
       
   
       
+             /native-modules/elastic-search/
+              
+      
+  
+      
+             /native-modules/google-analytics/
+              
+      
+  
+      
+             /native-modules/json-module/
+              
+      
+  
+      
              /native-modules/mailchimp/
               
       
   
       
-             /native-modules/memcachemanager/
+             /native-modules/memcache-manager/
               
       
   
@@ -87,7 +102,7 @@
       
   
       
-             /native-modules/opcachemanager/
+             /native-modules/opcache-manager/
               
       
   
