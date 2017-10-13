@@ -121,6 +121,13 @@ entries:
     version: all
     output: web,pdf
     items:
+      - title: APCu Cache Maanger
+        url: /native-modules/apcumanager/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
       - title: Custom payment methods
         url: /native-modules/custompayments/
         audience: merchants
@@ -128,8 +135,29 @@ entries:
         product: all
         version: all
         output: web, pdf
+      - title: MailChimp
+        url: /native-modules/mailchimp/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
+      - title: Memcache Manager
+        url: /native-modules/memcachemanager/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
       - title: No CAPTCHA reCAPTCHA
         url: /native-modules/nocaptcharecaptcha/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
+      - title: Opcache Manager
+        url: /native-modules/opcachemanager/
         audience: merchants
         platform: all
         product: all
@@ -144,13 +172,6 @@ entries:
         output: web, pdf
       - title: tawk.to
         url: /native-modules/tawkto/
-        audience: merchants
-        platform: all
-        product: all
-        version: all
-        output: web, pdf
-      - title: MailChimp
-        url: /native-modules/mailchimp/
         audience: merchants
         platform: all
         product: all
