@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="keywords" content="rich snippetsjsonseogoogle,  ">
-<title>JSON Module by thirty bees | thirty bees documents</title>
+<title>JSON + LD Module by thirty bees | thirty bees documents</title>
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="/css/base-theme.css">
@@ -345,7 +345,7 @@
 <script>
   function SendLinkByMail(href) {
     var subject = "thirty bees documents feedback";
-    var body = "I have some feedback about the JSON Module by thirty bees page: ";
+    var body = "I have some feedback about the JSON + LD Module by thirty bees page: ";
     body += window.location.href;
     body += "";
     var uri = "mailto:devdocs@thirtybees.com?subject=";
@@ -615,7 +615,7 @@
                     
                     
                     
-                    <li class="active"><a href="/native-modules/json-module/">JSON Module</a></li>
+                    <li class="active"><a href="/native-modules/json-module/">JSON + LD Module</a></li>
                     
 
                     
@@ -828,7 +828,7 @@
 </script>
 -->
 		<div class="post-header">
-    <h1 class="post-title-main">JSON Module by thirty bees</h1>
+    <h1 class="post-title-main">JSON + LD Module by thirty bees</h1>
 </div>
 
 <div class="post-content">
@@ -862,7 +862,89 @@ $('#toc').on('click', 'a', function() {
     <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/native-modules/jsonmodule.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-    
+    <p>Our JSON + LD module represents the future of of rich snippets and how thirty bees is planning to address them. With JSON + LD you no longer have to mark up individual items in a theme. You can send the information totally independent of the theme, reducing theme updates to themes and offering better intergration with the core for rich data updates.</p>
+
+<p>This module is not currently included in the module feed, but that will change in the future as the module becomes more mature. The main reason the module is not included in the theme is because it can in some instances conflict with pre-made themes rich snippets sending confusing signals to search engines.</p>
+
+<p><a href="https://github.com/thirtybees/jsonmodule/releases">Download Here</a></p>
+
+<h2 id="module-features">Module Features</h2>
+
+<ul>
+<li>Adds product rich data</li>
+<li>Adds complete organizational rich data</li>
+<li>Adds contact points</li>
+<li>Adds breadcrumb rich data</li>
+<li>Adds product comment rich data</li>
+<li>Adds Yotpo review data</li>
+</ul>
+
+<h2 id="installation">Installation</h2>
+
+<p>The module installs like any normal thirty bees module. In the module list it will look like the image below.</p>
+
+<p><img src="/thirtybees/images/modules/json/json-install.png" alt="thirty bees json module" title="thirty bees json module"></p>
+
+<h2 id="data-points">Data Points</h2>
+
+<p>This module provides several comprehensive data points that are sent to search engines. Such as organizational information, product information, review information, breadcrumbs, and social media information.</p>
+
+<h2 id="company-information">Company Information</h2>
+
+<p>This is the general information about your company. This helps search engines produce rich cards for your company when users search for the company itself in searches. It is broken into 6 parts:</p>
+
+<ul>
+<li>Company Name</li>
+<li>Company Legal Name</li>
+<li>Alternative Name</li>
+<li>Description</li>
+<li>Website URL</li>
+<li>Logo</li>
+</ul>
+
+<p>If your company does not have an alternative name, it is perfectly fine to leave that field blank.</p>
+
+<h2 id="social-media">Social Media</h2>
+
+<p>The social media allows search engines to link your site with the relevant social meida accounts. These can be shown on the rich cards and other areas in the search. This also lets search engines know which social media sites are the official sites for your company. There are currently six supported sites:</p>
+
+<ul>
+<li>Facebook</li>
+<li>Twitter</li>
+<li>YouTube</li>
+<li>LinkedIn</li>
+<li>Google Plus</li>
+<li>Instagram</li>
+</ul>
+
+<h2 id="reviews">Reviews</h2>
+
+<p>This area lets you choose to send review data to the search engines while on product pages. The review data has three choices.</p>
+
+<ul>
+<li>No review data sent</li>
+<li>Product comment review data sent</li>
+<li>Yotpo review data sent</li>
+</ul>
+
+<p>The Yotpo option uses the Yotpo API to gain the review data straight from their system. It should only be used if you are an active Yotpo customer getting reviews.</p>
+
+<h2 id="founding">Founding</h2>
+
+<p>Founding information is about the general founding of your company is sent to Google to help with Google knowledge graphs. It is not required to be be entered.</p>
+
+<h2 id="founder">Founder</h2>
+
+<p>The sending the founders also helps with Google knowledge graphs in linking real people to a company. These help in searches of individuals to show that they are linked to a specific company. This is not required either.</p>
+
+<h2 id="locations">Locations</h2>
+
+<p>Locations are used to influence local SEO. This data is sent to search engines that tailor results based on locality. For searches such as &quot;athletic store near me&quot;. Location data should always be entered if you have a physical location that users can visit. The location data can also be used from the internal store finder as well.</p>
+
+<h2 id="contact-points">Contact Points</h2>
+
+<p>Contact points are what users would use to contact your company. Entering all that are applicable will help users in their search. They are target for searches such as &quot;CompanyX customer service&quot; or &quot;CompanyX billing department&quot;.</p>
+
 
     <div class="tags">
         
