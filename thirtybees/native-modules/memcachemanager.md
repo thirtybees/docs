@@ -25,7 +25,7 @@ To install the module you will first need to download it from our GitHub release
 
 ## Using the module
 
-Once the module is installed, you can click configure to view the modules configuration screen. The module does not require any actual configuration to use. A window inside the module will load and give you information on your memcache, such as hit rates, cache misses, and memory usage. You can also view the live graph of cache hits as they happen with the module.
+Once the module is installed, you can click configure to view the modules configuration screen. The module does not require any actual configuration to use. A window inside the module will load and give you information on your Memcache, such as hit rates, cache misses, and memory usage. You can also view the live graph of cache hits as they happen with the module.
 
 The module is meant to be used with the Memcache caching method set in the Preferences -> Performance page of the back office. The APC caching method is at the bottom of the page.
 
@@ -33,4 +33,4 @@ The module is meant to be used with the Memcache caching method set in the Prefe
 
 This module allows you to monitor the memory usage of your Memcache so you can adjust it as needed. It does not provide the functionality to adjust the cache memory in the module, that is not possible with PHP.
 
-![thirty bees apcu cache interface]({{base}}/thirtybees/images/modules/memcache/memcache-interface.png  "thirty bees apcu cache interface")
+![thirty bees memcache interface]({{base}}/thirtybees/images/modules/memcache/memcache-interface.png  "thirty bees memcache interface")
