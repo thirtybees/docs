@@ -149,7 +149,7 @@ entries:
         product: all
         version: all
         output: web, pdf
-      - title: JSON Module
+      - title: JSON + LD Module
         url: /native-modules/json-module/
         audience: merchants
         platform: all
