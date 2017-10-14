@@ -862,7 +862,7 @@ $('#toc').on('click', 'a', function() {
     <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/native-modules/googleanalytics.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-    <p>thirty bees Google Analytics module allows you to easily install Google Analytics on your site and track visits, page views, purchases, and social media interactions with your site. The module has been designed in such a way that if a user is using an adblocking software that blocks Google Analytics there is a fallback php tracker that is used to register visitor information.</p>
+    <p>thirty bees Google Analytics module allows you to easily install Google Analytics on your site and track visits, page views, purchases, and social media interactions with your site. The module has been designed in such a way that if a user is using an adblocking software that blocks Google Analytics there is a fallback php tracker that is used to register visitor information. The Google Analytics module also supports Google Optimize A/B testing as well.</p>
 
 <h2 id="module-features">Module Features</h2>
 
@@ -870,6 +870,7 @@ $('#toc').on('click', 'a', function() {
 <li>Track visitors</li>
 <li>Register transactions to Google Analytics</li>
 <li>Defeat adblockers</li>
+<li>Google Optimize A/B testing compatible</li>
 </ul>
 
 <h2 id="installation">Installation</h2>
@@ -880,7 +881,13 @@ $('#toc').on('click', 'a', function() {
 
 <h2 id="configuration">Configuration</h2>
 
-<p>The Google Analytics module only needs two things to be configured. It needs your Google Analytics tracking ID and it needs t</p>
+<p>The Google Analytics module only needs two things to be configured. It needs your Google Analytics tracking ID and it needs to know If you want to enable user ID tracking. The configuration looks like the image below.</p>
+
+<p><img src="/thirtybees/images/modules/google/google-configure.png" alt="thirty bees google analytics" title="thirty bees google analytics"></p>
+
+<h2 id="google-optimize">Google Optimize</h2>
+
+<p>The module also supports Google Optimize. Google Optimize allows you to perform A/B testing on your site. Using Google Optimize is not required for using the module, it is only an additional feature of the module. </p>
 
 
     <div class="tags">
