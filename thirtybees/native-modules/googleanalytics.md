@@ -31,4 +31,4 @@ The Google Analytics module only needs two things to be configured. It needs you
 
 ## Google Optimize
 
-The module also supports Google Optimize. Google Optimize allows you to perform A/B testing on your site. Using Google Optimize is not required for using the module, it is only an additional feature of the module. 
+The module also supports Google Optimize. Google Optimize allows you to perform A/B testing on your site. Using Google Optimize is not required for using the module, it is only an additional feature of the module.

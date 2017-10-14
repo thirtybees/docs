@@ -121,8 +121,22 @@ entries:
     version: all
     output: web,pdf
     items:
+      - title: Advanced EU Compliance
+        url: /native-modules/advanced-eu-compliance/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
       - title: APCu Cache Manger
         url: /native-modules/apcu-manager/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
+      - title: Bees Blog
+        url: /native-modules/bees-blog/
         audience: merchants
         platform: all
         product: all
@@ -135,8 +149,29 @@ entries:
         product: all
         version: all
         output: web, pdf
+      - title: Dash Activity
+        url: /native-modules/dash-activity/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
+      - title: Donation Miner
+        url: /native-modules/donation-miner/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
       - title: Elastic Search
         url: /native-modules/elastic-search/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
+      - title: EU Cookie Consent
+        url: /native-modules/eu-cookie-consent/
         audience: merchants
         platform: all
         product: all
@@ -191,8 +226,22 @@ entries:
         product: all
         version: all
         output: web, pdf
+      - title: Stripe
+        url: /native-modules/stripe/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
       - title: tawk.to
         url: /native-modules/tawkto/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
+      - title: thirty bees updater
+        url: /native-modules/tb-updater/
         audience: merchants
         platform: all
         product: all
