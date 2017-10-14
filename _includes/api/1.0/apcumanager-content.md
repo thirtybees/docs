@@ -5,6 +5,7 @@ The APCu cache manager module provided by thirty bees allows you to view your AP
 + **Uses overrides:** No
 + **Compatible versions:** All
 + **Location:** Administration
++ **Change log:** [View Releases](https://github.com/thirtybees/apcumanager/releases)
 
 ## Module Features
 
