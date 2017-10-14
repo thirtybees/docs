@@ -62,7 +62,17 @@
   
    
       
+             /native-modules/advanced-eu-compliance/
+              
+      
+  
+      
              /native-modules/apcu-manager/
+              
+      
+  
+      
+             /native-modules/bees-blog/
               
       
   
@@ -72,7 +82,22 @@
       
   
       
+             /native-modules/dash-activity/
+              
+      
+  
+      
+             /native-modules/donation-miner/
+              
+      
+  
+      
              /native-modules/elastic-search/
+              
+      
+  
+      
+             /native-modules/eu-cookie-consent/
               
       
   
@@ -112,7 +137,17 @@
       
   
       
+             /native-modules/stripe/
+              
+      
+  
+      
              /native-modules/tawkto/
+              
+      
+  
+      
+             /native-modules/tb-updater/
               
       
   
