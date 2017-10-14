@@ -8,3 +8,5 @@ tags:
 audience: merchants
 permalink: /native-modules/bees-blog/
 ---
+
+{% include api/1.0/beesblog-content.md %}

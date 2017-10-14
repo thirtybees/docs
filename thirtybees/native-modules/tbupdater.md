@@ -9,3 +9,4 @@ audience: merchants
 permalink: /native-modules/tb-updater/
 ---
 
+{% include api/1.0/tbupdater-content.md %}

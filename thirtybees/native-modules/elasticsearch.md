@@ -8,3 +8,5 @@ tags:
 audience: merchants
 permalink: /native-modules/elastic-search/
 ---
+
+{% include api/1.0/elasticsearch-content.md %}

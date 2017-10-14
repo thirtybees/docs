@@ -8,3 +8,5 @@ tags:
 audience: merchants
 permalink: /native-modules/advanced-eu-compliance/
 ---
+
+{% include api/1.0/advancedeucompliance-content.md %}

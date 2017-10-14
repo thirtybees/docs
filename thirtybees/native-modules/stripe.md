@@ -8,3 +8,5 @@ tags:
 audience: merchants
 permalink: /native-modules/stripe/
 ---
+
+{% include api/1.0/stripe-content.md %}
