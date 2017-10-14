@@ -808,10 +808,32 @@
 //
 //
 //{
+//"title": "Advanced EU Compliance module by thirty bees",
+//"tags": "eu complianceeu legaleu checkouteu module",
+//"keywords": "",
+//"url": "../native-modules/advanced-eu-compliance/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "APCu Cache Manager by thirty bees",
 //"tags": "apcapcucachespeed",
 //"keywords": "",
 //"url": "../native-modules/apcu-manager/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Bees Blog module by thirty bees",
+//"tags": "blogthirty bees blogblog moduleblog post",
+//"keywords": "",
+//"url": "../native-modules/bees-blog/",
 //"summary": ""
 //},
 //
@@ -951,6 +973,17 @@
 //
 //
 //{
+//"title": "Dash Activity module by thirty bees",
+//"tags": "statsdashboardpage viewsmain page",
+//"keywords": "",
+//"url": "../native-modules/dash-activity/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Decoding Error Messages",
 //"tags": "error messages",
 //"keywords": "",
@@ -962,10 +995,32 @@
 //
 //
 //{
+//"title": "Donation Miner module by thirty bees",
+//"tags": "donationmoneyxmrblockchain",
+//"keywords": "",
+//"url": "../native-modules/donation-miner/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Elastic Search by thirty bees",
 //"tags": "elastic searchsearchfilteringsearch engine",
 //"keywords": "",
 //"url": "../native-modules/elastic-search/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "EU Cookie Consent module by thirty bees",
+//"tags": "EU cookiecookieeu legaleu consent",
+//"keywords": "",
+//"url": "../native-modules/eu-cookie-consent/",
 //"summary": ""
 //},
 //
@@ -1318,10 +1373,32 @@
 //
 //
 //{
+//"title": "Stripe payment module by thirty bees",
+//"tags": "stripepaymentsstripe paymentstripe payments",
+//"keywords": "",
+//"url": "../native-modules/stripe/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "tawk.to live chat module by thirty bees",
 //"tags": "tawk.toNative modules",
 //"keywords": "",
 //"url": "../native-modules/tawkto/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "thirty bees updater by thirty bees",
+//"tags": "update thirty beestb updaterthirty bees updaterupdate 30bs",
+//"keywords": "",
+//"url": "../native-modules/tb-updater/",
 //"summary": ""
 //},
 //
@@ -1395,6 +1472,27 @@
 //]
 
 {
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
 
 
 ,
