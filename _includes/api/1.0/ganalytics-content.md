@@ -5,6 +5,7 @@ thirty bees Google Analytics module allows you to easily install Google Analytic
 + **Uses overrides:** No
 + **Compatible versions:** All
 + **Location:** Analytics and Stats
++ **Change log:** [View Releases](https://github.com/thirtybees/ganalytics/releases)
 
 ## Module Features
 + Track visitors

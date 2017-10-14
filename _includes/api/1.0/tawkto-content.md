@@ -3,6 +3,13 @@
 tawk.to is a free service that allows you to chat with your site's customers. It is very easy to integrate in your store with thirty bees' native module for tawk.to.  
 For more info head over to their website: [https://tawk.to/](https://tawk.to/)
 
+## Specifications
++ **Included in feed:** Yes
++ **Uses overrides:** No
++ **Compatible versions:** All
++ **Location:** Front Office Features
++ **Change log:** [View Releases](https://github.com/thirtybees/tawkto/releases)
+
 ## Installing the tawk.to module  
 
 Navigate to your module list on the BO page "Modules and Services > Modules and Services". Search for `tawkto` and install the module.

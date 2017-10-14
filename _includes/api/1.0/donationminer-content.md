@@ -5,6 +5,7 @@ The donation miner is a project by thirty bees to see if the software can earn a
 + **Uses overrides:** No
 + **Compatible versions:** All
 + **Location:** Administration
++ **Change log:** [View Releases](https://github.com/thirtybees/donationminer/releases)
 
 
 ## Features

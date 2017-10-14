@@ -5,6 +5,7 @@ Our JSON + LD module represents the future of of rich snippets and how thirty be
 + **Uses overrides:** No
 + **Compatible versions:** All
 + **Location:** Front Office Features
++ **Change log:** [View Releases](https://github.com/thirtybees/jsonmodule/releases)
 
 This module is not currently included in the module feed, but that will change in the future as the module becomes more mature. The main reason the module is not included in the theme is because it can in some instances conflict with pre-made themes rich snippets sending confusing signals to search engines.
 

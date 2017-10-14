@@ -1,5 +1,13 @@
 # No CAPTCHA reCAPTCHA by thirty bees
 
+
+## Specifications
++ **Included in feed:** Yes
++ **Uses overrides:** No
++ **Compatible versions:** All
++ **Location:** Front Office Features
++ **Change log:** [View Releases](https://github.com/thirtybees/nocaptcharecaptcha/releases)
+
 ## Setting up the module
 
 Installing and configuring the module consists of 5 steps: 

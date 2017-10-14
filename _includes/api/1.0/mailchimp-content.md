@@ -5,6 +5,7 @@ thirty bees provides a free MailChimp module to allow store owners to connect th
 + **Uses overrides:** No
 + **Compatible versions:** All
 + **Location:** Advertising and Marketing
++ **Change log:** [View Releases](https://github.com/thirtybees/mailchimp/releases)
 
 ## Features
 

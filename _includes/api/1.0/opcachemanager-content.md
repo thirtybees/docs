@@ -5,6 +5,7 @@ The Opcache manager module provided by thirty bees allows you to view your Opcac
 + **Uses overrides:** No
 + **Compatible versions:** All
 + **Location:** Administration
++ **Change log:** [View Releases](https://github.com/thirtybees/opcachemanager/releases)
 
 ## Features
 
