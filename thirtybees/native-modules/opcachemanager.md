@@ -2,8 +2,8 @@
 title: Opcache Manager by thirty bees
 tags:
   - "opcache"
-  - "cache"
-  - "speed"
+  - "Cache"
+  - "Performance"
 
 audience: merchants
 permalink: /native-modules/opcache-manager/

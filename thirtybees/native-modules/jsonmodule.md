@@ -1,10 +1,10 @@
 ---
 title: JSON + LD Module by thirty bees
 tags:
-  - "rich snippets"
+  - "Native modules"
   - "json"
   - "seo"
-  - "google"
+  - "Google"
 audience: merchants
 permalink: /native-modules/json-module/
 description: The JSON + LD module creates JSON data in the head of your site to be sent to search engines instead of using microdata rich snippets.

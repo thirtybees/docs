@@ -1,7 +1,7 @@
 ---
 title: tawk.to live chat module by thirty bees
 tags:
-  - "tawk.to"
+  - "live chat"
   - "Native modules"
 audience: merchants
 permalink: /native-modules/tawkto/

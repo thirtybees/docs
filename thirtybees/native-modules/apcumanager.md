@@ -1,10 +1,9 @@
 ---
 title: APCu Cache Manager by thirty bees
 tags:
-  - "apc"
-  - "apcu"
-  - "cache"
-  - "speed"
+    - "Native modules"
+    - "Cache"
+    - "Performance"
 audience: merchants
 permalink: /native-modules/apcu-manager/
 description: The APCu cache module allows you to view your site's usage of the APCu cache so you can better tune your site for performance by optimizing the cache.

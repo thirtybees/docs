@@ -39,7 +39,7 @@ exclude:
 
 # same for all
 host: 127.0.0.1
-feedback_email: devdocs@thirtybees.com
+feedback_email: contact@thirtybees.com
 
 markdown: redcarpet
 

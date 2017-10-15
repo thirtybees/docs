@@ -4,7 +4,7 @@ tags:
   - "elastic search"
   - "search"
   - "filtering"
-  - "search engine"
+  - "Native modules"
 audience: merchants
 permalink: /native-modules/elastic-search/
 description: Coming Soon

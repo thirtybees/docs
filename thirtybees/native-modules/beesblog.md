@@ -2,7 +2,7 @@
 title: Bees Blog module by thirty bees
 tags:
   - "blog"
-  - "thirty bees blog"
+  - "Native modules"
   - "blog module"
   - "blog post"
 audience: merchants
