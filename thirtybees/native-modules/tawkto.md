@@ -5,6 +5,7 @@ tags:
   - "Native modules"
 audience: merchants
 permalink: /native-modules/tawkto/
+description: Tawkto is a free live chat that you can use on your site to quickly and easily help customers with customer service issues.
 ---
 
 
