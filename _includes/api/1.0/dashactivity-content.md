@@ -21,4 +21,4 @@ When you are on the main dashboard of your back office, the dash activity module
 
 ![thirty bees dash activity]({{base}}/thirtybees/images/modules/dashactivity/dashactivity.png  "thirty bees dash activity")
 
-The dash activity module is made to be used in conjunction with the Google Analytics API module to provide fast, accurate stats without slowing your shop down. Clicking on the gear at the top of the Activity Overview pane will give a list of filtering options you can use to refine the module. 
+The dash activity module is made to be used in conjunction with the Google Analytics API module to provide fast, accurate stats without slowing your shop down. Clicking on the gear at the top of the Activity Overview pane will give a list of filtering options you can use to refine the module.
