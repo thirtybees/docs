@@ -809,7 +809,7 @@
 //
 //{
 //"title": "Advanced EU Compliance module by thirty bees",
-//"tags": "eu complianceeu legaleu checkouteu module",
+//"tags": "EU legalEU checkoutEU moduleNative modules",
 //"keywords": "",
 //"url": "../native-modules/advanced-eu-compliance/",
 //"summary": ""
@@ -820,7 +820,7 @@
 //
 //{
 //"title": "APCu Cache Manager by thirty bees",
-//"tags": "apcapcucachespeed",
+//"tags": "Native modulesCachePerformance",
 //"keywords": "",
 //"url": "../native-modules/apcu-manager/",
 //"summary": ""
@@ -831,9 +831,75 @@
 //
 //{
 //"title": "Bees Blog module by thirty bees",
-//"tags": "blogthirty bees blogblog moduleblog post",
+//"tags": "blogNative modulesblog moduleblog post",
 //"keywords": "",
 //"url": "../native-modules/bees-blog/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/blockchain/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/blog/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/blog-module/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/blog-post/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/cache/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/cash-on-delivery/",
 //"summary": ""
 //},
 //
@@ -963,7 +1029,7 @@
 //
 //{
 //"title": "Payment Module - Custom Payment Methods by thirty bees",
-//"tags": "PayPalCustom Payment MethodsCash on deliveryStore pickup",
+//"tags": "PayPalPayment modulesCash on deliveryStore pickupNative modules",
 //"keywords": "",
 //"url": "../native-modules/custompayments/",
 //"summary": ""
@@ -974,9 +1040,20 @@
 //
 //{
 //"title": "Dash Activity module by thirty bees",
-//"tags": "statsdashboardpage viewsmain page",
+//"tags": "statsDashboardNative modules",
 //"keywords": "",
 //"url": "../native-modules/dash-activity/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/dashboard/",
 //"summary": ""
 //},
 //
@@ -995,8 +1072,19 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/donation/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Donation Miner module by thirty bees",
-//"tags": "donationmoneyxmrblockchain",
+//"tags": "donationblockchainNative modules",
 //"keywords": "",
 //"url": "../native-modules/donation-miner/",
 //"summary": ""
@@ -1006,8 +1094,19 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/elastic-search/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Elastic Search by thirty bees",
-//"tags": "elastic searchsearchfilteringsearch engine",
+//"tags": "elastic searchsearchfilteringNative modules",
 //"keywords": "",
 //"url": "../native-modules/elastic-search/",
 //"summary": ""
@@ -1017,10 +1116,65 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/email/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/eu-checkout/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/eu-legal/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/eu-module/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "EU Cookie Consent module by thirty bees",
-//"tags": "EU cookiecookieeu legaleu consent",
+//"tags": "cookieEU legalEU checkoutNative modulesEU module",
 //"keywords": "",
 //"url": "../native-modules/eu-cookie-consent/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/filtering/",
 //"summary": ""
 //},
 //
@@ -1072,8 +1226,30 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/google/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/google-analytics/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Google Analytics by thirty bees",
-//"tags": "google analyticstrackinggoogleanalytics",
+//"tags": "Google AnalyticsNative moduleGooglestats",
 //"keywords": "",
 //"url": "../native-modules/google-analytics/",
 //"summary": ""
@@ -1108,10 +1284,32 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/json/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "JSON + LD Module by thirty bees",
-//"tags": "rich snippetsjsonseogoogle",
+//"tags": "Native modulesjsonseoGoogle",
 //"keywords": "",
 //"url": "../native-modules/json-module/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/live-chat/",
 //"summary": ""
 //},
 //
@@ -1131,7 +1329,7 @@
 //
 //{
 //"title": "MailChimp module by thirty bees",
-//"tags": "mailchimpNative modules",
+//"tags": "MailchimpNative modulesemail",
 //"keywords": "",
 //"url": "../native-modules/mailchimp/",
 //"summary": ""
@@ -1141,8 +1339,30 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/mailchimp/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/memcache/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Memcache Manager by thirty bees",
-//"tags": "memcachememcachedspeedcache",
+//"tags": "memcacheNative modulesPerformanceCache",
 //"keywords": "",
 //"url": "../native-modules/memcache-manager/",
 //"summary": ""
@@ -1167,6 +1387,17 @@
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/modules-services/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/native-modules/",
 //"summary": ""
 //},
 //
@@ -1207,8 +1438,19 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/opcache/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Opcache Manager by thirty bees",
-//"tags": "opcachecachespeed",
+//"tags": "opcacheCachePerformance",
 //"keywords": "",
 //"url": "../native-modules/opcache-manager/",
 //"summary": ""
@@ -1240,10 +1482,43 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/payment-modules/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Payment Module - Paypal by thirty bees",
 //"tags": "PayPalNative modules",
 //"keywords": "",
 //"url": "../native-modules/paypal/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/paypal/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/performance/",
 //"summary": ""
 //},
 //
@@ -1304,12 +1579,45 @@
 //"title": "",
 //"tags": "",
 //"keywords": "",
+//"url": "../tag/recaptcha/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
 //"url": "../tag/resources/",
 //"summary": ""
 //},
 //
 //
 //
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/search/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/seo/",
+//"summary": ""
+//},
 //
 //
 //
@@ -1362,6 +1670,17 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/stats/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Back Office Stock",
 //"tags": "Introduction",
 //"keywords": "",
@@ -1373,8 +1692,19 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/store-pickup/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Stripe payment module by thirty bees",
-//"tags": "stripepaymentsstripe paymentstripe payments",
+//"tags": "stripePayment modulesNative modules",
 //"keywords": "",
 //"url": "../native-modules/stripe/",
 //"summary": ""
@@ -1385,7 +1715,7 @@
 //
 //{
 //"title": "tawk.to live chat module by thirty bees",
-//"tags": "tawk.toNative modules",
+//"tags": "live chatNative modules",
 //"keywords": "",
 //"url": "../native-modules/tawkto/",
 //"summary": ""
@@ -1396,7 +1726,7 @@
 //
 //{
 //"title": "thirty bees updater by thirty bees",
-//"tags": "update thirty beestb updaterthirty bees updaterupdate 30bs",
+//"tags": "updaterNative modules",
 //"keywords": "",
 //"url": "../native-modules/tb-updater/",
 //"summary": ""
@@ -1448,6 +1778,17 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/updater/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "v1.0.x release notes",
 //"tags": "Release notesv1.0.0",
 //"keywords": "release, beta",
@@ -1472,6 +1813,99 @@
 //]
 
 {
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
 
 
 ,
