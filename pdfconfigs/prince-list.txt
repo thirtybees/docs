@@ -87,6 +87,11 @@
       
   
       
+             /native-modules/dash-goals/
+              
+      
+  
+      
              /native-modules/donation-miner/
               
       
