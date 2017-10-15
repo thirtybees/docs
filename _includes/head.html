@@ -4,6 +4,7 @@
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
 <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
 <title>{% if page.homepage == true %} {{site.homepage_title}} {% elsif page.title %}{{ page.title }}{% endif %} | {{ site.site_title }}</title>
+<link rel="canonical" href="{% if page.permalink %}https://docs.thirtybees.com{{ page.permalink }}{% endif %}" />
 <link rel="stylesheet" type="text/css" href="{{base}}/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="{{base}}/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="{{base}}/css/base-theme.css">
