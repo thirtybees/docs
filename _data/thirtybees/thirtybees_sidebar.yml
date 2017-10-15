@@ -156,6 +156,13 @@ entries:
         product: all
         version: all
         output: web, pdf
+      - title: Dash Goals
+        url: /native-modules/dash-goals/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
       - title: Donation Miner
         url: /native-modules/donation-miner/
         audience: merchants

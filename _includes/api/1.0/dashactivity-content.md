@@ -13,6 +13,8 @@ The dash activity is a module that comes standard with thirty bees. This module 
 + See messages waiting for reply
 + See number of new registrations
 
+## Using the module
+
 The dash activity module looks like the image below in the modules list. You should never have to install this module since it comes pre-installed with thirty bees.
 
 ![thirty bees dash activity]({{base}}/thirtybees/images/modules/dashactivity/dashactivity-install.png  "thirty bees dash activity")
