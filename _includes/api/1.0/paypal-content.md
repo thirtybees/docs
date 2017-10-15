@@ -1,6 +1,17 @@
 #Paypal Module by thirty bees
 
+## Specifications
++ **Included in feed:** Yes
++ **Uses overrides:** No
++ **Compatible versions:** All
++ **Location:** Payments and Gateways
++ **Change log:** [View Releases](https://github.com/thirtybees/paypal/releases)
 
+
+## Features
+
++ Take Payments with Paypal
++ Use various Paypal payment methods
 
 ## Setting up the PayPal Module
 

@@ -1,5 +1,20 @@
 # Custom Payment Methods module by thirty bees
 
+## Specifications
++ **Included in feed:** Yes
++ **Uses overrides:** No
++ **Compatible versions:** All
++ **Location:** Payments and Gateways
++ **Change log:** [View Releases](https://github.com/thirtybees/custompayments/releases)
+
+
+## Features
+
++ Create custom payment methods
++ Allows for COD
++ Allows for pickup and payment in store
++ Allows for use of purchase orders
+
 ## Setting up the Custom Payment Methods module
 
 You can simply install the module from your back office and it will give you an extra menu item which can be found at "Modules and Services > Custom Payment Methods".
