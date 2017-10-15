@@ -9,7 +9,6 @@ allowed-tags:
   - Collaboration
   - Resources
   - "Native modules"
-  - "Cache"
   - "Performance"
   - "EU module"
   - "EU legal"
@@ -39,4 +38,5 @@ allowed-tags:
   - "opcache"
   - "live chat"
   - "updater"
+  - "Cache"
 
