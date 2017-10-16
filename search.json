@@ -830,6 +830,28 @@
 //
 //
 //{
+//"title": "Authorize.net payment module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/authorize-aim/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Bankwire payment module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/bank-wire/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Bees Blog module by thirty bees",
 //"tags": "blogNative modulesblog moduleblog post",
 //"keywords": "",
@@ -841,10 +863,384 @@
 //
 //
 //{
+//"title": "Advertising module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/block-advertising/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Top of the page banner module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/blockbanner/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Bestsellers block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/best-sellers/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Cart block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/cart/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Categories module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/block-categories/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "",
 //"tags": "",
 //"keywords": "",
 //"url": "../tag/blockchain/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "CMS block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/cms-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "CMS info block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/cms-info/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Contact block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/contact-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Contact infos block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/contact-infos-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Currency block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/currency-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Customer privacy block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/customer-privacy-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Facebook block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/block-facebook/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Languages block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/languages-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Layered navigation block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/layered-navigation/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Link block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/link-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Manufacturer block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/manufacturer-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "My account block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/my-account-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "My account footer block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/my-account-footer-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "New products block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/new-products-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Newsletter block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/newsletter-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Payment logo block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/payment-logo-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Permanent links block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/permanent-links-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Customer reinsurance block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/reinsurance-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "RSS feed block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/rss-feed-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Site search block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/search-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Facebook share block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/facebook-share-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Specials block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/specials-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Store block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/store-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Supplier block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/supplier-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Tags block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/tags-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Top menu block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/top-menu/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "User infromation block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/user-information-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Recently viewed products block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/viewed-block/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Wishlist block module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/wishlist-block/",
 //"summary": ""
 //},
 //
@@ -885,10 +1281,32 @@
 //
 //
 //{
+//"title": "bpostshm module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/bpostshm/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "",
 //"tags": "",
 //"keywords": "",
 //"url": "../tag/cache/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Carrier compare module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/carrier-compare/",
 //"summary": ""
 //},
 //
@@ -911,6 +1329,17 @@
 //"tags": "Introduction",
 //"keywords": "",
 //"url": "../merchants-guide/catalog/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Check payment module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/check-payment/",
 //"summary": ""
 //},
 //
@@ -1017,6 +1446,50 @@
 //
 //
 //{
+//"title": "Cron jobs module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/cron-jobs/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Cross selling module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/cross-selling/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Community theme configuration module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/ct-configuration/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Community theme top menu module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/ct-top-menu/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Back Office Customers",
 //"tags": "Introduction",
 //"keywords": "",
@@ -1065,6 +1538,39 @@
 //"tags": "DashboardstatsNative modules",
 //"keywords": "",
 //"url": "../native-modules/dash-goals/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Dash products module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/dash-products/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Dash trends module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/dash-trends/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Date of delivery module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/date-of-delivery/",
 //"summary": ""
 //},
 //
@@ -1193,6 +1699,28 @@
 //
 //
 //{
+//"title": "First Atlantic Commerce payment module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/first-altantic-commerce/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Fixer.io module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/fixer-io/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "",
 //"tags": "",
 //"keywords": "",
@@ -1208,6 +1736,17 @@
 //"tags": "InstallationGetting Started",
 //"keywords": "",
 //"url": "../installation/ftp-installation/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Google Analytics API module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/gapi/",
 //"summary": ""
 //},
 //
@@ -1263,6 +1802,50 @@
 //"tags": "Google AnalyticsNative moduleGooglestats",
 //"keywords": "",
 //"url": "../native-modules/google-analytics/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "graphnvd3 module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/graphnvd3/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Grid HTML module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/grid-html/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Home featured products module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/home-featured/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Home page slider module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/home-slider/",
 //"summary": ""
 //},
 //
@@ -1339,6 +1922,39 @@
 //
 //
 //{
+//"title": "Loyalty module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/loyalty/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Loyalty Lion module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/loyalty-lion/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Mail alerts module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/mail-alerts/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "MailChimp module by thirty bees",
 //"tags": "MailchimpNative modulesemail",
 //"keywords": "",
@@ -1354,6 +1970,28 @@
 //"tags": "",
 //"keywords": "",
 //"url": "../tag/mailchimp/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Mandrill email module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/mandrill/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "ImageMagick image editing module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/imagemagick/",
 //"summary": ""
 //},
 //
@@ -1427,6 +2065,17 @@
 //
 //
 //{
+//"title": "",
+//"tags": "",
+//"keywords": "",
+//"url": "../tag/needs-work/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "No CAPTCHA reCAPTCHA - by thirty bees",
 //"tags": "reCAPTCHANative modules",
 //"keywords": "",
@@ -1482,6 +2131,17 @@
 //
 //
 //{
+//"title": "Override check module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/override-check/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Pages",
 //"tags": "Getting startedFormattingContent types",
 //"keywords": "pages, authoring, exclusion, frontmatter",
@@ -1493,10 +2153,32 @@
 //
 //
 //{
+//"title": "Pages not found module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/pages-not-found/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "",
 //"tags": "",
 //"keywords": "",
 //"url": "../tag/payment-modules/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Pay NL payment module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/paynl/",
 //"summary": ""
 //},
 //
@@ -1565,10 +2247,65 @@
 //
 //
 //{
+//"title": "Product reviews module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/product-comments/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Product payment logos module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/product-payment-logos/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "Admin Products",
 //"tags": "",
 //"keywords": "",
 //"url": "../merchants-guide/admin-products/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Products in the same module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/product-category/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "Product tool tips module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/product-tool-tips/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "PrestaShop to thirty bees migration module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/prestashop-to-thirty-bees/",
 //"summary": ""
 //},
 //
@@ -1591,6 +2328,17 @@
 //"tags": "",
 //"keywords": "",
 //"url": "../tag/recaptcha/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "thirty bees referral program module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/referral-program/",
 //"summary": ""
 //},
 //
@@ -1725,6 +2473,17 @@
 //
 //
 //{
+//"title": "Sucuri module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/sucuri/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "tawk.to live chat module by thirty bees",
 //"tags": "live chatNative modules",
 //"keywords": "",
@@ -1736,10 +2495,32 @@
 //
 //
 //{
+//"title": "thirty bees cleaner module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/tb-cleaner/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "thirty bees updater by thirty bees",
 //"tags": "updaterNative modules",
 //"keywords": "",
 //"url": "../native-modules/tb-updater/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
+//"title": "thirty bees theme configurator module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/themeconfigurator/",
 //"summary": ""
 //},
 //
@@ -1789,6 +2570,17 @@
 //
 //
 //{
+//"title": "Tracking front office module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/tracking-front/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "",
 //"tags": "",
 //"keywords": "",
@@ -1811,6 +2603,17 @@
 //
 //
 //{
+//"title": "VAT number module by thirty bees",
+//"tags": "Needs work",
+//"keywords": "",
+//"url": "../native-modules/vat-number/",
+//"summary": ""
+//},
+//
+//
+//
+//
+//{
 //"title": "WebStorm Text Editor",
 //"tags": "Getting started",
 //"keywords": "webstorm, sublime, markdown, atom, gnome, notepad ++, textpad, bbedit",
@@ -1824,6 +2627,225 @@
 //]
 
 {
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
+
+
+,
 
 
 ,
