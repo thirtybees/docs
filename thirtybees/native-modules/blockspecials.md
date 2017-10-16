@@ -1,0 +1,11 @@
+---
+title: Specials block module by thirty bees
+tags:
+    - "Needs work"
+
+audience: merchants
+permalink: /native-modules/specials-block/
+description:
+---
+
+{% include api/1.0/blockspecials-content.md %}
