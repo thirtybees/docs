@@ -254,7 +254,7 @@ entries:
         product: all
         version: all
         output: web, pdf
-  
+
   - title: SEO Guide
     audience: developers
     platform: all
@@ -305,6 +305,20 @@ entries:
     version: all
     output: web, pdf
 
+  - title: Store
+    audience: developers
+    platform: all
+    product: all
+    version: all
+    output: web, pdf
+    items:
+      - title: Free Module Rules
+        url: /store/free-modules/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
   - title: Contribute
     audience: developers
     platform: all
