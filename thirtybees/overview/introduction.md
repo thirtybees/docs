@@ -6,6 +6,7 @@ type: first_page
 homepage: true
 audience: docs
 permalink: /
+description: "The official documentation for thirty bees open source e-commerce software. Hosted on GitHub, made using Jekyll, help us add to our documentation"
 ---
 
 ## Mission Statement 

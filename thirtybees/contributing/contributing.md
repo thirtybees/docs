@@ -5,6 +5,7 @@ tags:
   - "Getting Started"
 audience: developers
 permalink: /contributing/
+description: "Contributing to thirty bees documentation is simple and easy using GitHub and Jekyll"
 ---
 # Contributing to thirty bees
 thirty bees is an open-source e-commerce solution, forked from [PrestaShop 1.6.x](https://github.com/PrestaShop/PrestaShop/tree/1.6.1.x) . We'd like to encourage everyone to participate in the project, including contributing your own improvements to the source code.
