@@ -11,7 +11,8 @@ First, start by searching and launching an Elasticsearch docker:
 
 Plesk will make this instance run on a random port number. Remember this number, you will need it later.  
 
-Add a search subdomain of your choice via Plesk. Make sure it does not run in proxy mode (`Proxy mode` unticked). These are the additional nginx directives you will need to secure and expost Elasticsearch:
+Add a search subdomain of your choice via Plesk. Make sure it does not run in proxy mode (`Proxy mode` unticked). These are the additional nginx directives you will need to secure and expost Elasticsearch:  
+  
 ```nginx
 add_header Access-Control-Allow-Origin * always;
 add_header Access-Control-Allow-Methods GET,HEAD,OPTIONS,POST,PUT always;
@@ -41,6 +42,7 @@ location ~ / {
   proxy_set_header Proxy-Connection "Keep-Alive";
 }
 ```  
+
 We have added two .htpasswd files in the directory `/var/www/vhosts/example.com`. On this page you can create an `.htpasswd` file: [http://www.htaccesstools.com/htpasswd-generator/](http://www.htaccesstools.com/htpasswd-generator/).
 The first location directive contains the index name, follow by two integers. Those two numbers are respectively the shop ID and language ID. Make sure the name corresponds with your index name, otherwise there will be no access from the frontend. 
 Save these settings and go!  

@@ -10,6 +10,6 @@ permalink: /native-modules/elastic-search/
 description: Coming Soon
 ---
 
-# Coming Soon
+# Work in progress
 
 {% include api/1.0/elasticsearch-content.md %}
