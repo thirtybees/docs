@@ -1048,3 +1048,12 @@ a.no_icon:after {
 	height: 100%;
 	background: transparent;
 }
+table {
+	width: 90%;
+}
+.table-page {
+	width: 35%;
+}
+.table-description {
+	width: 65%;
+}

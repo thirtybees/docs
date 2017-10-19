@@ -34,4 +34,4 @@ Having a well thought out prepared bug report increases the speed in which we ca
  + PHP and MYSQL versions on the server
  + How to reproduce the problem
 
- And anything else you can think of that will help us find and solve the problem quickly. 
+ And anything else you can think of that will help us find and solve the problem quickly.
