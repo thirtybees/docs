@@ -960,7 +960,7 @@ $('#toc').on('click', 'a', function() {
     <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/native-modules/elasticsearch.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-    <h1 id="coming-soon">Coming Soon</h1>
+    <h1 id="work-in-progress">Work in progress</h1>
 
 <blockquote>
 <p>This module is currently in beta and the documentation is still being written</p>
@@ -977,37 +977,36 @@ To make things easier we will be setting up this server via Docker and Plesk. If
 
 <p>Plesk will make this instance run on a random port number. Remember this number, you will need it later.  </p>
 
-<p>Add a search subdomain of your choice via Plesk. Make sure it does not run in proxy mode (<code>Proxy mode</code> unticked). These are the additional nginx directives you will need to secure and expost Elasticsearch:
-```nginx
-add_header Access-Control-Allow-Origin * always;
-add_header Access-Control-Allow-Methods GET,HEAD,OPTIONS,POST,PUT always;
-add_header Access-Control-Allow-Headers Access-Control-Allow-Headers,Origin,Accept,X-Requested-With,Content-Type,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization always;</p>
+<p>Add a search subdomain of your choice via Plesk. Make sure it does not run in proxy mode (<code>Proxy mode</code> unticked). These are the additional nginx directives you will need to secure and expost Elasticsearch:  </p>
+<div class="highlight"><pre><code class="language-nginx" data-lang="nginx"><span></span><span class="k">add_header</span> <span class="s">Access-Control-Allow-Origin</span> <span class="s">*</span> <span class="s">always</span><span class="p">;</span>
+<span class="k">add_header</span> <span class="s">Access-Control-Allow-Methods</span> <span class="s">GET,HEAD,OPTIONS,POST,PUT</span> <span class="s">always</span><span class="p">;</span>
+<span class="k">add_header</span> <span class="s">Access-Control-Allow-Headers</span> <span class="s">Access-Control-Allow-Headers,Origin,Accept,X-Requested-With,Content-Type,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization</span> <span class="s">always</span><span class="p">;</span>
 
-<p>location ~* ^/thirtybees_\d+_\d+(/_search|/_analyze) {
-  limit_except HEAD OPTIONS {
-    auth_basic           &quot;Protected Elasticsearch&quot;;
-    auth_basic_user_file /var/www/vhosts/example.com/elasticread;
-  }</p>
+<span class="k">location</span> <span class="p">~</span><span class="sr">*</span> <span class="s">^/thirtybees_\d+_\d+(/_search|/_analyze)</span> <span class="p">{</span>
+  <span class="kn">limit_except</span> <span class="s">HEAD</span> <span class="s">OPTIONS</span> <span class="p">{</span>
+    <span class="kn">auth_basic</span>           <span class="s">&quot;Protected</span> <span class="s">Elasticsearch&quot;</span><span class="p">;</span>
+    <span class="kn">auth_basic_user_file</span> <span class="s">/var/www/vhosts/example.com/elasticread</span><span class="p">;</span>
+  <span class="p">}</span>
 
-<p>proxy_pass http://localhost:9200;
-  proxy_http_version 1.1;
-  proxy_set_header Connection &quot;Keep-Alive&quot;;
-  proxy_set_header Proxy-Connection &quot;Keep-Alive&quot;;
-}</p>
+  <span class="kn">proxy_pass</span> <span class="s">http://localhost:9200</span><span class="p">;</span>
+  <span class="kn">proxy_http_version</span> <span class="mi">1</span><span class="s">.1</span><span class="p">;</span>
+  <span class="kn">proxy_set_header</span> <span class="s">Connection</span> <span class="s">&quot;Keep-Alive&quot;</span><span class="p">;</span>
+  <span class="kn">proxy_set_header</span> <span class="s">Proxy-Connection</span> <span class="s">&quot;Keep-Alive&quot;</span><span class="p">;</span>
+<span class="p">}</span>
 
-<p>location ~ / {
-  limit_except HEAD OPTIONS {
-    auth_basic           &quot;Protected Elasticsearch&quot;;
-    auth_basic_user_file /var/www/vhosts/example.com/elasticadmins;
-  }</p>
+<span class="k">location</span> <span class="p">~</span> <span class="sr">/</span> <span class="p">{</span>
+  <span class="kn">limit_except</span> <span class="s">HEAD</span> <span class="s">OPTIONS</span> <span class="p">{</span>
+    <span class="kn">auth_basic</span>           <span class="s">&quot;Protected</span> <span class="s">Elasticsearch&quot;</span><span class="p">;</span>
+    <span class="kn">auth_basic_user_file</span> <span class="s">/var/www/vhosts/example.com/elasticadmins</span><span class="p">;</span>
+  <span class="p">}</span>
 
-<p>proxy_pass http://localhost:9200;
-  proxy_http_version 1.1;
-  proxy_set_header Connection &quot;Keep-Alive&quot;;
-  proxy_set_header Proxy-Connection &quot;Keep-Alive&quot;;
-}
-``<code>
-We have added two .htpasswd files in the directory</code>/var/www/vhosts/example.com<code>. On this page you can create an</code>.htpasswd` file: <a href="http://www.htaccesstools.com/htpasswd-generator/">http://www.htaccesstools.com/htpasswd-generator/</a>.
+  <span class="kn">proxy_pass</span> <span class="s">http://localhost:9200</span><span class="p">;</span>
+  <span class="kn">proxy_http_version</span> <span class="mi">1</span><span class="s">.1</span><span class="p">;</span>
+  <span class="kn">proxy_set_header</span> <span class="s">Connection</span> <span class="s">&quot;Keep-Alive&quot;</span><span class="p">;</span>
+  <span class="kn">proxy_set_header</span> <span class="s">Proxy-Connection</span> <span class="s">&quot;Keep-Alive&quot;</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>We have added two .htpasswd files in the directory <code>/var/www/vhosts/example.com</code>. On this page you can create an <code>.htpasswd</code> file: <a href="http://www.htaccesstools.com/htpasswd-generator/">http://www.htaccesstools.com/htpasswd-generator/</a>.
 The first location directive contains the index name, follow by two integers. Those two numbers are respectively the shop ID and language ID. Make sure the name corresponds with your index name, otherwise there will be no access from the frontend. 
 Save these settings and go!  </p>
 
