@@ -11,7 +11,7 @@ topnav:
       version: all
       output: web, pdf
     - title: Website
-      external_url: https://www.thirtybees.com/
+      external_url: https://thirtybees.com/
       audience: developers
       platform: all
       product: all
