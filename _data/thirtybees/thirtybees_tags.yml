@@ -42,4 +42,6 @@ allowed-tags:
   - "Needs work"
   - "Store"
   - "Open source"
+  - "bug"
+  - "github"
 
