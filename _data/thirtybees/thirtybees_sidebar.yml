@@ -233,6 +233,13 @@ entries:
         product: all
         version: all
         output: web, pdf
+      - title: Piwik
+        url: /native-modules/piwik/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
       - title: Stripe
         url: /native-modules/stripe/
         audience: merchants

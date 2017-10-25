@@ -15,7 +15,7 @@ The APCu cache manager module provided by thirty bees allows you to view your AP
 
 ## Installing the module
 
-To install the module you will first need to download it from our GitHub release page. This module is not available in your back office in the module feed because of the limited use cases. [Download Here](https://github.com/thirtybees/apcumanager/releases)
+To install the module you will first need to download it from our GitHub release page. This module is not available in your back office in the module feed because of the limited use cases. [Download Here](https://github.com/thirtybees/apcumanager/releases/latest)
 
 ![thirty bees apcu cache manager](../../../thirtybees/images/modules/apcu/apcu-install.png  "thirty bees apcu cache manager")
 
