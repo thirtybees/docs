@@ -170,7 +170,7 @@ entries:
         product: all
         version: all
         output: web, pdf
-      - title: Elastic Search
+      - title: Elasticsearch
         url: /native-modules/elastic-search/
         audience: merchants
         platform: all
