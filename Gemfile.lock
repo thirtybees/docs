@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    algoliasearch (1.17.0)
+    algoliasearch (1.18.0)
       httpclient (~> 2.8.3)
       json (>= 1.5.1)
     algoliasearch-jekyll (0.7.0)
@@ -78,4 +78,4 @@ DEPENDENCIES
   redcarpet (~> 3.4.0)
 
 BUNDLED WITH
-   1.15.4
+   1.16.0
