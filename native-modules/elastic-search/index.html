@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Coming Soon">
-<meta name="keywords" content="elastic searchsearchfilteringNative modules,  ">
-<title>Elastic Search by thirty bees | thirty bees documents</title>
+<meta name="keywords" content="ElasticsearchsearchfilteringNative modules,  ">
+<title>Elasticsearch by thirty bees | thirty bees documents</title>
 <link rel="canonical" href="https://docs.thirtybees.com/native-modules/elastic-search/" />
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
@@ -346,7 +346,7 @@
 <script>
   function SendLinkByMail(href) {
     var subject = "thirty bees documents feedback";
-    var body = "I have some feedback about the Elastic Search by thirty bees page: ";
+    var body = "I have some feedback about the Elasticsearch by thirty bees page: ";
     body += window.location.href;
     body += "";
     var uri = "mailto:contact@thirtybees.com?subject=";
@@ -935,7 +935,7 @@
 </script>
 -->
 		<div class="post-header">
-    <h1 class="post-title-main">Elastic Search by thirty bees</h1>
+    <h1 class="post-title-main">Elasticsearch by thirty bees</h1>
 </div>
 
 <div class="post-content">
@@ -969,11 +969,55 @@ $('#toc').on('click', 'a', function() {
     <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/native-modules/elasticsearch.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
     
 
-    <h1 id="work-in-progress">Work in progress</h1>
+    <h1 id="elasticsearch-beta">Elasticsearch beta</h1>
 
 <blockquote>
-<p>This module is currently in beta and the documentation is still being written</p>
+<p>NOTE: This module is currently in beta and the documentation is still being written</p>
 </blockquote>
+
+<p>This page how you can install and run the Elasticsearch module on your thirty bees store. It only covers the basics of installing Elasticsearch. If you want to know more about how to install or use your Elasticsearch server directly please refer to the comprehensive <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html">Elasticsearch documentation</a>.</p>
+
+<h2 id="compatibility">Compatibility</h2>
+
+<h3 id="system-requirements">System requirements</h3>
+
+<p>This module deviates a bit from the basic thirty bees system requirements. The additional requirements are:<br>
+- PHP 5.6 or higher instead of PHP 5.5
+- PHP cURL extension -- not required for thirty bees, but is needed in this case in order to communicate with the Elasticsearch server</p>
+
+<h3 id="elasticsearch-requirements">Elasticsearch requirements</h3>
+
+<p>In order to provide an extremely fast and easy search we stick with the latest versions of Elasticsearch,
+in order to provide you with all the state-of-the-art search functionality Elasticsearch has to offer.</p>
+
+<p>Therefore, at the moment of writing, you will need a version of Elasticsearch that is:<br>
+- Version 5.4 or higher, including 6.0</p>
+
+<p>Anything lower is not supported and will likely not work.</p>
+
+<p>Please double check if your system satisfies these requirements before proceeding.</p>
+
+<h2 id="installing-elasticsearch">Installing Elasticsearch</h2>
+
+<h3 id="cli">CLI</h3>
+
+<p>We do not provide a tutorial for raw installation since it is basically expert mode and expert generally know what they are doing.
+To give you a few guidelines, here are your possibilities:</p>
+
+<h4 id="directly">Directly</h4>
+
+<p>You can grab a copy from <a href="https://www.elastic.co/products/elasticsearch">the Elasticsearch download page</a> and run that one directly. It will by default run on port <code>9200</code>.</p>
+
+<h4 id="docker">Docker</h4>
+
+<p>You can grab a docker container directly, we recommend <code>elasticsearch/elasticsearch</code>. More instructions about using Elasticsearch with docker can be found at: https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
+You can control the ports of this instance and optionally place an nginx proxy in front.</p>
+
+<p>After launching an Elasticsearch instance, feel free to continue with (a part of) the instructions from the Plesk section.
+It contains an <a href="#nginx-config">nginx configuration</a> that allows you to expose a read-only URL of the Elasticsearch instance directly, so there is no need for a proxy via your thirty bees instance.
+In practice this decreases the search delay with 50-200ms per query.</p>
+
+<h3 id="plesk-docker">Plesk + docker</h3>
 
 <p>This is a basic configuration example to show you how you can configure your server for Elasticsearch. Elasticsearch is a two-part system.
 You will need to run an Elasticsearch server (separate Java application) and install the Elasticsearch module in thirty bees.  </p>
@@ -982,11 +1026,13 @@ You will need to run an Elasticsearch server (separate Java application) and ins
 To make things easier we will be setting up this server via Docker and Plesk. If you would like to go cli style, you might also be able to follow this documentation, but you will have to figure out the command line alternatives to what Plesk does.</p>
 
 <p>First, start by searching and launching an Elasticsearch docker:
-<img src="/thirtybees/images/merchants-guide/native-modules/searchforelasticsearch.png" alt="docker" title="thirty bees elasticsearch docker"></p>
+<img src="/thirtybees/images/merchants-guide/native-modules/elasticsearch/searchforelasticsearch.png" alt="docker" title="thirty bees elasticsearch docker"></p>
 
 <p>Plesk will make this instance run on a random port number. Remember this number, you will need it later.  </p>
 
 <p>Add a search subdomain of your choice via Plesk. Make sure it does not run in proxy mode (<code>Proxy mode</code> unticked). These are the additional nginx directives you will need to secure and expost Elasticsearch:  </p>
+
+<p><a name="nginx-config"></a>  </p>
 <div class="highlight"><pre><code class="language-nginx" data-lang="nginx"><span></span><span class="k">add_header</span> <span class="s">Access-Control-Allow-Origin</span> <span class="s">*</span> <span class="s">always</span><span class="p">;</span>
 <span class="k">add_header</span> <span class="s">Access-Control-Allow-Methods</span> <span class="s">GET,HEAD,OPTIONS,POST,PUT</span> <span class="s">always</span><span class="p">;</span>
 <span class="k">add_header</span> <span class="s">Access-Control-Allow-Headers</span> <span class="s">Access-Control-Allow-Headers,Origin,Accept,X-Requested-With,Content-Type,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization</span> <span class="s">always</span><span class="p">;</span>
@@ -1015,24 +1061,197 @@ To make things easier we will be setting up this server via Docker and Plesk. If
   <span class="kn">proxy_set_header</span> <span class="s">Proxy-Connection</span> <span class="s">&quot;Keep-Alive&quot;</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>We have added two .htpasswd files in the directory <code>/var/www/vhosts/example.com</code>. On this page you can create an <code>.htpasswd</code> file: <a href="http://www.htaccesstools.com/htpasswd-generator/">http://www.htaccesstools.com/htpasswd-generator/</a>.
+<p>We have added two .htpasswd files in the directory <code>/var/www/vhosts/example.com</code>. On <a href="http://www.htaccesstools.com/htpasswd-generator/">this page</a> you can create an <code>.htpasswd</code> file.
 The first location directive contains the index name, follow by two integers. Those two numbers are respectively the shop ID and language ID. Make sure the name corresponds with your index name, otherwise there will be no access from the frontend. 
-Save these settings and go!  </p>
+Save these settings and go!</p>
 
-<p>Install the Elasticsearch module and configure the servers. Prefix the URLs with the <code>.htpasswd</code> username/password combo you configured and suffix with the port number. Example:
-<img src="/thirtybees/images/merchants-guide/native-modules/serverconfig.png" alt="server config" title="thirty bees elasticsearch server config"></p>
+<h2 id="installing-the-module">Installing the module</h2>
 
-<p>Then configure the index, search and filter fields. These settings are recommended:
-<img src="/thirtybees/images/merchants-guide/native-modules/basicfields1.png" alt="basic fields" title="elasticsearch basic fields">
-<img src="/thirtybees/images/merchants-guide/native-modules/basicfields2.png" alt="basic fields" title="elasticsearch basic fields">
-<img src="/thirtybees/images/merchants-guide/native-modules/searchablefields.png" alt="searchable fields" title="elasticsearch searchable fields">
-<img src="/thirtybees/images/merchants-guide/native-modules/filterexample.png" alt="filter example" title="elasticsearch filter example"></p>
+<p>Install the Elasticsearch module and configure the servers. By default the module picks one server located at <code>http://localhost:9200</code>.
+This is Elasticsearch&#39;s default port and proxied by default so it is ready to be used in the frontend right from the start if you just installed Elasticsearch with the default settings on the same system.
+This also works out of the box when you use the cloud version of thirty bees (Cloudways).</p>
 
-<p>Finally, click the &quot;Erase Index&quot; button and then index the remaining items. There is currently no cron endpoint available and you will have to manually click &quot;Erase Index&quot; before starting the first index. We will change this behavior in later betas.</p>
+<p>After installing the module some conflicting default modules might still be active. They also cause the Elasticsearch module to be displaced from the start.
+In order to fix this, disable both the <code>blocksearch</code> and <code>blocklayered</code> modules.</p>
 
-<p>The first beta also has limited error handling. Whenever you find an error or the module stops indexing, check the network tab of Chrome&#39;s dev tools to see the raw error message, this will help you figure out what is going on. In our experience, Elasticsearch has been very verbose and has helpful error messages. </p>
+<p>To make the search block show in the previous position, navigate to <code>Modules and Services</code> &gt; <code>Positions</code> and search for the <code>displayTop</code> hook.
+Make sure the Elasticsearch module is at the top.</p>
 
-<p>That&#39;s the documentation for now. Good luck and if you&#39;d like to know more, don&#39;t hesitate to use the comment section below.</p>
+<p>Search facets will be shown on the left and right column. By default thirty bees will add the new blocks at the bottom. 
+Search for <code>displayColumnLeft</code> &amp; <code>displayColumnRight</code> and reposition the module however you like.</p>
+
+<p>This should be enough to make the module show properly and on the right spot with supported themes.
+If your theme is not supported by default or your theme does not take the Elasticsearch module into account you might have to grab one or more of the template (<code>.tpl</code>) and adjust them to your likings. </p>
+
+<h2 id="configuring-the-module">Configuring the module</h2>
+
+<p>After installing the module you should be presented with the module&#39;s configuration page that has several options already configured for you by default.
+In this section we will navigate through every tab and show what you can configure.</p>
+
+<h3 id="settings-tab"><i class="fa fa-cogs"></i> Settings tab</h3>
+
+<p>On the settings tab you will find generic Elasticsearch settings that do not belong on the other tabs.
+You generally only touch these if you want to run multiple Elasticsearch instances, optimize them for performance or configure stop words.</p>
+
+<h4 id="number-of-shards">Number of shards</h4>
+
+<p>The number can be configured right from the module. It will be passed to Elasticsearch when creating the index. It is part of the <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/_basic_concepts.html">basic concepts</a> of Elasticsearch.
+Having an optimum value is vital to providing a fast search experience.</p>
+
+<p>We recommend to never set this number below <code>2</code>.</p>
+
+<h4 id="number-of-replicas">Number of replicas</h4>
+
+<p>Like the number of shards, this can be changed right from the module as well and will be updated when creating the new index. Optimize this number for the best experience.
+Due to the faceted search this module provides (and internal post-filter), we recommend to never set this number below <code>2</code>.</p>
+
+<h4 id="index-prefix">Index prefix</h4>
+
+<p>You can override the index prefix used. It is not necessary to assign a different one for every language or store you have.
+thirty bees will automatically attach those numbers, meaning that if your basic prefix is <code>thirtybees</code>, for a shop with ID = 2 and language with ID = 1 it will automatically index at <code>thirtybees_2_1</code>.
+This feature is useful if you run multiple instances of thirty bees on the same host that are not part of the same multistore instance.</p>
+
+<h4 id="stop-words">Stop words</h4>
+
+<p>For every language you can configure the stop words used by Elasticsearch. This is updated on every full reindex of Elasticsearch (click <code>Erase index</code> first).
+You can extend or replace the default libraries used by Elasticsearch. I.e., the code <code>__english__</code> refers to the default list of stop words for English.</p>
+
+<h4 id="enable-logging">Enable logging</h4>
+
+<p><strong>Beta 2 remark</strong>: This option was supposed to provide more logging capabilities. As of beta 2 this feature does nothing and might get removed in a future release.</p>
+
+<h3 id="connection"><i class="fa fa-plug"></i> Connection</h3>
+
+<p>The connections tab allows you to configure the connection with the Elasticsearch server. This module also supports clusters (from both the frontend and backend).
+From both the backend and frontend it uses round-robin for load-balancing.</p>
+
+<h4 id="ajax-proxy">Ajax proxy</h4>
+
+<p>The proxy button proxies all the servers to your frontend via the module&#39;s endpoint (<code>/module/elasticsearch/proxy</code> by default), otherwise the frontend search is sent to your servers directly.</p>
+
+<h4 id="servers">Servers</h4>
+
+<p>If you want to update the URLs, for example with the read-only URLs based on the the <code>.htpasswd</code> username/password combo you configured, you can update them on the <code>Connections</code> tab. Example of a configuration:
+<img src="/thirtybees/images/merchants-guide/native-modules/elasticsearch/serverconfig.png" alt="server config" title="thirty bees elasticsearch server config"></p>
+
+<p>The write and read setting tell the module which servers should be used for read operations and which should be used with write permissions. DO NOT MIX THE TWO: when a server/URL has write permission, DO NOT add the read permission!</p>
+
+<h3 id="indexing"><i class="fa fa-sort"></i> Indexing</h3>
+
+<p>This section allows you to configure how the module indexes your products.</p>
+
+<p><a anchor="unique-codes"></a>  </p>
+
+<blockquote>
+<p>Note that there is a limitation on the features and attributes that can be indexed.
+If you have a feature or attribute that after running it through <code>Tools::rewrite</code> (URL rewriting) generates the same code as an already existing property,
+feature or attribute it will be ignored by thirty bees, since every single code has to be unique because of the way this module was built. For example, the data structures used by this module and 
+direct URLs to searches all require unique codes. If you want to avoid collissions, make sure you rename your feature or attribute so it becomes visible and can be used by the module</p>
+
+<p><strong>Beta 2 note: This limitation is probably the number one cause why the module does not index your products. If you cannot index your products, start searching for duplicates! We will improve error reporting with subsequent updates to make this process easier.</strong></p>
+</blockquote>
+
+<p>The module comes with a few default settings already prepared for optimal results. In case you need an example, this is what has been configured for a miniature car store:</p>
+
+<p><img src="/thirtybees/images/merchants-guide/native-modules/elasticsearch/basicfields1.png" alt="basic fields" title="elasticsearch basic fields"></p>
+
+<h3 id="search"><i class="fa fa-search"></i> Search</h3>
+
+<p>On this tab you can select which fields should be used for search (YES / NO). Note that all these fields need to have the data type <code>text</code> if you are using fuzzy search, otherwise you can use both <code>text</code> and <code>keyword</code>.
+It will generally be hard to use this this with other fields, so if Elasticsearch generates errors after changing this setting double-check if your fields all support search.</p>
+
+<p>To make the search as solid as possible, sometimes the module decides to silently ignore fields. For instance, if you have configured <code>reference</code> to become a <code>long</code> (number) and you enable fuzzy search, then the module knows that his will not work with Elasticsearch and will not request the Elasticsearch server to use this field for search.</p>
+
+<p>By default search suggestions (the autocomplete dropdown beneath the search bar) are sorted by relevance.
+Elasticsearch has a smart scoring system that determines which results are more important.
+The raw query editor on this search page will allow you to even further optimize this, but do note that the weights are very important. Choose them wisely.
+More information on the scoring system of Elasticsearch can be found on <a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/scoring-theory.html">this page</a>.</p>
+
+<p>An example for the miniature car store:<br>
+<img src="/thirtybees/images/merchants-guide/native-modules/elasticssearch/searchablefields.png" alt="searchable fields" title="elasticsearch searchable fields"></p>
+
+<p>You can further tweak the raw search query. Do note that the placeholders <code>||QUERY||</code> and <code>||FIELDS||</code> will always have to be added, so if you want to adjust the query, find a way to place these essential variables first.
+The default query can be found in the file <code>/modules/elasticsearch/data/defaultquery.json</code>:</p>
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span></span><span class="p">{</span>
+  <span class="nt">&quot;bool&quot;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nt">&quot;must&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;multi_match&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="nt">&quot;query&quot;</span><span class="p">:</span> <span class="err">||QUERY||</span><span class="p">,</span>
+          <span class="nt">&quot;fields&quot;</span><span class="p">:</span> <span class="err">||FIELDS||</span><span class="p">,</span>
+          <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;best_fields&quot;</span><span class="p">,</span>
+          <span class="nt">&quot;operator&quot;</span><span class="p">:</span> <span class="s2">&quot;OR&quot;</span><span class="p">,</span>
+          <span class="nt">&quot;fuzziness&quot;</span><span class="p">:</span> <span class="s2">&quot;auto&quot;</span>
+        <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Be aware that this file does not contain valid JSON, but rather is a template for the module to use. The default one is suitable for most cases. The module shows what the placeholders will be replaced with:  </p>
+
+<ul>
+<li><code>||QUERY||</code> will be replaced with a string containing the search query: <code>&quot;search&quot;</code></li>
+<li><code>||FIELDS||</code> will be replaced with the selected fields and their weights in an array, i.e.: <code>[&quot;name^4&quot;, &quot;description_short^2&quot;]</code></li>
+</ul>
+
+<h3 id="filter"><i class="fa fa-filter"></i> Filter</h3>
+
+<p>Since this module provides faceted search you can also configure the facets or filters used on this page. Depending on the data type this page presents you with several configuration options.</p>
+
+<p>You can enable/disable a filter with the YES/NO toggle. By default all filters are shown in a scrollable facet, meaning a scrollbar will show when there are a lot of options to choose from.
+By default Elasticsearch returns an estimate of the amount of products that belong to a filter and not always all filters are shown. This is due to performance reasons and often the case if you have to show thousands of filters.
+If you have a facet type that can return thousands of filters, then it is recommended to limit the amount of results shown seen the fact that a human brain cannot process that much information at once. Don&#39;t overwhelm your visitor!</p>
+
+<p>As of beta 2 there are several filter styles available:
+- <code>Checkbox</code>: the most common one, a simple checkbox
+- <code>Slider</code>: A range slider, which is especially useful for prices
+- <code>Color</code>: Shows a color checkbox, can only be used with color attributes</p>
+
+<p>A filter can be either conjunctive (AND) or disjunctive (OR). If you want the visitor to select multiple values, you can use a disjunctive filter.</p>
+
+<p>Every filter can be dragged and dropped on the <i class="fa fa-sort"></i> Indexing, <i class="fa fa-search"></i> Search and <i class="fa fa-filter"></i> Filter page. This changes the filter&#39;s position on the result columns on the front office when searching.</p>
+
+<p>An example from the model car store:  </p>
+
+<p><img src="/thirtybees/images/merchants-guide/native-modules/elasticsearch/filterexamples.png" alt="filter example" title="elasticsearch filter example"></p>
+
+<h3 id="display"><i class="fa fa-desktop"></i> Display</h3>
+
+<p>This section is used to configure what features are activated and how they are displayed on the front office.</p>
+
+<h4 id="use-a-list-as-default-product-layout">Use a list as default product layout</h4>
+
+<p>By default, the first time a visitors uses the search products are shown in a grid.
+If the visitor prefers to show them in a list, this is then locally stored in the browser and on every subsequent search/site visit the module will always show the list instead.
+When you want to display a list by default to visitors, right from the start, you can enable this option.</p>
+
+<h4 id="replace-native-pages">Replace native pages</h4>
+
+<p>This option replaces the native category, manufacturer and supplier pages, allowing to show you the blazing fast Elasticsearch results instead of the previous old-fashioned search options.</p>
+
+<h4 id="search-in-subcategories-on-replaced-pages">Search in subcategories on replaced pages</h4>
+
+<p>By default subcategories are shown but not searched in. If you want to show results from subcategories on the category pages, be sure to enable this option.</p>
+
+<h4 id="autocomplete">Autocomplete</h4>
+
+<p>The module can show search suggestions beneath the search bar. To show the 5 most popular options while searching, enable this option.</p>
+
+<h4 id="instant-search">Instant search</h4>
+
+<p>The option Instant search will directly replace the current page&#39;s content with instant search results. Every layout with a main column is supported.</p>
+
+<h4 id="infinite-scroll">Infinite scroll</h4>
+
+<p>If you would rather use infinite scroll instead of regular pagination, you can enable this option.</p>
+
+<h4 id="price-slider-tax-rules-group">Price slider tax rules group</h4>
+
+<p>There is a limitation to which taxes can be calculated real-time for the current user. The module can only index prices for one tax rules group at a time.
+Therefore this option becomes important when you use a price slider. It will apply the selected tax rules group.
+Note that products which belong to a different tax rules group might get incorrectly shown in the search result. In order to avoid confusing your visitors
+it is recommended to disable price sliders if you have mixed tax rates in your store. </p>
 
 
     <div class="tags">
@@ -1044,7 +1263,7 @@ Save these settings and go!  </p>
 
         
         
-        <a href="/tag/elastic-search/" class="btn btn-default navbar-btn cursorNorm" role="button">elastic search</a>
+        <a href="/tag/elasticsearch/" class="btn btn-default navbar-btn cursorNorm" role="button">Elasticsearch</a>
         
         
         
