@@ -4,11 +4,13 @@ This page how you can install and run the Elasticsearch module on your thirty be
 
 ## Compatibility
 
-### System requirements
+### Module requirements
 
 This module deviates a bit from the basic thirty bees system requirements. The additional requirements are:  
 - PHP 5.6 or higher instead of PHP 5.5
 - PHP cURL extension -- not required for thirty bees, but is needed in this case in order to communicate with the Elasticsearch server
+
+> **Beta NOTE**: For beta 1 and beta 2, make sure you have disabled the CCC JavaScript option. It is not supported by these versions.
 
 ### Elasticsearch requirements
 
