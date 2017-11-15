@@ -1,6 +1,6 @@
 ---
 layout: tag_page
-tag: "elastic search"
+tag: "Elasticsearch"
 audience: docs
-permalink: /tag/elastic-search/
+permalink: /tag/elasticsearch/
 ---

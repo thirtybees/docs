@@ -1,7 +1,7 @@
 ---
-title: Elastic Search by thirty bees
+title: Elasticsearch by thirty bees
 tags:
-  - "elastic search"
+  - "Elasticsearch"
   - "search"
   - "filtering"
   - "Native modules"
@@ -10,6 +10,6 @@ permalink: /native-modules/elastic-search/
 description: Coming Soon
 ---
 
-# Work in progress
+# Elasticsearch beta
 
 {% include api/1.0/elasticsearch-content.md %}
