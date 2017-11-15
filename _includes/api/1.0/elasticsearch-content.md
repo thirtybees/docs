@@ -114,7 +114,7 @@ To make the search block show in the previous position, navigate to `Modules and
 Make sure the Elasticsearch module is at the top.
 
 Search facets will be shown on the left and right column. By default thirty bees will add the new blocks at the bottom. 
-Search for `displayColumnLeft` & `displayColumnRight` and reposition the module however you like.
+Search for `displayLeftColumn` & `displayRightColumn` and reposition the module however you like.
 
 This should be enough to make the module show properly and on the right spot with supported themes.
 If your theme is not supported by default or your theme does not take the Elasticsearch module into account you might have to grab one or more of the template (`.tpl`) and adjust them to your likings.
@@ -161,7 +161,7 @@ This feature is useful if you run multiple instances of thirty bees on the same 
 #### Stop words
 
 For every language you can configure the stop words used by Elasticsearch. This is updated on every full reindex of Elasticsearch (click `Erase index` first).
-You can extend or replace the default libraries used by Elasticsearch. I.e., the code `__english__` refers to the default list of stop words for English.
+You can extend or replace the default libraries used by Elasticsearch. I.e., the code `_english_` refers to the default list of stop words for English.
 
 #### Enable logging
 
