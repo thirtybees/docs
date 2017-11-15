@@ -999,23 +999,13 @@ in order to provide you with all the state-of-the-art search functionality Elast
 
 <h2 id="installing-elasticsearch">Installing Elasticsearch</h2>
 
-<h3 id="cli">CLI</h3>
+<h3 id="thirty-bees-cloud-cloudways">thirty bees cloud (Cloudways)</h3>
 
-<p>We do not provide a tutorial for raw installation since it is basically expert mode and expert generally know what they are doing.
-To give you a few guidelines, here are your possibilities:</p>
+<p>An easy way to use Elasticsearch + thirty bees is by hosting both with Cloudways.
+If you already have an instance on Cloudways, you can simply navigate to your Cloudways dashboard, select Server mode (top-left) &gt; Server Magement &gt; Settings &amp; Packages &gt; Packages.
+On this tab you can choose to enable Elasticsearch 5.4.</p>
 
-<h4 id="directly">Directly</h4>
-
-<p>You can grab a copy from <a href="https://www.elastic.co/products/elasticsearch">the Elasticsearch download page</a> and run that one directly. It will by default run on port <code>9200</code>.</p>
-
-<h4 id="docker">Docker</h4>
-
-<p>You can grab a docker container directly, we recommend <code>elasticsearch/elasticsearch</code>. More instructions about using Elasticsearch with docker can be found at: https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
-You can control the ports of this instance and optionally place an nginx proxy in front.</p>
-
-<p>After launching an Elasticsearch instance, feel free to continue with (a part of) the instructions from the Plesk section.
-It contains an <a href="#nginx-config">nginx configuration</a> that allows you to expose a read-only URL of the Elasticsearch instance directly, so there is no need for a proxy via your thirty bees instance.
-In practice this decreases the search delay with 50-200ms per query.</p>
+<p><img src="/thirtybees/images/merchants-guide/native-modules/elasticsearch/cloudwaysservers.png" alt="Cloudways servers" title="Cloudways server page"> </p>
 
 <h3 id="plesk-docker">Plesk + docker</h3>
 
@@ -1064,6 +1054,24 @@ To make things easier we will be setting up this server via Docker and Plesk. If
 <p>We have added two .htpasswd files in the directory <code>/var/www/vhosts/example.com</code>. On <a href="http://www.htaccesstools.com/htpasswd-generator/">this page</a> you can create an <code>.htpasswd</code> file.
 The first location directive contains the index name, follow by two integers. Those two numbers are respectively the shop ID and language ID. Make sure the name corresponds with your index name, otherwise there will be no access from the frontend. 
 Save these settings and go!</p>
+
+<h3 id="cli">CLI</h3>
+
+<p>We do not provide a tutorial for raw installation since it is basically expert mode and expert generally know what they are doing.
+To give you a few guidelines, here are your possibilities:</p>
+
+<h4 id="directly">Directly</h4>
+
+<p>You can grab a copy from <a href="https://www.elastic.co/products/elasticsearch">the Elasticsearch download page</a> and run that one directly. It will by default run on port <code>9200</code>.</p>
+
+<h4 id="docker">Docker</h4>
+
+<p>You can grab a docker container directly, we recommend <code>elasticsearch/elasticsearch</code>. More instructions about using Elasticsearch with docker can be found at: https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
+You can control the ports of this instance and optionally place an nginx proxy in front.</p>
+
+<p>After launching an Elasticsearch instance, feel free to continue with (a part of) the instructions from the Plesk section.
+It contains an <a href="#nginx-config">nginx configuration</a> that allows you to expose a read-only URL of the Elasticsearch instance directly, so there is no need for a proxy via your thirty bees instance.
+In practice this decreases the search delay with 50-200ms per query.</p>
 
 <h2 id="installing-the-module">Installing the module</h2>
 
