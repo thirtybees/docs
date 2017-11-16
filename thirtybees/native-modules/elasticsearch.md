@@ -7,7 +7,7 @@ tags:
   - "Native modules"
 audience: merchants
 permalink: /native-modules/elastic-search/
-description: Coming Soon
+description: thirty bees Elastic Search module funded by our community
 ---
 
 # Elasticsearch beta
