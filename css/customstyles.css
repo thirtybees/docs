@@ -1057,3 +1057,7 @@ table {
 .table-description {
 	width: 65%;
 }
+.no-padding {
+	padding-right:0px!important;
+	padding-left:0px!important;
+}
