@@ -55,8 +55,8 @@ Enter an App name that is related to your website and business.
 In order to make PayPal login work properly, make sure you set a return URL for your website and configure the Advanced Options:
 - Scroll back to "SANDBOX APP SETTINGS"
 - Expand the Return URL settings
-- The default (and most stable) location of the PayPal login module return URL is `index.php?fc=module&module=paypal&controller=logintoken?authentication`,
- so if your website is location at `https://www.mywebsite.com` your return URL would be `https://www.mywebsite.com/index.php?fc=module&module=paypal&controller=logintoken?authentication`
+- The default (and most stable) location of the PayPal login module return URL is `index.php?fc=module&module=paypal&controller=logintoken`,
+ so if your website is location at `https://www.mywebsite.com` your return URL would be `https://www.mywebsite.com/index.php?fc=module&module=paypal&controller=logintoken`
 - Add the URL and don't forget to click `Save` at the bottom of the panel.
 - Now scroll to PayPal Login once again and click `Advanced Options`. It will expand an additional panel where you can set the needed scoped. Make sure it looks like this:
 ![PayPal Login Advanced Options](../../../thirtybees/images/merchants-guide/native-modules/advancedloginoptions.png)
