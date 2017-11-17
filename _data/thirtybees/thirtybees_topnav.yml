@@ -24,3 +24,10 @@ topnav:
       product: all
       version: all
       output: web, pdf
+    - title: Supporters
+      url: /supporters/
+      audience: developers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
