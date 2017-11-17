@@ -16,7 +16,7 @@ Ian Osaka
 
 ## Generous Backers
 
-Kubilay Edrogan
+Kubilay Erdogan
 
 MpA1 Aps
 
