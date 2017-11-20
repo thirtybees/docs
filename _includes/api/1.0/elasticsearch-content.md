@@ -135,15 +135,17 @@ even if you have previously uninstalled and/or removed beta 1 you will need to f
 - Uninstall beta 2
 - And install it again (do not use the reset button) 
 
-### Upgrading to beta 3 from beta 2
+<!---
+### Upgrading to beta 4 from beta 3
 
-Beta 3 also does not have an upgrade script. If you wish to update manually to beta 3, change the `PREFIX_elasticsearch_meta` database table first:  
+Beta 4 also does not have an upgrade script. If you wish to update manually to beta 3, change the `PREFIX_elasticsearch_meta` database table first:  
 - `` DROP INDEX code ON `PREFIX_elasticsearch_meta` ``
 - `` ALTER TABLE `PREFIX_elasticsearch_meta` ADD alias VARCHAR(255) NOT NULL; ``
 
 (replace `PREFIX` with your own prefix.)
 
 You can now upload and run beta 3 via your back office.
+--->
 
 ## Configuring the module
 
