@@ -118,6 +118,9 @@ Make sure the Elasticsearch module is at the top.
 Search facets will be shown on the left and right column. By default thirty bees will add the new blocks at the bottom. 
 Search for `displayLeftColumn` & `displayRightColumn` and reposition the module however you like.
 
+Also make sure you have disabled the default search options on the page "Preferences > Search". They should look like this:
+![search settings]({{base}}/thirtybees/images/merchants-guide/native-modules/elasticsearch/disablesearch.png  "search settings")
+
 This should be enough to make the module show properly and on the right spot with supported themes.
 If your theme is not supported by default or your theme does not take the Elasticsearch module into account you might have to grab one or more of the template (`.tpl`) and adjust them to your likings.
 
