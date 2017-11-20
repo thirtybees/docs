@@ -124,16 +124,26 @@ Also make sure you have disabled the default search options on the page "Prefere
 This should be enough to make the module show properly and on the right spot with supported themes.
 If your theme is not supported by default or your theme does not take the Elasticsearch module into account you might have to grab one or more of the template (`.tpl`) and adjust them to your likings.
 
-### Upgrading from beta 1
+### Upgrading to beta 2 from beta 1
 
 Note that there is no upgrade script to upgrade from beta 1 to beta 2. There is only one way to upgrade from beta 1.
 Resets and changing files will not work; you will have to reinstall the module in order to upgrade,
-even if you have previously uninstalled and/or removed beta 1 you will need to follow these guidelines:
+even if you have previously uninstalled and/or removed beta 1 you will need to follow these guidelines:  
 - Uninstall beta 1
 - Upload beta 2 via you back office (not FTP!)
 - Install beta 2
 - Uninstall beta 2
-- And install it again (do not use the reset button)  
+- And install it again (do not use the reset button) 
+
+### Upgrading to beta 3 from beta 2
+
+Beta 3 also does not have an upgrade script. If you wish to update manually to beta 3, change the `PREFIX_elasticsearch_meta` database table first:  
+- `` DROP INDEX code ON `PREFIX_elasticsearch_meta` ``
+- `` ALTER TABLE `PREFIX_elasticsearch_meta` ADD alias VARCHAR(255) NOT NULL; ``
+
+(replace `PREFIX` with your own prefix.)
+
+You can now upload and run beta 3 via your back office.
 
 ## Configuring the module
 
