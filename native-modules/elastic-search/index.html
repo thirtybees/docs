@@ -1101,16 +1101,26 @@ Search for <code>displayLeftColumn</code> &amp; <code>displayRightColumn</code> 
 <p>This should be enough to make the module show properly and on the right spot with supported themes.
 If your theme is not supported by default or your theme does not take the Elasticsearch module into account you might have to grab one or more of the template (<code>.tpl</code>) and adjust them to your likings.</p>
 
-<h3 id="upgrading-from-beta-1">Upgrading from beta 1</h3>
+<h3 id="upgrading-to-beta-2-from-beta-1">Upgrading to beta 2 from beta 1</h3>
 
 <p>Note that there is no upgrade script to upgrade from beta 1 to beta 2. There is only one way to upgrade from beta 1.
 Resets and changing files will not work; you will have to reinstall the module in order to upgrade,
-even if you have previously uninstalled and/or removed beta 1 you will need to follow these guidelines:
+even if you have previously uninstalled and/or removed beta 1 you will need to follow these guidelines:<br>
 - Uninstall beta 1
 - Upload beta 2 via you back office (not FTP!)
 - Install beta 2
 - Uninstall beta 2
-- And install it again (do not use the reset button)  </p>
+- And install it again (do not use the reset button) </p>
+
+<h3 id="upgrading-to-beta-3-from-beta-2">Upgrading to beta 3 from beta 2</h3>
+
+<p>Beta 3 also does not have an upgrade script. If you wish to update manually to beta 3, change the <code>PREFIX_elasticsearch_meta</code> database table first:<br>
+- <code>DROP INDEX code ON `PREFIX_elasticsearch_meta`</code>
+- <code>ALTER TABLE `PREFIX_elasticsearch_meta` ADD alias VARCHAR(255) NOT NULL;</code></p>
+
+<p>(replace <code>PREFIX</code> with your own prefix.)</p>
+
+<p>You can now upload and run beta 3 via your back office.</p>
 
 <h2 id="configuring-the-module">Configuring the module</h2>
 
