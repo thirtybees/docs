@@ -987,17 +987,97 @@ $('#toc').on('click', 'a', function() {
 
 <h2 id="formatting">Formatting</h2>
 
-<p>For the free modules since we are drawing from GitHub automatically we will need specific formatting for the modules. Developers will need to include three specific files in the modules. These files are:</p>
+<p>The formatting of the module directory on GitHub is very strict and needs to be followed. You will need to add several files to your free module repository for it to be able to be listed successfully on our store. Below is an overview on the files you will have to list.</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>.tbstore/configuration.yml
+.tbstore/description.md
+.tbstore/images/
+.tbstore.yml
+</code></pre></div>
+<h2 id="explanation-of-files">Explanation of files</h2>
 
-<p><strong>readme.md</strong> - The readme.md is a standard file used in most repositories letting people know about the module. You can use markdown in the file to emphasize text. We draw the long description for the module from the readme.md file.</p>
+<p><strong>./tbstore/configuration.yml</strong></p>
 
-<p><strong>shortdescription.md</strong> - This is a custom file we have added. It will allow for the short description to be drawn from the repository as well. The content of the shortdescription.md file needs to be limited to 150 characters, anything longer will be truncated.</p>
+<p>This file is the heart of our system. It stores the information about your module that will be loaded to the store. Here is an example of a complete configuration.yml file</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>module_name: Authorize.net
+compatible_versions: 1.0.0+
+author: thirty bees
+category: payment
+localization:
+  - US
+  - CA
+tags:
+  - authorize
+  - auth.net
+  - authortize.net
+  - payment module
+description_short: The thirty bees Authorize.net module allows your site to accept payments using the Authorize.net payment gateway.
+description: description.md
+images:
+  - image-1.png
+  - image-2.png
+license: AFL
+php_version:
+  - 5.4
+  - 5.5
+  - 5.6
+  - 7.0
+  - 7.1
+</code></pre></div>
+<ul>
+<li><strong>module_name:</strong> this is the name of your module.</li>
+<li><strong>compatible_versions:</strong> This is the version of thirty bees the module is compatible with.</li>
+<li><strong>author:</strong> The name of the developer or agency that has made the module.</li>
+<li><strong>category:</strong> The category that the module is to be included in on our site. The current categories are: payment, shipping, statistics, front office, administration, marketing, and seo.</li>
+<li><strong>localization:</strong> The area that the module serves, if the module serves the world, this can be omitted. This needs to be passed as an array if it is included.</li>
+<li><strong>tags:</strong> The searchable tags to help the module be found, this needs to be passed as an array always.</li>
+<li><strong>description_short:</strong> A 150 character short description for your module</li>
+<li><strong>description:</strong> This is the location of your description.md file, the path is relative to the configuration.yml.</li>
+<li><strong>images:</strong> The images need to be loaded into the .tbstore/images directory. These are the images to be used with your module. Image-1 is always the cover image for the module. This always needs to be passed as an array.</li>
+<li><strong>license:</strong> This is the license that your module is covered under.</li>
+<li><strong>php_version:</strong> This is the versions of PHP your module has been tested with.</li>
+</ul>
 
-<p><strong>license.md</strong> - This file holds a license that will cover the module as a whole. Use one of the three license types, OSL, AFL, or MIT, others will be rejected for free modules.</p>
+<p><strong>.tbstore/description.md</strong></p>
+
+<p>In this file you can write the long description for your module using markdown format. All markdown tags are currently supported and so it image handling, so there is a lot of flexibility with adding information to your module description. This file always needs to be located in the .tbstore directory.</p>
+
+<p><strong>.tbstore/images</strong></p>
+
+<p>This is the directory that holds the image files for your store. You can have both your product images in here and images that you use in the markdown for the description. This directory always needs to be located in the .tbstore directory.</p>
+
+<p><strong>.tbstore.yml</strong></p>
+
+<p>This file currently needs to be the same as your .tbstore/configuration.yml file. It needs to be located in the top level of your repository.</p>
+
+<h2 id="adding-modules-to-the-store">Adding modules to the store</h2>
+
+<p>Once you have your repository setup, you can add your module to our store. You will first need to create an account on our store. Once you have created an account, go to your My Account page and you can access your seller account. </p>
+
+<p><img src="/thirtybees/images/store/seller-account.png" alt="thirty bees seller account" title="thirty bees seller account"></p>
+
+<p>Once you click into your seller account you will see a modules tab. You can click on that tab to bring up the listing options.</p>
+
+<p><img src="/thirtybees/images/store/seller-free-module.png" alt="thirty bees seller account" title="thirty bees seller account"></p>
+
+<p>From here all you have to do is click on the <strong>Add Free Module</strong> button. This button will bring you to a screen where you can input the url of the repository you want to add. </p>
+
+<p><img src="/thirtybees/images/store/add-free-module.png" alt="thirty bees seller account" title="thirty bees seller account"></p>
+
+<p>Now you can add your module and press save. If you have all of the information entered correctly your module should now be added. </p>
+
+<h2 id="webhook">Webhook</h2>
+
+<p>If you noticed in the first image, there is a GitHub secret key. This key allows you to set up a webhook in GitHub so that when your module is updated, updates automatically deploy to our store. The webhook sends all data, so if you make a change to the description the module is automatically updated. If you add a new cover image, or if you add a new release it will update as well. This takes the hassle out of listing free modules and lets you spend more time developing. </p>
+
+<p>For the webhook you will need to use this end point along with your secret key. </p>
+
+<p><strong>https://store.thirtybees.com/module/agilemultipleseller/webhook</strong></p>
+
+<p>Set the webhook to send all data and that is all you need to set the webhook up. </p>
 
 <h2 id="releases-and-change-logs">Releases and Change Logs</h2>
 
-<p>For the builds and releases developers will need to use GitHub releases. When you release a build on GitHub, you will need to include notes in the rleease for a change log. This way we can automatically draw the information from GitHub without the developer having to come back to the thirty bees store and updating things manually.</p>
+<p>For the builds and releases developers will need to use GitHub releases. When you release a build on GitHub, you will need to include notes in the rleease for a change log. This way we can automatically draw the information from GitHub without the developer having to come back to the thirty bees store and updating the logs manually.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 
@@ -1053,7 +1133,7 @@ $('#toc').on('click', 'a', function() {
 	<div class="row">
 		<div class="col-lg-12 footer">
 			&copy;2017 thirty bees. All rights reserved. <br/>
-			 Site last generated: Dec 11, 2017 <br/>
+			 Site last generated: Dec 12, 2017 <br/>
 			<p><img src="" /></p>
                 </div>
             </div>
