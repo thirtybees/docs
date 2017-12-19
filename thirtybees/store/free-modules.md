@@ -90,6 +90,14 @@ This is the directory that holds the image files for your store. You can have bo
 
 This file currently needs to be the same as your .tbstore/configuration.yml file. It needs to be located in the top level of your repository.
 
+## Adding a release to your module
+
+Your module will need a release to be added to our store. To add a release you need to add a properly formed zip or gz file to the release, you cannot rely on GitHub to create the release for you. The releases that GitHub creates are not properly formed for installation in thirty bees.
+
+In a lot of the thirty bees modules you will notice that there is a build.sh file. You can take this file and alter it to your needs to create an automatic way of making zip files for your modules.
+
+For an example of a properly formed release you can look at this module, notice it has the zip file added alongside the binary files. [Authorize.net module](https://github.com/thirtybees/authorizeaim/releases)
+
 ## Adding modules to the store
 
 Once you have your repository setup, you can add your module to our store. You will first need to create an account on our store. Once you have created an account, go to your My Account page and you can access your seller account. 
