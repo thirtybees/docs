@@ -1058,6 +1058,14 @@ php_version:
 
 <p>This file currently needs to be the same as your .tbstore/configuration.yml file. It needs to be located in the top level of your repository.</p>
 
+<h2 id="adding-a-release-to-your-module">Adding a release to your module</h2>
+
+<p>Your module will need a release to be added to our store. To add a release you need to add a properly formed zip or gz file to the release, you cannot rely on GitHub to create the release for you. The releases that GitHub creates are not properly formed for installation in thirty bees.</p>
+
+<p>In a lot of the thirty bees modules you will notice that there is a build.sh file. You can take this file and alter it to your needs to create an automatic way of making zip files for your modules.</p>
+
+<p>For an example of a properly formed release you can look at this module, notice it has the zip file added alongside the binary files. <a href="https://github.com/thirtybees/authorizeaim/releases">Authorize.net module</a></p>
+
 <h2 id="adding-modules-to-the-store">Adding modules to the store</h2>
 
 <p>Once you have your repository setup, you can add your module to our store. You will first need to create an account on our store. Once you have created an account, go to your My Account page and you can access your seller account. </p>
@@ -1142,7 +1150,7 @@ php_version:
 	<div class="row">
 		<div class="col-lg-12 footer">
 			&copy;2017 thirty bees. All rights reserved. <br/>
-			 Site last generated: Dec 17, 2017 <br/>
+			 Site last generated: Dec 19, 2017 <br/>
 			<p><img src="" /></p>
                 </div>
             </div>
