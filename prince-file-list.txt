@@ -12,7 +12,7 @@
               
                       
                          
-                            /
+                            https://docs.thirtybees.com/
                                   
                         
                      
@@ -37,44 +37,12 @@
               
                       
                          
-                            /developers/classes/
+                            https://docs.thirtybees.com/developers/classes/
                                   
                         
                      
                          
-                            /developers/controllers/
-                                  
-                        
-                     
-              
-          
-              
-                      
-              
-          
-              
-                      
-              
-          
-              
-                      
-              
-          
-              
-                      
-                         
-                     
-              
-          
-              
-                      
-                         
-                            /contributing/
-                                  
-                        
-                     
-                         
-                            /bug-reporting/
+                            https://docs.thirtybees.com/developers/controllers/
                                   
                         
                      
@@ -82,8 +50,40 @@
           
               
                       
+              
+          
+              
+                      
+              
+          
+              
+                      
+              
+          
+              
+                      
                          
-                            /release_notes/v1-0-x-release-notes
+                     
+              
+          
+              
+                      
+                         
+                            https://docs.thirtybees.com/contributing/
+                                  
+                        
+                     
+                         
+                            https://docs.thirtybees.com/bug-reporting/
+                                  
+                        
+                     
+              
+          
+              
+                      
+                         
+                            https://docs.thirtybees.com/release_notes/v1-0-x-release-notes
                                   
                         
                      

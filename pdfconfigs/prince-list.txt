@@ -4,174 +4,160 @@
   
    
       
-             /
+             https://docs.thirtybees.com/
               
       
   
   
    
       
-             /installation/
+             https://docs.thirtybees.com/installation/
               
       
   
       
-             /installation/ftp-installation/
+             https://docs.thirtybees.com/installation/ftp-installation/
               
       
   
       
-             /installation/command-line/
+             https://docs.thirtybees.com/installation/command-line/
               
       
   
       
-             /installation/migration/
-              
-      
-  
-  
-   
-      
-             /troubleshooting/decoding-error-messages/
+             https://docs.thirtybees.com/installation/migration/
               
       
   
   
    
       
-             /merchants-guide/
-              
-      
-  
-      
-             /merchants-guide/online-resources/
-              
-      
-  
-      
-             /merchants-guide/admin-area/
-              
-      
-  
-      
-             /merchants-guide/admin-products/
+             https://docs.thirtybees.com/troubleshooting/decoding-error-messages/
               
       
   
   
    
       
-             /native-modules/advanced-eu-compliance/
+             https://docs.thirtybees.com/merchants-guide/
               
       
   
       
-             /native-modules/apcu-manager/
+             https://docs.thirtybees.com/merchants-guide/online-resources/
               
       
   
       
-             /native-modules/bees-blog/
+             https://docs.thirtybees.com/merchants-guide/admin-area/
               
       
   
       
-             /native-modules/custompayments/
-              
-      
-  
-      
-             /native-modules/dash-activity/
-              
-      
-  
-      
-             /native-modules/dash-goals/
-              
-      
-  
-      
-             /native-modules/donation-miner/
-              
-      
-  
-      
-             /native-modules/elastic-search/
-              
-      
-  
-      
-             /native-modules/eu-cookie-consent/
-              
-      
-  
-      
-             /native-modules/google-analytics/
-              
-      
-  
-      
-             /native-modules/json-module/
-              
-      
-  
-      
-             /native-modules/mailchimp/
-              
-      
-  
-      
-             /native-modules/memcache-manager/
-              
-      
-  
-      
-             /native-modules/nocaptcharecaptcha/
-              
-      
-  
-      
-             /native-modules/opcache-manager/
-              
-      
-  
-      
-             /native-modules/paypal/
-              
-      
-  
-      
-             /native-modules/piwik/
-              
-      
-  
-      
-             /native-modules/stripe/
-              
-      
-  
-      
-             /native-modules/tawkto/
-              
-      
-  
-      
-             /native-modules/tb-updater/
+             https://docs.thirtybees.com/merchants-guide/admin-products/
               
       
   
   
    
-  
-   
       
-             /developers/classes/
+             https://docs.thirtybees.com/native-modules/advanced-eu-compliance/
               
       
   
       
-             /developers/controllers/
+             https://docs.thirtybees.com/native-modules/apcu-manager/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/bees-blog/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/custompayments/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/dash-activity/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/dash-goals/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/donation-miner/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/elastic-search/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/eu-cookie-consent/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/google-analytics/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/json-module/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/mailchimp/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/memcache-manager/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/nocaptcharecaptcha/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/opcache-manager/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/paypal/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/piwik/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/stripe/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/tawkto/
+              
+      
+  
+      
+             https://docs.thirtybees.com/native-modules/tb-updater/
               
       
   
@@ -179,31 +165,45 @@
    
   
    
+      
+             https://docs.thirtybees.com/developers/classes/
+              
+      
+  
+      
+             https://docs.thirtybees.com/developers/controllers/
+              
+      
+  
+  
+   
+  
+   
   
    
   
    
       
-             /store/free-modules/
+             https://docs.thirtybees.com/store/free-modules/
               
       
   
   
    
       
-             /contributing/
+             https://docs.thirtybees.com/contributing/
               
       
   
       
-             /bug-reporting/
+             https://docs.thirtybees.com/bug-reporting/
               
       
   
   
    
       
-             /release_notes/v1-0-x-release-notes
+             https://docs.thirtybees.com/release_notes/v1-0-x-release-notes
               
       
   

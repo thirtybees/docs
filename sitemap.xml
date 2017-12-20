@@ -4,9 +4,9 @@
   
     
     <url>
-      <loc>/404.html</loc>
+      <loc>https://docs.thirtybees.com/404.html</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -19,9 +19,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminAccess</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminAccess</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -34,9 +34,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminAddresses</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminAddresses</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -49,9 +49,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminAdminPreferences</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminAdminPreferences</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -64,9 +64,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminAttachments</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminAttachments</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -79,9 +79,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminAttributesGroups</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminAttributesGroups</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -94,9 +94,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminBackup</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminBackup</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -109,9 +109,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminCarriers</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminCarriers</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -124,9 +124,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminCartRules</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminCartRules</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -139,9 +139,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminCarts</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminCarts</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -154,9 +154,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminCategories</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminCategories</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -169,9 +169,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminCmsContent</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminCmsContent</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -184,9 +184,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminContacts</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminContacts</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -199,9 +199,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminCountries</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminCountries</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -214,9 +214,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminCurrencies</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminCurrencies</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -229,9 +229,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminCustomCode</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminCustomCode</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -244,9 +244,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminCustomerPreferences</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminCustomerPreferences</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -259,9 +259,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminCustomerThreads</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminCustomerThreads</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -274,9 +274,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminCustomers</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminCustomers</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -289,9 +289,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminDeliverySlip</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminDeliverySlip</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -304,9 +304,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminEmails</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminEmails</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -319,9 +319,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminEmployees</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminEmployees</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -334,9 +334,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminFeatures</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminFeatures</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -349,9 +349,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminGenders</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminGenders</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -364,9 +364,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminGeolocation</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminGeolocation</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -379,9 +379,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminGroups</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminGroups</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -394,9 +394,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminImages</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminImages</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -409,9 +409,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminImport</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminImport</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -424,9 +424,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminInformation</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminInformation</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -439,9 +439,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminInvoices</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminInvoices</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -454,9 +454,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminLanguages</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminLanguages</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -469,9 +469,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminLocalization</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminLocalization</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -484,9 +484,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminLogs</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminLogs</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -499,9 +499,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminMaintenance</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminMaintenance</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -514,9 +514,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminManufacturers</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminManufacturers</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -529,9 +529,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminMarketing</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminMarketing</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -544,9 +544,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminMeta</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminMeta</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -559,9 +559,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminModules</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminModules</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -574,9 +574,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminModulesPositions</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminModulesPositions</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -589,9 +589,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminOrderMessage</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminOrderMessage</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -604,9 +604,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminOrderPreferences</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminOrderPreferences</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -619,9 +619,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminOrders</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminOrders</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -634,9 +634,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminPPreferences</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminPPreferences</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -649,9 +649,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminPayment</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminPayment</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -664,9 +664,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminPerformance</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminPerformance</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -679,9 +679,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminPreferences</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminPreferences</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -694,9 +694,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminProducts</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminProducts</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -709,9 +709,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminProfiles</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminProfiles</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -724,9 +724,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminQuickAccesses</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminQuickAccesses</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -739,9 +739,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminReferrers</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminReferrers</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -754,9 +754,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminRequestSql</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminRequestSql</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -769,9 +769,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminReturn</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminReturn</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -784,9 +784,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminSearchConf</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminSearchConf</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -799,9 +799,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminSearchEngines</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminSearchEngines</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -814,9 +814,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminShipping</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminShipping</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -829,9 +829,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminSlip</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminSlip</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -844,9 +844,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminSpecificPriceRule</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminSpecificPriceRule</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -859,9 +859,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminStates</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminStates</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -874,9 +874,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminStats</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminStats</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -889,9 +889,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminStatuses</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminStatuses</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -904,9 +904,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminStores</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminStores</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -919,9 +919,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminSuppliers</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminSuppliers</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -934,9 +934,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminTabs</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminTabs</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -949,9 +949,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminTags</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminTags</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -964,9 +964,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminTaxRulesGroup</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminTaxRulesGroup</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -979,9 +979,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminTaxes</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminTaxes</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -994,9 +994,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminThemes</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminThemes</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1009,9 +1009,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminTracking</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminTracking</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1024,9 +1024,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminTranslations</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminTranslations</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1039,9 +1039,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminWebservice</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminWebservice</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1054,9 +1054,9 @@
   
     
     <url>
-      <loc>/api/1.0/AdminZones</loc>
+      <loc>https://docs.thirtybees.com/api/1.0/AdminZones</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1069,9 +1069,9 @@
   
     
     <url>
-      <loc>/merchants-guide/admin-area/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/admin-area/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1084,9 +1084,9 @@
   
     
     <url>
-      <loc>/merchants-guide/administration/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/administration/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1099,9 +1099,9 @@
   
     
     <url>
-      <loc>/merchants-guide/advanced-parameters/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/advanced-parameters/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1114,9 +1114,9 @@
   
     
     <url>
-      <loc>/native-modules/advanced-eu-compliance/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/advanced-eu-compliance/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1129,9 +1129,9 @@
   
     
     <url>
-      <loc>/native-modules/apcu-manager/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/apcu-manager/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1144,9 +1144,9 @@
   
     
     <url>
-      <loc>/native-modules/authorize-aim/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/authorize-aim/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1159,9 +1159,9 @@
   
     
     <url>
-      <loc>/native-modules/bank-wire/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/bank-wire/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1174,9 +1174,9 @@
   
     
     <url>
-      <loc>/native-modules/bees-blog/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/bees-blog/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1189,9 +1189,9 @@
   
     
     <url>
-      <loc>/native-modules/block-advertising/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/block-advertising/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1204,9 +1204,9 @@
   
     
     <url>
-      <loc>/native-modules/blockbanner/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/blockbanner/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1219,9 +1219,9 @@
   
     
     <url>
-      <loc>/native-modules/best-sellers/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/best-sellers/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1234,9 +1234,9 @@
   
     
     <url>
-      <loc>/native-modules/cart/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/cart/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1249,9 +1249,9 @@
   
     
     <url>
-      <loc>/native-modules/block-categories/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/block-categories/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1264,9 +1264,9 @@
   
     
     <url>
-      <loc>/tag/blockchain/</loc>
+      <loc>https://docs.thirtybees.com/tag/blockchain/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1279,9 +1279,9 @@
   
     
     <url>
-      <loc>/native-modules/cms-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/cms-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1294,9 +1294,9 @@
   
     
     <url>
-      <loc>/native-modules/cms-info/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/cms-info/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1309,9 +1309,9 @@
   
     
     <url>
-      <loc>/native-modules/contact-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/contact-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1324,9 +1324,9 @@
   
     
     <url>
-      <loc>/native-modules/contact-infos-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/contact-infos-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1339,9 +1339,9 @@
   
     
     <url>
-      <loc>/native-modules/currency-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/currency-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1354,9 +1354,9 @@
   
     
     <url>
-      <loc>/native-modules/customer-privacy-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/customer-privacy-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1369,9 +1369,9 @@
   
     
     <url>
-      <loc>/native-modules/block-facebook/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/block-facebook/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1384,9 +1384,9 @@
   
     
     <url>
-      <loc>/native-modules/languages-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/languages-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1399,9 +1399,9 @@
   
     
     <url>
-      <loc>/native-modules/layered-navigation/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/layered-navigation/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1414,9 +1414,9 @@
   
     
     <url>
-      <loc>/native-modules/link-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/link-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1429,9 +1429,9 @@
   
     
     <url>
-      <loc>/native-modules/manufacturer-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/manufacturer-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1444,9 +1444,9 @@
   
     
     <url>
-      <loc>/native-modules/my-account-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/my-account-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1459,9 +1459,9 @@
   
     
     <url>
-      <loc>/native-modules/my-account-footer-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/my-account-footer-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1474,9 +1474,9 @@
   
     
     <url>
-      <loc>/native-modules/new-products-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/new-products-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1489,9 +1489,9 @@
   
     
     <url>
-      <loc>/native-modules/newsletter-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/newsletter-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1504,9 +1504,9 @@
   
     
     <url>
-      <loc>/native-modules/payment-logo-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/payment-logo-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1519,9 +1519,9 @@
   
     
     <url>
-      <loc>/native-modules/permanent-links-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/permanent-links-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1534,9 +1534,9 @@
   
     
     <url>
-      <loc>/native-modules/reinsurance-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/reinsurance-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1549,9 +1549,9 @@
   
     
     <url>
-      <loc>/native-modules/rss-feed-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/rss-feed-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1564,9 +1564,9 @@
   
     
     <url>
-      <loc>/native-modules/search-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/search-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1579,9 +1579,9 @@
   
     
     <url>
-      <loc>/native-modules/facebook-share-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/facebook-share-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1594,9 +1594,9 @@
   
     
     <url>
-      <loc>/native-modules/specials-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/specials-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1609,9 +1609,9 @@
   
     
     <url>
-      <loc>/native-modules/store-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/store-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1624,9 +1624,9 @@
   
     
     <url>
-      <loc>/native-modules/supplier-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/supplier-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1639,9 +1639,9 @@
   
     
     <url>
-      <loc>/native-modules/tags-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/tags-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1654,9 +1654,9 @@
   
     
     <url>
-      <loc>/native-modules/top-menu/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/top-menu/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1669,9 +1669,9 @@
   
     
     <url>
-      <loc>/native-modules/user-information-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/user-information-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1684,9 +1684,9 @@
   
     
     <url>
-      <loc>/native-modules/viewed-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/viewed-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1699,9 +1699,9 @@
   
     
     <url>
-      <loc>/native-modules/wishlist-block/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/wishlist-block/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1714,9 +1714,9 @@
   
     
     <url>
-      <loc>/tag/blog/</loc>
+      <loc>https://docs.thirtybees.com/tag/blog/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1729,9 +1729,9 @@
   
     
     <url>
-      <loc>/tag/blog-module/</loc>
+      <loc>https://docs.thirtybees.com/tag/blog-module/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1744,9 +1744,9 @@
   
     
     <url>
-      <loc>/tag/blog-post/</loc>
+      <loc>https://docs.thirtybees.com/tag/blog-post/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1759,9 +1759,9 @@
   
     
     <url>
-      <loc>/native-modules/bpostshm/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/bpostshm/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1774,9 +1774,9 @@
   
     
     <url>
-      <loc>/tag/bug/</loc>
+      <loc>https://docs.thirtybees.com/tag/bug/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1789,9 +1789,9 @@
   
     
     <url>
-      <loc>/bug-reporting/</loc>
+      <loc>https://docs.thirtybees.com/bug-reporting/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1804,9 +1804,9 @@
   
     
     <url>
-      <loc>/tag/cache/</loc>
+      <loc>https://docs.thirtybees.com/tag/cache/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1819,9 +1819,9 @@
   
     
     <url>
-      <loc>/native-modules/carrier-compare/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/carrier-compare/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1834,9 +1834,9 @@
   
     
     <url>
-      <loc>/tag/cash-on-delivery/</loc>
+      <loc>https://docs.thirtybees.com/tag/cash-on-delivery/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1849,9 +1849,9 @@
   
     
     <url>
-      <loc>/merchants-guide/catalog/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/catalog/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1864,9 +1864,9 @@
   
     
     <url>
-      <loc>/native-modules/check-payment/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/check-payment/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1879,9 +1879,9 @@
   
     
     <url>
-      <loc>/developers/classes/</loc>
+      <loc>https://docs.thirtybees.com/developers/classes/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1894,9 +1894,9 @@
   
     
     <url>
-      <loc>/tag/collaboration/</loc>
+      <loc>https://docs.thirtybees.com/tag/collaboration/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1909,9 +1909,9 @@
   
     
     <url>
-      <loc>/authoring/collections/</loc>
+      <loc>https://docs.thirtybees.com/authoring/collections/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1924,9 +1924,9 @@
   
     
     <url>
-      <loc>/installation/command-line/</loc>
+      <loc>https://docs.thirtybees.com/installation/command-line/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1939,9 +1939,9 @@
   
     
     <url>
-      <loc>/authoring/conditional-logic/</loc>
+      <loc>https://docs.thirtybees.com/authoring/conditional-logic/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1954,9 +1954,9 @@
   
     
     <url>
-      <loc>/tag/content-types/</loc>
+      <loc>https://docs.thirtybees.com/tag/content-types/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1969,9 +1969,9 @@
   
     
     <url>
-      <loc>/authoring/content-reuse/</loc>
+      <loc>https://docs.thirtybees.com/authoring/content-reuse/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1984,9 +1984,9 @@
   
     
     <url>
-      <loc>/contributing/</loc>
+      <loc>https://docs.thirtybees.com/contributing/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -1999,9 +1999,9 @@
   
     
     <url>
-      <loc>/developers/controllers/</loc>
+      <loc>https://docs.thirtybees.com/developers/controllers/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2014,9 +2014,9 @@
   
     
     <url>
-      <loc>/native-modules/cron-jobs/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/cron-jobs/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2029,9 +2029,9 @@
   
     
     <url>
-      <loc>/native-modules/cross-selling/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/cross-selling/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2044,9 +2044,9 @@
   
     
     <url>
-      <loc>/native-modules/ct-configuration/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/ct-configuration/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2059,9 +2059,9 @@
   
     
     <url>
-      <loc>/native-modules/ct-top-menu/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/ct-top-menu/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2074,9 +2074,9 @@
   
     
     <url>
-      <loc>/merchants-guide/customers/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/customers/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2089,9 +2089,9 @@
   
     
     <url>
-      <loc>/native-modules/custompayments/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/custompayments/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2104,9 +2104,9 @@
   
     
     <url>
-      <loc>/native-modules/dash-activity/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/dash-activity/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2119,9 +2119,9 @@
   
     
     <url>
-      <loc>/tag/dashboard/</loc>
+      <loc>https://docs.thirtybees.com/tag/dashboard/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2134,9 +2134,9 @@
   
     
     <url>
-      <loc>/native-modules/dash-goals/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/dash-goals/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2149,9 +2149,9 @@
   
     
     <url>
-      <loc>/native-modules/dash-products/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/dash-products/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2164,9 +2164,9 @@
   
     
     <url>
-      <loc>/native-modules/dash-trends/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/dash-trends/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2179,9 +2179,9 @@
   
     
     <url>
-      <loc>/native-modules/date-of-delivery/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/date-of-delivery/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2194,9 +2194,9 @@
   
     
     <url>
-      <loc>/troubleshooting/decoding-error-messages/</loc>
+      <loc>https://docs.thirtybees.com/troubleshooting/decoding-error-messages/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2209,9 +2209,9 @@
   
     
     <url>
-      <loc>/tag/donation/</loc>
+      <loc>https://docs.thirtybees.com/tag/donation/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2224,9 +2224,9 @@
   
     
     <url>
-      <loc>/native-modules/donation-miner/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/donation-miner/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2239,9 +2239,9 @@
   
     
     <url>
-      <loc>/tag/elasticsearch/</loc>
+      <loc>https://docs.thirtybees.com/tag/elasticsearch/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2254,9 +2254,9 @@
   
     
     <url>
-      <loc>/native-modules/elastic-search/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/elastic-search/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2269,9 +2269,9 @@
   
     
     <url>
-      <loc>/tag/email/</loc>
+      <loc>https://docs.thirtybees.com/tag/email/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2284,9 +2284,9 @@
   
     
     <url>
-      <loc>/tag/eu-checkout/</loc>
+      <loc>https://docs.thirtybees.com/tag/eu-checkout/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2299,9 +2299,9 @@
   
     
     <url>
-      <loc>/tag/eu-legal/</loc>
+      <loc>https://docs.thirtybees.com/tag/eu-legal/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2314,9 +2314,9 @@
   
     
     <url>
-      <loc>/tag/eu-module/</loc>
+      <loc>https://docs.thirtybees.com/tag/eu-module/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2329,9 +2329,9 @@
   
     
     <url>
-      <loc>/native-modules/eu-cookie-consent/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/eu-cookie-consent/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2344,9 +2344,9 @@
   
     
     <url>
-      <loc>/tag/filtering/</loc>
+      <loc>https://docs.thirtybees.com/tag/filtering/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2359,9 +2359,9 @@
   
     
     <url>
-      <loc>/native-modules/first-altantic-commerce/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/first-altantic-commerce/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2374,9 +2374,9 @@
   
     
     <url>
-      <loc>/native-modules/fixer-io/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/fixer-io/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2389,9 +2389,9 @@
   
     
     <url>
-      <loc>/tag/formatting/</loc>
+      <loc>https://docs.thirtybees.com/tag/formatting/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2404,9 +2404,9 @@
   
     
     <url>
-      <loc>/store/free-modules/</loc>
+      <loc>https://docs.thirtybees.com/store/free-modules/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2419,9 +2419,9 @@
   
     
     <url>
-      <loc>/installation/ftp-installation/</loc>
+      <loc>https://docs.thirtybees.com/installation/ftp-installation/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2434,9 +2434,9 @@
   
     
     <url>
-      <loc>/native-modules/gapi/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/gapi/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2449,9 +2449,9 @@
   
     
     <url>
-      <loc>/installation/</loc>
+      <loc>https://docs.thirtybees.com/installation/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2464,9 +2464,9 @@
   
     
     <url>
-      <loc>/tag/getting-started/</loc>
+      <loc>https://docs.thirtybees.com/tag/getting-started/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2479,9 +2479,9 @@
   
     
     <url>
-      <loc>/tag/github/</loc>
+      <loc>https://docs.thirtybees.com/tag/github/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2494,9 +2494,9 @@
   
     
     <url>
-      <loc>/tag/google/</loc>
+      <loc>https://docs.thirtybees.com/tag/google/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2509,9 +2509,9 @@
   
     
     <url>
-      <loc>/tag/google-analytics/</loc>
+      <loc>https://docs.thirtybees.com/tag/google-analytics/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2524,9 +2524,9 @@
   
     
     <url>
-      <loc>/native-modules/google-analytics/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/google-analytics/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2539,9 +2539,9 @@
   
     
     <url>
-      <loc>/native-modules/graphnvd3/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/graphnvd3/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2554,9 +2554,9 @@
   
     
     <url>
-      <loc>/native-modules/grid-html/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/grid-html/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2569,9 +2569,9 @@
   
     
     <url>
-      <loc>/native-modules/home-featured/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/home-featured/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2584,9 +2584,9 @@
   
     
     <url>
-      <loc>/native-modules/home-slider/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/home-slider/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2599,9 +2599,9 @@
   
     
     <url>
-      <loc>/</loc>
+      <loc>https://docs.thirtybees.com/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2614,9 +2614,9 @@
   
     
     <url>
-      <loc>/merchants-guide/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2629,9 +2629,9 @@
   
     
     <url>
-      <loc>/</loc>
+      <loc>https://docs.thirtybees.com/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2644,9 +2644,9 @@
   
     
     <url>
-      <loc>/tag/json/</loc>
+      <loc>https://docs.thirtybees.com/tag/json/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2659,9 +2659,9 @@
   
     
     <url>
-      <loc>/native-modules/json-module/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/json-module/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2674,9 +2674,9 @@
   
     
     <url>
-      <loc>/tag/live-chat/</loc>
+      <loc>https://docs.thirtybees.com/tag/live-chat/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2689,9 +2689,9 @@
   
     
     <url>
-      <loc>/merchants-guide/localization/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/localization/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2704,9 +2704,9 @@
   
     
     <url>
-      <loc>/native-modules/loyalty/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/loyalty/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2719,9 +2719,9 @@
   
     
     <url>
-      <loc>/native-modules/loyalty-lion/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/loyalty-lion/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2734,9 +2734,9 @@
   
     
     <url>
-      <loc>/native-modules/mail-alerts/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/mail-alerts/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2749,9 +2749,9 @@
   
     
     <url>
-      <loc>/native-modules/mailchimp/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/mailchimp/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2764,9 +2764,9 @@
   
     
     <url>
-      <loc>/tag/mailchimp/</loc>
+      <loc>https://docs.thirtybees.com/tag/mailchimp/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2779,9 +2779,9 @@
   
     
     <url>
-      <loc>/native-modules/mandrill/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/mandrill/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2794,9 +2794,9 @@
   
     
     <url>
-      <loc>/native-modules/imagemagick/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/imagemagick/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2809,9 +2809,9 @@
   
     
     <url>
-      <loc>/tag/memcache/</loc>
+      <loc>https://docs.thirtybees.com/tag/memcache/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2824,9 +2824,9 @@
   
     
     <url>
-      <loc>/native-modules/memcache-manager/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/memcache-manager/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2839,9 +2839,9 @@
   
     
     <url>
-      <loc>/installation/migration/</loc>
+      <loc>https://docs.thirtybees.com/installation/migration/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2854,9 +2854,9 @@
   
     
     <url>
-      <loc>/merchants-guide/modules-services/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/modules-services/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2869,9 +2869,9 @@
   
     
     <url>
-      <loc>/tag/native-modules/</loc>
+      <loc>https://docs.thirtybees.com/tag/native-modules/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2884,9 +2884,9 @@
   
     
     <url>
-      <loc>/tag/navigation/</loc>
+      <loc>https://docs.thirtybees.com/tag/navigation/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2899,9 +2899,9 @@
   
     
     <url>
-      <loc>/tag/needs-work/</loc>
+      <loc>https://docs.thirtybees.com/tag/needs-work/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2914,9 +2914,9 @@
   
     
     <url>
-      <loc>/native-modules/nocaptcharecaptcha/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/nocaptcharecaptcha/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2929,9 +2929,9 @@
   
     
     <url>
-      <loc>/merchants-guide/online-resources/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/online-resources/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2944,9 +2944,9 @@
   
     
     <url>
-      <loc>/tag/opcache/</loc>
+      <loc>https://docs.thirtybees.com/tag/opcache/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2959,9 +2959,9 @@
   
     
     <url>
-      <loc>/native-modules/opcache-manager/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/opcache-manager/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2974,9 +2974,9 @@
   
     
     <url>
-      <loc>/tag/open-source/</loc>
+      <loc>https://docs.thirtybees.com/tag/open-source/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -2989,9 +2989,9 @@
   
     
     <url>
-      <loc>/merchants-guide/orders/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/orders/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3004,9 +3004,9 @@
   
     
     <url>
-      <loc>/native-modules/override-check/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/override-check/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3019,9 +3019,9 @@
   
     
     <url>
-      <loc>/authoring/pages/</loc>
+      <loc>https://docs.thirtybees.com/authoring/pages/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3034,9 +3034,9 @@
   
     
     <url>
-      <loc>/native-modules/pages-not-found/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/pages-not-found/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3049,9 +3049,9 @@
   
     
     <url>
-      <loc>/tag/payment-modules/</loc>
+      <loc>https://docs.thirtybees.com/tag/payment-modules/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3064,9 +3064,9 @@
   
     
     <url>
-      <loc>/native-modules/paynl/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/paynl/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3079,9 +3079,9 @@
   
     
     <url>
-      <loc>/native-modules/paypal/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/paypal/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3094,9 +3094,9 @@
   
     
     <url>
-      <loc>/tag/paypal/</loc>
+      <loc>https://docs.thirtybees.com/tag/paypal/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3109,9 +3109,9 @@
   
     
     <url>
-      <loc>/tag/performance/</loc>
+      <loc>https://docs.thirtybees.com/tag/performance/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3124,9 +3124,9 @@
   
     
     <url>
-      <loc>/native-modules/piwik/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/piwik/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3139,9 +3139,9 @@
   
     
     <url>
-      <loc>/merchants-guide/preferences/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/preferences/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3154,9 +3154,9 @@
   
     
     <url>
-      <loc>/merchants-guide/price-rules/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/price-rules/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3169,9 +3169,9 @@
   
     
     <url>
-      <loc>/prince-file-list.txt</loc>
+      <loc>https://docs.thirtybees.com/prince-file-list.txt</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3184,9 +3184,9 @@
   
     
     <url>
-      <loc>/pdfconfigs/prince-list.txt</loc>
+      <loc>https://docs.thirtybees.com/pdfconfigs/prince-list.txt</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3199,9 +3199,9 @@
   
     
     <url>
-      <loc>/native-modules/product-comments/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/product-comments/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3214,9 +3214,9 @@
   
     
     <url>
-      <loc>/native-modules/product-payment-logos/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/product-payment-logos/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3229,9 +3229,9 @@
   
     
     <url>
-      <loc>/merchants-guide/admin-products/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/admin-products/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3244,9 +3244,9 @@
   
     
     <url>
-      <loc>/native-modules/product-category/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/product-category/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3259,9 +3259,9 @@
   
     
     <url>
-      <loc>/native-modules/product-tool-tips/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/product-tool-tips/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3274,9 +3274,9 @@
   
     
     <url>
-      <loc>/native-modules/prestashop-to-thirty-bees/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/prestashop-to-thirty-bees/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3289,9 +3289,9 @@
   
     
     <url>
-      <loc>/tag/publishing/</loc>
+      <loc>https://docs.thirtybees.com/tag/publishing/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3304,9 +3304,9 @@
   
     
     <url>
-      <loc>/tag/recaptcha/</loc>
+      <loc>https://docs.thirtybees.com/tag/recaptcha/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3319,9 +3319,9 @@
   
     
     <url>
-      <loc>/native-modules/referral-program/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/referral-program/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3334,9 +3334,9 @@
   
     
     <url>
-      <loc>/tag/resources/</loc>
+      <loc>https://docs.thirtybees.com/tag/resources/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3349,9 +3349,9 @@
   
     
     <url>
-      <loc>/search.json</loc>
+      <loc>https://docs.thirtybees.com/search.json</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3364,9 +3364,9 @@
   
     
     <url>
-      <loc>/tag/search/</loc>
+      <loc>https://docs.thirtybees.com/tag/search/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3379,9 +3379,9 @@
   
     
     <url>
-      <loc>/native-modules/sekeywords/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/sekeywords/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3394,9 +3394,9 @@
   
     
     <url>
-      <loc>/native-modules/send-to-a-friend/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/send-to-a-friend/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3409,9 +3409,9 @@
   
     
     <url>
-      <loc>/tag/seo/</loc>
+      <loc>https://docs.thirtybees.com/tag/seo/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3424,9 +3424,9 @@
   
     
     <url>
-      <loc>/merchants-guide/shipping/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/shipping/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3439,9 +3439,9 @@
   
     
     <url>
-      <loc>/tag/single-sourcing/</loc>
+      <loc>https://docs.thirtybees.com/tag/single-sourcing/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3454,9 +3454,9 @@
   
     
     <url>
-      <loc>/native-modules/site-map/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/site-map/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3469,9 +3469,9 @@
   
     
     <url>
-      <loc>/sitemap.xml</loc>
+      <loc>https://docs.thirtybees.com/sitemap.xml</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3484,9 +3484,9 @@
   
     
     <url>
-      <loc>/native-modules/social-sharing/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/social-sharing/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3499,9 +3499,9 @@
   
     
     <url>
-      <loc>/tag/special-layouts/</loc>
+      <loc>https://docs.thirtybees.com/tag/special-layouts/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3514,9 +3514,9 @@
   
     
     <url>
-      <loc>/merchants-guide/stats/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/stats/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3529,9 +3529,9 @@
   
     
     <url>
-      <loc>/tag/stats/</loc>
+      <loc>https://docs.thirtybees.com/tag/stats/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3544,9 +3544,9 @@
   
     
     <url>
-      <loc>/native-modules/best-category/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/best-category/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3559,9 +3559,9 @@
   
     
     <url>
-      <loc>/native-modules/best-customers/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/best-customers/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3574,9 +3574,9 @@
   
     
     <url>
-      <loc>/merchants-guide/stock/</loc>
+      <loc>https://docs.thirtybees.com/merchants-guide/stock/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3589,9 +3589,9 @@
   
     
     <url>
-      <loc>/tag/store/</loc>
+      <loc>https://docs.thirtybees.com/tag/store/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3604,9 +3604,9 @@
   
     
     <url>
-      <loc>/tag/store-pickup/</loc>
+      <loc>https://docs.thirtybees.com/tag/store-pickup/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3619,9 +3619,9 @@
   
     
     <url>
-      <loc>/native-modules/stripe/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/stripe/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3634,9 +3634,9 @@
   
     
     <url>
-      <loc>/native-modules/sucuri/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/sucuri/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3649,9 +3649,9 @@
   
     
     <url>
-      <loc>/supporters/</loc>
+      <loc>https://docs.thirtybees.com/supporters/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3664,9 +3664,9 @@
   
     
     <url>
-      <loc>/native-modules/tawkto/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/tawkto/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3679,9 +3679,9 @@
   
     
     <url>
-      <loc>/native-modules/tb-cleaner/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/tb-cleaner/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3694,9 +3694,9 @@
   
     
     <url>
-      <loc>/native-modules/tb-updater/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/tb-updater/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3709,9 +3709,9 @@
   
     
     <url>
-      <loc>/native-modules/themeconfigurator/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/themeconfigurator/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3724,9 +3724,9 @@
   
     
     <url>
-      <loc>/thirtybees/thirtybees_faq.html</loc>
+      <loc>https://docs.thirtybees.com/thirtybees/thirtybees_faq.html</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3739,9 +3739,9 @@
   
     
     <url>
-      <loc>/thirtybees/thirtybees_scroll.html</loc>
+      <loc>https://docs.thirtybees.com/thirtybees/thirtybees_scroll.html</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3754,9 +3754,9 @@
   
     
     <url>
-      <loc>/thirtybees/thirtybees_shuffle.html</loc>
+      <loc>https://docs.thirtybees.com/thirtybees/thirtybees_shuffle.html</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3769,9 +3769,9 @@
   
     
     <url>
-      <loc>/title-checker.html</loc>
+      <loc>https://docs.thirtybees.com/title-checker.html</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3784,9 +3784,9 @@
   
     
     <url>
-      <loc>/titlepage.html</loc>
+      <loc>https://docs.thirtybees.com/titlepage.html</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3799,9 +3799,9 @@
   
     
     <url>
-      <loc>/tocpage.html</loc>
+      <loc>https://docs.thirtybees.com/tocpage.html</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3814,9 +3814,9 @@
   
     
     <url>
-      <loc>/native-modules/tracking-front/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/tracking-front/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3829,9 +3829,9 @@
   
     
     <url>
-      <loc>/tag/updater/</loc>
+      <loc>https://docs.thirtybees.com/tag/updater/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3844,9 +3844,9 @@
   
     
     <url>
-      <loc>/release_notes/v1-0-x-release-notes</loc>
+      <loc>https://docs.thirtybees.com/release_notes/v1-0-x-release-notes</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3859,9 +3859,9 @@
   
     
     <url>
-      <loc>/native-modules/vat-number/</loc>
+      <loc>https://docs.thirtybees.com/native-modules/vat-number/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
@@ -3874,9 +3874,9 @@
   
     
     <url>
-      <loc>/authoring/webstorm-text-editor/</loc>
+      <loc>https://docs.thirtybees.com/authoring/webstorm-text-editor/</loc>
       
-        <last_updated>2017-12-20T07:20:02+00:00</last_updated>
+        <last_updated>2017-12-20T07:39:33+00:00</last_updated>
       
       
         <changefreq>monthly</changefreq>
