@@ -1900,10 +1900,10 @@
 //
 //
 //{
-//"title": "Introduction",
-//"tags": "Getting started",
+//"title": "Merchants Guide",
+//"tags": "Introduction",
 //"keywords": "",
-//"url": "../",
+//"url": "../merchants-guide/",
 //"summary": ""
 //},
 //
@@ -1911,10 +1911,10 @@
 //
 //
 //{
-//"title": "Merchants Guide",
-//"tags": "Introduction",
+//"title": "Introduction",
+//"tags": "Getting started",
 //"keywords": "",
-//"url": "../merchants-guide/",
+//"url": "../",
 //"summary": ""
 //},
 //
@@ -1999,10 +1999,10 @@
 //
 //
 //{
-//"title": "",
-//"tags": "",
+//"title": "MailChimp module by thirty bees",
+//"tags": "MailchimpNative modulesemail",
 //"keywords": "",
-//"url": "../tag/mailchimp/",
+//"url": "../native-modules/mailchimp/",
 //"summary": ""
 //},
 //
@@ -2010,10 +2010,10 @@
 //
 //
 //{
-//"title": "MailChimp module by thirty bees",
-//"tags": "MailchimpNative modulesemail",
+//"title": "",
+//"tags": "",
 //"keywords": "",
-//"url": "../native-modules/mailchimp/",
+//"url": "../tag/mailchimp/",
 //"summary": ""
 //},
 //
@@ -2241,10 +2241,10 @@
 //
 //
 //{
-//"title": "",
-//"tags": "",
+//"title": "Payment Module - Paypal by thirty bees",
+//"tags": "PayPalNative modules",
 //"keywords": "",
-//"url": "../tag/paypal/",
+//"url": "../native-modules/paypal/",
 //"summary": ""
 //},
 //
@@ -2252,10 +2252,10 @@
 //
 //
 //{
-//"title": "Payment Module - Paypal by thirty bees",
-//"tags": "PayPalNative modules",
+//"title": "",
+//"tags": "",
 //"keywords": "",
-//"url": "../native-modules/paypal/",
+//"url": "../tag/paypal/",
 //"summary": ""
 //},
 //
@@ -2528,10 +2528,10 @@
 //
 //
 //{
-//"title": "",
-//"tags": "",
+//"title": "Back Office Stats",
+//"tags": "Introduction",
 //"keywords": "",
-//"url": "../tag/stats/",
+//"url": "../merchants-guide/stats/",
 //"summary": ""
 //},
 //
@@ -2539,10 +2539,10 @@
 //
 //
 //{
-//"title": "Back Office Stats",
-//"tags": "Introduction",
+//"title": "",
+//"tags": "",
 //"keywords": "",
-//"url": "../merchants-guide/stats/",
+//"url": "../tag/stats/",
 //"summary": ""
 //},
 //
