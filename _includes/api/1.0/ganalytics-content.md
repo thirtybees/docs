@@ -28,3 +28,7 @@ The Google Analytics module only needs two things to be configured. It needs you
 ## Google Optimize
 
 The module also supports Google Optimize. Google Optimize allows you to perform A/B testing on your site. Using Google Optimize is not required for using the module, it is only an additional feature of the module.
+
+## Data Collection
+
+This module collects the standard amount of data that Google Analytics collects. In future versions it will offer the option to anonymize the visitors IP address. 
