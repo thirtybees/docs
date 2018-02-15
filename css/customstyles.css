@@ -1061,3 +1061,9 @@ table {
 	padding-right:0px!important;
 	padding-left:0px!important;
 }
+body > div:nth-child(1) > header > div.fusion-header-v3.fusion-logo-left.fusion-sticky-menu-.fusion-sticky-logo-.fusion-mobile-logo-1.fusion-mobile-menu-design-modern > div.fusion-header > div > div.fusion-logo > a > img.fusion-standard-logo {
+	display:none
+}
+.fusion-secondary-header {
+	background-color: #f7d43f!important;
+}
