@@ -60,11 +60,11 @@ images:
   - image-2.png
 license: AFL
 php_version:
-  - 5.4
   - 5.5
   - 5.6
   - 7.0
   - 7.1
+  - 7.2
   ```
 * **module_name:** this is the name of your module.
 * **compatible_versions:** This is the version of thirty bees the module is compatible with.
