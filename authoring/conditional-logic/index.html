@@ -1015,9 +1015,15 @@ $('#toc').on('click', 'a', function() {
 <h2 id="conditional-logic-based-on-config-file-value">Conditional logic based on config file value</h2>
 
 <p>Here&#39;s an example of conditional logic based on a value in the configs/config_writer.yml file. In my config_writer.yml file, I have the following:</p>
-
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>audience: writers
+</code></pre></div>
 <p>On a page in my site (it can be HTML or markdown), I can conditionalize content using the following:</p>
-
+<div class="highlight"><pre><code class="language-liquid" data-lang="liquid"><span></span><span class="p">{%</span><span class="w"> </span><span class="kr">if</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">audience</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;writers&quot;</span><span class="w"> </span><span class="p">%}</span>
+The writer audience should see this...
+<span class="p">{%</span><span class="w"> </span><span class="kr">elsif</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">audience</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;designers&quot;</span><span class="w"> </span><span class="p">%}</span>
+The designer audience should see this ...
+<span class="p">{%</span><span class="w"> </span><span class="kr">endif</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div>
 <p>This uses simple <code>if-elsif</code> logic to determine what is shown (note the spelling of <code>elsif</code>). The <code>else</code> statement handles all other conditions not handled by the <code>if</code> statements. </p>
 
 <p>Here&#39;s an example of <code>if-else</code> logic inside a list:</p>
@@ -1160,7 +1166,7 @@ user_plan: full
 	<div class="row">
 		<div class="col-lg-12 footer">
 			&copy;2018 thirty bees. All rights reserved. <br/>
-			<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jun 7, 2018 <br/>
+			<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Jun 8, 2018 <br/>
 			<p><img src="" /></p>
                 </div>
             </div>
