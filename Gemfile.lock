@@ -51,7 +51,7 @@ GEM
       mini_portile2 (~> 2.3.0)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
-    public_suffix (3.0.2)
+    public_suffix (3.0.3)
     pygments.rb (1.1.2)
       multi_json (>= 1.0.0)
     rake (12.3.1)
