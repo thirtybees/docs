@@ -7,14 +7,7 @@ audience: docs
 permalink: /installation/migration/
 ---
 
-# Thirty bees Shopping Cart Migration
-Introduction
-## Backup Your Website  
-Refer to our Systems Administration Guide to create a [**backup**](#)  of your website.  
-## Install & Configure Migration Module  
-Refer to XXX for more information about the thirty bees migration from PrestaShop 1.6.x ~ 1.7.x shopping cart.  
-
-## Thirty Bees - Migration from Prestashop 1.6 to Thirty Bees
+# Thirty Bees - Migration from Prestashop 1.6 to Thirty Bees
 ### Step 1:
 Backup Your Website  
 Install the Upgrade Module from PS1.6 to TB 1.0.1 (https://github.com/thirtybees/psonesixmigrator/releases/tag/1.0.0)
@@ -41,7 +34,15 @@ https://forum.thirtybees.com/topic/1954/the-version-1-0-6-release-has-happened
 
 
 
-##Your Custom Modules
+
+# Thirty bees Shopping Cart Migration
+Introduction
+## Backup Your Website  
+Refer to our Systems Administration Guide to create a [**backup**](#)  of your website.  
+## Install & Configure Migration Module  
+Refer to XXX for more information about the thirty bees migration from PrestaShop 1.6.x ~ 1.7.x shopping cart.  
+
+## Your Custom Modules
 Refer your developer to [**Modules Maker Guide**](#)
 
 {% include custom/pdf-catalog.html %}
