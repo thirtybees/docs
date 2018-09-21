@@ -7,7 +7,7 @@ audience: docs
 permalink: /installation/migration/
 ---
 
-# Thirty Bees - Migration from Prestashop 1.6 to Thirty Bees
+# thirty bees - Migration from Prestashop 1.6 to thirty bees
 ## Using Module version 1.0.1 
 The migration is more easy, you can migrate direct from PS 1.6 to TB 1.0.6 direct  
 ### Step 1:
