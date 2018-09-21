@@ -1,5 +1,5 @@
 ---
-title: Thirty Bees Migration Module
+title: thirty bees Migration Module
 tags:
   - "Installation"
   - "Getting Started"
@@ -8,7 +8,7 @@ permalink: /installation/migration/
 ---
 
 # Thirty Bees - Migration from Prestashop 1.6 to Thirty Bees
-## Using Módule version 1.0.1 
+## Using Module version 1.0.1 
 The migration is more easy, you can migrate direct from PS 1.6 to TB 1.0.6 direct  
 ### Step 1:
 Backup Your Website  
@@ -21,7 +21,7 @@ Follow the instructions in the screen.
 > I don't right if need delete others modules, like in the migration module 1.0.0, need test. If have problem, please go to step 4 from module 1.0.0 and check it.
 
 
-## Using Módule version 1.0.0
+## Using Module version 1.0.0
 ### Step 1:
 Backup Your Website  
 Install the Upgrade Module from PS1.6 to TB 1.0.1 (https://github.com/thirtybees/psonesixmigrator/releases/tag/1.0.0)
