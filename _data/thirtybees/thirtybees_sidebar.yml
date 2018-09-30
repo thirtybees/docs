@@ -319,8 +319,15 @@ entries:
     version: all
     output: web, pdf
     items:
-      - title: Free Module Rules
+      - title: List Free Modules
         url: /store/free-modules/
+        audience: merchants
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
+      - title: List Paid Modules
+        url: /store/paid-modules/
         audience: merchants
         platform: all
         product: all
