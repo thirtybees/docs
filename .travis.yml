@@ -12,7 +12,7 @@ script:
 env:
   global:
   - ENCRYPTION_LABEL: "10c2dc3523c3"
-  - COMMIT_AUTHOR_EMAIL: "thirtybees@michaeldekker.com"
+  - COMMIT_AUTHOR_EMAIL: "contact@thirtybees.com"
   - NOKOGIRI_USE_SYSTEM_LIBRARIES: true
 
 branches:
