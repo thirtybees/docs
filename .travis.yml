@@ -11,7 +11,7 @@ script:
 
 env:
   global:
-  - ENCRYPTION_LABEL: "10c2dc3523c3"
+  - ENCRYPTION_LABEL: "648e013eb731"
   - COMMIT_AUTHOR_EMAIL: "contact@thirtybees.com"
   - NOKOGIRI_USE_SYSTEM_LIBRARIES: true
 
