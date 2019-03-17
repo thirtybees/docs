@@ -1,5 +1,5 @@
 language: ruby # don't install any environment
-cache: bundler
+#cache: bundler
 
 sudo: false
 rvm:
