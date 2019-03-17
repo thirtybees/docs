@@ -201,6 +201,11 @@
       
   
       
+             https://docs.thirtybees.com/first-pull-request/
+              
+      
+  
+      
              https://docs.thirtybees.com/bug-reporting/
               
       

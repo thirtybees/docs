@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<head>
+
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="DevelopersGetting StartedContributing,  ">
+<title>thirty bees - Making Your First Pull Request | thirty bees documents</title>
+<link rel="stylesheet" type="text/css" href="/css/syntax.css">
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/css/base-theme.css">
+<link rel="stylesheet" type="text/css" href="/css/modern-business.css">
+<link rel="stylesheet" type="text/css" href="/css/customstyles.css">
+<link rel="stylesheet" type="text/css" href="/css/algolia.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.min.css">
+<link rel="stylesheet" type="text/css" href="/css/modern-business.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<script src="/js/jquery.navgoco.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/customscripts.js"></script>
+<link rel="shortcut icon" href="/common_images/favicon.ico" type="image/x-icon">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var body = document.body,
+            html = document.documentElement;
+
+        var height = Math.max(body.scrollHeight, body.offsetHeight,
+            html.clientHeight, html.scrollHeight, html.offsetHeight) + 200;
+
+        if (typeof window.top !== 'undefined') {
+            window.top.postMessage({
+                    inlineHelpHeight: height
+                },
+                '*'
+            );
+        }
+    });
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89925901-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-89925901-1');
+</script>
+
+
+
+
+
+	<script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      });
+	</script>
+
+	
+
+</head>
+
+<body class="page-template-default page page-id-1 fusion-body no-tablet-sticky-header no-mobile-sticky-header no-mobile-slidingbar no-mobile-totop mobile-logo-pos-center layout-wide-mode fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-image-hovers fusion-show-pagination-text customize-support do-animate">
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse" role="navigation">
+	<div class="container topnavlinks">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<a class="navbar-brand" href="https://docs.thirtybees.com">
+				<img src="https://docs.thirtybees.com/common_images/thirty-bees-dark.png" alt="thirty bees documents" style="margin-top: -16px; height: 50px; float: left;"><span class="brand-extra" style="float: left;margin-left: -8px; color: #000;font-size: 14px;line-height:26px">/developers</span>
+			</a>
+
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<!-- entries without drop-downs appear here -->
+				<!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+				
+
+
+
+
+				
+				
+				
+				
+				<li><a href="https://thirtybees.com/" target="_blank">Website</a></li>
+				
+				
+				
+				
+				
+				<li><a href="https://github.com/thirtybees/ThirtyBees" target="_blank">Github Repo</a></li>
+				
+				
+				
+				
+				
+				<li><a href="/supporters/">Supporters</a></li>
+				
+				
+				
+				
+
+
+				<!-- entries with drop-downs appear here -->
+				<!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+
+				<li class="dropdown">
+					
+
+
+				<!-- special insertion -->
+
+				
+				<!-- Send feedback function -->
+<script>
+  function SendLinkByMail(href) {
+    var subject = "thirty bees documents feedback";
+    var body = "I have some feedback about the thirty bees - Making Your First Pull Request page: ";
+    body += window.location.href;
+    body += "";
+    var uri = "mailto:contact@thirtybees.com?subject=";
+    uri += encodeURIComponent(subject);
+    uri += "&body=";
+    uri += encodeURIComponent(body);
+    window.location.href = uri;
+  }
+</script>
+
+<li><a href="mailto:contact@thirtybees.com"><i class="fa fa-envelope-o"></i> Feedback</a></li>
+
+
+
+				<li id="search-box">
+					<div class="form-group" style="margin-bottom: -6px">
+						<input id="algolia-search" type="text" class="form-control col-lg-4" placeholder="Search" style="margin: 8px; float: left">
+					</div>
+				</li>
+
+				<li id="algolia-box">
+					<a href="https://algolia.com" target="_blank" class="col-lg-2" id="algolia-svg-link" style="background: transparent; float:left; cursor: pointer">
+						<img id="algolia-svg" src="https://docs.thirtybees.com/common_images/algolia.png">
+					</a>
+				</li>
+				<script>
+                  var client = algoliasearch("PIVL0Y1GI8", "8e047928cc6047d49bbb083d194c552d");
+                  var index = client.initIndex('thirtybees_docs');
+                  autocomplete('#algolia-search',
+                    { hint: false }, {
+                      source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+                      debug: true,
+                      //value to be displayed in input control after user's suggestion selection
+                      displayKey: function (suggestion) {
+                        return suggestion.title || suggestion.h1 || suggestion.h2 || suggestion.h3 || suggestion.h4 || suggestion.h5 || suggestion.h6 || suggestion.unordered;
+                      },
+                      //hash of templates used when rendering dataset
+                      templates: {
+                        //'suggestion' templating function used to render a single suggestion
+                        suggestion: function (suggestion) {
+                          return '<span>' + suggestion.title || suggestion.h1 || suggestion.h2 || suggestion.h3 || suggestion.h4 || suggestion.h5 || suggestion.h6 || suggestion.unordered + '</span>';
+                        }
+                      }
+                    }).on('autocomplete:selected', function (event, suggestion, dataset) {
+                    if (suggestion.title) {
+                      window.location.href = suggestion.permalink;
+                    }
+
+                    window.location.href = suggestion.url;
+                  });
+				</script>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+	<div class="col-lg-12">&nbsp;</div>
+
+
+	<!-- Content Row -->
+<div class="row">
+    <!-- Sidebar Column -->
+    <div class="col-md-3">
+        <script>
+            $(document).ready(function() {
+                // Initialize navgoco with default options
+                $("#mysidebar").navgoco({
+                    caretHtml: '',
+                    accordion: true,
+                    openClass: 'active', // open
+                    save: false, // leave false or nav highlighting doesn't work right
+                    cookie: {
+                        name: 'navgoco',
+                        expires: false,
+                        path: '/'
+                    },
+                    slide: {
+                        duration: 400,
+                        easing: 'swing'
+                    }
+                });
+
+                $("#collapseAll").click(function(e) {
+                    e.preventDefault();
+                    $("#mysidebar").navgoco('toggle', false);
+                });
+
+                $("#expandAll").click(function(e) {
+                    e.preventDefault();
+                    $("#mysidebar").navgoco('toggle', true);
+                });
+
+            });
+        </script>
+        
+
+
+
+        <ul id="mysidebar" class="nav">
+         <!--   <span class="siteTagline">Developer<br />Guide</span> -->
+            <span class="versionTagline">Version 1.0.X</span>
+            
+            
+            
+                
+            
+            <li><a href="#">Overview</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/">Introduction</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Installation</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/installation/">General Requirements</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/installation/ftp-installation/">FTP Installation</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/installation/command-line/">Command Line Installation</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/installation/migration/">Shopping Cart Migrations</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Troubleshooting</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/troubleshooting/decoding-error-messages/">Decoding Error Messages</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Merchants Guide</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/merchants-guide/">Getting started</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/merchants-guide/online-resources/">Online Resources</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/merchants-guide/admin-area/">Back Office</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/merchants-guide/admin-products/">Admin Product Page</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Native Modules</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/native-modules/advanced-eu-compliance/">Advanced EU Compliance</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/apcu-manager/">APCu Cache Manger</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/bees-blog/">Bees Blog</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/custompayments/">Custom Payment Methods</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/dash-activity/">Dash Activity</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/dash-goals/">Dash Goals</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/donation-miner/">Donation Miner</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/elastic-search/">Elasticsearch</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/eu-cookie-consent/">EU Cookie Consent</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/google-analytics/">Google Analytics</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/json-module/">JSON + LD Module</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/mailchimp/">MailChimp</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/memcache-manager/">Memcache Manager</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/nocaptcharecaptcha/">No CAPTCHA reCAPTCHA</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/opcache-manager/">Opcache Manager</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/paypal/">PayPal</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/piwik/">Piwik</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/stripe/">Stripe</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/tawkto/">tawk.to</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/native-modules/tb-updater/">thirty bees updater</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">SEO Guide</a>
+                <ul>
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Developers Guide</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/developers/classes/">Classes API</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/developers/controllers/">Controllers API</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Designers Guide</a>
+                <ul>
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Module Makers Guide</a>
+                <ul>
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">System Administration Guide</a>
+                <ul>
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Store</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/store/free-modules/">List Free Modules</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/store/paid-modules/">List Paid Modules</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Contribute</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/contributing/">Contributing</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="active"><a href="/first-pull-request/">Making Your First Pull Request</a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="/bug-reporting/">Bug Reporting</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Release notes</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="/release_notes/v1-0-x-release-notes">Version 1.0.x</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Reporting Bugs</a>
+                <ul>
+                    
+                </ul>
+                
+                
+                
+
+
+                <!-- if you aren't using the accordion, uncomment this block:
+
+                     <p class="external">
+                         <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+                     </p>
+                 -->
+                <br />
+                <p class="external">
+                    <a href="https://www.patreon.com/thirtybees" target="_blank" class="no-padding"><img src="/common_images/patreon-banner.png" /></a>
+                </p>
+    </div>
+    <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+    <script>$("li.active").parents('li').toggleClass("active");</script>
+
+
+	<!-- Content Column -->
+	<div class="col-md-9">
+		<!--<div class="search">
+
+	<input type="text" placeholder="search...">
+</div>
+<div class="results">
+	<ul id="users"></ul>
+</div>
+
+<script src="http://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    var client = algoliasearch('PIVL0Y1GI8', '');
+    var index = client.initIndex('thirtybees_docs');
+    var $input = $('input');
+    $input.keyup(function () {
+      index.search($input.val(), {
+        hitsPerPage: 10,
+        facets: '*'
+      }, searchCallback);
+    }).focus();
+  });
+
+  function searchCallback(err, content) {
+    console.log(content);
+    if (err) {
+      console.error(err);
+      return;
+    }
+
+    var $users = $('#users');
+    $users.empty();
+
+    for (var i = 0; i < content.hits.length; i++) {
+      $users.append('<li> <a href="' + content.hits[i].url + '">' + content.hits[i].title + '</a></li>');
+    }
+  };
+</script>
+-->
+		<div class="post-header">
+    <h1 class="post-title-main">thirty bees - Making Your First Pull Request</h1>
+</div>
+
+<div class="post-content">
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+
+<div id="toc"></div>
+
+
+    
+    <a target="_blank" href="https://github.com/thirtybees/devdocs/blob/master/thirtybees/contributing/pull-request.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    
+
+    <h1 id="making-your-first-pull-request">Making your first pull request</h1>
+
+<p>Are you ready to contribute to thirty bees, but you do not understand how GitHub works? Don&#39;t worry, there are a lot of developers that have never worked with GitHub before. This article will show you how you can set up your repositories to start working with thirty bees. </p>
+
+<p>While it might seem like a good idea to start with the thirty bees zip file, that is actually a bad idea. The zip file contains all of the dependencies that are only referenced in our repository. That is why it is essential that you follow these instructions to be able to submit a clean pull request to our repository. </p>
+
+<h2 id="tools">Tools</h2>
+
+<p>You can use GitHub from the command line of linux systems pretty quickly and easily. Chances are though, if you know how to use that, this article is not for you. So in this article we are going to focus on using graphical Git clients. That way we only have to write one version of the article and it will work with all systems. </p>
+
+<p>The first tool I would recommend using is Git Kraken. It is a graphical client that goes over Git on your computer, adding a graphical representation of what you are doing in GitHub. You can download <a href="https://www.gitkraken.com/">Git Kraken here</a> it is free for personal use.</p>
+
+<h2 id="forking-the-repository">Forking the repository</h2>
+
+<p>The first step you will need to do is to fork the repository to your Github account. To fork our repository you will need to go to our <a href="https://github.com/thirtybees">main Github page</a>. From there figure out which repository you want to fork, for this example we are going to fork the main thrity bees repository. </p>
+
+<p><img src="/thirtybees/images/contribute/fork-repo.png" alt="Fork our Repo" title="Fork thirty bees"></p>
+
+<p>When you click the fork button in the upper right hand corner of our repo, it will ask you where you want to fork the repository to. It will take a seconds to fork the repo to your Github account. Once it is done, you can clone the repository locally on your computer. </p>
+
+<h2 id="cloning-locally">Cloning locally</h2>
+
+<p>To clone locally we are going to use Git Kraken, like we mentioned before.  Open up Git Kraken, and click File -&gt; Clone Repo from there a menu will open up where you can select the Github repository and the location on your computer where you want to close the repository to. It will look like the image below.</p>
+
+<p><img src="/thirtybees/images/contribute/clone-test.png" alt="Cloning locally" title="Cloning your repo locally"></p>
+
+<p>Once you clone the repo locally, Git Kraken will ask you if you want to open the new repo, select yes. Then it will ask you if you want to initialize the sub modules for the repo. I would say no to that, unless you know what you are doing. What the sub modules are, are the modules that thirty bees installs with. We have them mounted in our main repo to make it easier to build the whole application. The correct way to commit to a module is to fork the individual module repo, then make a pull request from that repo. </p>
+
+<p>Once you make your first file change, save the file change. Then go to Git Kraken and stage the file change, give it a message, and push the change to your GitHub repository. </p>
+
+<p><img src="/thirtybees/images/contribute/test-change.png" alt="Test Change" title="Test Change"></p>
+
+<p>Now you can see the change you make in your own GitHub repository. Next we need to get a pull request to the thirty bees repository to be made, you can send your code changes to us. </p>
+
+<h2 id="making-the-pull-request">Making the pull request</h2>
+
+<p>The pull request will be made from YOUR repository. In your repository, what you will need to do it click on the pull requests tab. It should look like the image below. </p>
+
+<p><img src="/thirtybees/images/contribute/create-pull.png" alt="Create Pull" title="Create Pull"></p>
+
+<p>Now press the green New Pull Request button. What this button does is compare the changes in our repository against the changes in your repository. It will pick up the edit you just made, like this. </p>
+
+<p><img src="/thirtybees/images/contribute/pull-request.png" alt="Pull Request" title="Pull Request"></p>
+
+<p>At this point, all you have to do is click the green Create Pull Request button, and a new pull request will be generated for the repository you forked from. </p>
+
+
+    <div class="tags">
+        
+        <b>Tags: </b>
+        
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'thirty-bees'; // required: replace example with your forum shortname
+
+	/* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+</div>
+
+
+
+<footer>
+	<div class="row">
+		<div class="col-lg-12 footer">
+			&copy;2019 thirty bees. All rights reserved. <br/>
+			 Site last generated: Mar 17, 2019 <br/>
+			<p><img src="" /></p>
+                </div>
+            </div>
+</footer>
+
+
+		</div>
+	</div><!-- /.row -->
+</div>    <!-- /.container -->
+
+
+<div class="avada-noconflict">
+	<div class="fusion-footer" id="fusion-footer">
+		<footer id="footer" class="fusion-footer-copyright-area">
+			<div class="fusion-row">
+				<div class="fusion-copyright-content">
+					<div class="fusion-copyright-notice" style="padding-bottom: 0px;">
+						<div>Copyright 2019 thirty bees | all rights reserved</div>
+					</div>
+					<div class="fusion-social-links-footer" style="display: none;">
+					</div>
+				</div> <!-- fusion-fusion-copyright-content -->
+			</div> <!-- fusion-row -->
+		</footer>
+	</div>
+</div>
+</body>
+
+
+</html>
+
