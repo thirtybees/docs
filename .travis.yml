@@ -5,6 +5,7 @@ sudo: false
 rvm:
   - 2.6
 before_install:
+  - gem install bundler
   - bundle update
 script:
   - bash ./deploy.sh
