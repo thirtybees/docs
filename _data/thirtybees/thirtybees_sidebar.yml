@@ -347,6 +347,13 @@ entries:
         product: all
         version: all
         output: web, pdf
+      - title: Making Your First Pull Request
+        url: /first-pull-request/
+        audience: developers
+        platform: all
+        product: all
+        version: all
+        output: web, pdf
       - title: Bug Reporting
         url: /bug-reporting/
         audience: developers
