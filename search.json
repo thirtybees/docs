@@ -1900,10 +1900,10 @@
 //
 //
 //{
-//"title": "Introduction",
-//"tags": "Getting started",
+//"title": "Merchants Guide",
+//"tags": "Introduction",
 //"keywords": "",
-//"url": "../",
+//"url": "../merchants-guide/",
 //"summary": ""
 //},
 //
@@ -1911,10 +1911,10 @@
 //
 //
 //{
-//"title": "Merchants Guide",
-//"tags": "Introduction",
+//"title": "Introduction",
+//"tags": "Getting started",
 //"keywords": "",
-//"url": "../merchants-guide/",
+//"url": "../",
 //"summary": ""
 //},
 //
@@ -2550,10 +2550,10 @@
 //
 //
 //{
-//"title": "",
-//"tags": "",
+//"title": "Back Office Stats",
+//"tags": "Introduction",
 //"keywords": "",
-//"url": "../tag/stats/",
+//"url": "../merchants-guide/stats/",
 //"summary": ""
 //},
 //
@@ -2561,10 +2561,10 @@
 //
 //
 //{
-//"title": "Back Office Stats",
-//"tags": "Introduction",
+//"title": "",
+//"tags": "",
 //"keywords": "",
-//"url": "../merchants-guide/stats/",
+//"url": "../tag/stats/",
 //"summary": ""
 //},
 //
