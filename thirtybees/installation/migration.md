@@ -1,48 +1,15 @@
 ---
 title: thirty bees Migration Module
 tags:
-  - "Installation"
-  - "Getting Started"
+  - "installation"
+  - "getting started"
+  - "migration"
 audience: docs
 permalink: /installation/migration/
 ---
 
-# Thirty Bees - Migration from Prestashop 1.6 to Thirty Bees
-### Step 1:
-Backup Your Website  
-Install the Upgrade Module from PS1.6 to TB 1.0.1 (https://github.com/thirtybees/psonesixmigrator/releases/tag/1.0.0)
-This upgrade upgrade to TB 1.0.1  
-Follow the instructions in the screen.
+# Migration from PrestaShop 1.6 to thirty bees
 
-### Step 2:
-After test, all ok, you can upgrade the TB from 1.0.1 to 1.0.3, using the TBUpdater(https://github.com/thirtybees/tbupdater/releases/tag/1.3.1)  
-To run this module, you need remove the PSmigrator installed in Step 1.  
-> Here, pay attention to the URL configuration. In this version they clear the Regex Configuration in SEO
-
-### Step 3:
-Upgrade from 1.0.3 to 1.0.4  
-https://thirtybees.com/blog/version-1-0-4-has-been-released/
-> BUG: Need delete 3 extra modules not listed in released upgrade  
-> graphgooglechart, graphvisifire, graphxmlswfcharts
-
-### Step 4:
-https://forum.thirtybees.com/topic/1870/say-hello-to-release-1-0-5
-
-### Step 5:
-https://forum.thirtybees.com/topic/1954/the-version-1-0-6-release-has-happened
-> RIJDAEL error, change this in ps_configuration table, find a key called PS_CIPHER_ALGORITHM set the value to 2, after this, clear the cache from TB in admin.
-
-
-
--------------------------
-
-## In Development
-Introduction
-## Backup Your Website  
-Refer to our Systems Administration Guide to create a [**backup**](#)  of your website.  
-## Install & Configure Migration Module  
-Refer to XXX for more information about the thirty bees migration from PrestaShop 1.6.x ~ 1.7.x shopping cart.  
-## Your Custom Modules
-Refer your developer to [**Modules Maker Guide**](#)
+See **[Migrate from PrestaShop](https://thirtybees.com/migrate-from-prestashop/)**
 
 {% include custom/pdf-catalog.html %}
