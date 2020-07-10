@@ -45,7 +45,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
-    multi_json (1.14.1)
+    multi_json (1.15.0)
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
     pathutil (0.16.2)
