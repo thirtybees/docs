@@ -81,4 +81,4 @@ DEPENDENCIES
   redcarpet (~> 3.4.0)
 
 BUNDLED WITH
-   2.2.0
+   2.2.1
