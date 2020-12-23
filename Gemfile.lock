@@ -70,7 +70,6 @@ GEM
 
 PLATFORMS
   ruby
-  x86_64-linux
 
 DEPENDENCIES
   algoliasearch-jekyll (~> 0.7.0)
@@ -81,4 +80,4 @@ DEPENDENCIES
   redcarpet (~> 3.4.0)
 
 BUNDLED WITH
-   2.2.2
+   2.2.3
