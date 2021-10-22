@@ -51,7 +51,7 @@ You can do a search for hosting providers and choose the right one for your need
 * Linux, Windows (discouraged) or OS X (discouraged)
 
 ### PHP Requirements
-* PHP 5.5 ~ PHP 7.1
+* PHP 5.5 ~ PHP 7.4
  * At least 128MB of RAM dedicated to PHP is advised. Certain features and functionality will require more ram to be allocated to the application. Consult your developer or hosting service for advice.
  
 ### Required Extensions
