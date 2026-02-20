@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll', '~> 3.6.3'
 gem 'redcarpet', '~> 3.5.1'
-gem 'nokogiri', '~> 1.18.8'
+gem 'nokogiri', '~> 1.19.1'
 gem 'ffi', '~> 1.9.24'
 gem 'pygments.rb', '~> 1.1.1'
 
