@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.1)
-      public_suffix (>= 2.0.2, < 6.0)
+    addressable (2.9.0)
+      public_suffix (>= 2.0.2, < 8.0)
     algoliasearch (1.26.0)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
@@ -52,7 +52,7 @@ GEM
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (5.0.0)
+    public_suffix (7.0.5)
     pygments.rb (1.1.2)
       multi_json (>= 1.0.0)
     racc (1.8.1)
